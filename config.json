@@ -3,19 +3,6 @@
   "model": "openai-latest",
   "run_test": "python test_gpt.py",
   "run_score": "",
-  "tags": [ "list", "AsyncIO", "Bytearray", "Bytes", "ChainMap", "Comprehension", "Concurrency", 
-  "ContextManager", "Coroutine", "Counter", "Decorator", "DefaultDict", "DependencyInjection", 
-  "Deque", "Dict", "DuckTyping", "Frozenset", "GarbageCollection", "Generator", "Global state", 
-  "Heapq", "IdiomaticPython", "Introspection", "Keyword expression", "Lambda", "List", 
-  "Memoization", "MemoryView", "Metaclass", "MonkeyPatching", "NamedTuple", "Non-default argument", 
-  "OrderedDict", "Polymorphism", "Protocol", "Recursion", "Reflection", "Serialization", 
-  "Set", "String", "Tuple", "TypeHinting", "UnitTesting", "VirtualEnvironment", "add", "append", 
-  "capitalize", "clear", "collections", "copy", "count", "datetime", "difference", "discard", 
-  "django", "endswith", "extend", "find", "flask", "format", "fromkeys", "get", "index", "insert", 
-  "intersection", "issubset", "issuperset", "items", "join", "json", "keys", "lower", "math", 
-  "matplotlib", "multiprocessing", "numpy", "os", "pandas", "pop", "popitem", "pytorch", "random", 
-  "re", "remove", "replace", "requests", "reverse", "scipy", "setdefault", "sklearn", "socket", 
-  "sort", "split", "startswith", "strip", "subprocess", "symmetric_difference", "sys", 
-  "tensorflow", "threading", "union", "update", "upper", "values"]
+  "tags": []
   
 }
