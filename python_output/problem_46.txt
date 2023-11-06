@@ -1,0 +1,4 @@
+  File "<string>", line 8
+    for item in data_list:
+                          ^
+IndentationError: expected an indented block after 'for' statement on line 8

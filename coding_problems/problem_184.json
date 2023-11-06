@@ -1,0 +1,10 @@
+{
+    "id": "problem_184",
+    "description": "\n\nError: SyntaxError\nProblem Description: The code is trying to generate a random list of items, but the syntax is incorrect. The code is missing a closing parenthesis after the keyword 'random' which is causing the SyntaxError.",
+    "code": "import random\n\n#Define a function to generate a random number between 0 and 1\ndef random_num():\n    return random.random()\n\n#Define a function to generate a random integer between two numbers\ndef random_int(start, end):",
+    "tags": [
+        "items",
+        "random",
+        "Hard"
+    ]
+}

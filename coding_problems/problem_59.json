@@ -1,0 +1,10 @@
+{
+    "id": "problem_59",
+    "description": "\n\nWhen trying to run a program, a compile/runtime error is produced that states that the keyword 'capitalize' is not properly capitalized. The program fails to recognize the keyword 'capitalize' as a valid keyword, resulting in an error.",
+    "code": "# Python Program to Capitalize First Letter of Every Word in a String\n\n# Define a function that takes a string as argument\ndef capitalize_string(string): \n    # Split the string into words \n    words = string.split() \n    # Capital",
+    "tags": [
+        "difference",
+        "capitalize",
+        "Medium"
+    ]
+}

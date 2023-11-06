@@ -1,0 +1,10 @@
+{
+    "id": "problem_167",
+    "description": "\n\nWhen running a program written in IdiomaticPython, a Generator runtime error occurs, resulting in an unexpected StopIteration exception being raised.",
+    "output": "",
+    "tags": [
+        "Generator",
+        "IdiomaticPython",
+        "Medium"
+    ]
+}

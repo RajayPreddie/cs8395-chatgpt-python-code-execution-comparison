@@ -1,0 +1,10 @@
+{
+    "id": "problem_158",
+    "description": "\n\nWhen attempting to use the scipy library to pop an item from a list, a runtime error is encountered. The error states that the item cannot be popped as it does not exist in the list, even though it is present.",
+    "output": "",
+    "tags": [
+        "pop",
+        "scipy",
+        "Medium"
+    ]
+}

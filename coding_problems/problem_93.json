@@ -1,0 +1,10 @@
+{
+    "id": "problem_93",
+    "description": "\n\nWhen running a Tensorflow program, an error is thrown saying \"invalid format for tensor: expected 'float' but got 'int'\". This indicates that the program is trying to feed a tensor of the wrong type into the Tensorflow graph, and the type of",
+    "code": "# Program to demonstrate the use of the format keyword in Python\n\n# Defining a function to print a formatted string\ndef print_formatted_string(string):\n  # Using the format keyword to print the string\n  print(\"String is: {}\".format(string",
+    "tags": [
+        "tensorflow",
+        "format",
+        "Hard"
+    ]
+}

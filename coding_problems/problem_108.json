@@ -1,0 +1,10 @@
+{
+    "id": "problem_108",
+    "description": "\n\nWhen attempting to create a list of items, a syntax error occurs stating that 'list' is not defined.",
+    "code": "# Create a list of items \nlist = [1, 2, 3, 4, 5]\n\n# Create a for loop to print each item in the list \nfor item in list:\n    print(item)\n\n# Create a function to add a number",
+    "tags": [
+        "clear",
+        "list",
+        "Easy"
+    ]
+}

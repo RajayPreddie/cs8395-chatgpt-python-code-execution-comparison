@@ -1,0 +1,10 @@
+{
+    "id": "problem_61",
+    "description": "\n\nWhen attempting to use a ContextManager with a recursive function, a runtime error is encountered. The error occurs because the ContextManager is not able to keep track of the number of iterations of the recursive function, causing the ContextManager to fail to close the context properly and resulting in an unexpected runtime",
+    "code": "import contextlib\n\n@contextlib.contextmanager\ndef context_manager():\n    print(\"Opening context\")\n    yield\n    print(\"Closing context\")\n\ndef recursive_function(num):\n    with context_manager():\n        if num > 0:",
+    "tags": [
+        "ContextManager",
+        "Recursion",
+        "Medium"
+    ]
+}

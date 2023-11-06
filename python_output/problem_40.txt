@@ -1,0 +1,4 @@
+  File "<string>", line 9
+    print("List is empty
+          ^
+SyntaxError: unterminated string literal (detected at line 9)

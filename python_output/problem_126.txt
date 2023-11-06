@@ -1,0 +1,4 @@
+  File "<string>", line 7
+    def discard_items
+                     ^
+SyntaxError: expected '('

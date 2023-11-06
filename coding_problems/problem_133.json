@@ -1,0 +1,10 @@
+{
+    "id": "problem_133",
+    "description": "\n\nError encountered when attempting to decode a Bytearray into a string: 'TypeError: decoding a Bytearray object with a non-string type is not supported'.",
+    "code": "# Program to demonstrate use of Bytearray \n\n# Importing the required libraries \nimport array \n\n# Creating a bytearray object \nbyte_arr = bytearray('Python', 'utf-8') \n\n# Printing the",
+    "tags": [
+        "Bytearray",
+        "Bytearray",
+        "Easy"
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "id": "problem_8",
+    "description": "\n\nThe problem is that when trying to create a random Frozenset, the program throws an error indicating that the Frozenset is not iterable. This prevents the program from randomly generating a set of elements and thus the program crashes.",
+    "output": "",
+    "tags": [
+        "Frozenset",
+        "random",
+        "Easy"
+    ]
+}

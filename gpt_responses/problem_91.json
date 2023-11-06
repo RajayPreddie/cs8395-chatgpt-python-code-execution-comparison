@@ -1,0 +1,10 @@
+{
+    "id": "problem_91",
+    "description": "\n\nWhen attempting to replace a datetime object with a string, a compile error is thrown indicating that a datetime object cannot be replaced with a string.",
+    "output": "Traceback (most recent call last):\n  File \"<stdin>\", line 9\n    # Define the date\n                     ^\nSyntaxError: unexpected EOF while parsing",
+    "tags": [
+        "replace",
+        "datetime",
+        "Hard"
+    ]
+}

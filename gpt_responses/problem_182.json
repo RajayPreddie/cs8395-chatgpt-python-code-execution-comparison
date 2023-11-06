@@ -1,0 +1,10 @@
+{
+    "id": "problem_182",
+    "description": "\n\nThe problem is an error that occurs when attempting to use multiprocessing to run multiple tasks simultaneously. The error occurs when the code tries to spawn multiple processes but fails to properly join the processes, resulting in an unresponsive program.",
+    "output": "SyntaxError: unexpected EOF while parsing",
+    "tags": [
+        "multiprocessing",
+        "multiprocessing",
+        "Hard"
+    ]
+}

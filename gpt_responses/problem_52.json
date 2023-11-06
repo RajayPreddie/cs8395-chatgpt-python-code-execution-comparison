@@ -1,0 +1,10 @@
+{
+    "id": "problem_52",
+    "description": "\n\nWhen attempting to use the endswith function in a pytorch script, a compile/runtime error is thrown stating that the endswith function is not defined for the pytorch class.",
+    "output": "Traceback (most recent call last):\n  File \"<stdin>\", line 9, in <module>\nTypeError: module() takes at most 2 arguments (3 given)",
+    "tags": [
+        "endswith",
+        "pytorch",
+        "Medium"
+    ]
+}

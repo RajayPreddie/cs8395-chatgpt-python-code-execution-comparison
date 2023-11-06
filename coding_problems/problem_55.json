@@ -1,0 +1,10 @@
+{
+    "id": "problem_55",
+    "description": "\n\n\"IndexError: list index out of range - The code attempted to access an item in a list that does not exist. The index used to access the list was beyond the size of the list, resulting in an index out of range error.\"",
+    "code": "# Create an empty list \nlist_data = [] \n\n# Function to add elements to the list \ndef add_to_list(list_data, element): \n\tlist_data.append(element) \n\treturn list_data",
+    "tags": [
+        "index",
+        "List",
+        "Medium"
+    ]
+}

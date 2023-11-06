@@ -1,0 +1,10 @@
+{
+    "id": "problem_39",
+    "description": "\n\nWhen attempting to use a comprehension to create a dictionary from a list of tuples, a compile/runtime error is encountered. The error states that the comprehension is attempting to create a dictionary with duplicate keys, which is not allowed.",
+    "output": "Traceback (most recent call last):\n  File \"<stdin>\", line 5, in <module>\nNameError: name 'dict_from' is not defined",
+    "tags": [
+        "collections",
+        "Comprehension",
+        "Easy"
+    ]
+}

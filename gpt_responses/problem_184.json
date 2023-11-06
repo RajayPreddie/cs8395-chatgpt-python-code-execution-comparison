@@ -1,0 +1,10 @@
+{
+    "id": "problem_184",
+    "description": "\n\nError: SyntaxError\nProblem Description: The code is trying to generate a random list of items, but the syntax is incorrect. The code is missing a closing parenthesis after the keyword 'random' which is causing the SyntaxError.",
+    "output": "Traceback (most recent call last):\n  File \"<stdin>\", line 8\n    def random_int(start, end):\n                               ^\nSyntaxError: unexpected EOF while parsing",
+    "tags": [
+        "items",
+        "random",
+        "Hard"
+    ]
+}

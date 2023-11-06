@@ -1,0 +1,10 @@
+{
+    "id": "problem_183",
+    "description": "\n\nError: \"TypeError: tensorflow object of type 'float' has no len()\"\n\nProblem Description: When attempting to use tensorflow to train a model, a TypeError is raised stating that a tensorflow object of type 'float' does not have a",
+    "output": "Traceback (most recent call last):\n  File \"<stdin>\", line 10, in <module>\nIndentationError: expected an indented block",
+    "tags": [
+        "lower",
+        "tensorflow",
+        "Hard"
+    ]
+}

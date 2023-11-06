@@ -1,0 +1,10 @@
+{
+    "id": "problem_23",
+    "description": "\n\nWhen attempting to strip a number from a string, a compile/runtime error is encountered when the program attempts to use a math operator on the stripped number. This error occurs when the program attempts to use a math operator on a string, as the string does not have the necessary data type to",
+    "code": "# Program to strip a number from a string\n\n# define a string with a number\nstring_with_number = 'The number is 10'\n\n# strip the number and assign it to a variable\nnumber = string_with_number[13:]\n\n# attempt",
+    "tags": [
+        "strip",
+        "math",
+        "Easy"
+    ]
+}

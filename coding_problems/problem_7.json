@@ -1,0 +1,10 @@
+{
+    "id": "problem_7",
+    "description": "\n\nWhen attempting to sort a list of strings, a runtime error is encountered. The error occurs when the sorting algorithm attempts to compare two strings of different lengths, resulting in an \"Index out of bounds\" error.",
+    "code": "# Program to demonstrate runtime error when sorting a list of strings\n\n# List of strings to be sorted\nlist_str = [\"apple\", \"banana\", \"cherry\", \"orange\"]\n\n# Function to sort list of strings\ndef sort_strings(list_str",
+    "tags": [
+        "sort",
+        "String",
+        "Easy"
+    ]
+}

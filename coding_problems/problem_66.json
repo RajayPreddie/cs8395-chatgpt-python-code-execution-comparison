@@ -1,0 +1,10 @@
+{
+    "id": "problem_66",
+    "description": "\n\nWhen attempting to use a MemoryView to access a DefaultDict, a runtime error is encountered stating that the MemoryView object does not support the DefaultDict type.",
+    "code": "import collections\n\n# Create a defaultdict\nmy_dict = collections.defaultdict(int)\n\n# Add some values\nmy_dict['a'] = 1\nmy_dict['b'] = 2\nmy_dict['c'] = 3\n\n# Create",
+    "tags": [
+        "MemoryView",
+        "DefaultDict",
+        "Medium"
+    ]
+}

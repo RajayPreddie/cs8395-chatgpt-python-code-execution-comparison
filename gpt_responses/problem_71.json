@@ -1,0 +1,10 @@
+{
+    "id": "problem_71",
+    "description": "\n\nWhen using DuckTyping, a runtime error occurs when attempting to split a string into multiple objects. The code assumes that the string is a list of objects, but the string is not of the correct type and cannot be split into multiple objects.",
+    "output": "Traceback (most recent call last):\n  File \"<stdin>\", line 10, in <module>\nIndentationError: expected an indented block",
+    "tags": [
+        "DuckTyping",
+        "split",
+        "Medium"
+    ]
+}

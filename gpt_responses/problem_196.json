@@ -1,0 +1,10 @@
+{
+    "id": "problem_196",
+    "description": "\n\nProblem Description: Tensorflow is throwing a compile/runtime error when attempting to reverse the order of a tensor array. The error is indicating that the tensor array is not compatible with the reverse function.",
+    "output": "SyntaxError: unexpected EOF while parsing",
+    "tags": [
+        "tensorflow",
+        "reverse",
+        "Hard"
+    ]
+}

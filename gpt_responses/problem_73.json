@@ -1,0 +1,10 @@
+{
+    "id": "problem_73",
+    "description": "\n\nThe error occurs when attempting to join two lists on a specified index. The lists are of different lengths and the join operation results in an 'IndexError' due to the index being out of range for one of the lists.",
+    "output": "Traceback (most recent call last):\n  File \"<stdin>\", line 9, in <module>\nNameError: name 'joined_list' is not defined",
+    "tags": [
+        "join",
+        "index",
+        "Medium"
+    ]
+}

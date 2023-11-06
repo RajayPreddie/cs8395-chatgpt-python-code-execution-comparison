@@ -1,0 +1,10 @@
+{
+    "id": "problem_136",
+    "description": "\n\nA SyntaxError is thrown when attempting to compile a regular expression containing the keyword 'upper' with the flag 're.IGNORECASE'. This occurs when the regex engine does not recognize the 'upper' keyword as a valid regular expression pattern and therefore cannot compile it.",
+    "code": "# Program to convert a string to uppercase\n\n# Define a function to convert a given string to uppercase\ndef convert_to_upper(string):\n  # Convert the given string to uppercase\n  uppercase_string = string.upper",
+    "tags": [
+        "re",
+        "upper",
+        "Easy"
+    ]
+}

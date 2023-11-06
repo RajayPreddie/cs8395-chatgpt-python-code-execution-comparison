@@ -1,0 +1,4 @@
+  File "<string>", line 9
+    # creating an
+                 ^
+IndentationError: expected an indented block after function definition on line 8

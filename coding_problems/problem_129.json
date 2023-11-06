@@ -1,0 +1,10 @@
+{
+    "id": "problem_129",
+    "description": "\n\nWhen attempting to use a MemoryView to access a Bytearray, a runtime error occurs. The error indicates that the MemoryView is unable to interpret the Bytearray properly and is unable to properly access the data stored in the Bytearray.",
+    "code": "# Create a Bytearray\nbyte_arr = bytearray([0x01, 0x02, 0x03, 0x04, 0x05])\n\n# Create a MemoryView\nmem_view = memoryview(byte_arr)",
+    "tags": [
+        "MemoryView",
+        "Bytearray",
+        "Easy"
+    ]
+}

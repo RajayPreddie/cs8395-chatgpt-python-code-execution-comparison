@@ -1,0 +1,10 @@
+{
+    "id": "problem_29",
+    "description": "\n\nThe problem is that a program is trying to extend a Bytes object, but the object is not long enough to accommodate the extension. This is causing a compile/runtime error because the Bytes object cannot be extended beyond its current size.",
+    "code": "# Program to extend a list\n\n# Define a function to extend a list\ndef extend_list(list1, list2):\n    # Iterate through list2\n    for item in list2:\n        # Append each item to list1\n        list",
+    "tags": [
+        "Bytes",
+        "extend",
+        "Easy"
+    ]
+}

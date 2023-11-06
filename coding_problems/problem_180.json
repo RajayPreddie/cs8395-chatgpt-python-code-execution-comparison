@@ -1,0 +1,10 @@
+{
+    "id": "problem_180",
+    "description": "\n\nWhen attempting to execute a script, there is a compile/runtime error due to an incorrect format for the os.path.join command. The script is unable to process the command correctly, resulting in an error.",
+    "code": "import os\n\ndef main(): \n    path1 = \"C:/Users/user/Documents\"\n    path2 = \"MyFiles\"\n    path3 = \"Data\"\n    path4 = \"TextFiles\"\n    \n    # Incorrect format of os",
+    "tags": [
+        "format",
+        "os",
+        "Medium"
+    ]
+}

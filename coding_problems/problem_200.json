@@ -1,0 +1,10 @@
+{
+    "id": "problem_200",
+    "description": "\n\nWhen attempting to remove an item from a list, a runtime error occurs due to the difference in the type of data being removed. The item being removed is of type string, while the list contains only integers.",
+    "code": "# Program to find the difference between two numbers\n\n#Define a function to find the difference\ndef difference(num1, num2):\n    #Subtract the two numbers\n    result = num1 - num2\n    #Return the difference\n    return result",
+    "tags": [
+        "remove",
+        "difference",
+        "Hard"
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "id": "problem_127",
+    "description": "\n\nWhen attempting to pop an item from a list that is the intersection of two other lists, a runtime error occurs. The program attempts to pop the item, but the item is not found in either of the two lists, resulting in an index out of range exception.",
+    "output": "List of items: [\"pen\", \"pencil\", \"eraser\", \"ruler\", \"sharpener\"]",
+    "tags": [
+        "intersection",
+        "pop",
+        "Easy"
+    ]
+}

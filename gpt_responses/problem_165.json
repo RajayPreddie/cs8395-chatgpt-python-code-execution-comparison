@@ -1,0 +1,10 @@
+{
+    "id": "problem_165",
+    "description": "\n\nSyntax Error: Global state variables are being referenced within a function but not declared as global within the function, resulting in a syntax error when the program is compiled.",
+    "output": "Traceback (most recent call last):\n  File \"<stdin>\", line 1, in <module>\nIndentationError: expected an indented block",
+    "tags": [
+        "random",
+        "Global state",
+        "Medium"
+    ]
+}

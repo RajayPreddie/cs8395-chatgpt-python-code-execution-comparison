@@ -1,0 +1,10 @@
+{
+    "id": "problem_97",
+    "description": "\n\nThe error is a compile/runtime error of DependencyInjection. The problem is that when attempting to inject a union type into a method, an error is thrown. The union type is not supported and the injection fails.",
+    "output": "",
+    "tags": [
+        "DependencyInjection",
+        "union",
+        "Hard"
+    ]
+}

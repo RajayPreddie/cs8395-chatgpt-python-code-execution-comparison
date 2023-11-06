@@ -1,0 +1,10 @@
+{
+    "id": "problem_112",
+    "description": "\n\nWhen using the pandas library to create a ChainMap, a runtime error is raised indicating that the data type of the ChainMap is not compatible with the data type of the pandas object.",
+    "code": "import collections\n\n# Create a ChainMap of three dictionaries\ndict1 = {'a':1, 'b':2}\ndict2 = {'c':3, 'd':4}\ndict3 = {'e':5, 'f':6}",
+    "tags": [
+        "pandas",
+        "ChainMap",
+        "Easy"
+    ]
+}

@@ -1,0 +1,4 @@
+  File "<string>", line 7
+    def sort_strings(list_str
+                    ^
+SyntaxError: '(' was never closed

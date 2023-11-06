@@ -1,0 +1,10 @@
+{
+    "id": "problem_93",
+    "description": "\n\nWhen running a Tensorflow program, an error is thrown saying \"invalid format for tensor: expected 'float' but got 'int'\". This indicates that the program is trying to feed a tensor of the wrong type into the Tensorflow graph, and the type of",
+    "output": "SyntaxError: unexpected EOF while parsing",
+    "tags": [
+        "tensorflow",
+        "format",
+        "Hard"
+    ]
+}

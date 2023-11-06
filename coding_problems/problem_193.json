@@ -1,0 +1,10 @@
+{
+    "id": "problem_193",
+    "description": "\n\nThe problem is that when attempting to use the issubset function to compare a Counter object to a set object, a compile/runtime error is encountered. The error is caused by the fact that Counter objects are not compatible with set objects, and thus the issubset function cannot be used",
+    "code": "# Create a Counter object \nfrom collections import Counter \ncounter_object = Counter({\"a\": 1, \"b\": 2, \"c\": 3}) \n\n# Create a set object \nset_object = set([\"a\", \"b\", \"c",
+    "tags": [
+        "issubset",
+        "Counter",
+        "Hard"
+    ]
+}

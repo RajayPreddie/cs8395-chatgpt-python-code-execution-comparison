@@ -1,0 +1,10 @@
+{
+    "id": "problem_57",
+    "description": "\n\nWhen using multiprocessing, an error occurs when attempting to lower the number of processes running simultaneously. The error states that the number of processes cannot be lowered any further, despite the number of available cores being higher than the number of processes running.",
+    "code": "# Program to convert a string to all lowercase\n\n#import string library\nimport string\n\n# get input from user\nuser_string = input(\"Please enter a string: \")\n\n# convert string to lowercase\nlower_string = user_string.lower",
+    "tags": [
+        "multiprocessing",
+        "lower",
+        "Medium"
+    ]
+}

@@ -1,0 +1,4 @@
+  File "<string>", line 10
+    def
+       ^
+SyntaxError: invalid syntax

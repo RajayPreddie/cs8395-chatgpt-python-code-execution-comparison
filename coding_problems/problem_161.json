@@ -1,0 +1,10 @@
+{
+    "id": "problem_161",
+    "description": "\n\nThe program is throwing a compile/runtime error when attempting to split a comprehension list. The error states that the comprehension list cannot be split, as it is not a valid sequence.",
+    "code": "# Program to demonstrate list comprehension in python \n\n# empty list \nlist1 = [] \n  \n# list of numbers \nlist2 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]",
+    "tags": [
+        "split",
+        "Comprehension",
+        "Medium"
+    ]
+}

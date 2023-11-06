@@ -1,0 +1,10 @@
+{
+    "id": "problem_174",
+    "description": "\n\nThe problem is that when attempting to use MonkeyPatching to add TypeHinting to an existing codebase, the code throws a runtime error indicating that the TypeHinting is incompatible with the existing code.",
+    "output": "Traceback (most recent call last):\n  File \"<stdin>\", line 2\n    def add_two_numbers(a, b):\n                             ^\nSyntaxError: unexpected EOF while parsing",
+    "tags": [
+        "TypeHinting",
+        "MonkeyPatching",
+        "Medium"
+    ]
+}

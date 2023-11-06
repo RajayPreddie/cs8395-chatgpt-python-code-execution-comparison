@@ -1,0 +1,10 @@
+{
+    "id": "problem_77",
+    "description": "\n\nWhen attempting to use the Lambda function to reflect a given value, a compile/runtime error is raised indicating that the function is unable to recognize the reflection keyword.",
+    "code": "Do not explain what the code does.\n\n# Reflection\n\nimport os\nimport sys\nimport time\nimport inspect\n\nclass Reflection:\n    def __init__(self):\n        self.module_list = []\n        self.function_list = []",
+    "tags": [
+        "Lambda",
+        "Reflection",
+        "Medium"
+    ]
+}

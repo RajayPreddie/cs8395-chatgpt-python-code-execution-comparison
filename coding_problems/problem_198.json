@@ -1,0 +1,10 @@
+{
+    "id": "problem_198",
+    "description": "\n\nWhen attempting to remove an element from a dictionary using the setdefault method, a runtime error occurs. The error states that the element cannot be removed as it does not exist in the dictionary.",
+    "code": "# Dictionary with elements\nmyDictionary = {\n    'foo': 1,\n    'bar': 2,\n    'baz': 3\n}\n\n# Attempt to remove an element from the dictionary using the setdefault method\nmyDictionary.setdefault('qu",
+    "tags": [
+        "remove",
+        "setdefault",
+        "Hard"
+    ]
+}

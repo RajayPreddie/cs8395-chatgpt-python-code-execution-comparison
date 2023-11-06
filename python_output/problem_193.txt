@@ -1,0 +1,4 @@
+  File "<string>", line 6
+    set_object = set(["a", "b", "c
+                                ^
+SyntaxError: unterminated string literal (detected at line 6)

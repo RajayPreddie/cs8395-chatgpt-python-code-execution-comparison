@@ -1,0 +1,10 @@
+{
+    "id": "problem_112",
+    "description": "\n\nWhen using the pandas library to create a ChainMap, a runtime error is raised indicating that the data type of the ChainMap is not compatible with the data type of the pandas object.",
+    "output": "",
+    "tags": [
+        "pandas",
+        "ChainMap",
+        "Easy"
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "id": "problem_25",
+    "description": "\n\nWhen using the sys module to create a decorator, a runtime error occurs when attempting to import the decorator due to an incorrect path.",
+    "output": "  File \"<stdin>\", line 12\n    def add(x, y):\n                  ^\nSyntaxError: unexpected EOF while parsing",
+    "tags": [
+        "sys",
+        "Decorator",
+        "Easy"
+    ]
+}

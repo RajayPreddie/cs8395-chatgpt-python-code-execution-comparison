@@ -1,0 +1,4 @@
+  File "<string>", line 8
+    objects = [Object(4), Object(2),
+              ^
+SyntaxError: '[' was never closed

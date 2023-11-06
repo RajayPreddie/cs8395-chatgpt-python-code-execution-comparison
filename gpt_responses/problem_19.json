@@ -1,0 +1,10 @@
+{
+    "id": "problem_19",
+    "description": "\n\nWhen attempting to pop an item from a collections object, a runtime error is encountered. The error states that the item cannot be popped as the collections object is empty.",
+    "output": "OrderedDict([('name', 'John'), ('age', 25), ('location', 'New York'), ('hobbies', ['music', 'sports'])])",
+    "tags": [
+        "pop",
+        "collections",
+        "Easy"
+    ]
+}

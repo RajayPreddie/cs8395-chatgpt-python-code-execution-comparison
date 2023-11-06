@@ -1,0 +1,10 @@
+{
+    "id": "problem_162",
+    "description": "\n\nThe problem is that when attempting to use memoization with the issubset function, an error is thrown. The error states that the issubset function is not supported when memoization is attempted.",
+    "code": "# Memoization Program \n# Program to store the results of expensive function calls \n# and return the cached result when the same inputs occur again \n\ndef memoize(func): \n\tcache = dict() \n\t\n\tdef memoized_func(*",
+    "tags": [
+        "issubset",
+        "Memoization",
+        "Medium"
+    ]
+}

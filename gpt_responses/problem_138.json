@@ -1,0 +1,10 @@
+{
+    "id": "problem_138",
+    "description": "\n\nThe program is running into a Protocol error when attempting to access a global state variable. The error is caused by the program attempting to access a global state variable that has not been initialized or is not accessible in the current context.",
+    "output": "\"<stdin>\", line 8, in <module>\n  File \"<stdin>\", line 5, in func\nNameError: name 'x' is not defined",
+    "tags": [
+        "Protocol",
+        "Global state",
+        "Easy"
+    ]
+}

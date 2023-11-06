@@ -1,0 +1,10 @@
+{
+    "id": "problem_122",
+    "description": "\n\nWhen attempting to concatenate a string and a dictionary, a compile/runtime error is thrown, stating \"unsupported operand type(s) for +: 'str' and 'dict'\".",
+    "code": "# Program that throws an error when attempting to concatenate a string and a dictionary\n\n# Create a string\nstring = \"Hello World!\"\n\n# Create a dictionary\ndictionary = {\n  \"name\": \"John Doe\",\n  \"age\": 25\n}",
+    "tags": [
+        "String",
+        "Dict",
+        "Easy"
+    ]
+}

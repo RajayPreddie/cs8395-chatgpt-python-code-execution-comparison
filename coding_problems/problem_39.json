@@ -1,0 +1,10 @@
+{
+    "id": "problem_39",
+    "description": "\n\nWhen attempting to use a comprehension to create a dictionary from a list of tuples, a compile/runtime error is encountered. The error states that the comprehension is attempting to create a dictionary with duplicate keys, which is not allowed.",
+    "code": "# Create a list of tuples \nlist_of_tuples = [('a', 1), ('a', 2), ('b', 3), ('c', 4)]\n\n# Attempt to create a dictionary from the list of tuples using a comprehension\ndict_from",
+    "tags": [
+        "collections",
+        "Comprehension",
+        "Easy"
+    ]
+}

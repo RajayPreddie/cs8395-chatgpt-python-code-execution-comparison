@@ -1,0 +1,10 @@
+{
+    "id": "problem_68",
+    "description": "\n\nWhen using IdiomaticPython, a compile/runtime error may be encountered when attempting to use the fromkeys() method to create a dictionary with a list of keys. The error will be raised if the list of keys contains a non-string type, such as an integer or float.",
+    "code": "Do not provide any explanation.\n\n# Python Program Using fromkeys\n\n# Import Libraries\nimport collections\n\n# Create a Dictionary\ndict_1 = {'name': 'John', 'age': 25, 'gender': 'male'}\n\n# Create a List\nlist",
+    "tags": [
+        "IdiomaticPython",
+        "fromkeys",
+        "Medium"
+    ]
+}

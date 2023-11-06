@@ -1,0 +1,10 @@
+{
+    "id": "problem_84",
+    "description": "\n\nThe problem is a MemoryView compile/runtime error that occurs when attempting to use the Reflection method to access the data stored in the MemoryView. The error indicates that the Reflection method is not supported, and the data cannot be accessed.",
+    "output": "Traceback (most recent call last):\n  File \"<stdin>\", line 10\n    def print_type(variable):\n                            ^\nSyntaxError: unexpected EOF while parsing",
+    "tags": [
+        "MemoryView",
+        "Reflection",
+        "Hard"
+    ]
+}

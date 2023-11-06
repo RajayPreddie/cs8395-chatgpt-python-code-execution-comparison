@@ -1,0 +1,10 @@
+{
+    "id": "problem_135",
+    "description": "\n\nWhen using a socket to send a Tuple of data, a runtime error occurs due to the mismatch in data types. The socket is expecting a string of data, but the Tuple contains items of different data types, which causes the runtime error.",
+    "output": "",
+    "tags": [
+        "Tuple",
+        "socket",
+        "Easy"
+    ]
+}

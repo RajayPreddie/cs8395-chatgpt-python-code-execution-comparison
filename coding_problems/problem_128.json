@@ -1,0 +1,10 @@
+{
+    "id": "problem_128",
+    "description": "\n\nRuntime Error: Reverse fromkeys is not a valid operation. This error is raised when attempting to reverse the contents of a dictionary using the fromkeys method.",
+    "code": "# Program to demonstrate the use of the fromkeys() method\n\n# import the necessary modules\nimport collections\n\n# Create a list of students\nstudents = [\"John\", \"Sarah\", \"Tom\", \"Samantha\", \"Mike\", \"Jill\"]\n\n#",
+    "tags": [
+        "reverse",
+        "fromkeys",
+        "Easy"
+    ]
+}

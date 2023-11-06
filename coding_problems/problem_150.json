@@ -1,0 +1,10 @@
+{
+    "id": "problem_150",
+    "description": "\n\nProblem Description: When attempting to create a dictionary using the fromkeys() method, a \"TypeError: 'str' object is not callable\" is thrown when attempting to use the keyword 'upper' as an argument.",
+    "code": "# Create a dictionary using the fromkeys() method\ndict_fromkeys = dict.fromkeys(['name', 'age', 'gender'], 'unknown')\n\n# Print the dictionary\nprint(dict_fromkeys)\n\n# Attempt to use the keyword 'upper",
+    "tags": [
+        "fromkeys",
+        "upper",
+        "Easy"
+    ]
+}

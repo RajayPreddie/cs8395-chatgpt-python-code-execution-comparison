@@ -1,0 +1,4 @@
+  File "<string>", line 8
+    r = requests.get('https://api.example
+                     ^
+SyntaxError: unterminated string literal (detected at line 8)

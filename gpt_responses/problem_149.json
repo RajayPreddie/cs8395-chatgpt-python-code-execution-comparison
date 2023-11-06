@@ -1,0 +1,10 @@
+{
+    "id": "problem_149",
+    "description": "\n\nWhen using threading to MonkeyPatch a method, a runtime error occurs when the process is interrupted. This is due to the main thread not being able to access the patched method in the other threads, resulting in an error.",
+    "output": "SyntaxError: unexpected EOF while parsing",
+    "tags": [
+        "threading",
+        "MonkeyPatching",
+        "Easy"
+    ]
+}

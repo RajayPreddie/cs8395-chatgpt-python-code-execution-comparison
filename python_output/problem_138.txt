@@ -1,0 +1,4 @@
+  File "<string>", line 12
+    Traceback (most recent call last):
+               ^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?

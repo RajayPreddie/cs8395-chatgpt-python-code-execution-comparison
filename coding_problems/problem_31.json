@@ -1,0 +1,10 @@
+{
+    "id": "problem_31",
+    "description": "\n\nWhen running a program, a \"Reverse Capitalize Error\" is thrown indicating that the code is attempting to reverse the capitalization of a string, but the string is not in the correct format.",
+    "code": "# Program to Reverse Capitalize Error\n\n# Define a function to reverse the capitalization of a string\ndef reverse_capitalize(string): \n    # Initialize empty string to store reversed version\n    reversed_string = \"\" \n    # Loop over characters in",
+    "tags": [
+        "capitalize",
+        "reverse",
+        "Easy"
+    ]
+}

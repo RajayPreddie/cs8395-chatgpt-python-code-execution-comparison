@@ -1,0 +1,10 @@
+{
+    "id": "problem_131",
+    "description": "\n\nWhen attempting to run a TensorFlow program, a run-time error is encountered when attempting to add an element to a Set that has already been initialized with a tensorflow object.",
+    "code": "```python\nimport tensorflow as tf\n\n# Create a set of tensors\ntensor_set = set()\ntensor_set.add(tf.constant(1))\ntensor_set.add(tf.constant(2))",
+    "tags": [
+        "Set",
+        "tensorflow",
+        "Easy"
+    ]
+}

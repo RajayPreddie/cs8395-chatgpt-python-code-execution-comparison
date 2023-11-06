@@ -1,0 +1,10 @@
+{
+    "id": "problem_63",
+    "description": "\n\nWhen attempting to serialize data in a VirtualEnvironment, an error is thrown indicating that the serialization process is not supported. This error is caused by the VirtualEnvironment not supporting serialization, which is required for the process to complete successfully.",
+    "code": "# Error Program\n\nimport pickle\n\nclass VirtualEnvironment:\n    def __init__(self, data):\n        self.data = data\n\n# Create a new VirtualEnvironment instance\nve = VirtualEnvironment(data=\"serialize me\")\n\n# Attempt to",
+    "tags": [
+        "VirtualEnvironment",
+        "Serialization",
+        "Medium"
+    ]
+}

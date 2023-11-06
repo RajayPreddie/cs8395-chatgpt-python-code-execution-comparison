@@ -1,0 +1,10 @@
+{
+    "id": "problem_74",
+    "description": "\n\nThe problem is a Concurrency error resulting from GarbageCollection. When multiple threads are running in parallel, GarbageCollection may occur at the same time, causing the threads to become unsynchronized. This can lead to unexpected errors, such as data being overwritten or resources being locked",
+    "code": "import gc\n\n# GarbageCollection Python Program\n\n# Create a list of objects\nmy_list = [1, 2, 3, 4, 5, 6]\n\n# Create a dictionary of objects\nmy_dict = {\n    \"name\": \"John",
+    "tags": [
+        "Concurrency",
+        "GarbageCollection",
+        "Medium"
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "id": "problem_68",
+    "description": "\n\nWhen using IdiomaticPython, a compile/runtime error may be encountered when attempting to use the fromkeys() method to create a dictionary with a list of keys. The error will be raised if the list of keys contains a non-string type, such as an integer or float.",
+    "output": "Traceback (most recent call last):\n  File \"<stdin>\", line 10, in <module>\nNameError: name 'list' is not defined",
+    "tags": [
+        "IdiomaticPython",
+        "fromkeys",
+        "Medium"
+    ]
+}

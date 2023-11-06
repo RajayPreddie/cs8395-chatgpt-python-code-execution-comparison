@@ -1,0 +1,10 @@
+{
+    "id": "problem_169",
+    "description": "\n\nWhen trying to compare two sets using the issubset command, a TypeError is raised indicating that the issubset argument is not a set. This occurs when the argument passed to the issubset command is not a set, but another data type such as a list, tuple,",
+    "output": "Traceback (most recent call last):\n  File \"<stdin>\", line 2, in <module>\nImportError: cannot import name 'issubset' from 'itertools' (/usr/lib/python3.8/itertools.py)\n\nSyntaxError: unexpected EOF while parsing",
+    "tags": [
+        "issubset",
+        "issubset",
+        "Medium"
+    ]
+}

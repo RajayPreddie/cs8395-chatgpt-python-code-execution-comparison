@@ -1,0 +1,4 @@
+  File "<string>", line 12
+    except
+          ^
+SyntaxError: expected ':'

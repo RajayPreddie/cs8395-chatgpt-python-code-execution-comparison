@@ -1,0 +1,10 @@
+{
+    "id": "problem_153",
+    "description": "\n\nWhen attempting to sort a List of strings, an error is thrown stating that the List elements must all be of the same type in order to be sorted.",
+    "output": "Traceback (most recent call last):\n  File \"<stdin>\", line 2, in <module>\nTypeError: '<' not supported between instances of 'int' and 'str'",
+    "tags": [
+        "sort",
+        "List",
+        "Medium"
+    ]
+}

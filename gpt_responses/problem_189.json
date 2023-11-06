@@ -1,0 +1,10 @@
+{
+    "id": "problem_189",
+    "description": "\n\nWhen attempting to use the startswith method to find the first letter of a string, a compile/runtime error is raised stating that the 'find' argument is not defined.",
+    "output": "Traceback (most recent call last):\n  File \"<stdin>\", line 8, in <module>\nNameError: name 'find' is not defined",
+    "tags": [
+        "startswith",
+        "find",
+        "Hard"
+    ]
+}

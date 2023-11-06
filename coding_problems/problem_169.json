@@ -1,0 +1,10 @@
+{
+    "id": "problem_169",
+    "description": "\n\nWhen trying to compare two sets using the issubset command, a TypeError is raised indicating that the issubset argument is not a set. This occurs when the argument passed to the issubset command is not a set, but another data type such as a list, tuple,",
+    "code": "# import the issubset function from the itertools library\nfrom itertools import issubset \n\n# create two sets to test the issubset function\nset_one = {1, 2, 3, 4, 5}\nset_two = {",
+    "tags": [
+        "issubset",
+        "issubset",
+        "Medium"
+    ]
+}

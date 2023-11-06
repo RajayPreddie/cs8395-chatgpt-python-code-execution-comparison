@@ -1,0 +1,10 @@
+{
+    "id": "problem_21",
+    "description": "\n\nWhen attempting to use the Django framework to create a counter, a runtime error is encountered. This error occurs when the counter is used to increment a value that is not an integer. The error states \"TypeError: 'Counter' object is not callable\".",
+    "code": "# Create a counter class\nclass Counter:\n    # Initialize counter\n    def __init__(self, count):\n        self.count = count\n\n# Create a function to increment the counter\ndef increment_counter(counter):\n    counter.count += 1",
+    "tags": [
+        "django",
+        "Counter",
+        "Easy"
+    ]
+}

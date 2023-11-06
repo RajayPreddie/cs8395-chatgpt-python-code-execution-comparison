@@ -1,0 +1,10 @@
+{
+    "id": "problem_190",
+    "description": "\n\nWhen using the django framework, an endswith compile/runtime error can occur when attempting to compare two strings that end with different characters. This error is caused when a comparison is made using the endswith keyword, and the two strings being compared do not end with the same character",
+    "output": "Traceback (most recent call last):\n  File \"<stdin>\", line 8, in <module>\nEOFError: EOF when reading a line",
+    "tags": [
+        "django",
+        "endswith",
+        "Hard"
+    ]
+}

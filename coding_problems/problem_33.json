@@ -1,0 +1,10 @@
+{
+    "id": "problem_33",
+    "description": "\n\nThe problem is that when attempting to append an item to a List, a runtime error occurs. This is because the item being appended is not of the same type as the elements already in the List.",
+    "code": "# Program to demonstrate basic operations on a list in Python\n\n# Create a list with 5 elements\nmy_list = [1, 2, 3, 4, 5]\n\n# Print the list\nprint(my_list)\n\n# Access the 3rd element of",
+    "tags": [
+        "append",
+        "List",
+        "Easy"
+    ]
+}

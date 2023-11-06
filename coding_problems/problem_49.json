@@ -1,0 +1,10 @@
+{
+    "id": "problem_49",
+    "description": "\n\nSyntaxError: 'with' statement requires a ContextManager object as first argument when used with 'upper' keyword.",
+    "code": "# Program with 'with' statement error\n\n# Define class\nclass ContextManager: \n    def __enter__(self): \n        print(\"Entering the context manager\") \n        return self\n\n    def __exit__(self, exc_type,",
+    "tags": [
+        "upper",
+        "ContextManager",
+        "Easy"
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "id": "problem_159",
+    "description": "\n\nProblem Description:\nWhen attempting to create a MemoryView object using the fromkeys method, a runtime error occurs, indicating that the MemoryView object is not compatible with the type of data passed in.",
+    "code": "import array\n\n# Create a list of numbers\nnumbers = [1, 2, 3, 4, 5]\n\n# Create a MemoryView object\nmem_view = memoryview.fromkeys(numbers)\n\n# Create a list of strings\nstrings =",
+    "tags": [
+        "MemoryView",
+        "fromkeys",
+        "Medium"
+    ]
+}

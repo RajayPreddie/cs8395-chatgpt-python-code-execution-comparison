@@ -1,0 +1,10 @@
+{
+    "id": "problem_151",
+    "description": "\n\nWhen attempting to use the re.replace() function to replace a certain string in a text file, a \"TypeError\" is thrown. The error message states that the function is expecting a string or a compiled regular expression, but a list was provided instead.",
+    "code": "import re\n\n# create a string of text\ntext = 'This is a sample string of text.'\n\n# create a list of words to replace\nwords = ['sample', 'text']\n\n# use re.replace() to replace the words in the text\ntry",
+    "tags": [
+        "re",
+        "replace",
+        "Medium"
+    ]
+}

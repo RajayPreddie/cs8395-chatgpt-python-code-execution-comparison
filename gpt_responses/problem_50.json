@@ -1,0 +1,10 @@
+{
+    "id": "problem_50",
+    "description": "\n\nThe problem is a runtime error that occurs when attempting to update a ChainMap object. The error appears when the ChainMap object is updated with a new mapping, but the ChainMap object does not contain the keys in the mapping. This results in the ChainMap object not being updated and an",
+    "output": "Traceback (most recent call last):\n  File \"<stdin>\", line 7, in <module>\nNameError: name 'chainmap' is not defined",
+    "tags": [
+        "update",
+        "ChainMap",
+        "Easy"
+    ]
+}

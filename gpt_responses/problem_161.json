@@ -1,0 +1,10 @@
+{
+    "id": "problem_161",
+    "description": "\n\nThe program is throwing a compile/runtime error when attempting to split a comprehension list. The error states that the comprehension list cannot be split, as it is not a valid sequence.",
+    "output": "",
+    "tags": [
+        "split",
+        "Comprehension",
+        "Medium"
+    ]
+}

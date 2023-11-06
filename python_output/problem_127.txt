@@ -1,0 +1,4 @@
+  File "<string>", line 7
+    print("List of items:
+          ^
+SyntaxError: unterminated string literal (detected at line 7)

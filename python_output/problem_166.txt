@@ -1,0 +1,4 @@
+  File "<string>", line 11
+    time.sleep(
+              ^
+SyntaxError: '(' was never closed

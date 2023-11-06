@@ -1,0 +1,10 @@
+{
+    "id": "problem_179",
+    "description": "\n\nWhen attempting to run a django application, the following error is thrown: \"TypeError: metaclass conflict: the metaclass of a derived class must be a (non-strict) subclass of the metaclasses of all its bases\". This error occurs when the met",
+    "code": "# Define two metaclasses\nclass Meta1(type):\n    pass\n\nclass Meta2(type):\n    pass\n\n# Define two classes\nclass Base1(metaclass=Meta1):\n    pass\n\nclass Base2(metac",
+    "tags": [
+        "django",
+        "Metaclass",
+        "Medium"
+    ]
+}

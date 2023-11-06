@@ -1,0 +1,10 @@
+{
+    "id": "problem_22",
+    "description": "\n\nWhen attempting to get a value from a concurrent thread, an error is thrown due to a race condition. The thread attempts to get the value before the value is ready, resulting in an invalid value.",
+    "code": "#import the necessary libraries \nimport requests \nimport json \n\n#Create a function to get the data from the API \ndef get_data(): \n    #Create a request to the API \n    r = requests.get('https://api.example",
+    "tags": [
+        "Concurrency",
+        "get",
+        "Easy"
+    ]
+}

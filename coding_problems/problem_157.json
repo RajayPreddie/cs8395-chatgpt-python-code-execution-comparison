@@ -1,0 +1,10 @@
+{
+    "id": "problem_157",
+    "description": "\n\nWhen attempting to remove a flask from a list of items, a compile/runtime error is thrown indicating that the flask object is not iterable.",
+    "code": "# Importing packages\nfrom flask import Flask, request, jsonify\nimport requests\n\n# Initializing Flask app\napp = Flask(__name__)\n\n# Routes\n@app.route('/', methods=['GET'])\ndef home():",
+    "tags": [
+        "remove",
+        "flask",
+        "Medium"
+    ]
+}

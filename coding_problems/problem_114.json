@@ -1,0 +1,10 @@
+{
+    "id": "problem_114",
+    "description": "\n\nWhen attempting to use the heapq module to sort a list of datetime objects, an error occurs stating that the comparison between datetime objects is not supported.",
+    "code": "import heapq\nfrom datetime import datetime\n\n# Create a list of datetime objects\ndatetimes = [datetime(2020, 5, 7, 9, 0, 0),\n             datetime(2020, 5, 7, 8, 0, 0),",
+    "tags": [
+        "Heapq",
+        "datetime",
+        "Easy"
+    ]
+}

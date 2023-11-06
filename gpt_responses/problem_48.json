@@ -1,0 +1,10 @@
+{
+    "id": "problem_48",
+    "description": "\n\nWhen attempting to sort a list of numbers, a runtime error occurs when the program attempts to divide by zero.",
+    "output": "Enter numbers to sort (enter 'done' when finished):",
+    "tags": [
+        "math",
+        "sort",
+        "Easy"
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "id": "problem_54",
+    "description": "\n\nWhen attempting to use the socket to send data, a runtime error occurs due to a problem with MonkeyPatching. The error states that the socket is unable to send the data because it is unable to apply the MonkeyPatching correctly.",
+    "output": "SyntaxError: unexpected EOF while parsing",
+    "tags": [
+        "socket",
+        "MonkeyPatching",
+        "Medium"
+    ]
+}

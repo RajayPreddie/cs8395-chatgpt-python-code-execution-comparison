@@ -1,0 +1,10 @@
+{
+    "id": "problem_45",
+    "description": "\n\nError: RuntimeError\nProblem Description: Trying to remove a key from a dictionary results in a RuntimeError. The code attempts to remove a key from a dictionary, but the key does not exist in the dictionary, resulting in the error.",
+    "code": "# Create a dictionary\nmy_dict = {\n    'name': 'John',\n    'age': 27\n}\n\n# Attempt to remove a key that doesn't exist\ntry:\n    my_dict.pop('height')\nexcept RuntimeError:",
+    "tags": [
+        "keys",
+        "remove",
+        "Easy"
+    ]
+}

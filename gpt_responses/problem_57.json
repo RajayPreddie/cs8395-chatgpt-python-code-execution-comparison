@@ -1,0 +1,10 @@
+{
+    "id": "problem_57",
+    "description": "\n\nWhen using multiprocessing, an error occurs when attempting to lower the number of processes running simultaneously. The error states that the number of processes cannot be lowered any further, despite the number of available cores being higher than the number of processes running.",
+    "output": "Please enter a string: Hello World!",
+    "tags": [
+        "multiprocessing",
+        "lower",
+        "Medium"
+    ]
+}

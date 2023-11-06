@@ -1,0 +1,10 @@
+{
+    "id": "problem_41",
+    "description": "\n\nThe problem is that when trying to use the Heapq module to sort a list of data recursively, the program is not exiting properly and is stuck in an infinite loop.",
+    "code": "import heapq\n\n# Create a list of tuples\nnums = [(1, 'a'), (2, 'b'), (3, 'c'), (4, 'd'), (5, 'e'), (6, 'f'), (7, 'g')",
+    "tags": [
+        "Recursion",
+        "Heapq",
+        "Easy"
+    ]
+}

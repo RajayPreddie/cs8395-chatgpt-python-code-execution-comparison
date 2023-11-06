@@ -1,0 +1,10 @@
+{
+    "id": "problem_198",
+    "description": "\n\nWhen attempting to remove an element from a dictionary using the setdefault method, a runtime error occurs. The error states that the element cannot be removed as it does not exist in the dictionary.",
+    "output": "Traceback (most recent call last):\n  File \"<stdin>\", line 9, in <module>\nTypeError: setdefault expected at least 1 arguments, got 0",
+    "tags": [
+        "remove",
+        "setdefault",
+        "Hard"
+    ]
+}

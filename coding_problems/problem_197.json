@@ -1,0 +1,10 @@
+{
+    "id": "problem_197",
+    "description": "\n\nWhen using flask to create a web application, a list-based error may occur when attempting to render a template. This occurs when the list of items passed to the template is not properly formatted according to the flask template engine. This will result in a compile/runtime error, which will prevent",
+    "code": "# Program to create a list of numbers\n\n# Create an empty list\nmy_list = []\n\n# Function to add a number to the list\ndef add_number(num):\n    my_list.append(num)\n\n# Function to remove a number",
+    "tags": [
+        "flask",
+        "list",
+        "Hard"
+    ]
+}

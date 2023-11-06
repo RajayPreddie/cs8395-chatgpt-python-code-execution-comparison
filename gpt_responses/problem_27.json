@@ -1,0 +1,10 @@
+{
+    "id": "problem_27",
+    "description": "\n\nWhen attempting to format a hard drive using the os module, a runtime error is thrown indicating that the file system is not supported by the os module.",
+    "output": "Traceback (most recent call last):\n  File \"<stdin>\", line 4, in <module>\nAttributeError: module 'os' has no attribute 'makedrive'",
+    "tags": [
+        "os",
+        "format",
+        "Easy"
+    ]
+}

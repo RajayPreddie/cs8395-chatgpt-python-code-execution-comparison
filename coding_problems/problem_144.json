@@ -1,0 +1,10 @@
+{
+    "id": "problem_144",
+    "description": "\n\nSyntaxError: 'capitalize' is not a valid keyword argument for the 'pop' function.",
+    "code": "# Program to capitalize the first letter of a given string\n\n# Define a function to capitalize the first letter\ndef capitalize_first_letter(string):\n    # Split the string into a list of words\n    words = string.split()\n    # Create an empty",
+    "tags": [
+        "pop",
+        "capitalize",
+        "Easy"
+    ]
+}

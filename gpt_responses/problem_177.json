@@ -1,0 +1,10 @@
+{
+    "id": "problem_177",
+    "description": "\n\nWhen running a Python program that uses matplotlib, a runtime error is encountered that says \"TypeError: 'module' object is not callable\". This occurs when the code attempts to call a module as if it were a function, which is not allowed in IdiomaticPython.",
+    "output": "Traceback (most recent call last):\n  File \"<stdin>\", line 1, in <module>\n  File \"<stdin>\", line 2, in main\nNameError: name 'display_' is not defined",
+    "tags": [
+        "IdiomaticPython",
+        "matplotlib",
+        "Medium"
+    ]
+}

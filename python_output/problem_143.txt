@@ -1,0 +1,4 @@
+  File "<string>", line 8
+    if s.endswith
+                 ^
+SyntaxError: expected ':'

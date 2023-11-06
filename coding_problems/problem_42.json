@@ -1,0 +1,10 @@
+{
+    "id": "problem_42",
+    "description": "\n\nWhen attempting to run a program using datetime values, a runtime error occurs when the program attempts to compare two datetime objects. The error states that the objects are not comparable, even though they are both datetime objects.",
+    "code": "import datetime\n\n# Get current date and time\nnow = datetime.datetime.now()\n\n# Get date\ndate_today = now.date()\n\n# Get time\ntime_now = now.time()\n\n# Get year\nyear =",
+    "tags": [
+        "values",
+        "datetime",
+        "Easy"
+    ]
+}

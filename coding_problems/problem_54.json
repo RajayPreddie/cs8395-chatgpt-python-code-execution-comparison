@@ -1,0 +1,10 @@
+{
+    "id": "problem_54",
+    "description": "\n\nWhen attempting to use the socket to send data, a runtime error occurs due to a problem with MonkeyPatching. The error states that the socket is unable to send the data because it is unable to apply the MonkeyPatching correctly.",
+    "code": "# MonkeyPatching\n\n# Create a class\nclass Animal:\n  def __init__(self, name):\n    self.name = name\n\n# Create a new method\ndef eat(self):\n    print(f\"{self.name} is eating",
+    "tags": [
+        "socket",
+        "MonkeyPatching",
+        "Medium"
+    ]
+}

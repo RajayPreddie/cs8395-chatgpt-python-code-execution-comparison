@@ -1,0 +1,10 @@
+{
+    "id": "problem_2",
+    "description": "\n\nThe program is experiencing a compile/runtime error due to a keyword expression issue with Concurrency. The error occurs when the program attempts to concurrently execute two different code blocks that have conflicting syntax.",
+    "output": "Traceback (most recent call last):\n  File \"<stdin>\", line 6, in <module>\nNameError: name 'concurrent' is not defined",
+    "tags": [
+        "Keyword expression",
+        "Concurrency",
+        "Easy"
+    ]
+}

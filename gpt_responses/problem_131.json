@@ -1,0 +1,10 @@
+{
+    "id": "problem_131",
+    "description": "\n\nWhen attempting to run a TensorFlow program, a run-time error is encountered when attempting to add an element to a Set that has already been initialized with a tensorflow object.",
+    "output": "TypeError: unhashable type: 'tensorflow.python.framework.ops.EagerTensor'",
+    "tags": [
+        "Set",
+        "tensorflow",
+        "Easy"
+    ]
+}

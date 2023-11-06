@@ -1,0 +1,10 @@
+{
+    "id": "problem_63",
+    "description": "\n\nWhen attempting to serialize data in a VirtualEnvironment, an error is thrown indicating that the serialization process is not supported. This error is caused by the VirtualEnvironment not supporting serialization, which is required for the process to complete successfully.",
+    "output": "Traceback (most recent call last):\n  File \"<stdin>\", line 12, in <module>\n    # Attempt to\nSyntaxError: unexpected EOF while parsing",
+    "tags": [
+        "VirtualEnvironment",
+        "Serialization",
+        "Medium"
+    ]
+}

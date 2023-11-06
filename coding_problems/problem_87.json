@@ -1,0 +1,10 @@
+{
+    "id": "problem_87",
+    "description": "\n\nWhen making a request to an API, a syntax error occurs when attempting to format the request body with an incorrect data type. The code attempts to format the request body as an integer, but the API requires a string. As a result, the request fails and a compile/runtime error is",
+    "code": "#import necessary libraries\nimport requests\nimport json\n\n#set up request body\ndata = {\n    'name': 'John Doe',\n    'age': 25\n}\n\n#encode request body as json\ndata = json.dumps(data)",
+    "tags": [
+        "requests",
+        "format",
+        "Hard"
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "id": "problem_25",
+    "description": "\n\nWhen using the sys module to create a decorator, a runtime error occurs when attempting to import the decorator due to an incorrect path.",
+    "code": "import sys\n\ndef decorator(f):\n    def wrapper(*args, **kwargs):\n        print('Running decorator')\n        return f(*args, **kwargs)\n    return wrapper\n\n@decorator\ndef add(x, y):",
+    "tags": [
+        "sys",
+        "Decorator",
+        "Easy"
+    ]
+}

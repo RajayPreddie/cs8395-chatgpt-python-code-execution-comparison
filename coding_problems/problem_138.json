@@ -1,0 +1,10 @@
+{
+    "id": "problem_138",
+    "description": "\n\nThe program is running into a Protocol error when attempting to access a global state variable. The error is caused by the program attempting to access a global state variable that has not been initialized or is not accessible in the current context.",
+    "code": "# Define global state variable\nx = None\n\n# Define function that attempts to access global state variable\ndef func():\n    print(x)\n\n# Call function\nfunc()\n\n# Output\nTraceback (most recent call last):\n  File",
+    "tags": [
+        "Protocol",
+        "Global state",
+        "Easy"
+    ]
+}

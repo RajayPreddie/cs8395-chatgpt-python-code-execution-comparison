@@ -1,0 +1,4 @@
+  File "<string>", line 13
+    year =
+          ^
+SyntaxError: invalid syntax

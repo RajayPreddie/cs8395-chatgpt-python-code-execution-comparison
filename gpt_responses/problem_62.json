@@ -1,0 +1,10 @@
+{
+    "id": "problem_62",
+    "description": "\n\nSyntax Error: The code attempted to use the os.random() function to generate a random number, but it was not properly formatted, resulting in a syntax error.",
+    "output": "This program generates a random number\nAttributeError: module 'os' has no attribute 'random'",
+    "tags": [
+        "os",
+        "random",
+        "Medium"
+    ]
+}

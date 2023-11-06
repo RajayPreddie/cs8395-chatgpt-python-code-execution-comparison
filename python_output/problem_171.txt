@@ -1,0 +1,4 @@
+  File "<string>", line 11
+    for item in list_input:
+                           ^
+IndentationError: expected an indented block after 'for' statement on line 11

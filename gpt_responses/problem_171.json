@@ -1,0 +1,10 @@
+{
+    "id": "problem_171",
+    "description": "\n\nThe problem is a runtime error that occurs when attempting to discard a value from a Tuple. The error occurs because Tuples are immutable and cannot be modified, so attempting to discard a value from a Tuple will result in an error.",
+    "output": "Traceback (most recent call last):\n  File \"<stdin>\", line 8, in <module>\nIndentationError: expected an indented block",
+    "tags": [
+        "Tuple",
+        "discard",
+        "Medium"
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "id": "problem_172",
+    "description": "\n\nThe problem is an AsyncIO runtime error when attempting to use numpy in an asynchronous environment. The error occurs when the numpy library is used within an asynchronous function, resulting in an unexpected behavior when the code is executed. The error is caused by the asynchronous function attempting to access the",
+    "output": "Traceback (most recent call last):\n  File \"<stdin>\", line 10, in <module>\nTypeError: full() missing 2 required positional arguments: 'shape' and 'fill_value'",
+    "tags": [
+        "AsyncIO",
+        "numpy",
+        "Medium"
+    ]
+}

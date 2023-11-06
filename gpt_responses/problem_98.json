@@ -1,0 +1,10 @@
+{
+    "id": "problem_98",
+    "description": "\n\nWhen attempting to convert a Bytearray to a string using the sys module, the program throws an error indicating that the Bytearray is not compatible with the sys module.",
+    "output": "The Command-Line Interface cannot interact with the user.",
+    "tags": [
+        "Bytearray",
+        "sys",
+        "Hard"
+    ]
+}

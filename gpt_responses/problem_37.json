@@ -1,0 +1,10 @@
+{
+    "id": "problem_37",
+    "description": "\n\nWhen attempting to insert a string into a list of integers, a runtime error is raised stating that \"the format of the string is incompatible with the list of integers\".",
+    "output": "Traceback (most recent call last):\n  File \"<stdin>\", line 1, in <module>\nTypeError: insert() takes exactly 2 arguments (0 given)",
+    "tags": [
+        "insert",
+        "format",
+        "Easy"
+    ]
+}

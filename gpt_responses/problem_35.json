@@ -1,0 +1,10 @@
+{
+    "id": "problem_35",
+    "description": "\n\nError: UnionError: The operating system has encountered an unexpected error while attempting to join two sets of data together using the union function.",
+    "output": "Traceback (most recent call last):\n  File \"<stdin>\", line 1, in <module>\nNameError: name 'UnionError' is not defined",
+    "tags": [
+        "os",
+        "union",
+        "Easy"
+    ]
+}

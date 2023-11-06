@@ -1,0 +1,10 @@
+{
+    "id": "problem_137",
+    "description": "\n\nWhen attempting to remove a socket connection, a compile/runtime error occurs due to a mismatch in the socket parameters. The socket parameters used to establish the connection do not match the parameters used to attempt to remove the socket connection, resulting in an error.",
+    "output": "Traceback (most recent call last):\n  File \"<stdin>\", line 9\n    #\n    ^\nIndentationError: expected an indented block",
+    "tags": [
+        "socket",
+        "remove",
+        "Easy"
+    ]
+}

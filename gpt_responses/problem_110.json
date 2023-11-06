@@ -1,0 +1,10 @@
+{
+    "id": "problem_110",
+    "description": "\n\nWhen using a ContextManager with the setdefault function, a runtime error occurs when attempting to set a default value for a key that already exists in the context, as the setdefault function will not override existing values.",
+    "output": "SyntaxError: EOF while scanning triple-quoted string literal",
+    "tags": [
+        "setdefault",
+        "ContextManager",
+        "Easy"
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "id": "problem_181",
+    "description": "\n\nThe error occurs when attempting to modify a Tuple object in Python. The program throws a compile time error that states \"Tuple object does not support item assignment\". This indicates that an attempt was made to modify a Tuple object, which is not allowed in Python.",
+    "code": "# Python Program using Tuples\n\n# Define a tuple\ntup1 = (1, 2, 3, 4, 5, 6, 7, 8, 9, 10)\n\n# Print the tuple\nprint(tup1)\n\n# Accessing elements",
+    "tags": [
+        "random",
+        "Tuple",
+        "Hard"
+    ]
+}

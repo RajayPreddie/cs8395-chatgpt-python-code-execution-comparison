@@ -1,0 +1,10 @@
+{
+    "id": "problem_4",
+    "description": "\n\nWhen attempting to use the scipy Metaclass to create a class, the compiler throws an error indicating that the Metaclass is not compatible with the scipy library. This indicates that the scipy Metaclass is not able to handle the complexity of the scip",
+    "output": "Traceback (most recent call last):\n  File \"<stdin>\", line 1, in <module>\n    # Defining a function to calculate the standard deviation of\nSyntaxError: unexpected EOF while parsing",
+    "tags": [
+        "Metaclass",
+        "scipy",
+        "Easy"
+    ]
+}

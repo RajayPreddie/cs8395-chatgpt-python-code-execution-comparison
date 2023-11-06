@@ -1,0 +1,4 @@
+  File "<string>", line 10
+    def add
+           ^
+SyntaxError: expected '('

@@ -1,0 +1,10 @@
+{
+    "id": "problem_107",
+    "description": "\n\nThe error occurs when a program attempts to use memoization to copy a reference to a variable, but the reference is not valid. This results in a runtime error, as the program is unable to access the data stored in the reference.",
+    "code": "def memoize(func):\n    memo = {}\n    def wrapper(*args):\n        if args in memo:\n            return memo[args]\n        else:\n            rv = func(*args)\n            memo[args] = rv\n            return r",
+    "tags": [
+        "copy",
+        "Memoization",
+        "Easy"
+    ]
+}

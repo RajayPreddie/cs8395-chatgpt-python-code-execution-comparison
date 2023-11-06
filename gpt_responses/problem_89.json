@@ -1,0 +1,10 @@
+{
+    "id": "problem_89",
+    "description": "\n\nThe problem is that when trying to add a new item to a Frozenset using a Dict as the key, a runtime error is thrown. The error states that the Dict key is not a valid argument for the Frozenset.",
+    "output": "Traceback (most recent call last):\n  File \"<stdin>\", line 7\n    # Try to add a\n                  ^\nSyntaxError: unexpected EOF while parsing",
+    "tags": [
+        "Frozenset",
+        "Dict",
+        "Hard"
+    ]
+}

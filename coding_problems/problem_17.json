@@ -1,0 +1,10 @@
+{
+    "id": "problem_17",
+    "description": "\n\nWhen attempting to import the sys module, the program is unable to complete the reflection of the sys module, resulting in a runtime error.",
+    "code": "# Program to demonstrate Reflection in Python \n\nclass Person: \n\tdef __init__(self, name, age): \n\t\tself.name = name \n\t\tself.age = age \n\n\tdef myfunc(self):",
+    "tags": [
+        "sys",
+        "Reflection",
+        "Easy"
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "id": "problem_59",
+    "description": "\n\nWhen trying to run a program, a compile/runtime error is produced that states that the keyword 'capitalize' is not properly capitalized. The program fails to recognize the keyword 'capitalize' as a valid keyword, resulting in an error.",
+    "output": "Traceback (most recent call last):\n  File \"<stdin>\", line 8\n    # Capital\n             ^\nSyntaxError: unexpected EOF while parsing",
+    "tags": [
+        "difference",
+        "capitalize",
+        "Medium"
+    ]
+}

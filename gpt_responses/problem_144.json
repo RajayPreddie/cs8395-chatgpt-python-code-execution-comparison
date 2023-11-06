@@ -1,0 +1,10 @@
+{
+    "id": "problem_144",
+    "description": "\n\nSyntaxError: 'capitalize' is not a valid keyword argument for the 'pop' function.",
+    "output": "Traceback (most recent call last):\n  File \"<stdin>\", line 7\n    # Create an empty\n                      ^\nSyntaxError: unexpected EOF while parsing",
+    "tags": [
+        "pop",
+        "capitalize",
+        "Easy"
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "id": "problem_157",
+    "description": "\n\nWhen attempting to remove a flask from a list of items, a compile/runtime error is thrown indicating that the flask object is not iterable.",
+    "output": "Error: Flask app is running without any return statement in the 'home' function.",
+    "tags": [
+        "remove",
+        "flask",
+        "Medium"
+    ]
+}

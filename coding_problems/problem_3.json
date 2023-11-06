@@ -1,0 +1,10 @@
+{
+    "id": "problem_3",
+    "description": "\n\nA concurrency error occurs when a popitem is attempted on a dictionary while another thread is attempting to modify the same dictionary. This results in an error as the data structure is not in a consistent state.",
+    "code": "import threading\nimport time\n\ndef print_square(num):\n    print(num * num)\n\ndef print_cube(num):\n    print(num * num * num)\n\nif __name__ == \"__main__\":\n    # Create",
+    "tags": [
+        "popitem",
+        "Concurrency",
+        "Easy"
+    ]
+}

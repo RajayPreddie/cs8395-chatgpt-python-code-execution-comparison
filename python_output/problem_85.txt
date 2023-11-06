@@ -1,0 +1,4 @@
+  File "<string>", line 8
+    print('Starting up
+          ^
+SyntaxError: unterminated string literal (detected at line 8)

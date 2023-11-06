@@ -1,0 +1,4 @@
+  File "<string>", line 6
+    print("String is: {}".format(string
+                                ^
+SyntaxError: '(' was never closed

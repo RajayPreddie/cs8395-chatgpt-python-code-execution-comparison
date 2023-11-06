@@ -1,0 +1,10 @@
+{
+    "id": "problem_192",
+    "description": "\n\nWhen running a script written in IdiomaticPython, the sys module throws a compile/runtime error indicating that the code is attempting to access an undefined system path.",
+    "code": "import sys\n\ndef main():\n    # define a list of system paths\n    system_paths = ['C:/', 'D:/', 'E:/', 'F:/']\n    \n    # loop through the system paths\n    for path in system_paths",
+    "tags": [
+        "sys",
+        "IdiomaticPython",
+        "Hard"
+    ]
+}

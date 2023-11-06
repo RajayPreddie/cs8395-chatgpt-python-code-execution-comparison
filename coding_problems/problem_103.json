@@ -1,0 +1,10 @@
+{
+    "id": "problem_103",
+    "description": "\n\nWhen attempting to set a string variable to a value, an error occurs stating that the value is not a valid set.",
+    "code": "# Create a string variable\nstring_variable = \"\"\n\n# Attempt to set the string variable to a value\nstring_variable = 5\n\n# Error occurs\nprint(\"Error: '5' is not a valid set\")",
+    "tags": [
+        "String",
+        "Set",
+        "Easy"
+    ]
+}

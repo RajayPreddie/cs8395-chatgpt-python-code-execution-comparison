@@ -1,0 +1,10 @@
+{
+    "id": "problem_163",
+    "description": "\n\nWhen trying to convert a Bytearray to a lower case string, an error is raised indicating that the Bytearray is not in a valid encoding format.",
+    "code": "# Program to convert a string to lowercase\n\n# Define a function to convert a string to lowercase\ndef to_lowercase(string): \n    lower_string = \"\" \n  \n    # Iterate through the characters in the string \n    for",
+    "tags": [
+        "Bytearray",
+        "lower",
+        "Medium"
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "id": "problem_36",
+    "description": "\n\nWhen attempting to append a new figure to an existing matplotlib plot, a runtime error is thrown that reads \"ValueError: Expected x and y to have same first dimension, but have shapes (2, 3) and (3, 2) instead\". This suggests that the x",
+    "code": "import matplotlib.pyplot as plt\n\n# Create two arrays of different shapes\nx = [[1,2,3], [4,5,6]]\ny = [[7,8], [9,10], [11,12]]\n\n# Create",
+    "tags": [
+        "matplotlib",
+        "append",
+        "Easy"
+    ]
+}

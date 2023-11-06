@@ -1,0 +1,10 @@
+{
+    "id": "problem_145",
+    "description": "\n\nWhen attempting to create a VirtualEnvironment, a ValueError is raised indicating that the values provided are incompatible with the VirtualEnvironment.",
+    "code": "#import the necessary libraries\nimport os\nimport virtualenv\n\n#create the virtual environment\nvirtualenv_name = \"my_virtual_environment\"\nvirtualenv.create_environment(virtualenv_name)\n\n#activate the virtual environment\nactivate_env = virtual",
+    "tags": [
+        "values",
+        "VirtualEnvironment",
+        "Easy"
+    ]
+}

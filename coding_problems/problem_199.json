@@ -1,0 +1,10 @@
+{
+    "id": "problem_199",
+    "description": "\n\nThe problem is that when attempting to find the difference between two sets using the issubset method, a compile/runtime error is thrown. The error occurs when trying to use the issubset method to find the difference between two sets of different lengths, resulting in an 'invalid syntax",
+    "code": "# Program to find a given number in a list \n\n# Defining the list \nlist_of_numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10] \n\n# Function to find the given number",
+    "tags": [
+        "issubset",
+        "find",
+        "Hard"
+    ]
+}

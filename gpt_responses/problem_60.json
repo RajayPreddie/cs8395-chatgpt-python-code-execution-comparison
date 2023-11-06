@@ -1,0 +1,10 @@
+{
+    "id": "problem_60",
+    "description": "\n\nWhen attempting to get the current date and time using the datetime module, the code produces an error that says \"TypeError: 'get' is an invalid keyword argument for this function\".",
+    "output": "2022-09-30 18:47:13.891724\nTraceback (most recent call last):\n  File \"<stdin>\", line 10, in <module>\nNameError: name 'the' is not defined",
+    "tags": [
+        "datetime",
+        "get",
+        "Medium"
+    ]
+}

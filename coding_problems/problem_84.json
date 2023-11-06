@@ -1,0 +1,10 @@
+{
+    "id": "problem_84",
+    "description": "\n\nThe problem is a MemoryView compile/runtime error that occurs when attempting to use the Reflection method to access the data stored in the MemoryView. The error indicates that the Reflection method is not supported, and the data cannot be accessed.",
+    "code": "# Reflection Program\n\n# Import necessary modules\nimport sys\nimport types\n\n# Create a function that will take a variable and print out its type\ndef print_type(variable):\n    print(type(variable))\n\n# Create a function that will take a",
+    "tags": [
+        "MemoryView",
+        "Reflection",
+        "Hard"
+    ]
+}

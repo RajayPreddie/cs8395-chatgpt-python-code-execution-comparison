@@ -1,0 +1,10 @@
+{
+    "id": "problem_189",
+    "description": "\n\nWhen attempting to use the startswith method to find the first letter of a string, a compile/runtime error is raised stating that the 'find' argument is not defined.",
+    "code": "# Program to generate compile/runtime error\n\n# Define a string\nstring = \"Hello World!\"\n\n# Attempt to use the startswith method to find the first letter of the string\nif string.startswith(find):\n    print(\"The first letter",
+    "tags": [
+        "startswith",
+        "find",
+        "Hard"
+    ]
+}

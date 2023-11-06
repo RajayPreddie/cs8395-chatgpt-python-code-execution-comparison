@@ -1,0 +1,10 @@
+{
+    "id": "problem_13",
+    "description": "\n\nThe problem is that when attempting to reverse the ChainMap, an error is encountered. The error states that the ChainMap cannot be reversed because the keys and values are not in the correct order. This is preventing the ChainMap from being reversed properly.",
+    "code": "# Program to reverse a string\n\n# Initialize string\ns = \"Hello World!\"\n\n# Initialize empty string\nrev = \"\"\n\n# Find length of string\nlength = len(s)\n\n# Iterate over string\nfor i in range(length",
+    "tags": [
+        "ChainMap",
+        "reverse",
+        "Easy"
+    ]
+}

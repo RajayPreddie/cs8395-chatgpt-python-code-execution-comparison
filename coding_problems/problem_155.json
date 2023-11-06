@@ -1,0 +1,10 @@
+{
+    "id": "problem_155",
+    "description": "\n\nWhen running UnitTesting on a NamedTuple, a compile/runtime error occurs. The error states that the NamedTuple does not have the expected attributes, and the UnitTesting process cannot be completed.",
+    "code": "# Unit Testing with Python\n\n# Importing modules\nimport unittest\n\n# Creating a test suite\nclass UnitTestSuite(unittest.TestCase):\n    \n    # Setting up the test suite\n    def setUp(self):\n        self",
+    "tags": [
+        "NamedTuple",
+        "UnitTesting",
+        "Medium"
+    ]
+}

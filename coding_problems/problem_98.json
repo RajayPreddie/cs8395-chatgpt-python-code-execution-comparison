@@ -1,0 +1,10 @@
+{
+    "id": "problem_98",
+    "description": "\n\nWhen attempting to convert a Bytearray to a string using the sys module, the program throws an error indicating that the Bytearray is not compatible with the sys module.",
+    "code": "import sys\n\n# Program to take input from the user and print it\n\n# importing the sys module \n\n# taking input from user \nname = input(\"Enter your name: \") \n  \n# printing the input \nprint(\"Hello\", name)",
+    "tags": [
+        "Bytearray",
+        "sys",
+        "Hard"
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "id": "problem_35",
+    "description": "\n\nError: UnionError: The operating system has encountered an unexpected error while attempting to join two sets of data together using the union function.",
+    "code": "# Program to demonstrate UnionError\ndef union_error():\n    # Create two sets of data\n    set1 = {1,2,3,4,5} \n    set2 = {6,7,8,9,10} \n\n    # Union",
+    "tags": [
+        "os",
+        "union",
+        "Easy"
+    ]
+}

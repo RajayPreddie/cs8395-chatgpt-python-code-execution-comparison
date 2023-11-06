@@ -1,0 +1,10 @@
+{
+    "id": "problem_102",
+    "description": "\n\nThe program is attempting to extend a list by a count of 3, but a syntax error is causing the program to crash. The error is a TypeError: 'int' object is not iterable, indicating that the count being used is not an iterable object.",
+    "code": "my_list = [1, 2, 3]\n\ncount = 3\n\nfor i in count:\n    my_list.append(i)\n\nprint(my_list)",
+    "tags": [
+        "count",
+        "extend",
+        "Easy"
+    ]
+}

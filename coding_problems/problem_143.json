@@ -1,0 +1,10 @@
+{
+    "id": "problem_143",
+    "description": "\n\nWhen attempting to run a program, a compile/runtime error is encountered with the endswith function that states \"TypeError: endswith() takes at least 2 arguments (1 given)\". The problem is that the program is attempting to use the endswith function to check if",
+    "code": "# Program to demonstrate compile/runtime error\n\n# Define a list of strings\nstrings = [\"Hello\", \"World\", \"Goodbye\", \"Earth\"]\n\n# Attempt to use the endswith function\nfor s in strings:\n  if s.endswith",
+    "tags": [
+        "endswith",
+        "keys",
+        "Easy"
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "id": "problem_9",
+    "description": "\n\nProblem Description: When using the endswith method for introspection, the program throws an error indicating that the endswith argument is not valid.",
+    "code": "# Program to demonstrate the error when using the endswith method for introspection\n\n# Create a string\nmy_string = \"Hello World\"\n\n# Try to use the endswith method\nif my_string.endswith():\n    print(\"The string",
+    "tags": [
+        "endswith",
+        "Introspection",
+        "Easy"
+    ]
+}

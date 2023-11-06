@@ -1,0 +1,10 @@
+{
+    "id": "problem_42",
+    "description": "\n\nWhen attempting to run a program using datetime values, a runtime error occurs when the program attempts to compare two datetime objects. The error states that the objects are not comparable, even though they are both datetime objects.",
+    "output": "Traceback (most recent call last):\n  File \"<stdin>\", line 13, in <module>\nNameError: name 'year' is not defined",
+    "tags": [
+        "values",
+        "datetime",
+        "Easy"
+    ]
+}

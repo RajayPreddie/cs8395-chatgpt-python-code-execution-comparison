@@ -1,0 +1,10 @@
+{
+    "id": "problem_193",
+    "description": "\n\nThe problem is that when attempting to use the issubset function to compare a Counter object to a set object, a compile/runtime error is encountered. The error is caused by the fact that Counter objects are not compatible with set objects, and thus the issubset function cannot be used",
+    "output": "Traceback (most recent call last):\n  File \"<stdin>\", line 6\n    set_object = set([\"a\", \"b\", \"c\n                                   ^\nSyntaxError: unexpected EOF while parsing",
+    "tags": [
+        "issubset",
+        "Counter",
+        "Hard"
+    ]
+}

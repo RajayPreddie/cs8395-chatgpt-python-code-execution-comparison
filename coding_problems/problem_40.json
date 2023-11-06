@@ -1,0 +1,10 @@
+{
+    "id": "problem_40",
+    "description": "\n\nWhen attempting to discard an item from a List, a compile/runtime error occurs due to a mismatch between the item's type and the List's expected type. This causes the program to terminate unexpectedly.",
+    "code": "# Python Program to check if a list is empty\n\n# Declaring a list\nmy_list = []\n\n# Function to check if list is empty\ndef check_list(list):\n    if len(list) == 0:\n        print(\"List is empty",
+    "tags": [
+        "discard",
+        "List",
+        "Easy"
+    ]
+}

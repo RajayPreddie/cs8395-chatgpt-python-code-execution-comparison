@@ -1,0 +1,10 @@
+{
+    "id": "problem_102",
+    "description": "\n\nThe program is attempting to extend a list by a count of 3, but a syntax error is causing the program to crash. The error is a TypeError: 'int' object is not iterable, indicating that the count being used is not an iterable object.",
+    "output": "Traceback (most recent call last):\n  File \"<stdin>\", line 4, in <module>\nTypeError: 'int' object is not iterable",
+    "tags": [
+        "count",
+        "extend",
+        "Easy"
+    ]
+}

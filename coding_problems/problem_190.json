@@ -1,0 +1,10 @@
+{
+    "id": "problem_190",
+    "description": "\n\nWhen using the django framework, an endswith compile/runtime error can occur when attempting to compare two strings that end with different characters. This error is caused when a comparison is made using the endswith keyword, and the two strings being compared do not end with the same character",
+    "code": "def compare_strings(string1, string2):\n    if string1.endswith(string2):\n        print(\"The strings match!\")\n    else:\n        print(\"The strings do not match.\")\n\n# main\nstring1 = input(\"Enter",
+    "tags": [
+        "django",
+        "endswith",
+        "Hard"
+    ]
+}

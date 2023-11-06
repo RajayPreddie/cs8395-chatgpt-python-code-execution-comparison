@@ -1,0 +1,10 @@
+{
+    "id": "problem_133",
+    "description": "\n\nError encountered when attempting to decode a Bytearray into a string: 'TypeError: decoding a Bytearray object with a non-string type is not supported'.",
+    "output": "Traceback (most recent call last):\n  File \"<stdin>\", line 12, in <module>\nNameError: name 'Printing' is not defined",
+    "tags": [
+        "Bytearray",
+        "Bytearray",
+        "Easy"
+    ]
+}

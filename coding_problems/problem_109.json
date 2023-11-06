@@ -1,0 +1,10 @@
+{
+    "id": "problem_109",
+    "description": "\n\nWhen running a subprocess, the program throws a List index out of range error. This occurs when attempting to access an element in a list that does not exist. The program is not properly handling the size of the list and is attempting to access an element that does not exist.",
+    "code": "import subprocess\n\n# Create a list of commands\ncommands = ['ls', 'pwd', 'whoami', 'echo Hello World']\n\n# Run commands one by one\nfor cmd in commands:\n    process = subprocess.run(cmd, stdout",
+    "tags": [
+        "List",
+        "subprocess",
+        "Easy"
+    ]
+}

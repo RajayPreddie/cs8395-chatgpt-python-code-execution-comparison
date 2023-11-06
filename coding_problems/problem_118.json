@@ -1,0 +1,10 @@
+{
+    "id": "problem_118",
+    "description": "\n\nThe problem is a TypeHinting error that occurs when a function parameter is defined with the startswith keyword, but the argument passed to the function does not start with the expected value. This causes a runtime error when the function is called, as the argument does not match the expected",
+    "code": "# Program to check if a string starts with a given substring \n\n#importing necessary modules\nimport re\n\n#defining a function to check if a string starts with a substring\ndef startswith(string, substring):\n    #converting both",
+    "tags": [
+        "TypeHinting",
+        "startswith",
+        "Easy"
+    ]
+}

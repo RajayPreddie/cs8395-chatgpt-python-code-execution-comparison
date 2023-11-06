@@ -1,0 +1,10 @@
+{
+    "id": "problem_26",
+    "description": "\n\nWhen attempting to use a Lambda function to filter a List, a compile/runtime error is thrown due to a mismatch between the List item type and the Lambda function's expected argument type.",
+    "output": "",
+    "tags": [
+        "List",
+        "Lambda",
+        "Easy"
+    ]
+}

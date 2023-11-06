@@ -1,0 +1,10 @@
+{
+    "id": "problem_139",
+    "description": "\n\nThe problem description is: \"A compile/runtime error is encountered when a collections object is used as a keyword expression. The error occurs when the collections object is used as a keyword argument in a function call, as it is not valid to use a collections object as a keyword expression.\"",
+    "code": "def my_function(**kwargs):\n    for key, value in kwargs.items():\n        print(key, value)\n\nfrom collections import Counter\n\n# create a Counter object\ncounter = Counter(['a', 'b', 'c', '",
+    "tags": [
+        "Keyword expression",
+        "collections",
+        "Easy"
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "id": "problem_30",
+    "description": "\n\nWhen attempting to use a decorator to apply a popitem to a dictionary, a compile/runtime error is encountered. The error states that the popitem is not defined, indicating that the decorator is not recognizing the popitem as a valid command.",
+    "output": "Traceback (most recent call last):\n  File \"<stdin>\", line 1, in <module>\nTypeError: my_func() missing 1 required positional argument: 'd'",
+    "tags": [
+        "popitem",
+        "Decorator",
+        "Easy"
+    ]
+}

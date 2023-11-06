@@ -1,0 +1,10 @@
+{
+    "id": "problem_29",
+    "description": "\n\nThe problem is that a program is trying to extend a Bytes object, but the object is not long enough to accommodate the extension. This is causing a compile/runtime error because the Bytes object cannot be extended beyond its current size.",
+    "output": "SyntaxError: unexpected EOF while parsing",
+    "tags": [
+        "Bytes",
+        "extend",
+        "Easy"
+    ]
+}

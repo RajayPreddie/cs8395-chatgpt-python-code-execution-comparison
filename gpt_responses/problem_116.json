@@ -1,0 +1,10 @@
+{
+    "id": "problem_116",
+    "description": "\n\nThe UnitTesting is failing due to a logic error when attempting to sort a list of objects. The objects are not being sorted correctly, resulting in an incorrect order of the list.",
+    "output": "Traceback (most recent call last):\n  File \"<stdin>\", line 9\n    objects = [Object(4), Object(2),\n                                        ^\nSyntaxError: unexpected EOF while parsing",
+    "tags": [
+        "UnitTesting",
+        "sort",
+        "Easy"
+    ]
+}

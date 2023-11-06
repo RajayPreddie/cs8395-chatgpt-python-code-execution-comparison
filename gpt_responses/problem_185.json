@@ -1,0 +1,10 @@
+{
+    "id": "problem_185",
+    "description": "\n\nSyntax Error: When attempting to use a Generator to create a dictionary of keys, an unexpected syntax error is thrown, stating that the generator is not valid for the type of object.",
+    "output": "Traceback (most recent call last):\n  File \"<stdin>\", line 10, in <module>\nNameError: name 'dict_keys' is not defined",
+    "tags": [
+        "keys",
+        "Generator",
+        "Hard"
+    ]
+}

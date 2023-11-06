@@ -1,0 +1,10 @@
+{
+    "id": "problem_64",
+    "description": "\n\nThe problem is a runtime error that occurs when attempting to update a Bytearray. When the update is attempted, the Bytearray raises an error saying that it cannot be updated because it is not a mutable object.",
+    "code": "# Program to demonstrate use of Bytearray\n\n# Importing modules\nimport array\n\n# Initializing Bytearray\nbyteArr = bytearray()\n\n# Adding elements to Bytearray using append()\nbyteArr.append(",
+    "tags": [
+        "update",
+        "Bytearray",
+        "Medium"
+    ]
+}

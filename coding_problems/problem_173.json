@@ -1,0 +1,10 @@
+{
+    "id": "problem_173",
+    "description": "\n\nSyntaxError: GarbageCollection not defined in line 10. The code attempted to reference a GarbageCollection object that is not defined in the current scope, causing a syntax error.",
+    "code": "import gc\n\n# Definition of garbage collector\nclass GarbageCollection:\n    def __init__(self):\n        self.garbage = []\n        self.num_items = 0\n    \n    # Add an item to the garbage collector\n    def add",
+    "tags": [
+        "clear",
+        "GarbageCollection",
+        "Medium"
+    ]
+}

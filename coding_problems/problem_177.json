@@ -1,0 +1,10 @@
+{
+    "id": "problem_177",
+    "description": "\n\nWhen running a Python program that uses matplotlib, a runtime error is encountered that says \"TypeError: 'module' object is not callable\". This occurs when the code attempts to call a module as if it were a function, which is not allowed in IdiomaticPython.",
+    "code": "import matplotlib\n\ndef display_graph():\n    x = [1,2,3,4]\n    y = [2,4,6,8]\n    matplotlib.plot(x,y)\n\ndef main():\n    display_",
+    "tags": [
+        "IdiomaticPython",
+        "matplotlib",
+        "Medium"
+    ]
+}

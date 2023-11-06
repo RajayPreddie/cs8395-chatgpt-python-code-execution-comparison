@@ -1,0 +1,10 @@
+{
+    "id": "problem_111",
+    "description": "\n\nSyntaxError: JSON file is not properly formatted and cannot be parsed. The find command is unable to locate the correct syntax for the json file, resulting in an error.",
+    "output": "FileNotFoundError: [Errno 2] No such file or directory: 'data.json'",
+    "tags": [
+        "find",
+        "json",
+        "Easy"
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "id": "problem_6",
+    "description": "\n\nWhen attempting to use the sys.socket() function, a runtime error is thrown stating that the socket cannot be created because the system does not have permission to access the network.",
+    "code": "import socket\n\n# Create a socket object\nsock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)\n\n# Get local machine name\nhost = socket.gethostname()\n\nport = 9999\n\n# Bind",
+    "tags": [
+        "sys",
+        "socket",
+        "Easy"
+    ]
+}

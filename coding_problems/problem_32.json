@@ -1,0 +1,10 @@
+{
+    "id": "problem_32",
+    "description": "\n\nThe error occurs when a threading Protocol is used in a program that is not designed to handle multiple threads. The program will throw a Protocol error, indicating that it cannot process multiple threads simultaneously.",
+    "code": "import threading\n\ndef func1():\n    print(\"Thread 1\")\n\ndef func2():\n    print(\"Thread 2\")\n\nt1 = threading.Thread(target=func1)\nt2 = threading.Thread(target=func2)",
+    "tags": [
+        "Protocol",
+        "threading",
+        "Easy"
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "id": "problem_20",
+    "description": "\n\nWhen attempting to use AsyncIO to build a web application, an error occurs stating \"TypeError: object of type 'coroutine' has no issuperset attribute\". This occurs when attempting to check if a set is a superset of another set, using the issupers",
+    "code": "import asyncio\n\nasync def main():\n    set1 = {1,2,3,4}\n    set2 = {2,3}\n    result = set1.issuperset(set2)\n    print(result)\n\nas",
+    "tags": [
+        "AsyncIO",
+        "issuperset",
+        "Easy"
+    ]
+}

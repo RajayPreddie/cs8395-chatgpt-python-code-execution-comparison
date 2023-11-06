@@ -1,0 +1,10 @@
+{
+    "id": "problem_139",
+    "description": "\n\nThe problem description is: \"A compile/runtime error is encountered when a collections object is used as a keyword expression. The error occurs when the collections object is used as a keyword argument in a function call, as it is not valid to use a collections object as a keyword expression.\"",
+    "output": "Traceback (most recent call last):\n  File \"<stdin>\", line 9\n    counter = Counter(['a', 'b', 'c', '\n                                      ^\nSyntaxError: EOL while scanning string literal",
+    "tags": [
+        "Keyword expression",
+        "collections",
+        "Easy"
+    ]
+}

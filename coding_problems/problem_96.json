@@ -1,0 +1,10 @@
+{
+    "id": "problem_96",
+    "description": "\n\nThe problem is that a user is trying to use Comprehension to create a list of unique values from a given list, but they are getting an error. The error is caused by a missing \". \" in the Comprehension syntax, which is preventing the list from being generated correctly.",
+    "code": "#Python Program\n#This program prints out the numbers from 1 to 10\n\n#importing the necessary modules\nimport time\n\n#Defining the function to print out the numbers\ndef print_numbers():\n    #Looping through the numbers from 1 to 10",
+    "tags": [
+        "Comprehension",
+        "",
+        "Hard"
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "id": "problem_183",
+    "description": "\n\nError: \"TypeError: tensorflow object of type 'float' has no len()\"\n\nProblem Description: When attempting to use tensorflow to train a model, a TypeError is raised stating that a tensorflow object of type 'float' does not have a",
+    "code": "import tensorflow as tf\n\n# Create a graph\ng = tf.Graph()\n\n# Set the graph as the default graph\nwith g.as_default():\n\n    # Create a tensorflow constant\n    x = tf.constant([5, 3",
+    "tags": [
+        "lower",
+        "tensorflow",
+        "Hard"
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "id": "problem_92",
+    "description": "\n\nWhen attempting to access a specific item in a List, a runtime error occurs stating \"TypeError: 'list' object does not support indexing of type 'get'\".",
+    "code": "# This is a program that contains the error described in the description\n\n# Create a list of elements\nmy_list = [1, 2, 3, 4, 5]\n\n# Try to access a specific item in the list\ntry:\n    print(my_",
+    "tags": [
+        "List",
+        "get",
+        "Hard"
+    ]
+}

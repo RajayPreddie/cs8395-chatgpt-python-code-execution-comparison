@@ -1,0 +1,10 @@
+{
+    "id": "problem_159",
+    "description": "\n\nProblem Description:\nWhen attempting to create a MemoryView object using the fromkeys method, a runtime error occurs, indicating that the MemoryView object is not compatible with the type of data passed in.",
+    "output": "Traceback (most recent call last):\n  File \"<stdin>\", line 8, in <module>\nAttributeError: type object 'memoryview' has no attribute 'fromkeys'",
+    "tags": [
+        "MemoryView",
+        "fromkeys",
+        "Medium"
+    ]
+}

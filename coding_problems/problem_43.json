@@ -1,0 +1,10 @@
+{
+    "id": "problem_43",
+    "description": "\n\nThe problem is a pytorch runtime error that occurs when attempting to reverse a sequence of tensors. When running the code, the program fails to reverse the sequence of tensors, resulting in a runtime error.",
+    "code": "# Program to reverse a string\n\n# Define a function to reverse a string\ndef reverse_string(string): \n  \n  # Empty string to store reversed string \n  reversed_string = \"\" \n  \n  # Iterate over the string in reverse",
+    "tags": [
+        "pytorch",
+        "reverse",
+        "Easy"
+    ]
+}

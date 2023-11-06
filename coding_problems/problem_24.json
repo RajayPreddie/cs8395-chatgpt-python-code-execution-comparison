@@ -1,0 +1,10 @@
+{
+    "id": "problem_24",
+    "description": "\n\nWhen executing a program, an error occurs when attempting to clear the list of objects stored in a variable. The format of the list is not recognized, causing the clear command to fail.",
+    "code": "# Create a list of objects \nmy_list = [\"apple\", \"banana\", \"strawberry\"]\n\n# Attempt to clear the list\nmy_list.clear() \n\n# This will cause an error since the list format is not recognized\nmy_",
+    "tags": [
+        "format",
+        "clear",
+        "Easy"
+    ]
+}

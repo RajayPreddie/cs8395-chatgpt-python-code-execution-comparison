@@ -1,0 +1,10 @@
+{
+    "id": "problem_38",
+    "description": "\n\nWhen running a program using IdiomaticPython, a runtime error occurs when attempting to sort a list of strings. The error states that the list cannot be sorted because the strings are not in a valid format for sorting.",
+    "output": "Traceback (most recent call last):\n  File \"<stdin>\", line 9, in <module>\nNameError: name 'sorted_' is not defined",
+    "tags": [
+        "IdiomaticPython",
+        "sort",
+        "Easy"
+    ]
+}

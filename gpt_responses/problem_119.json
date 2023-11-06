@@ -1,0 +1,10 @@
+{
+    "id": "problem_119",
+    "description": "\n\nWhen attempting to generate a json file using a Python generator, an error is thrown stating that the generator is unable to create a valid json object due to a missing required parameter.",
+    "output": "",
+    "tags": [
+        "Generator",
+        "json",
+        "Easy"
+    ]
+}

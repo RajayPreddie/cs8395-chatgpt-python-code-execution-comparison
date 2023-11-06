@@ -1,0 +1,10 @@
+{
+    "id": "problem_41",
+    "description": "\n\nThe problem is that when trying to use the Heapq module to sort a list of data recursively, the program is not exiting properly and is stuck in an infinite loop.",
+    "output": "",
+    "tags": [
+        "Recursion",
+        "Heapq",
+        "Easy"
+    ]
+}

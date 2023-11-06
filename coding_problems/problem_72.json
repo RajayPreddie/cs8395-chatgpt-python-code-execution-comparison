@@ -1,0 +1,10 @@
+{
+    "id": "problem_72",
+    "description": "\n\nWhen attempting to create an OrderedDict from a regular dictionary, an re error is raised stating that the regular dictionary is not in the correct format for the OrderedDict. This error is caused by the fact that the regular dictionary does not contain the necessary key-value pairs in",
+    "code": "# Create regular dictionary\nreg_dict = {\n    'a': 1,\n    'b': 2,\n    'c': 3\n}\n\n# Attempt to create OrderedDict from regular dictionary\nfrom collections import OrderedDict\n\ntry:",
+    "tags": [
+        "re",
+        "OrderedDict",
+        "Medium"
+    ]
+}

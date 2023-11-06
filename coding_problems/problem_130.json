@@ -1,0 +1,10 @@
+{
+    "id": "problem_130",
+    "description": "\n\nThe problem is that when attempting to use MonkeyPatching to make a difference in the runtime behavior of a program, the program throws an error due to an unexpected difference between the original code and the patched code. This difference causes the program to crash at runtime.",
+    "code": "def original_function(): \n    return \"original\"\n\ndef patched_function(): \n    return \"patched\"\n\ndef main(): \n    print(original_function()) # prints \"original\"\n\n    original_function = patched_function\n    print",
+    "tags": [
+        "MonkeyPatching",
+        "difference",
+        "Easy"
+    ]
+}

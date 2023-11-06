@@ -1,0 +1,10 @@
+{
+    "id": "problem_150",
+    "description": "\n\nProblem Description: When attempting to create a dictionary using the fromkeys() method, a \"TypeError: 'str' object is not callable\" is thrown when attempting to use the keyword 'upper' as an argument.",
+    "output": "{'name': 'unknown', 'age': 'unknown', 'gender': 'unknown'}\nTraceback (most recent call last):\n  File \"<stdin>\", line 8, in <module>\nNameError: name 'upper' is not defined",
+    "tags": [
+        "fromkeys",
+        "upper",
+        "Easy"
+    ]
+}

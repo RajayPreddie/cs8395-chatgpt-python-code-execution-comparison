@@ -1,0 +1,10 @@
+{
+    "id": "problem_51",
+    "description": "\n\nThe problem is a runtime error that occurs when using the Python package pandas. When attempting to use the re module to search a dataframe for certain patterns, the program throws an error indicating that the re module is not supported by pandas.",
+    "output": "Traceback (most recent call last):\n  File \"<stdin>\", line 8, in <module>\nNameError: name 'df' is not defined",
+    "tags": [
+        "re",
+        "pandas",
+        "Medium"
+    ]
+}

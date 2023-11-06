@@ -1,0 +1,10 @@
+{
+    "id": "problem_33",
+    "description": "\n\nThe problem is that when attempting to append an item to a List, a runtime error occurs. This is because the item being appended is not of the same type as the elements already in the List.",
+    "output": "[1, 2, 3, 4, 5]\nTraceback (most recent call last):\n  File \"<stdin>\", line 11, in <module>\nIndexError: list index out of range",
+    "tags": [
+        "append",
+        "List",
+        "Easy"
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "id": "problem_114",
+    "description": "\n\nWhen attempting to use the heapq module to sort a list of datetime objects, an error occurs stating that the comparison between datetime objects is not supported.",
+    "output": "SyntaxError: unexpected EOF while parsing",
+    "tags": [
+        "Heapq",
+        "datetime",
+        "Easy"
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "id": "problem_179",
+    "description": "\n\nWhen attempting to run a django application, the following error is thrown: \"TypeError: metaclass conflict: the metaclass of a derived class must be a (non-strict) subclass of the metaclasses of all its bases\". This error occurs when the met",
+    "output": "Traceback (most recent call last):\n  File \"<stdin>\", line 2, in <module>\n    class Base2(metac\nSyntaxError: unexpected EOF while parsing",
+    "tags": [
+        "django",
+        "Metaclass",
+        "Medium"
+    ]
+}

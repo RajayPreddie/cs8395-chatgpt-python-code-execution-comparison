@@ -1,0 +1,10 @@
+{
+    "id": "problem_64",
+    "description": "\n\nThe problem is a runtime error that occurs when attempting to update a Bytearray. When the update is attempted, the Bytearray raises an error saying that it cannot be updated because it is not a mutable object.",
+    "output": "Traceback (most recent call last):\n  File \"<stdin>\", line 9, in <module>\nTypeError: append() takes exactly one argument (0 given)",
+    "tags": [
+        "update",
+        "Bytearray",
+        "Medium"
+    ]
+}

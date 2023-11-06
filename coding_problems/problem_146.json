@@ -1,0 +1,10 @@
+{
+    "id": "problem_146",
+    "description": "\n\nWhen attempting to add a new method to an existing class using MonkeyPatching, the code runs without error but the expected behavior is not seen. The new method does not appear to be added to the class, and the code does not produce the expected result.",
+    "code": "class ExistingClass:\n    def __init__(self):\n        self.data = [1, 2, 3]\n    \n    def existing_method(self):\n        print('This is an existing method')\n\ndef new_method(self):",
+    "tags": [
+        "MonkeyPatching",
+        "add",
+        "Easy"
+    ]
+}

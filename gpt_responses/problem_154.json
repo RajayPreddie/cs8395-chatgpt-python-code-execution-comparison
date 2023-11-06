@@ -1,0 +1,10 @@
+{
+    "id": "problem_154",
+    "description": "\n\nWhen attempting to find a specific route in a Flask application, the compile/runtime error is raised: 'AttributeError: 'Flask' object has no attribute 'find''",
+    "output": "Traceback (most recent call last):\n  File \"<stdin>\", line 11\n    return '\n             ^\nSyntaxError: EOL while scanning string literal",
+    "tags": [
+        "flask",
+        "find",
+        "Medium"
+    ]
+}

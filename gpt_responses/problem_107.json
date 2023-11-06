@@ -1,0 +1,10 @@
+{
+    "id": "problem_107",
+    "description": "\n\nThe error occurs when a program attempts to use memoization to copy a reference to a variable, but the reference is not valid. This results in a runtime error, as the program is unable to access the data stored in the reference.",
+    "output": "Traceback (most recent call last):\n  File \"<stdin>\", line 1, in <module>\n  File \"<stdin>\", line 8\n    return r\n           ^\nSyntaxError: unexpected EOF while parsing",
+    "tags": [
+        "copy",
+        "Memoization",
+        "Easy"
+    ]
+}

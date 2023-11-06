@@ -1,0 +1,10 @@
+{
+    "id": "problem_160",
+    "description": "\n\nWhen attempting to use MonkeyPatching to change the formatting of an existing object, the program throws a compile/runtime error stating that the formatting is not supported. The error occurs when the format keyword is used to try to change the formatting of the object, even though the object does not support",
+    "output": "Traceback (most recent call last):\n  File \"<stdin>\", line 1, in <module>\nTypeError: 'module' object is not callable",
+    "tags": [
+        "MonkeyPatching",
+        "format",
+        "Medium"
+    ]
+}

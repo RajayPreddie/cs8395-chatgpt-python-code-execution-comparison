@@ -1,0 +1,10 @@
+{
+    "id": "problem_148",
+    "description": "\n\nError: Runtime Error\nProblem Description: The program is attempting to iterate through a dictionary containing items and keys, but the keys are of a different data type than expected, causing the program to crash.",
+    "output": "Traceback (most recent call last):\n  File \"<stdin>\", line 1, in <module>\nTypeError: printDict() missing 1 required positional argument: 'dict'",
+    "tags": [
+        "items",
+        "keys",
+        "Easy"
+    ]
+}

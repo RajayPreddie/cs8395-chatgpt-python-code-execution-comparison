@@ -1,0 +1,10 @@
+{
+    "id": "problem_88",
+    "description": "\n\nError: IdiomaticPython SyntaxError: Generator expression not properly closed.\n\nProblem Description: A Generator expression was used in an IdiomaticPython script but the expression was not properly closed with the correct syntax, resulting in a SyntaxError.",
+    "output": "SyntaxError: unexpected EOF while parsing",
+    "tags": [
+        "IdiomaticPython",
+        "Generator",
+        "Hard"
+    ]
+}

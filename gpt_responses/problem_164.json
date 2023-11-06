@@ -1,0 +1,10 @@
+{
+    "id": "problem_164",
+    "description": "\n\nWhen attempting to copy a polymorphic object, a runtime error occurs due to the object's ability to take on multiple forms. The copy function is unable to accurately replicate the object's polymorphic nature, resulting in an error.",
+    "output": "",
+    "tags": [
+        "copy",
+        "Polymorphism",
+        "Medium"
+    ]
+}

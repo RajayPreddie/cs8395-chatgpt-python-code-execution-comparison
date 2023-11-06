@@ -1,0 +1,4 @@
+  File "<string>", line 11
+    for obj in
+              ^
+SyntaxError: invalid syntax

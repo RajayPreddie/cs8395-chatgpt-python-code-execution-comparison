@@ -1,0 +1,10 @@
+{
+    "id": "problem_52",
+    "description": "\n\nWhen attempting to use the endswith function in a pytorch script, a compile/runtime error is thrown stating that the endswith function is not defined for the pytorch class.",
+    "code": "# Importing necessary libraries \nimport torch\nimport torch.nn as nn\nimport torch.nn.functional as F\nimport torch.optim as optim\n\n# Declaring the model class\nclass Model(nn.Module):\n    def __init__(self):",
+    "tags": [
+        "endswith",
+        "pytorch",
+        "Medium"
+    ]
+}

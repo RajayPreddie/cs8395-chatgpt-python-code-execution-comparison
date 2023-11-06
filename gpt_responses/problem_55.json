@@ -1,0 +1,10 @@
+{
+    "id": "problem_55",
+    "description": "\n\n\"IndexError: list index out of range - The code attempted to access an item in a list that does not exist. The index used to access the list was beyond the size of the list, resulting in an index out of range error.\"",
+    "output": "The code provided does not produce any output as it only defines a function and does not call it.",
+    "tags": [
+        "index",
+        "List",
+        "Medium"
+    ]
+}

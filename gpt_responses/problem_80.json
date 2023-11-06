@@ -1,0 +1,10 @@
+{
+    "id": "problem_80",
+    "description": "\n\nWhen attempting to append a file to the os, an error is thrown stating \"IndexError: list index out of range\" due to an unexpected number of arguments being passed to the os.append() function.",
+    "output": "Traceback (most recent call last):\n  File \"<stdin>\", line 11, in <module>\nNameError: name 'file_name' is not defined",
+    "tags": [
+        "append",
+        "os",
+        "Medium"
+    ]
+}

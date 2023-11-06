@@ -1,0 +1,10 @@
+{
+    "id": "problem_67",
+    "description": "\n\nWhen attempting to run a scipy script, a \"clear\" error is thrown, indicating that the scipy library is unable to access the data it needs to properly execute the script.",
+    "code": "# Program to clear a list \n\n# Create a list \nmy_list = [1, 2, 3, 4, 5] \n\n# Print the list \nprint(\"Original list: \", my_list) \n\n# Clear the list",
+    "tags": [
+        "scipy",
+        "clear",
+        "Medium"
+    ]
+}

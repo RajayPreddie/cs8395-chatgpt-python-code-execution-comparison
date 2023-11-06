@@ -1,0 +1,4 @@
+  File "<string>", line 8
+    string1 = input("Enter
+                    ^
+SyntaxError: unterminated string literal (detected at line 8)

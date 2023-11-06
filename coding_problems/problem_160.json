@@ -1,0 +1,10 @@
+{
+    "id": "problem_160",
+    "description": "\n\nWhen attempting to use MonkeyPatching to change the formatting of an existing object, the program throws a compile/runtime error stating that the formatting is not supported. The error occurs when the format keyword is used to try to change the formatting of the object, even though the object does not support",
+    "code": "#Python Program\n\n#Importing modules\nimport string\n\n#Function to format a given string\ndef format_string(string):\n  #Converting the string to lowercase\n  string = string.lower()\n  \n  #Removing punctuation",
+    "tags": [
+        "MonkeyPatching",
+        "format",
+        "Medium"
+    ]
+}

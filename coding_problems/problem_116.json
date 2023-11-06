@@ -1,0 +1,10 @@
+{
+    "id": "problem_116",
+    "description": "\n\nThe UnitTesting is failing due to a logic error when attempting to sort a list of objects. The objects are not being sorted correctly, resulting in an incorrect order of the list.",
+    "code": "# Program to demonstrate a logic error when attempting to sort a list of objects\n\nclass Object:\n    def __init__(self, num):\n        self.num = num\n\n# Create a list of objects\nobjects = [Object(4), Object(2),",
+    "tags": [
+        "UnitTesting",
+        "sort",
+        "Easy"
+    ]
+}

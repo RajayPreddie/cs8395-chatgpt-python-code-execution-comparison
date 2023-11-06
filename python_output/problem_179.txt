@@ -1,0 +1,4 @@
+  File "<string>", line 12
+    class Base2(metac
+               ^
+SyntaxError: '(' was never closed

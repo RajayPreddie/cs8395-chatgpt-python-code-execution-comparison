@@ -1,0 +1,10 @@
+{
+    "id": "problem_168",
+    "description": "\n\nWhen attempting to create a metaclass using a bytearray, an error is raised stating \"TypeError: metaclasses must be derived from type\". This occurs because a bytearray is not a valid type for a metaclass.",
+    "output": "Traceback (most recent call last):\n  File \"<stdin>\", line 4, in <module>\nTypeError: metaclass conflict: the metaclass of a derived class must be a (non-strict) subclass of the metaclasses of all its bases",
+    "tags": [
+        "Bytearray",
+        "Metaclass",
+        "Medium"
+    ]
+}

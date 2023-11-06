@@ -1,0 +1,10 @@
+{
+    "id": "problem_8",
+    "description": "\n\nThe problem is that when trying to create a random Frozenset, the program throws an error indicating that the Frozenset is not iterable. This prevents the program from randomly generating a set of elements and thus the program crashes.",
+    "code": "import random\n\n# Create a list of random numbers\nrandom_numbers = []\n\n# Create a loop to generate 10 random numbers\nfor i in range (10):\n    random_numbers.append(random.randint(1,100))\n\n#",
+    "tags": [
+        "Frozenset",
+        "random",
+        "Easy"
+    ]
+}

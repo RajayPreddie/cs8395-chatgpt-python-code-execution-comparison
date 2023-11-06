@@ -1,0 +1,10 @@
+{
+    "id": "problem_182",
+    "description": "\n\nThe problem is an error that occurs when attempting to use multiprocessing to run multiple tasks simultaneously. The error occurs when the code tries to spawn multiple processes but fails to properly join the processes, resulting in an unresponsive program.",
+    "code": "import multiprocessing\nimport time\n\ndef worker(num):\n    \"\"\"thread worker function\"\"\"\n    print('Worker:', num)\n    return\n\nif __name__ == '__main__':\n    jobs = []\n    for i in range",
+    "tags": [
+        "multiprocessing",
+        "multiprocessing",
+        "Hard"
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "id": "problem_163",
+    "description": "\n\nWhen trying to convert a Bytearray to a lower case string, an error is raised indicating that the Bytearray is not in a valid encoding format.",
+    "output": "SyntaxError: unexpected EOF while parsing",
+    "tags": [
+        "Bytearray",
+        "lower",
+        "Medium"
+    ]
+}

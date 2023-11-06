@@ -1,0 +1,10 @@
+{
+    "id": "problem_149",
+    "description": "\n\nWhen using threading to MonkeyPatch a method, a runtime error occurs when the process is interrupted. This is due to the main thread not being able to access the patched method in the other threads, resulting in an error.",
+    "code": "# MonkeyPatching example program\n\n# import the time module\nimport time\n\n# define a function to be monkeypatched\ndef my_function():\n    print(\"This is the original function\")\n\n# define a function to be used as a monkeypatch\ndef",
+    "tags": [
+        "threading",
+        "MonkeyPatching",
+        "Easy"
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "id": "problem_125",
+    "description": "\n\nWhen attempting to send a bytearray over a Protocol, a runtime error is generated indicating that the Protocol does not support the sending of bytearrays.",
+    "output": "Traceback (most recent call last):\n  File \"<stdin>\", line 9, in <module>\nSyntaxError: unexpected EOF while parsing",
+    "tags": [
+        "Protocol",
+        "Bytearray",
+        "Easy"
+    ]
+}

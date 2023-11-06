@@ -1,0 +1,10 @@
+{
+    "id": "problem_155",
+    "description": "\n\nWhen running UnitTesting on a NamedTuple, a compile/runtime error occurs. The error states that the NamedTuple does not have the expected attributes, and the UnitTesting process cannot be completed.",
+    "output": "Traceback (most recent call last):\n  File \"<stdin>\", line 11, in <module>\n    self\nNameError: name 'self' is not defined",
+    "tags": [
+        "NamedTuple",
+        "UnitTesting",
+        "Medium"
+    ]
+}

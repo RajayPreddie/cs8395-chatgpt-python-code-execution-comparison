@@ -1,0 +1,10 @@
+{
+    "id": "problem_78",
+    "description": "\n\nWhen attempting to capitalize the first character of each word in a Deque, a runtime error is encountered. The error occurs when the Deque contains a blank space between two words, and the program attempts to capitalize the character after the blank space.",
+    "code": "# Create a deque\ndeque = [\"this\",\"is\",\"a\",\"deque\"]\n\n# Function to capitalize the first character of each word\ndef capitalize_words(deque):\n    # Create a new empty deque\n    new_deque = []",
+    "tags": [
+        "Deque",
+        "capitalize",
+        "Medium"
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "id": "problem_77",
+    "description": "\n\nWhen attempting to use the Lambda function to reflect a given value, a compile/runtime error is raised indicating that the function is unable to recognize the reflection keyword.",
+    "output": "",
+    "tags": [
+        "Lambda",
+        "Reflection",
+        "Medium"
+    ]
+}

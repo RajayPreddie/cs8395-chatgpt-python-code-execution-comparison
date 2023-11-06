@@ -1,0 +1,10 @@
+{
+    "id": "problem_170",
+    "description": "\n\nWhen attempting to use the setdefault function in a Pytorch program, the program crashes with a runtime error. The error message indicates that the setdefault function is not supported by Pytorch, and the program is unable to proceed.",
+    "output": "Traceback (most recent call last):\n  File \"<stdin>\", line 8\n    def __init__(self):\n                     ^\nIndentationError: expected an indented block",
+    "tags": [
+        "setdefault",
+        "pytorch",
+        "Medium"
+    ]
+}

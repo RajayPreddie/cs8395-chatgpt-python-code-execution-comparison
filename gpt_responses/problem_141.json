@@ -1,0 +1,10 @@
+{
+    "id": "problem_141",
+    "description": "\n\nThe Protocol compile/runtime error is caused by a Coroutine that is not correctly defined. The Coroutine is not properly initialized, resulting in a Protocol compile/runtime error.",
+    "output": "RuntimeError: This event loop is already running",
+    "tags": [
+        "Protocol",
+        "Coroutine",
+        "Easy"
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "id": "problem_99",
+    "description": "\n\nWhen attempting to join two lists of requests together, a syntax error is thrown stating that the 'requests' keyword cannot be used in the join statement.",
+    "output": "The code runs successfully and does not produce any output.",
+    "tags": [
+        "join",
+        "requests",
+        "Hard"
+    ]
+}

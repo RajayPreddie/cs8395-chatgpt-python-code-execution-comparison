@@ -1,0 +1,10 @@
+{
+    "id": "problem_147",
+    "description": "\n\nWhen trying to execute code that uses Global state, a compile/runtime error is thrown due to a problem with the DefaultDict. The DefaultDict is not properly defined in the Global state, causing the code to fail when trying to access it.",
+    "code": "from collections import defaultdict\n\n# Create an empty defaultdict\nd = defaultdict(list)\n\n# Add some values to the defaultdict\nd['a'].append(1)\nd['b'].append(2)\nd['b'].append",
+    "tags": [
+        "Global state",
+        "DefaultDict",
+        "Easy"
+    ]
+}

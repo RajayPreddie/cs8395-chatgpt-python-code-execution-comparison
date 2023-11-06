@@ -1,0 +1,4 @@
+  File "<string>", line 10
+    for i in s:
+               ^
+IndentationError: expected an indented block after 'for' statement on line 10

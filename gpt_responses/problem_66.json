@@ -1,0 +1,10 @@
+{
+    "id": "problem_66",
+    "description": "\n\nWhen attempting to use a MemoryView to access a DefaultDict, a runtime error is encountered stating that the MemoryView object does not support the DefaultDict type.",
+    "output": "Traceback (most recent call last):\n  File \"<stdin>\", line 10, in <module>\n    # Create\nSyntaxError: unexpected EOF while parsing",
+    "tags": [
+        "MemoryView",
+        "DefaultDict",
+        "Medium"
+    ]
+}

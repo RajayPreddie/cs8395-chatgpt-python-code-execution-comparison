@@ -1,0 +1,10 @@
+{
+    "id": "problem_70",
+    "description": "\n\nWhen attempting to add a new package to a VirtualEnvironment, the user receives an error message stating that the package was not added successfully due to an issue with the package's dependencies. This is a runtime error that occurs when the dependencies of the package are not compatible with the VirtualEnvironment, resulting",
+    "output": "Traceback (most recent call last):\n  File \"<stdin>\", line 11, in <module>\nAttributeError: module 'virtualenv' has no attribute 'activate_environment'",
+    "tags": [
+        "VirtualEnvironment",
+        "add",
+        "Medium"
+    ]
+}

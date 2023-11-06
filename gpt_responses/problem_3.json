@@ -1,0 +1,10 @@
+{
+    "id": "problem_3",
+    "description": "\n\nA concurrency error occurs when a popitem is attempted on a dictionary while another thread is attempting to modify the same dictionary. This results in an error as the data structure is not in a consistent state.",
+    "output": "Traceback (most recent call last):\n  File \"<stdin>\", line 1, in <module>\nSyntaxError: unexpected EOF while parsing",
+    "tags": [
+        "popitem",
+        "Concurrency",
+        "Easy"
+    ]
+}

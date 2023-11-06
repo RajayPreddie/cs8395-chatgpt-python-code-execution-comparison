@@ -1,0 +1,10 @@
+{
+    "id": "problem_14",
+    "description": "\n\nError: The program is attempting to access a dictionary without using the correct key. \nProblem Description: The program is attempting to access a dictionary using a key that is not present in the dictionary, and instead of raising a KeyError, the program is incorrectly returning the value associated with the",
+    "code": "# Program to demonstrate the use of keys in Python \n\n# Define a dictionary with some values\nd = {'a': 1, 'b': 2, 'c': 3}\n\n# Print the dictionary\nprint('The dictionary is: ', d)",
+    "tags": [
+        "reverse",
+        "keys",
+        "Easy"
+    ]
+}

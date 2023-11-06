@@ -1,0 +1,10 @@
+{
+    "id": "problem_192",
+    "description": "\n\nWhen running a script written in IdiomaticPython, the sys module throws a compile/runtime error indicating that the code is attempting to access an undefined system path.",
+    "output": "SyntaxError: unexpected EOF while parsing",
+    "tags": [
+        "sys",
+        "IdiomaticPython",
+        "Hard"
+    ]
+}

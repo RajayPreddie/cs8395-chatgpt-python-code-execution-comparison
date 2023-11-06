@@ -1,0 +1,10 @@
+{
+    "id": "problem_51",
+    "description": "\n\nThe problem is a runtime error that occurs when using the Python package pandas. When attempting to use the re module to search a dataframe for certain patterns, the program throws an error indicating that the re module is not supported by pandas.",
+    "code": "import pandas as pd\n\n# Create a sample dataframe\ndata = [['John', 'Smith', '25'], \n        ['Jane', 'Doe', '30'], \n        ['Adam', 'Johnson', '28']] \ndf",
+    "tags": [
+        "re",
+        "pandas",
+        "Medium"
+    ]
+}

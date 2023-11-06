@@ -1,0 +1,10 @@
+{
+    "id": "problem_36",
+    "description": "\n\nWhen attempting to append a new figure to an existing matplotlib plot, a runtime error is thrown that reads \"ValueError: Expected x and y to have same first dimension, but have shapes (2, 3) and (3, 2) instead\". This suggests that the x",
+    "output": "Traceback (most recent call last):\n  File \"<stdin>\", line 7, in <module>\nTypeError: unhashable type: 'list'",
+    "tags": [
+        "matplotlib",
+        "append",
+        "Easy"
+    ]
+}

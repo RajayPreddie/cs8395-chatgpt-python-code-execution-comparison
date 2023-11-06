@@ -1,0 +1,10 @@
+{
+    "id": "problem_134",
+    "description": "\n\nWhen attempting to use MonkeyPatching to modify the Heapq module, a compile/runtime error is encountered. The error occurs when the program attempts to replace the Heapq module's internal functions with user-defined functions. This results in the program crashing when attempting to perform operations on",
+    "output": "Traceback (most recent call last):\n  File \"<stdin>\", line 10, in <module>\nNameError: name 'num' is not defined",
+    "tags": [
+        "MonkeyPatching",
+        "Heapq",
+        "Easy"
+    ]
+}

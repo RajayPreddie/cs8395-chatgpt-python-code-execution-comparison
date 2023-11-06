@@ -1,0 +1,4 @@
+  File "<string>", line 10
+    except RuntimeError:
+                        ^
+IndentationError: expected an indented block after 'except' statement on line 10

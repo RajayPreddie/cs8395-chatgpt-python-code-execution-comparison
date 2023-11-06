@@ -1,0 +1,10 @@
+{
+    "id": "problem_147",
+    "description": "\n\nWhen trying to execute code that uses Global state, a compile/runtime error is thrown due to a problem with the DefaultDict. The DefaultDict is not properly defined in the Global state, causing the code to fail when trying to access it.",
+    "output": "TypeError: append() takes exactly one argument (0 given)",
+    "tags": [
+        "Global state",
+        "DefaultDict",
+        "Easy"
+    ]
+}

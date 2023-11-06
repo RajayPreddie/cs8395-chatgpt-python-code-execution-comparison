@@ -1,0 +1,4 @@
+  File "<string>", line 8
+    process = subprocess.run(cmd, stdout
+                            ^
+SyntaxError: '(' was never closed

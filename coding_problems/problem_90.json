@@ -1,0 +1,10 @@
+{
+    "id": "problem_90",
+    "description": "\n\nWhen trying to pop an item from a deque, a compile/runtime error is raised due to the deque not being empty. This error occurs when the deque is empty and the pop operation is attempted, resulting in an attempt to pop from an empty deque.",
+    "code": "# Create a deque\nimport collections\ndeque_example = collections.deque()\n\n# Create a list\nlist_example = [1, 2, 3, 4, 5]\n\n# Add list items to deque\nfor i in list_example:",
+    "tags": [
+        "pop",
+        "Deque",
+        "Hard"
+    ]
+}

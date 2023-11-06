@@ -1,0 +1,10 @@
+{
+    "id": "problem_174",
+    "description": "\n\nThe problem is that when attempting to use MonkeyPatching to add TypeHinting to an existing codebase, the code throws a runtime error indicating that the TypeHinting is incompatible with the existing code.",
+    "code": "\"\"\"\nMonkeyPatching Program\n\nThis program uses the concept of monkeypatching to change the behaviour of a function at runtime.\n\"\"\"\n\nimport types\n\n# Define the function to be modified\ndef add_two_numbers(a, b):",
+    "tags": [
+        "TypeHinting",
+        "MonkeyPatching",
+        "Medium"
+    ]
+}

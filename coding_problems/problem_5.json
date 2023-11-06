@@ -1,0 +1,10 @@
+{
+    "id": "problem_5",
+    "description": "\n\nWhen attempting to connect to a remote server using a socket, a random 'Connection Refused' error is thrown, even though the server is online and accepting connections.",
+    "code": "import socket \n\n# Create a TCP/IP socket\nsock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)\n\n# Connect the socket to the port where the server is listening\nserver_address = ('localhost', 80",
+    "tags": [
+        "socket",
+        "random",
+        "Easy"
+    ]
+}

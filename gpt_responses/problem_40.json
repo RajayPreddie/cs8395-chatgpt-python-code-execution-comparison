@@ -1,0 +1,10 @@
+{
+    "id": "problem_40",
+    "description": "\n\nWhen attempting to discard an item from a List, a compile/runtime error occurs due to a mismatch between the item's type and the List's expected type. This causes the program to terminate unexpectedly.",
+    "output": "Traceback (most recent call last):\n  File \"<stdin>\", line 11\n    print(\"List is empty\n                       ^\nSyntaxError: EOL while scanning string literal",
+    "tags": [
+        "discard",
+        "List",
+        "Easy"
+    ]
+}

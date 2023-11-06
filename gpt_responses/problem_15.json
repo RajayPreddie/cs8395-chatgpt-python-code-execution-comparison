@@ -1,0 +1,10 @@
+{
+    "id": "problem_15",
+    "description": "\n\nWhen running unit tests for a socket connection, the program throws a runtime error indicating that the socket is not properly configured for unit testing.",
+    "output": "Traceback (most recent call last):\n  File \"<stdin>\", line 9\n    def\n      ^\nSyntaxError: invalid syntax",
+    "tags": [
+        "socket",
+        "UnitTesting",
+        "Easy"
+    ]
+}

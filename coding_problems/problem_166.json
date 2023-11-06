@@ -1,0 +1,10 @@
+{
+    "id": "problem_166",
+    "description": "\n\nThe program is attempting to use multiprocessing to run a series of tasks, but it is failing with a runtime error. The error message states that it is unable to access the sys module, which is necessary for the program to function correctly. This appears to be due to a permissions",
+    "code": "import multiprocessing\nimport time\n\ndef task1():\n    print(\"Task 1 executing\")\n    time.sleep(2)\n    print(\"Task 1 finished\")\n\ndef task2():\n    print(\"Task 2 executing\")\n    time.sleep(",
+    "tags": [
+        "multiprocessing",
+        "sys",
+        "Medium"
+    ]
+}

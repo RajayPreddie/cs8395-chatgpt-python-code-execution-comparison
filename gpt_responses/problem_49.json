@@ -1,0 +1,10 @@
+{
+    "id": "problem_49",
+    "description": "\n\nSyntaxError: 'with' statement requires a ContextManager object as first argument when used with 'upper' keyword.",
+    "output": "Traceback (most recent call last):\n  File \"<stdin>\", line 9\n    def __exit__(self, exc_type,\n                              ^\nSyntaxError: unexpected EOF while parsing",
+    "tags": [
+        "upper",
+        "ContextManager",
+        "Easy"
+    ]
+}

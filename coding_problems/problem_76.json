@@ -1,0 +1,10 @@
+{
+    "id": "problem_76",
+    "description": "\n\nError: SyntaxError: invalid syntax\nProblem Description: When attempting to use the 'union' keyword in a program, the program fails to compile due to an invalid syntax error. The issue is caused by an incorrect use of the 'union' keyword in the code, causing the compiler",
+    "code": "def union_function(list1, list2): \n    return list1 + list2\n\ndef main():\n    list1 = [1, 2, 3]\n    list2 = [4, 5, 6]\n    union_list = union_function",
+    "tags": [
+        "find",
+        "union",
+        "Medium"
+    ]
+}

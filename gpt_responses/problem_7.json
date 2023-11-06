@@ -1,0 +1,10 @@
+{
+    "id": "problem_7",
+    "description": "\n\nWhen attempting to sort a list of strings, a runtime error is encountered. The error occurs when the sorting algorithm attempts to compare two strings of different lengths, resulting in an \"Index out of bounds\" error.",
+    "output": "Traceback (most recent call last):\n  File \"<stdin>\", line 8\n    def sort_strings(list_str\n                             ^\nSyntaxError: unexpected EOF while parsing",
+    "tags": [
+        "sort",
+        "String",
+        "Easy"
+    ]
+}

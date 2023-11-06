@@ -1,0 +1,10 @@
+{
+    "id": "problem_156",
+    "description": "\n\nWhen attempting to use TypeHinting with a Frozenset, a compile/runtime error may occur due to the fact that the Frozenset is immutable and cannot be changed. As a result, the TypeHinting will not be applied and the program will not be able to",
+    "code": "# Program to demonstrate TypeHinting error with a Frozenset\n\ndef main():\n    # Create a Frozenset\n    my_frozenset = frozenset([1,2,3,4])\n    \n    # Attempt to use TypeH",
+    "tags": [
+        "Frozenset",
+        "TypeHinting",
+        "Medium"
+    ]
+}

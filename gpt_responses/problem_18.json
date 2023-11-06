@@ -1,0 +1,10 @@
+{
+    "id": "problem_18",
+    "description": "\n\nThe UnitTesting is failing due to a split error. The test is unable to accurately split the data into the correct categories, resulting in incorrect results.",
+    "output": "----------------------------------------------------------------------\nERROR: test_split_data (__main__.TestUnitTesting)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"<ipython-input-1-6c3f8f2a7d6c>\", line 7, in test_split_data\n    split\nNameError: name",
+    "tags": [
+        "UnitTesting",
+        "split",
+        "Easy"
+    ]
+}

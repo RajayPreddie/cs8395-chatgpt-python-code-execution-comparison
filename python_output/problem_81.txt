@@ -1,0 +1,4 @@
+  File "<string>", line 7
+    return float(sum(numbers)) / max(len(n
+                                        ^
+SyntaxError: '(' was never closed

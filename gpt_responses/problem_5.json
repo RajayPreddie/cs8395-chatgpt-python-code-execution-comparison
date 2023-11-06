@@ -1,0 +1,10 @@
+{
+    "id": "problem_5",
+    "description": "\n\nWhen attempting to connect to a remote server using a socket, a random 'Connection Refused' error is thrown, even though the server is online and accepting connections.",
+    "output": "Traceback (most recent call last):\n  File \"<stdin>\", line 8, in <module>\nConnectionRefusedError: [Errno 111] Connection refused",
+    "tags": [
+        "socket",
+        "random",
+        "Easy"
+    ]
+}

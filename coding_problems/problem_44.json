@@ -1,0 +1,10 @@
+{
+    "id": "problem_44",
+    "description": "\n\nError: Runtime join error. \nProblem Description: When trying to join two sets, an unexpected runtime error occurs when attempting to join a set of integers with a set of strings. The program fails to join the two sets together and terminates unexpectedly.",
+    "code": "# Program to demonstrate the use of Sets in Python\n\n# Create an empty set\nmy_set = set()\n\n# Add elements to the set\nmy_set.add(1)\nmy_set.add(2)\nmy_set.add(3",
+    "tags": [
+        "join",
+        "Set",
+        "Easy"
+    ]
+}

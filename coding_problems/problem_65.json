@@ -1,0 +1,10 @@
+{
+    "id": "problem_65",
+    "description": "\n\nError: RuntimeError: ChainMap object has no key 'key1'\n\nProblem Description: When attempting to access the key 'key1' in a ChainMap object, a RuntimeError is thrown indicating the ChainMap object does not have the specified key.",
+    "code": "# Python Program Using ChainMap\n\nimport collections\n\n# Create a list of dictionaries\ndict_list = [{'a': 1, 'b': 2}, {'c': 3, 'd': 4}, {'e': 5, 'f': 6}",
+    "tags": [
+        "keys",
+        "ChainMap",
+        "Medium"
+    ]
+}

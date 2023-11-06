@@ -1,0 +1,10 @@
+{
+    "id": "problem_176",
+    "description": "\n\nThe program is not able to get the expected results when attempting to get the difference between two values. The program is throwing a compile/runtime error that is preventing the expected output from being produced.",
+    "code": "# Program to get user input and display it\n\n# Import necessary modules\nimport string\n\n# Initialize variables\nuser_input = \"\"\n\n# Define functions\ndef get_user_input():\n    user_input = input(\"Please enter some text: \"",
+    "tags": [
+        "difference",
+        "get",
+        "Medium"
+    ]
+}

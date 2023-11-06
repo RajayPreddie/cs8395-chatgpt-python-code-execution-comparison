@@ -1,0 +1,10 @@
+{
+    "id": "problem_79",
+    "description": "\n\nWhen attempting to use the IdiomaticPython to calculate the square root of a number using the math keyword, a compile/runtime error occurs. The error states that the math keyword is not defined, and thus the square root calculation cannot be completed.",
+    "output": "Enter a number:",
+    "tags": [
+        "IdiomaticPython",
+        "math",
+        "Medium"
+    ]
+}

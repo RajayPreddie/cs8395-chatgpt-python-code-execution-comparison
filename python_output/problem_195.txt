@@ -1,0 +1,4 @@
+  File "<string>", line 6
+    if set1.issubset(set2):
+                           ^
+IndentationError: expected an indented block after 'if' statement on line 6

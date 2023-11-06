@@ -1,0 +1,10 @@
+{
+    "id": "problem_104",
+    "description": "\n\nWhen running a unit test, a setdefault error is thrown when attempting to set a value in a dictionary that does not exist. The error states that the value being set is not found in the dictionary.",
+    "code": "# Python UnitTesting Program \n\nimport unittest\n\n# define a class for the test\nclass TestStringMethods(unittest.TestCase):\n\n# test method to check the upper function\n    def test_upper(self):\n        self.assert",
+    "tags": [
+        "setdefault",
+        "UnitTesting",
+        "Easy"
+    ]
+}

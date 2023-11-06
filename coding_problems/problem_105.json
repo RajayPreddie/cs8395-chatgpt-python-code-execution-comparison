@@ -1,0 +1,10 @@
+{
+    "id": "problem_105",
+    "description": "\n\nThe UnitTesting is failing to detect an error in a keyword expression. The expression is causing a runtime error when it is executed, even though the UnitTesting is passing without any errors.",
+    "code": "# Program to evaluate a given expression \n# using eval() \n  \n# importing ast library \nimport ast \n  \n# function to evaluate expression \ndef calculate(expr): \n  \n    # parsing expression to an AST object \n    node =",
+    "tags": [
+        "UnitTesting",
+        "Keyword expression",
+        "Easy"
+    ]
+}

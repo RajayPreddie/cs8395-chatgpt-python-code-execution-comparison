@@ -1,0 +1,10 @@
+{
+    "id": "problem_125",
+    "description": "\n\nWhen attempting to send a bytearray over a Protocol, a runtime error is generated indicating that the Protocol does not support the sending of bytearrays.",
+    "code": "# Program to demonstrate the usage of Bytearray\n\n# Importing the necessary modules\nimport array\n\n# Initializing a byte array\nbyteArr = bytearray()\n\n# Appending some elements to the byte array\nbyteArr.append(",
+    "tags": [
+        "Protocol",
+        "Bytearray",
+        "Easy"
+    ]
+}

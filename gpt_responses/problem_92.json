@@ -1,0 +1,10 @@
+{
+    "id": "problem_92",
+    "description": "\n\nWhen attempting to access a specific item in a List, a runtime error occurs stating \"TypeError: 'list' object does not support indexing of type 'get'\".",
+    "output": "Traceback (most recent call last):\n  File \"<stdin>\", line 8, in <module>\nNameError: name 'my_' is not defined",
+    "tags": [
+        "List",
+        "get",
+        "Hard"
+    ]
+}

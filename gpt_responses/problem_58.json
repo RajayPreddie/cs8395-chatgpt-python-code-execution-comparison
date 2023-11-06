@@ -1,0 +1,10 @@
+{
+    "id": "problem_58",
+    "description": "\n\nWhen attempting to convert a bytearray object into an integer, a ValueError is raised stating that the object is not suitable for such a conversion.",
+    "output": "Traceback (most recent call last):\n  File \"<stdin>\", line 5\n    return int(\n               ^\nSyntaxError: unexpected EOF while parsing",
+    "tags": [
+        "values",
+        "Bytearray",
+        "Medium"
+    ]
+}

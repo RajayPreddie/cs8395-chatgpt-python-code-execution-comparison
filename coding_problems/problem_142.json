@@ -1,0 +1,10 @@
+{
+    "id": "problem_142",
+    "description": "\n\nWhen trying to get a byte array from a file, a 'TypeError' is thrown that states \"Object of type 'bytes' is not subscriptable\".",
+    "code": "```\n#Define function to get byte array from file\ndef get_byte_array(file):\n  #Open the file\n  f = open(file, 'rb')\n  \n  #Read the file\n  byte_arr = f.read()",
+    "tags": [
+        "Bytes",
+        "get",
+        "Easy"
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "id": "problem_56",
+    "description": "\n\nWhen attempting to access a random element from a List, a compile/runtime error is thrown indicating that the List index is out of range.",
+    "output": "SyntaxError: unexpected EOF while parsing",
+    "tags": [
+        "List",
+        "random",
+        "Medium"
+    ]
+}

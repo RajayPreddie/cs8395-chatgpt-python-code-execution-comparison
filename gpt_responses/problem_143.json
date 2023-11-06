@@ -1,0 +1,10 @@
+{
+    "id": "problem_143",
+    "description": "\n\nWhen attempting to run a program, a compile/runtime error is encountered with the endswith function that states \"TypeError: endswith() takes at least 2 arguments (1 given)\". The problem is that the program is attempting to use the endswith function to check if",
+    "output": "Traceback (most recent call last):\n  File \"<stdin>\", line 8, in <module>\nTypeError: endswith first arg must be str or a tuple of str, not None",
+    "tags": [
+        "endswith",
+        "keys",
+        "Easy"
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "id": "problem_101",
+    "description": "\n\nWhen making requests using the Protocol, an error occurs that causes the program to crash. The error is caused by an unexpected character in the request that the Protocol is unable to interpret.",
+    "output": "Traceback (most recent call last):\n  File \"<stdin>\", line 10, in <module>\nIndentationError: expected an indented block",
+    "tags": [
+        "Protocol",
+        "requests",
+        "Easy"
+    ]
+}

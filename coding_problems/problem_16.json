@@ -1,0 +1,10 @@
+{
+    "id": "problem_16",
+    "description": "\n\nWhen attempting to reverse a list of strings, a runtime error occurs stating that the 'remove' function is not defined.",
+    "code": "# This program will take a string as user input and reverse it\n\n# Define function to reverse the string\ndef reverse(string):\n    # Create empty string to store reversed string\n    reversed_string = \"\"\n    # Traverse through each letter in string",
+    "tags": [
+        "remove",
+        "reverse",
+        "Easy"
+    ]
+}

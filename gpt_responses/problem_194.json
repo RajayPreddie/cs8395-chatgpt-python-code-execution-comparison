@@ -1,0 +1,10 @@
+{
+    "id": "problem_194",
+    "description": "\n\nThe problem is a ContextManager runtime error. When trying to use the ContextManager to pop an item from a list, the program throws an error saying that the item is not found in the list.",
+    "output": "SyntaxError: unexpected EOF while parsing",
+    "tags": [
+        "ContextManager",
+        "pop",
+        "Hard"
+    ]
+}

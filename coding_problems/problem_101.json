@@ -1,0 +1,10 @@
+{
+    "id": "problem_101",
+    "description": "\n\nWhen making requests using the Protocol, an error occurs that causes the program to crash. The error is caused by an unexpected character in the request that the Protocol is unable to interpret.",
+    "code": "# Program to demonstrate error caused by unexpected character in request\n\n# Import modules\nimport requests\n\n# Define function to make request\ndef make_request(url):\n  try:\n    # Make request\n    response = requests.get(url)\n  except",
+    "tags": [
+        "Protocol",
+        "requests",
+        "Easy"
+    ]
+}

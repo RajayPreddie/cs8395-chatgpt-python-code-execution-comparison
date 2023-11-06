@@ -1,0 +1,10 @@
+{
+    "id": "problem_191",
+    "description": "\n\nWhen attempting to get a subset of a list, the code is generating an issubset error. The code is attempting to use the get() method, which is incompatible with the issubset function and is causing the error.",
+    "output": "Traceback (most recent call last):\n  File \"<stdin>\", line 4, in <module>\nAttributeError: 'list' object has no attribute 'get'",
+    "tags": [
+        "issubset",
+        "get",
+        "Hard"
+    ]
+}

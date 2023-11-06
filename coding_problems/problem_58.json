@@ -1,0 +1,10 @@
+{
+    "id": "problem_58",
+    "description": "\n\nWhen attempting to convert a bytearray object into an integer, a ValueError is raised stating that the object is not suitable for such a conversion.",
+    "code": "# Define a function to convert a bytearray object to an integer\ndef convert_bytearray_to_int(bytearray_obj):\n    # Convert the bytearray object into an integer\n    try:\n        return int(",
+    "tags": [
+        "values",
+        "Bytearray",
+        "Medium"
+    ]
+}

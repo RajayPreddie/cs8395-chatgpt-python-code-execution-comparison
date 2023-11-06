@@ -1,0 +1,10 @@
+{
+    "id": "problem_168",
+    "description": "\n\nWhen attempting to create a metaclass using a bytearray, an error is raised stating \"TypeError: metaclasses must be derived from type\". This occurs because a bytearray is not a valid type for a metaclass.",
+    "code": "class MyMetaClass(bytearray):\n    pass\n\nclass MyClass(metaclass=MyMetaClass):\n    pass\n\nprint(MyClass)\n\n# TypeError: metaclasses must be derived from type",
+    "tags": [
+        "Bytearray",
+        "Metaclass",
+        "Medium"
+    ]
+}

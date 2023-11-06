@@ -1,0 +1,10 @@
+{
+    "id": "problem_11",
+    "description": "\n\nError: SyntaxError: invalid syntax\nProblem Description: The Generator is attempting to generate items from an invalid syntax, resulting in a SyntaxError.",
+    "output": "<generator object generate_items at 0x7f8c8c8c8d60>",
+    "tags": [
+        "items",
+        "Generator",
+        "Easy"
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "id": "problem_145",
+    "description": "\n\nWhen attempting to create a VirtualEnvironment, a ValueError is raised indicating that the values provided are incompatible with the VirtualEnvironment.",
+    "output": "Traceback (most recent call last):\n  File \"<stdin>\", line 10, in <module>\nNameError: name 'activate_env' is not defined",
+    "tags": [
+        "values",
+        "VirtualEnvironment",
+        "Easy"
+    ]
+}

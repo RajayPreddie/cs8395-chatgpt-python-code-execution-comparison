@@ -1,0 +1,10 @@
+{
+    "id": "problem_91",
+    "description": "\n\nWhen attempting to replace a datetime object with a string, a compile error is thrown indicating that a datetime object cannot be replaced with a string.",
+    "code": "import datetime\n\n# Define today's date\ntoday = datetime.date.today()\n\n# Define the date of one week ago\nweek_ago = today - datetime.timedelta(weeks=1)\n\n# Define the date",
+    "tags": [
+        "replace",
+        "datetime",
+        "Hard"
+    ]
+}

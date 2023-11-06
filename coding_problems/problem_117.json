@@ -1,0 +1,10 @@
+{
+    "id": "problem_117",
+    "description": "\n\nThe problem is that when attempting to add a numerical value to a Frozenset, a runtime error is thrown. The error states that the Frozenset is immutable and cannot be modified, meaning that mathematical operations such as addition cannot be performed. This error occurs when attempting to add a numerical",
+    "code": "#Create a Frozenset\nfrozen_set = frozenset([1, 2, 3])\n\n#Attempt to add a numerical value to the Frozenset\ntry:\n    frozen_set + 10\nexcept TypeError as e:\n    print(\"Error",
+    "tags": [
+        "Frozenset",
+        "math",
+        "Easy"
+    ]
+}

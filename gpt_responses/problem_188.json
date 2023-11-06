@@ -1,0 +1,10 @@
+{
+    "id": "problem_188",
+    "description": "\n\nThe problem is that the program is trying to access a dictionary key with an uppercase value, but the dictionary only accepts lowercase keys. This causes a compile/runtime error, as the program is unable to access the dictionary with the uppercase key.",
+    "output": "Traceback (most recent call last):\n  File \"<stdin>\", line 1, in <module>\nIndentationError: expected an indented block",
+    "tags": [
+        "keys",
+        "upper",
+        "Hard"
+    ]
+}

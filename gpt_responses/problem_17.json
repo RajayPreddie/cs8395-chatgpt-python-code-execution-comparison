@@ -1,0 +1,10 @@
+{
+    "id": "problem_17",
+    "description": "\n\nWhen attempting to import the sys module, the program is unable to complete the reflection of the sys module, resulting in a runtime error.",
+    "output": "Traceback (most recent call last):\n  File \"<stdin>\", line 1, in <module>\nIndentationError: expected an indented block",
+    "tags": [
+        "sys",
+        "Reflection",
+        "Easy"
+    ]
+}

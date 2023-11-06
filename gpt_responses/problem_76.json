@@ -1,0 +1,10 @@
+{
+    "id": "problem_76",
+    "description": "\n\nError: SyntaxError: invalid syntax\nProblem Description: When attempting to use the 'union' keyword in a program, the program fails to compile due to an invalid syntax error. The issue is caused by an incorrect use of the 'union' keyword in the code, causing the compiler",
+    "output": "Traceback (most recent call last):\n  File \"<stdin>\", line 6, in <module>\nTypeError: 'function' object is not iterable",
+    "tags": [
+        "find",
+        "union",
+        "Medium"
+    ]
+}

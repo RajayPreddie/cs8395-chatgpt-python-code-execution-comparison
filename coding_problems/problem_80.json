@@ -1,0 +1,10 @@
+{
+    "id": "problem_80",
+    "description": "\n\nWhen attempting to append a file to the os, an error is thrown stating \"IndexError: list index out of range\" due to an unexpected number of arguments being passed to the os.append() function.",
+    "code": "import os \n\ndef append_file(file): \n    try: \n        os.append(file) \n    except IndexError: \n        print(\"IndexError: list index out of range\") \n\n# Main program \nfile_name",
+    "tags": [
+        "append",
+        "os",
+        "Medium"
+    ]
+}

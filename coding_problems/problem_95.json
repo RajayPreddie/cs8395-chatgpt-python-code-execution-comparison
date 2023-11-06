@@ -1,0 +1,10 @@
+{
+    "id": "problem_95",
+    "description": "\n\nWhen attempting to use the with statement in a Python program, a ContextManager error is thrown indicating that the object being used to replace the ContextManager is not valid.",
+    "code": "# Program to demonstrate ContextManager error\n\n# Importing necessary libraries\nimport contextlib\n\n# Defining a class to be used as a ContextManager\nclass MyContextManager:\n    def __enter__(self):\n        print(\"Entering context manager\")",
+    "tags": [
+        "ContextManager",
+        "replace",
+        "Hard"
+    ]
+}

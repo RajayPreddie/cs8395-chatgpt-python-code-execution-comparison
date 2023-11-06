@@ -1,0 +1,4 @@
+  File "<string>", line 10
+    def add_two_numbers(a, b):
+                              ^
+IndentationError: expected an indented block after function definition on line 10

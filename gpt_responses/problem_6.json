@@ -1,0 +1,10 @@
+{
+    "id": "problem_6",
+    "description": "\n\nWhen attempting to use the sys.socket() function, a runtime error is thrown stating that the socket cannot be created because the system does not have permission to access the network.",
+    "output": "Traceback (most recent call last):\n  File \"<stdin>\", line 12, in <module>\n    sock.bind((host, port))\nOSError: [Errno 99] Cannot assign requested address",
+    "tags": [
+        "sys",
+        "socket",
+        "Easy"
+    ]
+}

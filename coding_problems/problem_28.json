@@ -1,0 +1,10 @@
+{
+    "id": "problem_28",
+    "description": "\n\nWhen attempting to discard an item from a list, a runtime error occurs. The program is attempting to discard an item from the list that does not exist, causing the program to crash.",
+    "code": "# Program to discard elements from a list\n\n# Initializing the list\nlist_of_nums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]\n\n# Discarding elements from the list\ndef discard_e",
+    "tags": [
+        "list",
+        "discard",
+        "Easy"
+    ]
+}

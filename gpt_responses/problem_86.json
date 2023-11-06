@@ -1,0 +1,10 @@
+{
+    "id": "problem_86",
+    "description": "\n\nProblem Description: When using the subprocess module, a Non-default argument error occurs when trying to pass a list of arguments to a subprocess call. This error is caused by passing the wrong type of argument to the subprocess call. The argument must be a string, not a list",
+    "output": "subprocess.py: error: the following arguments are required: -c/--command",
+    "tags": [
+        "Non-default argument",
+        "subprocess",
+        "Hard"
+    ]
+}

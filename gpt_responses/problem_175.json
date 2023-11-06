@@ -1,0 +1,10 @@
+{
+    "id": "problem_175",
+    "description": "\n\nWhen running a scipy program, a compile-time error occurs stating that the scipy module does not contain a function called 'insert'.",
+    "output": "Traceback (most recent call last):\n  File \"<stdin>\", line 8\n    return np.\n             ^\nSyntaxError: invalid syntax",
+    "tags": [
+        "insert",
+        "scipy",
+        "Medium"
+    ]
+}

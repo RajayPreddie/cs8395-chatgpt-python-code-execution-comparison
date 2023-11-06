@@ -1,0 +1,10 @@
+{
+    "id": "problem_27",
+    "description": "\n\nWhen attempting to format a hard drive using the os module, a runtime error is thrown indicating that the file system is not supported by the os module.",
+    "code": "import os\n\n# Create a new hard drive\ndrive = os.makedrive('test_drive')\n\n# Attempt to format the drive\ntry:\n    os.format(drive)\nexcept OSError as err:\n    if err.errno",
+    "tags": [
+        "os",
+        "format",
+        "Easy"
+    ]
+}

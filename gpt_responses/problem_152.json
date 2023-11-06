@@ -1,0 +1,10 @@
+{
+    "id": "problem_152",
+    "description": "\n\nWhen attempting to use the Counter popitem function to count the number of items in a list, an error occurs stating \"TypeError: 'Counter' object is not subscriptable\". This indicates that the Counter popitem is not a valid method of counting the items in the list.",
+    "output": "",
+    "tags": [
+        "popitem",
+        "Counter",
+        "Medium"
+    ]
+}

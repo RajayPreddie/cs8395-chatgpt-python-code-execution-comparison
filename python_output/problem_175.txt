@@ -1,0 +1,4 @@
+  File "<string>", line 8
+    return np.
+              ^
+SyntaxError: invalid syntax

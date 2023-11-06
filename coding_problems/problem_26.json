@@ -1,0 +1,10 @@
+{
+    "id": "problem_26",
+    "description": "\n\nWhen attempting to use a Lambda function to filter a List, a compile/runtime error is thrown due to a mismatch between the List item type and the Lambda function's expected argument type.",
+    "code": "def filter_list(list_to_filter, lambda_function):\n    filtered_list = []\n    for item in list_to_filter:\n        if lambda_function(item):\n            filtered_list.append(item)\n    return filtered_list",
+    "tags": [
+        "List",
+        "Lambda",
+        "Easy"
+    ]
+}

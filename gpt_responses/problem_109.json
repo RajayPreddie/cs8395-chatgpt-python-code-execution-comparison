@@ -1,0 +1,10 @@
+{
+    "id": "problem_109",
+    "description": "\n\nWhen running a subprocess, the program throws a List index out of range error. This occurs when attempting to access an element in a list that does not exist. The program is not properly handling the size of the list and is attempting to access an element that does not exist.",
+    "output": "subprocess.run() missing 1 required positional argument: 'args'",
+    "tags": [
+        "List",
+        "subprocess",
+        "Easy"
+    ]
+}

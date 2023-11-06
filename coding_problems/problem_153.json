@@ -1,0 +1,10 @@
+{
+    "id": "problem_153",
+    "description": "\n\nWhen attempting to sort a List of strings, an error is thrown stating that the List elements must all be of the same type in order to be sorted.",
+    "code": "my_list = [\"Apple\", \"Banana\", 4, \"Cherry\"]\nmy_list.sort()\n\nprint(my_list)",
+    "tags": [
+        "sort",
+        "List",
+        "Medium"
+    ]
+}

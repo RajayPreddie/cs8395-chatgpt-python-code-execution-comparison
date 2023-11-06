@@ -1,0 +1,10 @@
+{
+    "id": "problem_11",
+    "description": "\n\nError: SyntaxError: invalid syntax\nProblem Description: The Generator is attempting to generate items from an invalid syntax, resulting in a SyntaxError.",
+    "code": "def generate_items():\n    for i in range(10):\n        try:\n            item = yield i\n        except SyntaxError:\n            print(\"Invalid Syntax - Please enter valid syntax\")\n\ngenerate_items()",
+    "tags": [
+        "items",
+        "Generator",
+        "Easy"
+    ]
+}

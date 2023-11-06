@@ -1,0 +1,4 @@
+  File "<string>", line 8
+    print("Error
+          ^
+SyntaxError: unterminated string literal (detected at line 8)

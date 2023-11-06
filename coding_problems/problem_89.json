@@ -1,0 +1,10 @@
+{
+    "id": "problem_89",
+    "description": "\n\nThe problem is that when trying to add a new item to a Frozenset using a Dict as the key, a runtime error is thrown. The error states that the Dict key is not a valid argument for the Frozenset.",
+    "code": "```\n# Create a dictionary \nmy_dict = {'name': 'John', 'age': 28}\n\n# Create a frozenset\nmy_frozenset = frozenset([1, 2, 3])\n\n# Try to add a",
+    "tags": [
+        "Frozenset",
+        "Dict",
+        "Hard"
+    ]
+}

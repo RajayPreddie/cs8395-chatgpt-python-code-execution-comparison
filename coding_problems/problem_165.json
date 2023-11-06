@@ -1,0 +1,10 @@
+{
+    "id": "problem_165",
+    "description": "\n\nSyntax Error: Global state variables are being referenced within a function but not declared as global within the function, resulting in a syntax error when the program is compiled.",
+    "code": "# Program to demonstrate global state\n\n# Define a global state variable\nglobal_state = 0\n\n# Define a function to increment the global state\ndef increment_global_state():\n    global global_state\n    global_state += 1\n\n# Def",
+    "tags": [
+        "random",
+        "Global state",
+        "Medium"
+    ]
+}

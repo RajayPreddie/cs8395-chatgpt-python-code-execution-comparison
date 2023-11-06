@@ -1,0 +1,4 @@
+  File "<string>", line 11
+    user_input = input("Please enter some text: "
+                      ^
+SyntaxError: '(' was never closed

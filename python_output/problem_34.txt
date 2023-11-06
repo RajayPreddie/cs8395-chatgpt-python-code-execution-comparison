@@ -1,0 +1,4 @@
+  File "<string>", line 9
+    if __name__ ==
+                  ^
+SyntaxError: invalid syntax

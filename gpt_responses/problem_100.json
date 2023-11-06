@@ -1,0 +1,10 @@
+{
+    "id": "problem_100",
+    "description": "\n\nError: Lambda SyntaxError: invalid syntax for string argument.\nProblem Description: When attempting to use a Lambda expression to return a string, a SyntaxError is thrown due to an invalid syntax being used for the string argument.",
+    "output": "<function my_function.<locals>.<lambda> at 0x7f8c8c8c8b80>",
+    "tags": [
+        "Lambda",
+        "String",
+        "Hard"
+    ]
+}

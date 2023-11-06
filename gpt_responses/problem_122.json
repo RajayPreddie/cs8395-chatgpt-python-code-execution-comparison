@@ -1,0 +1,10 @@
+{
+    "id": "problem_122",
+    "description": "\n\nWhen attempting to concatenate a string and a dictionary, a compile/runtime error is thrown, stating \"unsupported operand type(s) for +: 'str' and 'dict'\".",
+    "output": "",
+    "tags": [
+        "String",
+        "Dict",
+        "Easy"
+    ]
+}

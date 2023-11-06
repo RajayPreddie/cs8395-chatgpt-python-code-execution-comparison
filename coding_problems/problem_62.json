@@ -1,0 +1,10 @@
+{
+    "id": "problem_62",
+    "description": "\n\nSyntax Error: The code attempted to use the os.random() function to generate a random number, but it was not properly formatted, resulting in a syntax error.",
+    "code": "import os\n\ndef random_number_generator():\n    random_number = os.random()\n    print(random_number)\n\ndef main():\n    print(\"This program generates a random number\")\n    random_number_generator\n\nmain()",
+    "tags": [
+        "os",
+        "random",
+        "Medium"
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "id": "problem_178",
+    "description": "\n\nWhen attempting to decorate a function that takes in bytes as an argument, a compile/runtime error is thrown that states \"TypeError: Decorator cannot be applied to a function with a byte argument\".",
+    "code": "def decorator(func):\n    def wrapper(*args):\n        print(\"Decorator is being applied\")\n        return func(*args)\n    return wrapper\n\n@decorator\ndef my_function(b: bytes):\n    print(\"My function is",
+    "tags": [
+        "Decorator",
+        "Bytes",
+        "Medium"
+    ]
+}

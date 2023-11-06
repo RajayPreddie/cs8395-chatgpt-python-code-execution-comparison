@@ -1,0 +1,10 @@
+{
+    "id": "problem_170",
+    "description": "\n\nWhen attempting to use the setdefault function in a Pytorch program, the program crashes with a runtime error. The error message indicates that the setdefault function is not supported by Pytorch, and the program is unable to proceed.",
+    "code": "# Importing essential libraries \nimport torch \nimport torch.nn as nn \nimport torch.optim as optim \n\n# Defining the neural network \nclass Network(nn.Module): \n\tdef __init__(self):",
+    "tags": [
+        "setdefault",
+        "pytorch",
+        "Medium"
+    ]
+}

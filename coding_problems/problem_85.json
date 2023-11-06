@@ -1,0 +1,10 @@
+{
+    "id": "problem_85",
+    "description": "\n\nThe problem is a django compile/runtime error when attempting to use a socket to send data. The error occurs when attempting to send data with a socket connection using django, resulting in a connection reset by the server.",
+    "code": "import socket\n\n# Create a TCP/IP socket\nsock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)\n\n# Bind the socket to the port\nserver_address = ('localhost', 10000)\nprint('Starting up",
+    "tags": [
+        "django",
+        "socket",
+        "Hard"
+    ]
+}

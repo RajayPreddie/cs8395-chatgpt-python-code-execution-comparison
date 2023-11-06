@@ -1,0 +1,10 @@
+{
+    "id": "problem_187",
+    "description": "\n\nWhen attempting to use the popitem method on a Dict, a runtime error is encountered stating that the Dict is empty. This occurs when the popitem method is called with an empty Dict, as the method requires at least one item in the Dict to be able to successfully",
+    "code": "# Program to demonstrate the use of Python's popitem() function \n\n# Define a dictionary \noriginal_dict = {\"a\":1, \"b\":2, \"c\":3} \n\n# Print the original dictionary \nprint(\"Original Dictionary:\",",
+    "tags": [
+        "Dict",
+        "popitem",
+        "Hard"
+    ]
+}

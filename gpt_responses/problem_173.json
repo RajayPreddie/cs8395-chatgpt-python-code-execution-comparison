@@ -1,0 +1,10 @@
+{
+    "id": "problem_173",
+    "description": "\n\nSyntaxError: GarbageCollection not defined in line 10. The code attempted to reference a GarbageCollection object that is not defined in the current scope, causing a syntax error.",
+    "output": "Traceback (most recent call last):\n  File \"<stdin>\", line 1, in <module>\nIndentationError: expected an indented block",
+    "tags": [
+        "clear",
+        "GarbageCollection",
+        "Medium"
+    ]
+}

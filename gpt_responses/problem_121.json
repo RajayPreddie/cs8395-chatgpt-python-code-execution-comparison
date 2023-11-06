@@ -1,0 +1,10 @@
+{
+    "id": "problem_121",
+    "description": "\n\nWhen trying to access the upper elements of a List, a runtime error is thrown indicating that the index of the List is out of bounds. This occurs when the index used to access the upper elements of the List is greater than the length of the List.",
+    "output": "",
+    "tags": [
+        "List",
+        "upper",
+        "Easy"
+    ]
+}

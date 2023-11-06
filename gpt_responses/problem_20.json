@@ -1,0 +1,10 @@
+{
+    "id": "problem_20",
+    "description": "\n\nWhen attempting to use AsyncIO to build a web application, an error occurs stating \"TypeError: object of type 'coroutine' has no issuperset attribute\". This occurs when attempting to check if a set is a superset of another set, using the issupers",
+    "output": "SyntaxError: unexpected EOF while parsing",
+    "tags": [
+        "AsyncIO",
+        "issuperset",
+        "Easy"
+    ]
+}

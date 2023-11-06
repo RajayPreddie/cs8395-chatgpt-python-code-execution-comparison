@@ -1,0 +1,4 @@
+  File "<string>", line 13
+    for i in range(length
+                  ^
+SyntaxError: '(' was never closed

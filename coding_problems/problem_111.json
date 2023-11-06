@@ -1,0 +1,10 @@
+{
+    "id": "problem_111",
+    "description": "\n\nSyntaxError: JSON file is not properly formatted and cannot be parsed. The find command is unable to locate the correct syntax for the json file, resulting in an error.",
+    "code": "# Code\nimport json\n\ntry:\n    with open('data.json') as json_file:\n        data = json.load(json_file)\nexcept SyntaxError:\n    print('JSON file is not properly formatted and cannot be parsed.')",
+    "tags": [
+        "find",
+        "json",
+        "Easy"
+    ]
+}

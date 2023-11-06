@@ -1,0 +1,10 @@
+{
+    "id": "problem_83",
+    "description": "\n\nError: SyntaxError\nProblem Description: Reflection is causing a SyntaxError when attempting to split a string. The code is attempting to use the split method to separate a string into two parts, but the Reflection keyword is causing an unexpected syntax error.",
+    "code": "# Program to demonstrate Reflection in Python\n\n# import the necessary modules\nimport inspect \nfrom pprint import pprint\n\n# Create a class\nclass MyClass:\n    # Create a constructor\n    def __init__(self, name, age):",
+    "tags": [
+        "split",
+        "Reflection",
+        "Hard"
+    ]
+}

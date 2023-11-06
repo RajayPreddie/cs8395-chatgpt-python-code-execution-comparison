@@ -1,0 +1,10 @@
+{
+    "id": "problem_74",
+    "description": "\n\nThe problem is a Concurrency error resulting from GarbageCollection. When multiple threads are running in parallel, GarbageCollection may occur at the same time, causing the threads to become unsynchronized. This can lead to unexpected errors, such as data being overwritten or resources being locked",
+    "output": "Traceback (most recent call last):\n  File \"<stdin>\", line 10\n    \"name\": \"John\n                 ^\nSyntaxError: EOL while scanning string literal",
+    "tags": [
+        "Concurrency",
+        "GarbageCollection",
+        "Medium"
+    ]
+}

@@ -1,0 +1,3 @@
+Traceback (most recent call last):
+  File "<string>", line 4, in <module>
+TypeError: bytearray() argument 'encoding' must be str, not tuple

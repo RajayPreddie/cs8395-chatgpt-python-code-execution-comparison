@@ -1,0 +1,4 @@
+  File "<string>", line 10
+    """
+    ^
+SyntaxError: unterminated triple-quoted string literal (detected at line 11)

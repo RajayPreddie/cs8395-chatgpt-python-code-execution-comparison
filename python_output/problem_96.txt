@@ -1,0 +1,4 @@
+  File "<string>", line 9
+    #Looping through the numbers from 1 to 10
+                                             ^
+IndentationError: expected an indented block after function definition on line 8

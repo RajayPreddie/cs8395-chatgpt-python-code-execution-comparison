@@ -1,0 +1,10 @@
+{
+    "id": "problem_30",
+    "description": "\n\nWhen attempting to use a decorator to apply a popitem to a dictionary, a compile/runtime error is encountered. The error states that the popitem is not defined, indicating that the decorator is not recognizing the popitem as a valid command.",
+    "code": "def decorator(func):\n    def wrapper(*args, **kwargs):\n        result = func(*args, **kwargs)\n        result.popitem()\n        return result\n    return wrapper\n\n@decorator\ndef my_func(d):",
+    "tags": [
+        "popitem",
+        "Decorator",
+        "Easy"
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "id": "problem_141",
+    "description": "\n\nThe Protocol compile/runtime error is caused by a Coroutine that is not correctly defined. The Coroutine is not properly initialized, resulting in a Protocol compile/runtime error.",
+    "code": "import asyncio\n\nasync def coroutine():\n    # Coroutine not properly initialized\n    print(\"Coroutine is not properly initialized\")\n\nasync def main():\n    await coroutine()\n\ntry:\n    asyncio.run(main())\nexcept",
+    "tags": [
+        "Protocol",
+        "Coroutine",
+        "Easy"
+    ]
+}

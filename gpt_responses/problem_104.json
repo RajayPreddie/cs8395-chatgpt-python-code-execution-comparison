@@ -1,0 +1,10 @@
+{
+    "id": "problem_104",
+    "description": "\n\nWhen running a unit test, a setdefault error is thrown when attempting to set a value in a dictionary that does not exist. The error states that the value being set is not found in the dictionary.",
+    "output": "Traceback (most recent call last):\n  File \"<stdin>\", line 10, in <module>\n    class TestStringMethods(unittest.TestCase):\n  File \"<stdin>\", line 13, in TestStringMethods\n    def test_upper(self):\nIndentationError: expected an indented block",
+    "tags": [
+        "setdefault",
+        "UnitTesting",
+        "Easy"
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "id": "problem_82",
+    "description": "\n\nThe problem is a Recursion error resulting from an attempt to use the fromkeys() method with a large number of keys. The fromkeys() method is being used to create a dictionary with a large number of keys, but the recursion is causing the program to crash because it is unable",
+    "output": "The original list is : [1, 2, 3, 4]",
+    "tags": [
+        "Recursion",
+        "fromkeys",
+        "Hard"
+    ]
+}

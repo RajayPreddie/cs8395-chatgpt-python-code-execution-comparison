@@ -1,0 +1,10 @@
+{
+    "id": "problem_95",
+    "description": "\n\nWhen attempting to use the with statement in a Python program, a ContextManager error is thrown indicating that the object being used to replace the ContextManager is not valid.",
+    "output": "Traceback (most recent call last):\n  File \"<stdin>\", line 1, in <module>\nTypeError: __init__() should return None, not 'str'",
+    "tags": [
+        "ContextManager",
+        "replace",
+        "Hard"
+    ]
+}

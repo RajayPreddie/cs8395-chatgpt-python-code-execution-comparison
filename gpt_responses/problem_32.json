@@ -1,0 +1,10 @@
+{
+    "id": "problem_32",
+    "description": "\n\nThe error occurs when a threading Protocol is used in a program that is not designed to handle multiple threads. The program will throw a Protocol error, indicating that it cannot process multiple threads simultaneously.",
+    "output": "",
+    "tags": [
+        "Protocol",
+        "threading",
+        "Easy"
+    ]
+}

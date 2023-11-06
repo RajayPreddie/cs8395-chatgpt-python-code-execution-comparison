@@ -1,0 +1,10 @@
+{
+    "id": "problem_186",
+    "description": "\n\nSyntaxError: 'items' is not a valid keyword argument for the 'upper' function.",
+    "output": "Traceback (most recent call last):\n  File \"<stdin>\", line 2, in <module>\nNameError: name 'Error' is not defined",
+    "tags": [
+        "upper",
+        "items",
+        "Hard"
+    ]
+}

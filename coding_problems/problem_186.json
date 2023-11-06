@@ -1,0 +1,10 @@
+{
+    "id": "problem_186",
+    "description": "\n\nSyntaxError: 'items' is not a valid keyword argument for the 'upper' function.",
+    "code": "def upper(string): \n    result = \"\" \n    for letter in string: \n        if letter.isupper(): \n            result += letter \n    return result \n\nmy_string = \"This is a Test\" \n\n# Error:",
+    "tags": [
+        "upper",
+        "items",
+        "Hard"
+    ]
+}

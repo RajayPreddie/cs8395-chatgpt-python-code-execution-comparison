@@ -1,0 +1,10 @@
+{
+    "id": "problem_196",
+    "description": "\n\nProblem Description: Tensorflow is throwing a compile/runtime error when attempting to reverse the order of a tensor array. The error is indicating that the tensor array is not compatible with the reverse function.",
+    "code": "# Program to reverse a string\n\n# Function to reverse a string \ndef reverse(s): \n  \n    # Initializing a string variable \n    str = \"\" \n  \n    # Reversing the string \n    for i in s:",
+    "tags": [
+        "tensorflow",
+        "reverse",
+        "Hard"
+    ]
+}

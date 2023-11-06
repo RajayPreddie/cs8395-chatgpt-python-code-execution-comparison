@@ -1,0 +1,4 @@
+  File "<string>", line 8
+    for path in system_paths
+                            ^
+SyntaxError: expected ':'

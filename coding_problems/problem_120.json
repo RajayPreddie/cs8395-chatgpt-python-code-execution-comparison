@@ -1,0 +1,10 @@
+{
+    "id": "problem_120",
+    "description": "\n\nWhen attempting to use the OrderedDict data structure to store and manipulate a String, a SyntaxError is thrown that states \"TypeError: 'str' object does not support item assignment\". This indicates that the String cannot be modified using the OrderedDict data structure.",
+    "code": "from collections import OrderedDict \n\n# Create a string\nmy_string = \"Hello World!\"\n\n# Create an OrderedDict\nmy_dict = OrderedDict()\n\n# Attempt to assign a value to the string using the OrderedD",
+    "tags": [
+        "String",
+        "OrderedDict",
+        "Easy"
+    ]
+}

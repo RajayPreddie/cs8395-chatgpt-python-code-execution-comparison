@@ -1,0 +1,10 @@
+{
+    "id": "problem_15",
+    "description": "\n\nWhen running unit tests for a socket connection, the program throws a runtime error indicating that the socket is not properly configured for unit testing.",
+    "code": "# Python program for UnitTesting \n\nimport unittest\n\n# Define a class that will be used for the unit test\nclass TestUnitTesting(unittest.TestCase):\n \n    # A method that tests the functionality of the program\n    def",
+    "tags": [
+        "socket",
+        "UnitTesting",
+        "Easy"
+    ]
+}

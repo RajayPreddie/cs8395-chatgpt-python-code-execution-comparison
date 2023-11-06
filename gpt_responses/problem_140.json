@@ -1,0 +1,10 @@
+{
+    "id": "problem_140",
+    "description": "\n\nWhen trying to run a program that uses a Tuple to store a list of pandas data frames, a compile/runtime error occurs. The error states that the Tuple is not able to store pandas data frames, as it is not a valid data type for the Tuple.",
+    "output": "Traceback (most recent call last):\n  File \"<stdin>\", line 5, in <module>\nAttributeError: module 'pandas' has no attribute 'pd'",
+    "tags": [
+        "Tuple",
+        "pandas",
+        "Easy"
+    ]
+}

@@ -1,0 +1,4 @@
+  File "<string>", line 10
+    split_string_default =
+                          ^
+SyntaxError: invalid syntax

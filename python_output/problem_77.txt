@@ -1,0 +1,4 @@
+  File "<string>", line 1
+    Do not explain what the code does.
+           ^^^^^^^
+SyntaxError: invalid syntax

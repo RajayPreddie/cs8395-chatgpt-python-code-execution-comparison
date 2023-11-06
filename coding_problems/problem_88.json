@@ -1,0 +1,10 @@
+{
+    "id": "problem_88",
+    "description": "\n\nError: IdiomaticPython SyntaxError: Generator expression not properly closed.\n\nProblem Description: A Generator expression was used in an IdiomaticPython script but the expression was not properly closed with the correct syntax, resulting in a SyntaxError.",
+    "code": "# Program to generate a sequence of numbers\n\n# Import necessary packages\nimport random\nimport itertools\n\n# Define the generator function\ndef generator_func(num):\n    '''\n    Generates a sequence of numbers\n    \n    Parameters:",
+    "tags": [
+        "IdiomaticPython",
+        "Generator",
+        "Hard"
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "id": "problem_175",
+    "description": "\n\nWhen running a scipy program, a compile-time error occurs stating that the scipy module does not contain a function called 'insert'.",
+    "code": "#importing necessary packages\nimport numpy as np\nimport scipy\nfrom scipy import stats\n\n#creating a function to generate random numbers from a normal distribution\ndef random_normal_numbers(mean, sd, size):\n    return np.",
+    "tags": [
+        "insert",
+        "scipy",
+        "Medium"
+    ]
+}

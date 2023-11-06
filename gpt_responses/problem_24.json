@@ -1,0 +1,10 @@
+{
+    "id": "problem_24",
+    "description": "\n\nWhen executing a program, an error occurs when attempting to clear the list of objects stored in a variable. The format of the list is not recognized, causing the clear command to fail.",
+    "output": "Traceback (most recent call last):\n  File \"<stdin>\", line 9, in <module>\nNameError: name 'my_' is not defined",
+    "tags": [
+        "format",
+        "clear",
+        "Easy"
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "id": "problem_28",
+    "description": "\n\nWhen attempting to discard an item from a list, a runtime error occurs. The program is attempting to discard an item from the list that does not exist, causing the program to crash.",
+    "output": "Traceback (most recent call last):\n  File \"<stdin>\", line 8\n    def discard_e\n                 ^\nSyntaxError: invalid syntax",
+    "tags": [
+        "list",
+        "discard",
+        "Easy"
+    ]
+}
