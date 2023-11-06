@@ -1,9 +1,9 @@
 {
     "name": "Python Execution Output Comparison: problem_4",
     "tags": [
-        "Metaclass",
-        "scipy",
+        "ValueError",
+        "VirtualEnvironment",
         "Easy"
     ],
-    "output": 0.7986577181208053
+    "output": 0.8837209302325582
 }

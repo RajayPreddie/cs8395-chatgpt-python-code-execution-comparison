@@ -1,10 +1,10 @@
 {
     "id": "problem_146",
-    "description": "\n\nWhen attempting to add a new method to an existing class using MonkeyPatching, the code runs without error but the expected behavior is not seen. The new method does not appear to be added to the class, and the code does not produce the expected result.",
-    "output": "  File \"<stdin>\", line 9\n    def new_method(self):\n                      ^\nSyntaxError: unexpected EOF while parsing",
+    "description": "\n\nWhen attempting to import an OrderedDict from a module, a ModuleNotFoundError is raised indicating that the module containing the OrderedDict cannot be found.",
+    "output": "Traceback (most recent call last):\n  File \"<stdin>\", line 8, in <module>\nNameError: name 'my_' is not defined",
     "tags": [
-        "MonkeyPatching",
-        "add",
+        "ModuleNotFoundError",
+        "OrderedDict",
         "Easy"
     ]
 }

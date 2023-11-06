@@ -1,10 +1,10 @@
 {
     "id": "problem_133",
-    "description": "\n\nError encountered when attempting to decode a Bytearray into a string: 'TypeError: decoding a Bytearray object with a non-string type is not supported'.",
-    "output": "Traceback (most recent call last):\n  File \"<stdin>\", line 12, in <module>\nNameError: name 'Printing' is not defined",
+    "description": "\n\nThe problem is an IndexError that occurs when a string is attempted to be sliced using the endswith method. When the endswith method is used to slice the string, an IndexError is thrown because the end index is out of range. The string being sliced is longer than the",
+    "output": "True",
     "tags": [
-        "Bytearray",
-        "Bytearray",
+        "IndexError",
+        "endswith",
         "Easy"
     ]
 }

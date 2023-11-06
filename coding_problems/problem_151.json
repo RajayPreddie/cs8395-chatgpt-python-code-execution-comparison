@@ -1,10 +1,10 @@
 {
     "id": "problem_151",
-    "description": "\n\nWhen attempting to use the re.replace() function to replace a certain string in a text file, a \"TypeError\" is thrown. The error message states that the function is expecting a string or a compiled regular expression, but a list was provided instead.",
-    "code": "import re\n\n# create a string of text\ntext = 'This is a sample string of text.'\n\n# create a list of words to replace\nwords = ['sample', 'text']\n\n# use re.replace() to replace the words in the text\ntry",
+    "description": "\n\nWhen using MonkeyPatching to modify the behavior of a function, a RuntimeError occurs when the patch is applied to an object that is not expected to be modified. This can result in unexpected behavior and errors in the program.",
+    "code": "def original_function():\n    print(\"This is the original function\")\n\ndef monkey_patched_function():\n    print(\"This is the patched function\")\n\n# Patch the original function\noriginal_function = monkey_patched_function\n\n# This will",
     "tags": [
-        "re",
-        "replace",
+        "RuntimeError",
+        "MonkeyPatching",
         "Medium"
     ]
 }

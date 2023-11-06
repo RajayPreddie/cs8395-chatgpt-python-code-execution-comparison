@@ -1,10 +1,10 @@
 {
     "id": "problem_62",
-    "description": "\n\nSyntax Error: The code attempted to use the os.random() function to generate a random number, but it was not properly formatted, resulting in a syntax error.",
-    "output": "This program generates a random number\nAttributeError: module 'os' has no attribute 'random'",
+    "description": "\n\nThe problem is an IndexError when trying to access an element of a list using the sys module. When trying to access a specific element of a list using the sys module, the program throws an IndexError, indicating that the index used to access the element is out of range.",
+    "output": "3.8.5 (default, Jan 27 2021, 15:41:15)\n[GCC 9.3.0]",
     "tags": [
-        "os",
-        "random",
+        "IndexError",
+        "sys",
         "Medium"
     ]
 }

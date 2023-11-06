@@ -91,15 +91,19 @@ def execute_python_code_from_directory(problem_descriptions, prompt_solutions):
   comparison_scores = {}
 
   for problem_id, problem_description in problem_descriptions.items():
-    
-    result = subprocess.run(['python3',"-c", problem_description['code']], 
+    print(f"Executing problem {problem_id}")
+    code_with_recursion_limit = f"""import sys\nsys.setrecursionlimit(1500)\n# Set a new recursion limit\n
+    {problem_description['code']}
+    """
+    result = subprocess.run(['python3',"-c", code_with_recursion_limit], 
                             input="Hello World",
                             stdout=subprocess.PIPE,
                             stderr=subprocess.PIPE,
                        
                   text=True)
     output = result.stdout if result.stdout else result.stderr
-    
+    # Prepend the setrecursionlimit call to the existing code
+  
     # Use SequenceMatcher to compare the two lists of lines
     comparison = difflib.SequenceMatcher(None, output, prompt_solutions[problem_id]["output"])
     ratio = comparison.real_quick_ratio()  
@@ -110,6 +114,7 @@ def execute_python_code_from_directory(problem_descriptions, prompt_solutions):
     if not os.path.exists(abs_directory_path):
       os.makedirs(abs_directory_path) 
     full_path = os.path.join(abs_directory_path, filename)
+    
     with open(full_path, 'w') as file:
         file.write(output)
         file.close()
@@ -181,15 +186,22 @@ for id, score in comparison_scores.items():
         file.close()  # Close the file
 print("TAG SCORES:")
 print("-----------")
+average_total_score = (total_score / len(problem_descriptions)) * 100
+output_json = {"name": "Python Execution Output Comparison: Total Score", "tags": [], "output": average_total_score,
+               
+              "tag_scores": {} }
 for tag, score in tag_scores.items():
     average_score = (score / tag_num_problems[tag]) * 100
-    print(f"Tag: {tag}, score: {average_score: .2f}%")
+    output_json["tag_scores"][tag] = average_score
 print("-----------")
-average_total_score = (total_score / len(problem_descriptions)) * 100
+for tag, score in tag_scores.items():
+    average_score = (score / tag_num_problems[tag]) * 100
+    if tag in ["Easy", "Medium", "Hard"]:
+      print(f"{tag}: {average_score: .2f}%")
 print(f"TOTAL SCORE, {average_total_score: .2f}%")
 total_score_path = os.path.join(os.getcwd(), "")
 filename = "output.json"
-output_json = {"name": "Python Execution Output Comparison: Total Score", "tags": [], "output": average_total_score}
+
 full_path = os.path.join(total_score_path, filename)
 with open(full_path, 'w') as file:
     file.write(json.dumps(output_json, indent=4))

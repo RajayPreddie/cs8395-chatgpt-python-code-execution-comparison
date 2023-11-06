@@ -1,10 +1,10 @@
 {
     "id": "problem_69",
-    "description": "\n\nWhen attempting to use the sklearn library to split a dataset into training and testing sets, the following compile/runtime error is encountered: \"ValueError: The least populated class in y has only 1 member, which is too few. The minimum number of groups for any class cannot be less",
-    "code": "# Program to demonstrate the use of the split function\n\n# Import the necessary libraries\nimport string\n\n# Define a sample string\nsample_string = \"This is a sample string\"\n\n# Split the string using the default separator\nsplit_string_default =",
+    "description": "\n\nNotImplementedError: The startswith function has not been implemented. The code attempted to call the startswith function, but it has not been implemented and thus resulted in an error.",
+    "code": "string = \"Hello World\"\n\nstring.startswith()",
     "tags": [
-        "sklearn",
-        "split",
+        "NotImplementedError",
+        "startswith",
         "Medium"
     ]
 }

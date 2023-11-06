@@ -1,9 +1,9 @@
 {
     "name": "Python Execution Output Comparison: problem_187",
     "tags": [
-        "Dict",
+        "IndexError",
         "popitem",
         "Hard"
     ],
-    "output": 0.609271523178808
+    "output": 0.8442211055276382
 }

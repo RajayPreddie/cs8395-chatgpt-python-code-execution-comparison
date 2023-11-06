@@ -1,9 +1,9 @@
 {
     "name": "Python Execution Output Comparison: problem_136",
     "tags": [
-        "re",
-        "upper",
+        "RuntimeError",
+        "pytorch",
         "Easy"
     ],
-    "output": 0.0
+    "output": 0.8729281767955801
 }

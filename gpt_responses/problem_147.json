@@ -1,10 +1,10 @@
 {
     "id": "problem_147",
-    "description": "\n\nWhen trying to execute code that uses Global state, a compile/runtime error is thrown due to a problem with the DefaultDict. The DefaultDict is not properly defined in the Global state, causing the code to fail when trying to access it.",
-    "output": "TypeError: append() takes exactly one argument (0 given)",
+    "description": "\n\nA SyntaxError is thrown when attempting to MonkeyPatching a function due to an invalid syntax. The code is attempting to add a new attribute to the function, but the syntax used is incorrect and thus the code is unable to be compiled.",
+    "output": "Traceback (most recent call last):\n  File \"<stdin>\", line 1, in <module>\nAttributeError: 'function' object has no attribute 'new_attribute'",
     "tags": [
-        "Global state",
-        "DefaultDict",
+        "SyntaxError",
+        "MonkeyPatching",
         "Easy"
     ]
 }

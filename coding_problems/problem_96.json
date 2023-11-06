@@ -1,10 +1,10 @@
 {
     "id": "problem_96",
-    "description": "\n\nThe problem is that a user is trying to use Comprehension to create a list of unique values from a given list, but they are getting an error. The error is caused by a missing \". \" in the Comprehension syntax, which is preventing the list from being generated correctly.",
-    "code": "#Python Program\n#This program prints out the numbers from 1 to 10\n\n#importing the necessary modules\nimport time\n\n#Defining the function to print out the numbers\ndef print_numbers():\n    #Looping through the numbers from 1 to 10",
+    "description": "\n\nWhen running a program, a RuntimeError is thrown indicating that the program is unable to generate a random number in the expected range.",
+    "code": "import random\n\n# Generate a random integer between 1 and 10\nrandom_number = random.randint(1, 10)\n\n# Print the random number\nprint(random_number)",
     "tags": [
-        "Comprehension",
-        "",
+        "RuntimeError",
+        "random",
         "Hard"
     ]
 }

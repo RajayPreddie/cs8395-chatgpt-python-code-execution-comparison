@@ -1,9 +1,9 @@
 {
     "name": "Python Execution Output Comparison: problem_47",
     "tags": [
-        "matplotlib",
-        "VirtualEnvironment",
+        "OSError",
+        "scipy",
         "Easy"
     ],
-    "output": 0.8078175895765473
+    "output": 0.0
 }

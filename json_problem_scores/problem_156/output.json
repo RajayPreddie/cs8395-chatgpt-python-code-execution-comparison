@@ -1,9 +1,9 @@
 {
     "name": "Python Execution Output Comparison: problem_156",
     "tags": [
-        "Frozenset",
-        "TypeHinting",
+        "OverflowError",
+        "UnitTesting",
         "Medium"
     ],
-    "output": 0.0
+    "output": 0.9022556390977443
 }

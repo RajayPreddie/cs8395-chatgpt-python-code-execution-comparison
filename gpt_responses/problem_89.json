@@ -1,10 +1,10 @@
 {
     "id": "problem_89",
-    "description": "\n\nThe problem is that when trying to add a new item to a Frozenset using a Dict as the key, a runtime error is thrown. The error states that the Dict key is not a valid argument for the Frozenset.",
-    "output": "Traceback (most recent call last):\n  File \"<stdin>\", line 7\n    # Try to add a\n                  ^\nSyntaxError: unexpected EOF while parsing",
+    "description": "\n\nWhen attempting to create a NamedTuple with an excessive number of fields, an OverflowError is raised. This occurs due to the fact that the number of fields exceeds the maximum allowed, causing the system to be unable to allocate enough memory to store the NamedTuple.",
+    "output": "Traceback (most recent call last):\n  File \"<stdin>\", line 3, in <module>\nTypeError: function takes at most 2 arguments (13 given)",
     "tags": [
-        "Frozenset",
-        "Dict",
+        "OverflowError",
+        "NamedTuple",
         "Hard"
     ]
 }

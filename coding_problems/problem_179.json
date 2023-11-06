@@ -1,10 +1,10 @@
 {
     "id": "problem_179",
-    "description": "\n\nWhen attempting to run a django application, the following error is thrown: \"TypeError: metaclass conflict: the metaclass of a derived class must be a (non-strict) subclass of the metaclasses of all its bases\". This error occurs when the met",
-    "code": "# Define two metaclasses\nclass Meta1(type):\n    pass\n\nclass Meta2(type):\n    pass\n\n# Define two classes\nclass Base1(metaclass=Meta1):\n    pass\n\nclass Base2(metac",
+    "description": "\n\nWhen attempting to store a large number of items in memory, the program throws a MemoryError, indicating that the system is unable to allocate enough memory to store all of the items.",
+    "code": "items = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]\n\nwhile True:\n    items.append(items)\n\n# MemoryError: Unable to allocate enough memory to store all of the items.",
     "tags": [
-        "django",
-        "Metaclass",
+        "MemoryError",
+        "items",
         "Medium"
     ]
 }

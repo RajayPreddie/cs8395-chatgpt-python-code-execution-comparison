@@ -1,9 +1,9 @@
 {
     "name": "Python Execution Output Comparison: problem_79",
     "tags": [
-        "IdiomaticPython",
-        "math",
+        "IndexError",
+        "ContextManager",
         "Medium"
     ],
-    "output": 0.0
+    "output": 0.02247191011235955
 }

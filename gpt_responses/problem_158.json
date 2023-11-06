@@ -1,10 +1,10 @@
 {
     "id": "problem_158",
-    "description": "\n\nWhen attempting to use the scipy library to pop an item from a list, a runtime error is encountered. The error states that the item cannot be popped as it does not exist in the list, even though it is present.",
-    "output": "",
+    "description": "\n\nWhen attempting to import a module named 'upper_module', a ModuleNotFoundError is thrown indicating that the module does not exist. The module 'upper_module' is used to convert all characters in a string to uppercase. The program is unable to proceed without the module being",
+    "output": "HELLO WORLD!",
     "tags": [
-        "pop",
-        "scipy",
+        "ModuleNotFoundError",
+        "upper",
         "Medium"
     ]
 }

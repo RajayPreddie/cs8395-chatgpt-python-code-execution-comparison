@@ -1,10 +1,10 @@
 {
     "id": "problem_190",
-    "description": "\n\nWhen using the django framework, an endswith compile/runtime error can occur when attempting to compare two strings that end with different characters. This error is caused when a comparison is made using the endswith keyword, and the two strings being compared do not end with the same character",
-    "code": "def compare_strings(string1, string2):\n    if string1.endswith(string2):\n        print(\"The strings match!\")\n    else:\n        print(\"The strings do not match.\")\n\n# main\nstring1 = input(\"Enter",
+    "description": "\n\nThe problem is a RuntimeError caused by an incorrect implementation of Memoization. The program is trying to store the results of a function call in a cache, but the cache is not being updated correctly when the function is called again with the same arguments. This results in the program returning the",
+    "code": "def memoize(func):\n    cache = {}\n    def wrapper(*args):\n        if args in cache:\n            return cache[args]\n        else:\n            rv = func(*args)\n            cache[args] = rv\n            return r",
     "tags": [
-        "django",
-        "endswith",
+        "RuntimeError",
+        "Memoization",
         "Hard"
     ]
 }

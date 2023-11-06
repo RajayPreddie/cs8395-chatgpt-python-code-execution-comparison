@@ -1,10 +1,10 @@
 {
     "id": "problem_149",
-    "description": "\n\nWhen using threading to MonkeyPatch a method, a runtime error occurs when the process is interrupted. This is due to the main thread not being able to access the patched method in the other threads, resulting in an error.",
-    "code": "# MonkeyPatching example program\n\n# import the time module\nimport time\n\n# define a function to be monkeypatched\ndef my_function():\n    print(\"This is the original function\")\n\n# define a function to be used as a monkeypatch\ndef",
+    "description": "\n\nThe problem is: an ImportError is thrown when attempting to import a module containing a function that uses the keyword str. The function is attempting to convert a number to a string, but the keyword str is not being correctly recognized by the interpreter, resulting in the ImportError.",
+    "code": "def convert_number_to_string(number):\n    str = number\n\nconvert_number_to_string(5)\n\nimport convert_number_to_string",
     "tags": [
-        "threading",
-        "MonkeyPatching",
+        "ImportError",
+        "str",
         "Easy"
     ]
 }

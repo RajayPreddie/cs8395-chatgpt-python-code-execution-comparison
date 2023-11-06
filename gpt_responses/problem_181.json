@@ -1,10 +1,10 @@
 {
     "id": "problem_181",
-    "description": "\n\nThe error occurs when attempting to modify a Tuple object in Python. The program throws a compile time error that states \"Tuple object does not support item assignment\". This indicates that an attempt was made to modify a Tuple object, which is not allowed in Python.",
-    "output": "(1, 2, 3, 4, 5, 6, 7, 8, 9, 10)",
+    "description": "\n\nThe problem is a SyntaxError caused by an incorrect format of the code. A string is being assigned to a variable, but the string has an extra set of quotation marks around it, resulting in a SyntaxError. The code should be formatted correctly to remove the extra quotation marks and",
+    "output": "Hello World",
     "tags": [
-        "random",
-        "Tuple",
+        "SyntaxError",
+        "format",
         "Hard"
     ]
 }

@@ -1,10 +1,10 @@
 {
     "id": "problem_32",
-    "description": "\n\nThe error occurs when a threading Protocol is used in a program that is not designed to handle multiple threads. The program will throw a Protocol error, indicating that it cannot process multiple threads simultaneously.",
-    "code": "import threading\n\ndef func1():\n    print(\"Thread 1\")\n\ndef func2():\n    print(\"Thread 2\")\n\nt1 = threading.Thread(target=func1)\nt2 = threading.Thread(target=func2)",
+    "description": "\n\nThe problem is a KeyError that occurs when trying to access a socket. The program attempts to access a socket using a specific key, but the key does not exist in the socket dictionary, resulting in a KeyError.",
+    "code": "import socket\n\n# Create a socket object\ns = socket.socket(socket.AF_INET, socket.SOCK_STREAM) \n\n# Define the port on which you want to connect \nport = 8080\n\n# connect to the server",
     "tags": [
-        "Protocol",
-        "threading",
+        "KeyError",
+        "socket",
         "Easy"
     ]
 }

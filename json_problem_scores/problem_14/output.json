@@ -1,9 +1,9 @@
 {
     "name": "Python Execution Output Comparison: problem_14",
     "tags": [
-        "reverse",
-        "keys",
+        "RecursionError",
+        "setdefault",
         "Easy"
     ],
-    "output": 0.9887640449438202
+    "output": 0.0
 }

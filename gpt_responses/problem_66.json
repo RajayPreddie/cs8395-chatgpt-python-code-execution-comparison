@@ -1,10 +1,10 @@
 {
     "id": "problem_66",
-    "description": "\n\nWhen attempting to use a MemoryView to access a DefaultDict, a runtime error is encountered stating that the MemoryView object does not support the DefaultDict type.",
-    "output": "Traceback (most recent call last):\n  File \"<stdin>\", line 10, in <module>\n    # Create\nSyntaxError: unexpected EOF while parsing",
+    "description": "\n\nWhen using the scipy library, a ValueError is raised when attempting to perform a mathematical operation on a matrix with incompatible dimensions. This ValueError is raised when attempting to perform any mathematical operation on a matrix with dimensions that are not equal.",
+    "output": "Traceback (most recent call last):\n  File \"<stdin>\", line 9, in <module>\n    #Calling the\nSyntaxError: unexpected EOF while parsing",
     "tags": [
-        "MemoryView",
-        "DefaultDict",
+        "ValueError",
+        "scipy",
         "Medium"
     ]
 }

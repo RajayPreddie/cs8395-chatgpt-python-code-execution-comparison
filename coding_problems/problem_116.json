@@ -1,10 +1,10 @@
 {
     "id": "problem_116",
-    "description": "\n\nThe UnitTesting is failing due to a logic error when attempting to sort a list of objects. The objects are not being sorted correctly, resulting in an incorrect order of the list.",
-    "code": "# Program to demonstrate a logic error when attempting to sort a list of objects\n\nclass Object:\n    def __init__(self, num):\n        self.num = num\n\n# Create a list of objects\nobjects = [Object(4), Object(2),",
+    "description": "\n\nThe problem is a RecursionError when a subprocess is called multiple times within the same function. The subprocess is attempting to call itself again, resulting in an infinite loop of calls that causes the program to crash.",
+    "code": "import subprocess\n\n# Create a new file\nfile_name = \"test.txt\"\n\n# Create a new process\np = subprocess.run([\"touch\", file_name])\n\n# Check if process was successful\nif p.returncode == 0",
     "tags": [
-        "UnitTesting",
-        "sort",
+        "RecursionError",
+        "subprocess",
         "Easy"
     ]
 }

@@ -1,9 +1,9 @@
 {
     "name": "Python Execution Output Comparison: problem_37",
     "tags": [
-        "insert",
-        "format",
+        "KeyError",
+        "dict",
         "Easy"
     ],
-    "output": 0.0
+    "output": 0.9230769230769231
 }

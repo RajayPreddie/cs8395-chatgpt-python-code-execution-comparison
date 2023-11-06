@@ -1,9 +1,9 @@
 {
     "name": "Python Execution Output Comparison: problem_75",
     "tags": [
-        "Non-default argument",
-        "union",
+        "SyntaxError",
+        "collections",
         "Medium"
     ],
-    "output": 1.0
+    "output": 0.18181818181818182
 }

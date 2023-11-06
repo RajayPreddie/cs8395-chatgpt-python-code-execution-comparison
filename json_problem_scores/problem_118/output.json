@@ -1,9 +1,9 @@
 {
     "name": "Python Execution Output Comparison: problem_118",
     "tags": [
-        "TypeHinting",
-        "startswith",
+        "TypeError",
+        "clear",
         "Easy"
     ],
-    "output": 0.9795918367346939
+    "output": 0.8
 }

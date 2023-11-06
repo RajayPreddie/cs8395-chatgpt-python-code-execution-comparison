@@ -1,10 +1,10 @@
 {
     "id": "problem_22",
-    "description": "\n\nWhen attempting to get a value from a concurrent thread, an error is thrown due to a race condition. The thread attempts to get the value before the value is ready, resulting in an invalid value.",
-    "code": "#import the necessary libraries \nimport requests \nimport json \n\n#Create a function to get the data from the API \ndef get_data(): \n    #Create a request to the API \n    r = requests.get('https://api.example",
+    "description": "\n\nWhen attempting to use threading for a calculation, a ZeroDivisionError occurs when attempting to divide a number by zero. This indicates that the threading process is attempting to divide a number by zero, which is an invalid operation and causes the program to crash.",
+    "code": "import threading\n\ndef thread_function():\n    print(\"Thread running\")\n\nmy_thread = threading.Thread(target=thread_function)\nmy_thread.start()\nmy_thread.join()",
     "tags": [
-        "Concurrency",
-        "get",
+        "ZeroDivisionError",
+        "threading",
         "Easy"
     ]
 }

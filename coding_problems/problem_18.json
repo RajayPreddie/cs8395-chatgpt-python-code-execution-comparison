@@ -1,10 +1,10 @@
 {
     "id": "problem_18",
-    "description": "\n\nThe UnitTesting is failing due to a split error. The test is unable to accurately split the data into the correct categories, resulting in incorrect results.",
-    "code": "import unittest \n\nclass TestUnitTesting(unittest.TestCase): \n    def test_split_data(self): \n        data = [1, 2, 3, 4, 5, 6, 7, 8, 9]\n        split",
+    "description": "\n\nWhen attempting to import the GarbageCollection module, a ImportError is raised due to a missing dependency. This is caused by a missing library file that is needed to correctly run GarbageCollection.",
+    "code": "# GarbageCollection Program \nimport gc \n\n# Create a list of objects \nobjects = [1, \"Hello\", [2,3], (4,5)] \n\n# Collect the garbage \ngc.collect() \n\n# Print the",
     "tags": [
-        "UnitTesting",
-        "split",
+        "ImportError",
+        "GarbageCollection",
         "Easy"
     ]
 }

@@ -1,10 +1,10 @@
 {
     "id": "problem_95",
-    "description": "\n\nWhen attempting to use the with statement in a Python program, a ContextManager error is thrown indicating that the object being used to replace the ContextManager is not valid.",
-    "output": "Traceback (most recent call last):\n  File \"<stdin>\", line 1, in <module>\nTypeError: __init__() should return None, not 'str'",
+    "description": "\n\nWhen running a program that uses a Metaclass, an AssertionError is thrown, indicating that the Metaclass is not configured correctly. The program fails to execute as the Metaclass is not properly configured to handle the data type that is being processed.",
+    "output": "Traceback (most recent call last):\n  File \"<stdin>\", line 2, in <module>\n    assert isinstance(data\nSyntaxError: unexpected EOF while parsing",
     "tags": [
-        "ContextManager",
-        "replace",
+        "AssertionError",
+        "Metaclass",
         "Hard"
     ]
 }

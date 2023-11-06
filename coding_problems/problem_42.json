@@ -1,10 +1,10 @@
 {
     "id": "problem_42",
-    "description": "\n\nWhen attempting to run a program using datetime values, a runtime error occurs when the program attempts to compare two datetime objects. The error states that the objects are not comparable, even though they are both datetime objects.",
-    "code": "import datetime\n\n# Get current date and time\nnow = datetime.datetime.now()\n\n# Get date\ndate_today = now.date()\n\n# Get time\ntime_now = now.time()\n\n# Get year\nyear =",
+    "description": "\n\nA NotImplementedError is raised when attempting to use a concurrency feature that has not been implemented yet. The code attempts to use a feature which is not supported and therefore raises the NotImplementedError.",
+    "code": "import threading\n\ndef concurrency_function(number):\n  print(f'Number is {number}')\n\nthreads = []\n\nfor i in range(5):\n  thread = threading.Thread(target=concurrency_function, args=(",
     "tags": [
-        "values",
-        "datetime",
+        "NotImplementedError",
+        "Concurrency",
         "Easy"
     ]
 }

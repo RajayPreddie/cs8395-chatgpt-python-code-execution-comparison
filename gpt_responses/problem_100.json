@@ -1,10 +1,10 @@
 {
     "id": "problem_100",
-    "description": "\n\nError: Lambda SyntaxError: invalid syntax for string argument.\nProblem Description: When attempting to use a Lambda expression to return a string, a SyntaxError is thrown due to an invalid syntax being used for the string argument.",
-    "output": "<function my_function.<locals>.<lambda> at 0x7f8c8c8c8b80>",
+    "description": "\n\nWhen trying to create a pandas dataframe from a large dataset, an OverflowError is thrown due to the size of the data exceeding the maximum capacity of the dataframe.",
+    "output": "Traceback (most recent call last):\n  File \"<stdin>\", line 5\n    'Age': [25, 33, 25, 39],\n                            ^\nSyntaxError: unexpected EOF while parsing",
     "tags": [
-        "Lambda",
-        "String",
+        "OverflowError",
+        "pandas",
         "Hard"
     ]
 }

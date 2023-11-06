@@ -1,9 +1,9 @@
 {
     "name": "Python Execution Output Comparison: problem_140",
     "tags": [
-        "Tuple",
-        "pandas",
+        "IndentationError",
+        "Recursion",
         "Easy"
     ],
-    "output": 0.7010309278350515
+    "output": 0.06818181818181818
 }

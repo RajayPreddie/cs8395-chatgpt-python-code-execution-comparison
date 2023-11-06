@@ -1,10 +1,10 @@
 {
     "id": "problem_37",
-    "description": "\n\nWhen attempting to insert a string into a list of integers, a runtime error is raised stating that \"the format of the string is incompatible with the list of integers\".",
-    "output": "Traceback (most recent call last):\n  File \"<stdin>\", line 1, in <module>\nTypeError: insert() takes exactly 2 arguments (0 given)",
+    "description": "\n\nWhen attempting to access a value in a dict object, a KeyError is raised indicating that the key being accessed does not exist in the dict object. This error occurs when trying to access a key that has not been added to the dict object or when the key is of the wrong type.",
+    "output": "Traceback (most recent call last):\n  File \"<stdin>\", line 7, in <module>\nKeyError: 'height'",
     "tags": [
-        "insert",
-        "format",
+        "KeyError",
+        "dict",
         "Easy"
     ]
 }

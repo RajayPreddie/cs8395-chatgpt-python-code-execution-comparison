@@ -1,10 +1,10 @@
 {
     "id": "problem_135",
-    "description": "\n\nWhen using a socket to send a Tuple of data, a runtime error occurs due to the mismatch in data types. The socket is expecting a string of data, but the Tuple contains items of different data types, which causes the runtime error.",
-    "output": "",
+    "description": "\n\nWhen attempting to create a NamedTuple with a large amount of data, a MemoryError is raised due to insufficient memory. This occurs because the Python interpreter is unable to allocate enough memory for the NamedTuple to store all the data.",
+    "output": "Traceback (most recent call last):\n  File \"<stdin>\", line 8, in <module>\nNameError: name 'my_tuple' is not defined",
     "tags": [
-        "Tuple",
-        "socket",
+        "MemoryError",
+        "NamedTuple",
         "Easy"
     ]
 }

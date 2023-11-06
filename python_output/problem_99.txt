@@ -1,0 +1,3 @@
+  File "<string>", line 5
+    class MyClass:
+IndentationError: unexpected indent

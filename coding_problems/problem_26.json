@@ -1,10 +1,10 @@
 {
     "id": "problem_26",
-    "description": "\n\nWhen attempting to use a Lambda function to filter a List, a compile/runtime error is thrown due to a mismatch between the List item type and the Lambda function's expected argument type.",
-    "code": "def filter_list(list_to_filter, lambda_function):\n    filtered_list = []\n    for item in list_to_filter:\n        if lambda_function(item):\n            filtered_list.append(item)\n    return filtered_list",
+    "description": "\n\nWhen attempting to load a dictionary from a file, the program throws a FileNotFoundError, indicating that the file containing the dict is not found.",
+    "code": "# Create an empty dictionary \nmy_dict = {}\n\n# Add key-value pairs to the dictionary\nmy_dict['A'] = 'Apple'\nmy_dict['B'] = 'Banana'\nmy_dict['C'] = 'Cherry'",
     "tags": [
-        "List",
-        "Lambda",
+        "FileNotFoundError",
+        "dict",
         "Easy"
     ]
 }

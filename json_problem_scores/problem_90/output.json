@@ -1,9 +1,9 @@
 {
     "name": "Python Execution Output Comparison: problem_90",
     "tags": [
-        "pop",
-        "Deque",
+        "RuntimeError",
+        "Lambda",
         "Hard"
     ],
-    "output": 0.855072463768116
+    "output": 0.8
 }

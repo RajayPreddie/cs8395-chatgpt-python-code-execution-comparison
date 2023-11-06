@@ -1,9 +1,9 @@
 {
     "name": "Python Execution Output Comparison: problem_10",
     "tags": [
-        "NamedTuple",
-        "index",
+        "RuntimeError",
+        "remove",
         "Easy"
     ],
-    "output": 0.990909090909091
+    "output": 0.9841269841269841
 }

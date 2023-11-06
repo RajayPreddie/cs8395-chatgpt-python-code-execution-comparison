@@ -1,10 +1,10 @@
 {
     "id": "problem_148",
-    "description": "\n\nError: Runtime Error\nProblem Description: The program is attempting to iterate through a dictionary containing items and keys, but the keys are of a different data type than expected, causing the program to crash.",
-    "output": "Traceback (most recent call last):\n  File \"<stdin>\", line 1, in <module>\nTypeError: printDict() missing 1 required positional argument: 'dict'",
+    "description": "\n\nWhen attempting to access an element in a list of threading objects, an IndexError is raised indicating that the index is out of range. This indicates that the index being used is larger than the number of threading objects in the list.",
+    "output": "Thread started",
     "tags": [
-        "items",
-        "keys",
+        "IndexError",
+        "threading",
         "Easy"
     ]
 }

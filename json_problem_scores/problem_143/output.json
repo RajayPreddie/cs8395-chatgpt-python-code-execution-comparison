@@ -1,9 +1,9 @@
 {
     "name": "Python Execution Output Comparison: problem_143",
     "tags": [
-        "endswith",
-        "keys",
+        "SyntaxError",
+        "index",
         "Easy"
     ],
-    "output": 0.7705627705627706
+    "output": 0.8691099476439791
 }

@@ -1,9 +1,9 @@
 {
     "name": "Python Execution Output Comparison: problem_85",
     "tags": [
-        "django",
-        "socket",
+        "TypeError",
+        "dict",
         "Hard"
     ],
-    "output": 0.8945454545454545
+    "output": 0.0
 }

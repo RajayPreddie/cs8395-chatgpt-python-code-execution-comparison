@@ -1,9 +1,9 @@
 {
     "name": "Python Execution Output Comparison: problem_177",
     "tags": [
-        "IdiomaticPython",
-        "matplotlib",
+        "FileNotFoundError",
+        "datetime",
         "Medium"
     ],
-    "output": 0.9117647058823529
+    "output": 0.3488372093023256
 }

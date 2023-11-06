@@ -1,10 +1,10 @@
 {
     "id": "problem_170",
-    "description": "\n\nWhen attempting to use the setdefault function in a Pytorch program, the program crashes with a runtime error. The error message indicates that the setdefault function is not supported by Pytorch, and the program is unable to proceed.",
-    "code": "# Importing essential libraries \nimport torch \nimport torch.nn as nn \nimport torch.optim as optim \n\n# Defining the neural network \nclass Network(nn.Module): \n\tdef __init__(self):",
+    "description": "\n\nWhen attempting to loop through a list of strings to check if they end with a specific character, a StopIteration error is thrown when the list is empty. This is due to the code attempting to use the endswith keyword to check if the string elements in the list end with the",
+    "code": "# Program to check if a string ends with a given substring\n\n# Define a function that takes two parameters: a string and a substring\ndef check_endswith(string, substring):\n  # Check if the given string ends with the given substring",
     "tags": [
-        "setdefault",
-        "pytorch",
+        "StopIteration",
+        "endswith",
         "Medium"
     ]
 }

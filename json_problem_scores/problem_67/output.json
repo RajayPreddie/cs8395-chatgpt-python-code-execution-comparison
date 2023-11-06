@@ -1,9 +1,9 @@
 {
     "name": "Python Execution Output Comparison: problem_67",
     "tags": [
-        "scipy",
-        "clear",
+        "NameError",
+        "issuperset",
         "Medium"
     ],
-    "output": 0.9841269841269841
+    "output": 0.8341708542713567
 }

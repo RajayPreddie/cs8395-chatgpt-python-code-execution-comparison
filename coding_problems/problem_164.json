@@ -1,10 +1,10 @@
 {
     "id": "problem_164",
-    "description": "\n\nWhen attempting to copy a polymorphic object, a runtime error occurs due to the object's ability to take on multiple forms. The copy function is unable to accurately replicate the object's polymorphic nature, resulting in an error.",
-    "code": "# Polymorphism\n\n# Base class\nclass Animal:\n    def __init__(self, name):\n        self.name = name\n \n    def talk(self):\n        raise NotImplementedError(\"Subclass must implement abstract method\")",
+    "description": "\n\nWhen attempting to call the 'clear' method on an object, an AttributeError is raised indicating that the object does not have a 'clear' attribute.",
+    "code": "# This program will clear a list of numbers \n\nnumbers = [1, 2, 3, 4, 5, 6, 7, 8, 9]\n\n# Using a loop, iterate through the list and set each item to 0\nfor i in range(",
     "tags": [
-        "copy",
-        "Polymorphism",
+        "AttributeError",
+        "clear",
         "Medium"
     ]
 }

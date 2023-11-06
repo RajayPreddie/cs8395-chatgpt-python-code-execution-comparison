@@ -1,4 +1,1 @@
-  File "<string>", line 8
-    def random_int(start, end):
-                               ^
-IndentationError: expected an indented block after function definition on line 8
+5

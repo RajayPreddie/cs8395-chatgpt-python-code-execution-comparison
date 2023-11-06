@@ -1,9 +1,9 @@
 {
     "name": "Python Execution Output Comparison: problem_9",
     "tags": [
-        "endswith",
-        "Introspection",
+        "ImportError",
+        "bytearray",
         "Easy"
     ],
-    "output": 0.9104477611940298
+    "output": 0.0
 }

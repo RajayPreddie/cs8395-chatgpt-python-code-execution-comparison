@@ -1,10 +1,10 @@
 {
     "id": "problem_150",
-    "description": "\n\nProblem Description: When attempting to create a dictionary using the fromkeys() method, a \"TypeError: 'str' object is not callable\" is thrown when attempting to use the keyword 'upper' as an argument.",
-    "code": "# Create a dictionary using the fromkeys() method\ndict_fromkeys = dict.fromkeys(['name', 'age', 'gender'], 'unknown')\n\n# Print the dictionary\nprint(dict_fromkeys)\n\n# Attempt to use the keyword 'upper",
+    "description": "\n\nWhen attempting to plot a graph with matplotlib, a RecursionError is raised due to the function entering an infinite loop. This is caused by an incorrect use of the matplotlib library which results in the function calling itself repeatedly, leading to a maximum recursion depth being exceeded.",
+    "code": "import matplotlib.pyplot as plt \n\nx = [1, 2, 3, 4, 5] \ny = [2, 4, 6, 8, 10] \n\nplt.plot(x, y) \nplt.",
     "tags": [
-        "fromkeys",
-        "upper",
+        "RecursionError",
+        "matplotlib",
         "Easy"
     ]
 }

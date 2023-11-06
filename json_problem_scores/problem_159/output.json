@@ -1,9 +1,9 @@
 {
     "name": "Python Execution Output Comparison: problem_159",
     "tags": [
-        "MemoryView",
-        "fromkeys",
+        "OverflowError",
+        "Metaclass",
         "Medium"
     ],
-    "output": 0.7466666666666667
+    "output": 0.23404255319148937
 }

@@ -1,9 +1,9 @@
 {
     "name": "Python Execution Output Comparison: problem_3",
     "tags": [
-        "popitem",
-        "Concurrency",
+        "OSError",
+        "capitalize",
         "Easy"
     ],
-    "output": 0.9306122448979591
+    "output": 0.9565217391304348
 }

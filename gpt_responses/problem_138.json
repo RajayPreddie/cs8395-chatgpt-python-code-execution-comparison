@@ -1,10 +1,10 @@
 {
     "id": "problem_138",
-    "description": "\n\nThe program is running into a Protocol error when attempting to access a global state variable. The error is caused by the program attempting to access a global state variable that has not been initialized or is not accessible in the current context.",
-    "output": "\"<stdin>\", line 8, in <module>\n  File \"<stdin>\", line 5, in func\nNameError: name 'x' is not defined",
+    "description": "\n\nWhen attempting to import the scipy module, a FileNotFoundError is thrown due to the inability to locate the scipy files on the system. This could be caused by the incorrect installation of scipy or the incorrect referencing of the scipy files in the system's",
+    "output": "The mean of the array is: 4.5",
     "tags": [
-        "Protocol",
-        "Global state",
+        "FileNotFoundError",
+        "scipy",
         "Easy"
     ]
 }

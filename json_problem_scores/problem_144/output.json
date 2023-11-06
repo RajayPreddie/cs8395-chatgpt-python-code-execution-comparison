@@ -1,9 +1,9 @@
 {
     "name": "Python Execution Output Comparison: problem_144",
     "tags": [
-        "pop",
-        "capitalize",
+        "FileNotFoundError",
+        "DefaultDict",
         "Easy"
     ],
-    "output": 0.0
+    "output": 0.8408163265306122
 }

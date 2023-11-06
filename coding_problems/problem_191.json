@@ -1,10 +1,10 @@
 {
     "id": "problem_191",
-    "description": "\n\nWhen attempting to get a subset of a list, the code is generating an issubset error. The code is attempting to use the get() method, which is incompatible with the issubset function and is causing the error.",
-    "code": "list1 = [1, 2, 3, 4, 5] \nlist2 = [3, 4, 5, 6, 7] \n\n# Get a subset of list1 \nsubset = list1.get(2) \n\n# Check if",
+    "description": "\n\nWhen attempting to execute IdiomaticPython code, an OverflowError is thrown due to the code attempting to store a value that exceeds the maximum size of a data type. This causes the code to crash and fail to execute.",
+    "code": "a = float('inf')\nb = float('inf')\nc = a + b\nprint(c)",
     "tags": [
-        "issubset",
-        "get",
+        "OverflowError",
+        "IdiomaticPython",
         "Hard"
     ]
 }

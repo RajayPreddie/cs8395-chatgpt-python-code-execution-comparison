@@ -1,10 +1,10 @@
 {
     "id": "problem_178",
-    "description": "\n\nWhen attempting to decorate a function that takes in bytes as an argument, a compile/runtime error is thrown that states \"TypeError: Decorator cannot be applied to a function with a byte argument\".",
-    "code": "def decorator(func):\n    def wrapper(*args):\n        print(\"Decorator is being applied\")\n        return func(*args)\n    return wrapper\n\n@decorator\ndef my_function(b: bytes):\n    print(\"My function is",
+    "description": "\n\nWhen attempting to read a file containing an OrderedDict, a FileNotFoundError is raised indicating that the file is not found in the specified path.",
+    "code": "from collections import OrderedDict \n\n# Create an ordered dictionary \nd = OrderedDict() \n  \n# Add items \nd['a'] = 1\nd['b'] = 2\nd['c'] = 3\nd['d']",
     "tags": [
-        "Decorator",
-        "Bytes",
+        "FileNotFoundError",
+        "OrderedDict",
         "Medium"
     ]
 }

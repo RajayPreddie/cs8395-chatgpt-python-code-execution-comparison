@@ -1,9 +1,9 @@
 {
     "name": "Python Execution Output Comparison: problem_151",
     "tags": [
-        "re",
-        "replace",
+        "RuntimeError",
+        "MonkeyPatching",
         "Medium"
     ],
-    "output": 0.7070707070707071
+    "output": 0.47058823529411764
 }

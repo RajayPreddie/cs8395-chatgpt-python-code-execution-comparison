@@ -1,10 +1,10 @@
 {
     "id": "problem_105",
-    "description": "\n\nThe UnitTesting is failing to detect an error in a keyword expression. The expression is causing a runtime error when it is executed, even though the UnitTesting is passing without any errors.",
-    "output": "Traceback (most recent call last):\n  File \"<stdin>\", line 11, in <module>\nNameError: name 'expr' is not defined",
+    "description": "\n\nWhen using the heapq module to store a large amount of data, an OverflowError is thrown when the heap reaches its capacity. This occurs because the heapq module is limited in its capacity to store data and cannot handle large amounts of data. As a result, the OverflowError",
+    "output": "Traceback (most recent call last):\n  File \"<stdin>\", line 7, in <module>\nNameError: name 'heap' is not defined",
     "tags": [
-        "UnitTesting",
-        "Keyword expression",
+        "OverflowError",
+        "heapq",
         "Easy"
     ]
 }

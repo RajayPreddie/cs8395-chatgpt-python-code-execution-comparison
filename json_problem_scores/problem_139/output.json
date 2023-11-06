@@ -1,9 +1,9 @@
 {
     "name": "Python Execution Output Comparison: problem_139",
     "tags": [
-        "Keyword expression",
-        "collections",
+        "AttributeError",
+        "sys",
         "Easy"
     ],
-    "output": 0.9491525423728814
+    "output": 0.7549019607843137
 }

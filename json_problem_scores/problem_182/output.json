@@ -1,9 +1,9 @@
 {
     "name": "Python Execution Output Comparison: problem_182",
     "tags": [
-        "multiprocessing",
-        "multiprocessing",
+        "AttributeError",
+        "Deque",
         "Hard"
     ],
-    "output": 0.6165413533834586
+    "output": 1.0
 }

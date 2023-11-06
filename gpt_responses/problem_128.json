@@ -1,10 +1,10 @@
 {
     "id": "problem_128",
-    "description": "\n\nRuntime Error: Reverse fromkeys is not a valid operation. This error is raised when attempting to reverse the contents of a dictionary using the fromkeys method.",
-    "output": "Traceback (most recent call last):\n  File \"<stdin>\", line 9, in <module>\nNameError: name 'students' is not defined",
+    "description": "\n\nWhen attempting to import the heapq module, a FileNotFoundError is raised, indicating that the module could not be found in the system's search path. This can be caused by an incorrect module name, an incorrect installation path, or an incorrect version of the module.",
+    "output": "",
     "tags": [
-        "reverse",
-        "fromkeys",
+        "FileNotFoundError",
+        "heapq",
         "Easy"
     ]
 }

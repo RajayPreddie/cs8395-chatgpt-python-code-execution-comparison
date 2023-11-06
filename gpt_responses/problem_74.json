@@ -1,10 +1,10 @@
 {
     "id": "problem_74",
-    "description": "\n\nThe problem is a Concurrency error resulting from GarbageCollection. When multiple threads are running in parallel, GarbageCollection may occur at the same time, causing the threads to become unsynchronized. This can lead to unexpected errors, such as data being overwritten or resources being locked",
-    "output": "Traceback (most recent call last):\n  File \"<stdin>\", line 10\n    \"name\": \"John\n                 ^\nSyntaxError: EOL while scanning string literal",
+    "description": "\n\nWhen attempting to parse a json file, a TypeError is raised indicating that an incompatible type was passed as an argument. Specifically, when attempting to pass a string as an argument to a function that expects an integer, a TypeError is raised indicating that a string cannot be converted to an integer",
+    "output": "Traceback (most recent call last):\n  File \"<stdin>\", line 11, in <module>\nNameError: name 'json_str' is not defined",
     "tags": [
-        "Concurrency",
-        "GarbageCollection",
+        "TypeError",
+        "json",
         "Medium"
     ]
 }

@@ -1,10 +1,10 @@
 {
     "id": "problem_27",
-    "description": "\n\nWhen attempting to format a hard drive using the os module, a runtime error is thrown indicating that the file system is not supported by the os module.",
-    "output": "Traceback (most recent call last):\n  File \"<stdin>\", line 4, in <module>\nAttributeError: module 'os' has no attribute 'makedrive'",
+    "description": "\n\nWhen attempting to access a numpy array, a IndexError is thrown due to the index being out of range. The index is too large and is beyond the size of the numpy array.",
+    "output": "Traceback (most recent call last):\n  File \"<stdin>\", line 4, in <module>\nIndexError: index 10 is out of bounds for axis 0 with size 5",
     "tags": [
-        "os",
-        "format",
+        "IndexError",
+        "numpy",
         "Easy"
     ]
 }

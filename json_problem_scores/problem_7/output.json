@@ -1,9 +1,9 @@
 {
     "name": "Python Execution Output Comparison: problem_7",
     "tags": [
-        "sort",
-        "String",
+        "RuntimeError",
+        "Serialization",
         "Easy"
     ],
-    "output": 0.8175182481751825
+    "output": 0.0
 }

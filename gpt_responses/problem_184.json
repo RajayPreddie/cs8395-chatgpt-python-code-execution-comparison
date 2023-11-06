@@ -1,10 +1,10 @@
 {
     "id": "problem_184",
-    "description": "\n\nError: SyntaxError\nProblem Description: The code is trying to generate a random list of items, but the syntax is incorrect. The code is missing a closing parenthesis after the keyword 'random' which is causing the SyntaxError.",
-    "output": "Traceback (most recent call last):\n  File \"<stdin>\", line 8\n    def random_int(start, end):\n                               ^\nSyntaxError: unexpected EOF while parsing",
+    "description": "\n\nThe problem is a SyntaxError that occurs when a program attempts to use the Python keyword 'Reflection' to define a variable. The error occurs because the keyword 'Reflection' is not a valid variable name in Python and thus causes a SyntaxError.",
+    "output": "5",
     "tags": [
-        "items",
-        "random",
+        "SyntaxError",
+        "Reflection",
         "Hard"
     ]
 }

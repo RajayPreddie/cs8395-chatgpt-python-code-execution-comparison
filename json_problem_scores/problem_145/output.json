@@ -1,9 +1,9 @@
 {
     "name": "Python Execution Output Comparison: problem_145",
     "tags": [
-        "values",
-        "VirtualEnvironment",
+        "ModuleNotFoundError",
+        "numpy",
         "Easy"
     ],
-    "output": 0.8913857677902621
+    "output": 0.16279069767441862
 }

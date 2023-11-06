@@ -1,4 +1,3 @@
-  File "<string>", line 6
-    print(future1.
-         ^
-SyntaxError: '(' was never closed
+  File "<string>", line 5
+    def add_two_numbers(a: int, b: int) -> int:
+IndentationError: unexpected indent

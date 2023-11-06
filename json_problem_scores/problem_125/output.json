@@ -1,9 +1,9 @@
 {
     "name": "Python Execution Output Comparison: problem_125",
     "tags": [
-        "Protocol",
-        "Bytearray",
+        "MemoryError",
+        "popitem",
         "Easy"
     ],
-    "output": 0.9395348837209302
+    "output": 0.32653061224489793
 }

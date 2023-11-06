@@ -1,10 +1,10 @@
 {
     "id": "problem_153",
-    "description": "\n\nWhen attempting to sort a List of strings, an error is thrown stating that the List elements must all be of the same type in order to be sorted.",
-    "code": "my_list = [\"Apple\", \"Banana\", 4, \"Cherry\"]\nmy_list.sort()\n\nprint(my_list)",
+    "description": "\n\nThe problem is an IndentationError caused by attempting to reverse the indentation of a loop. When attempting to reverse the indentation of a loop, the code fails to compile and throws an IndentationError.",
+    "code": "for i in range(10):\n    print(i)\n  i += 1",
     "tags": [
-        "sort",
-        "List",
+        "IndentationError",
+        "reverse",
         "Medium"
     ]
 }

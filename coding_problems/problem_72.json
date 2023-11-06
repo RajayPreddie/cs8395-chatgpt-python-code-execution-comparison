@@ -1,10 +1,10 @@
 {
     "id": "problem_72",
-    "description": "\n\nWhen attempting to create an OrderedDict from a regular dictionary, an re error is raised stating that the regular dictionary is not in the correct format for the OrderedDict. This error is caused by the fact that the regular dictionary does not contain the necessary key-value pairs in",
-    "code": "# Create regular dictionary\nreg_dict = {\n    'a': 1,\n    'b': 2,\n    'c': 3\n}\n\n# Attempt to create OrderedDict from regular dictionary\nfrom collections import OrderedDict\n\ntry:",
+    "description": "\n\nWhen attempting to execute a function with a Non-default argument, a ZeroDivisionError is raised due to the argument being a zero value. This prevents the function from completing and results in a runtime error.",
+    "code": "def calculate_sum(a, b, c):\n    \"\"\"Calculates the sum of three numbers\n\n    Args:\n        a (int): The first number\n        b (int): The second number\n        c (int): The third number\n\n    Returns:",
     "tags": [
-        "re",
-        "OrderedDict",
+        "ZeroDivisionError",
+        "Non-default argument",
         "Medium"
     ]
 }

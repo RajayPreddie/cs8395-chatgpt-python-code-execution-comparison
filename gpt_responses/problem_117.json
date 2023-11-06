@@ -1,9 +1,9 @@
 {
     "id": "problem_117",
-    "description": "\n\nThe problem is that when attempting to add a numerical value to a Frozenset, a runtime error is thrown. The error states that the Frozenset is immutable and cannot be modified, meaning that mathematical operations such as addition cannot be performed. This error occurs when attempting to add a numerical",
-    "output": "Error: unsupported operand type(s) for +: 'frozenset' and 'int'",
+    "description": "\n\nProblem Description: When attempting to run a program, a NameError is thrown stating that the variable 'math_variable' is not defined. This error is caused by the program attempting to use the math_variable in a mathematical calculation without first declaring it.",
+    "output": "15",
     "tags": [
-        "Frozenset",
+        "NameError",
         "math",
         "Easy"
     ]

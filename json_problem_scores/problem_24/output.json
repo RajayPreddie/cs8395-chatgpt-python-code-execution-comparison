@@ -1,9 +1,9 @@
 {
     "name": "Python Execution Output Comparison: problem_24",
     "tags": [
-        "format",
-        "clear",
+        "IndentationError",
+        "NamedTuple",
         "Easy"
     ],
-    "output": 0.990909090909091
+    "output": 0.7622641509433963
 }

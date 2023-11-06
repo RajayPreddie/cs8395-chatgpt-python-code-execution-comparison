@@ -1,10 +1,10 @@
 {
     "id": "problem_106",
-    "description": "\n\nThe problem is that when trying to use the symmetric_difference function to clear the contents of a list, a compile/runtime error occurs. The error states that the list is not of the same type and size as the other list used in the symmetric_difference function.",
-    "code": "# Clear program\n\n# Import necessary libraries\nimport os\nimport sys\n\n# Create a function to clear the terminal\ndef clear():\n    # For Windows\n    if os.name == 'nt':\n        _ = os.system('cls')\n    #",
+    "description": "\n\nProblem: A RuntimeError is thrown when a tuple is being accessed with an index that is out of range.",
+    "code": "# Create a tuple\nmy_tuple = (\"apple\", \"banana\", \"orange\")\n\n# Access the first item in the tuple\nfirst_item = my_tuple[0]\nprint(first_item) # Outputs: apple",
     "tags": [
-        "symmetric_difference",
-        "clear",
+        "RuntimeError",
+        "tuple",
         "Easy"
     ]
 }

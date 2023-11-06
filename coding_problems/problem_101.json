@@ -1,10 +1,10 @@
 {
     "id": "problem_101",
-    "description": "\n\nWhen making requests using the Protocol, an error occurs that causes the program to crash. The error is caused by an unexpected character in the request that the Protocol is unable to interpret.",
-    "code": "# Program to demonstrate error caused by unexpected character in request\n\n# Import modules\nimport requests\n\n# Define function to make request\ndef make_request(url):\n  try:\n    # Make request\n    response = requests.get(url)\n  except",
+    "description": "\n\nThe problem is a SyntaxError caused by an incorrect use of a decorator. The code is attempting to use a decorator to modify a function, but the syntax of the decorator is incorrect. This causes the Python interpreter to throw a SyntaxError, indicating that a proper decor",
+    "code": "@decor\ndef my_function():\n    print(\"Hello World!\")\n    \n# SyntaxError: invalid syntax",
     "tags": [
-        "Protocol",
-        "requests",
+        "SyntaxError",
+        "Decorator",
         "Easy"
     ]
 }

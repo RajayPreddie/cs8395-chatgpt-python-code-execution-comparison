@@ -1,9 +1,9 @@
 {
     "name": "Python Execution Output Comparison: problem_171",
     "tags": [
-        "Tuple",
-        "discard",
+        "KeyError",
+        "numpy",
         "Medium"
     ],
-    "output": 0.8387096774193549
+    "output": 0.7889908256880734
 }

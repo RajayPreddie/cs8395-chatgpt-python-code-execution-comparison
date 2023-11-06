@@ -1,9 +1,9 @@
 {
     "name": "Python Execution Output Comparison: problem_36",
     "tags": [
-        "matplotlib",
-        "append",
+        "ValueError",
+        "NamedTuple",
         "Easy"
     ],
-    "output": 0.9264069264069265
+    "output": 0.7799227799227799
 }

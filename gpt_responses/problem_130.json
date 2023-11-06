@@ -1,10 +1,10 @@
 {
     "id": "problem_130",
-    "description": "\n\nThe problem is that when attempting to use MonkeyPatching to make a difference in the runtime behavior of a program, the program throws an error due to an unexpected difference between the original code and the patched code. This difference causes the program to crash at runtime.",
-    "output": "Traceback (most recent call last):\n  File \"<stdin>\", line 7, in <module>\nUnboundLocalError: local variable 'original_function' referenced before assignment",
+    "description": "\n\nThe problem is an ImportError caused by the setdefault function not being able to find the desired module. When the program tries to import a module by using the setdefault function, the function returns an empty string instead of the module name, resulting in an ImportError.",
+    "output": "{'default': 0}",
     "tags": [
-        "MonkeyPatching",
-        "difference",
+        "ImportError",
+        "setdefault",
         "Easy"
     ]
 }

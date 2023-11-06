@@ -1,10 +1,10 @@
 {
     "id": "problem_65",
-    "description": "\n\nError: RuntimeError: ChainMap object has no key 'key1'\n\nProblem Description: When attempting to access the key 'key1' in a ChainMap object, a RuntimeError is thrown indicating the ChainMap object does not have the specified key.",
-    "output": "SyntaxError: unexpected EOF while parsing",
+    "description": "\n\nThe problem is that when attempting to iterate through a DefaultDict, a StopIteration error is raised. This occurs because the DefaultDict is empty and there is no more data to iterate through.",
+    "output": "",
     "tags": [
-        "keys",
-        "ChainMap",
+        "StopIteration",
+        "DefaultDict",
         "Medium"
     ]
 }

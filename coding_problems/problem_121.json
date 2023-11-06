@@ -1,10 +1,10 @@
 {
     "id": "problem_121",
-    "description": "\n\nWhen trying to access the upper elements of a List, a runtime error is thrown indicating that the index of the List is out of bounds. This occurs when the index used to access the upper elements of the List is greater than the length of the List.",
-    "code": "#This program will throw a runtime error when trying to access the upper elements of a List\n\n#Create an empty list\nlist = []\n\n#Append elements to the list\nlist.append(1)\nlist.append(2)\nlist.append(3",
+    "description": "\n\nProblem Description: When attempting to iterate through a set of items, a StopIteration error is thrown. This error occurs when the iteration process reaches the end of the set and there are no more items to iterate through.",
+    "code": "# Program\n\nmy_list = [1,2,3,4]\n\niterator = iter(my_list)\n\nwhile True:\n  try:\n    item = next(iterator)\n    print(item)\n  except StopIteration:",
     "tags": [
-        "List",
-        "upper",
+        "StopIteration",
+        "set",
         "Easy"
     ]
 }

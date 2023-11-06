@@ -1,9 +1,9 @@
 {
     "name": "Python Execution Output Comparison: problem_103",
     "tags": [
-        "String",
-        "Set",
+        "RecursionError",
+        "popitem",
         "Easy"
     ],
-    "output": 0.9830508474576272
+    "output": 0.9351851851851852
 }

@@ -1,9 +1,9 @@
 {
     "name": "Python Execution Output Comparison: problem_173",
     "tags": [
-        "clear",
-        "GarbageCollection",
+        "OSError",
+        "IdiomaticPython",
         "Medium"
     ],
-    "output": 0.8
+    "output": 0.9620253164556962
 }

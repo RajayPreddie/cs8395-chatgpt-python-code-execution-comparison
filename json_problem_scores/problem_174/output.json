@@ -1,9 +1,9 @@
 {
     "name": "Python Execution Output Comparison: problem_174",
     "tags": [
-        "TypeHinting",
-        "MonkeyPatching",
+        "AssertionError",
+        "set",
         "Medium"
     ],
-    "output": 0.9731343283582089
+    "output": 0.990990990990991
 }

@@ -1,9 +1,9 @@
 {
     "name": "Python Execution Output Comparison: problem_142",
     "tags": [
-        "Bytes",
-        "get",
+        "FileNotFoundError",
+        "DefaultDict",
         "Easy"
     ],
-    "output": 0.5938864628820961
+    "output": 0.9809523809523809
 }

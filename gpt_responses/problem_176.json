@@ -1,10 +1,10 @@
 {
     "id": "problem_176",
-    "description": "\n\nThe program is not able to get the expected results when attempting to get the difference between two values. The program is throwing a compile/runtime error that is preventing the expected output from being produced.",
-    "output": "Traceback (most recent call last):\n  File \"<stdin>\", line 12\n    user_input = input(\"Please enter some text: \"\n                                                  ^\nSyntaxError: unexpected EOF while parsing",
+    "description": "\n\nWhen attempting to replace a file in a directory, a FileNotFoundError is raised indicating that the file could not be found.",
+    "output": "Traceback (most recent call last):\n  File \"<stdin>\", line 9, in <module>\nNameError: name 'old_string' is not defined",
     "tags": [
-        "difference",
-        "get",
+        "FileNotFoundError",
+        "replace",
         "Medium"
     ]
 }

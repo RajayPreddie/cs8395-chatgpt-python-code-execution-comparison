@@ -1,9 +1,9 @@
 {
     "name": "Python Execution Output Comparison: problem_155",
     "tags": [
-        "NamedTuple",
-        "UnitTesting",
+        "NameError",
+        "os",
         "Medium"
     ],
-    "output": 0.0
+    "output": 0.02702702702702703
 }

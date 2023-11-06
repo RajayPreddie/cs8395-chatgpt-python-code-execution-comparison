@@ -1,10 +1,10 @@
 {
     "id": "problem_40",
-    "description": "\n\nWhen attempting to discard an item from a List, a compile/runtime error occurs due to a mismatch between the item's type and the List's expected type. This causes the program to terminate unexpectedly.",
-    "output": "Traceback (most recent call last):\n  File \"<stdin>\", line 11\n    print(\"List is empty\n                       ^\nSyntaxError: EOL while scanning string literal",
+    "description": "\n\nWhen attempting to call a function with a Non-default argument, the program throws a NotImplementedError. This indicates that the function has not been implemented in the code to handle the Non-default argument.",
+    "output": "",
     "tags": [
-        "discard",
-        "List",
+        "NotImplementedError",
+        "Non-default argument",
         "Easy"
     ]
 }

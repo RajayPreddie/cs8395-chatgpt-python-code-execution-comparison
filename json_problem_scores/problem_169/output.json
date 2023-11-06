@@ -1,9 +1,9 @@
 {
     "name": "Python Execution Output Comparison: problem_169",
     "tags": [
-        "issubset",
-        "issubset",
+        "NotImplementedError",
+        "discard",
         "Medium"
     ],
-    "output": 0.6112956810631229
+    "output": 0.5129682997118156
 }

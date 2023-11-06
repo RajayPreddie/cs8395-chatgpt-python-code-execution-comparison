@@ -1,10 +1,10 @@
 {
     "id": "problem_109",
-    "description": "\n\nWhen running a subprocess, the program throws a List index out of range error. This occurs when attempting to access an element in a list that does not exist. The program is not properly handling the size of the list and is attempting to access an element that does not exist.",
-    "code": "import subprocess\n\n# Create a list of commands\ncommands = ['ls', 'pwd', 'whoami', 'echo Hello World']\n\n# Run commands one by one\nfor cmd in commands:\n    process = subprocess.run(cmd, stdout",
+    "description": "\n\nProblem Description:\nThe program is attempting to use the GarbageCollection module in order to delete objects that are no longer in use, but it is failing to do so due to a NameError. The NameError is being caused by the program not recognizing the GarbageCollection module as a",
+    "code": "import GarbageCollection\n\ndef delete_objects():\n    GarbageCollection.delete()\n\ndelete_objects()",
     "tags": [
-        "List",
-        "subprocess",
+        "NameError",
+        "GarbageCollection",
         "Easy"
     ]
 }

@@ -1,0 +1,1 @@
+bytearray(b'\n\x14\x1e(2<')

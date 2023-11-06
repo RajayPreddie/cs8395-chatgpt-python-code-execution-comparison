@@ -1,9 +1,9 @@
 {
     "name": "Python Execution Output Comparison: problem_56",
     "tags": [
-        "List",
-        "random",
+        "SyntaxError",
+        "requests",
         "Medium"
     ],
-    "output": 0.7256637168141593
+    "output": 0.17777777777777778
 }

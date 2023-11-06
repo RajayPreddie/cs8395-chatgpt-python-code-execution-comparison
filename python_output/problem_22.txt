@@ -1,4 +1,3 @@
-  File "<string>", line 8
-    r = requests.get('https://api.example
-                     ^
-SyntaxError: unterminated string literal (detected at line 8)
+  File "<string>", line 5
+    import threading
+IndentationError: unexpected indent

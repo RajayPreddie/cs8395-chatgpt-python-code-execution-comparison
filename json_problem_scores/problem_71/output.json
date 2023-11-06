@@ -1,9 +1,9 @@
 {
     "name": "Python Execution Output Comparison: problem_71",
     "tags": [
-        "DuckTyping",
-        "split",
+        "SyntaxError",
+        "frozenset",
         "Medium"
     ],
-    "output": 0.8431372549019608
+    "output": 0.35185185185185186
 }

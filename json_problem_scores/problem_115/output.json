@@ -1,9 +1,9 @@
 {
     "name": "Python Execution Output Comparison: problem_115",
     "tags": [
-        "Set",
-        "Tuple",
+        "ModuleNotFoundError",
+        "Non-default argument",
         "Easy"
     ],
-    "output": 0.0
+    "output": 0.8137254901960784
 }

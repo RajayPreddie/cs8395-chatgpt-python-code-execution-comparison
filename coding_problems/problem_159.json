@@ -1,10 +1,10 @@
 {
     "id": "problem_159",
-    "description": "\n\nProblem Description:\nWhen attempting to create a MemoryView object using the fromkeys method, a runtime error occurs, indicating that the MemoryView object is not compatible with the type of data passed in.",
-    "code": "import array\n\n# Create a list of numbers\nnumbers = [1, 2, 3, 4, 5]\n\n# Create a MemoryView object\nmem_view = memoryview.fromkeys(numbers)\n\n# Create a list of strings\nstrings =",
+    "description": "\n\nThe problem is an OverflowError caused by the metaclass attempting to store too much data in a single memory location. The metaclass is trying to store a large amount of data in a single memory location, which exceeds the maximum capacity of the memory location and causes the Overflow",
+    "code": "class Metaclass:\n    data = [2**1024] * 1024\n    \nmetaclass_instance = Metaclass()",
     "tags": [
-        "MemoryView",
-        "fromkeys",
+        "OverflowError",
+        "Metaclass",
         "Medium"
     ]
 }

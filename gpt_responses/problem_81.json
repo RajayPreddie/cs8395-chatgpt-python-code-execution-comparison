@@ -1,9 +1,9 @@
 {
     "id": "problem_81",
-    "description": "\n\nWhen attempting to sort a list of values using the scipy library, a compile-time error is encountered which states \"TypeError: 'scipy.ndarray' object does not support item assignment\". This indicates that the scipy library is not compatible with the sort function",
-    "output": "Traceback (most recent call last):\n  File \"<stdin>\", line 7, in <module>\n    return float(sum(numbers)) / max(len(n\nNameError: name 'n' is not defined",
+    "description": "\n\nThe problem is an ImportError in which the user is unable to import the scipy module. The error is caused by a missing or invalid scipy module in the user's system. The user is unable to import the scipy module due to a missing or invalid version of",
+    "output": "",
     "tags": [
-        "sort",
+        "ImportError",
         "scipy",
         "Hard"
     ]

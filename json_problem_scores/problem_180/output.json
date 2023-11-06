@@ -1,8 +1,8 @@
 {
     "name": "Python Execution Output Comparison: problem_180",
     "tags": [
-        "format",
-        "os",
+        "ZeroDivisionError",
+        "index",
         "Medium"
     ],
     "output": 0.0

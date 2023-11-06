@@ -1,10 +1,10 @@
 {
     "id": "problem_10",
-    "description": "\n\nWhen using a NamedTuple, an index error occurs when attempting to access an item in the tuple that is out of range. This error occurs when the index used to access the item is either negative or greater than the length of the tuple.",
-    "output": "Traceback (most recent call last):\n  File \"<stdin>\", line 7, in <module>\nNameError: name 'MyT' is not defined",
+    "description": "\n\nA RuntimeError is raised when a program attempts to remove an item from a list that does not exist.",
+    "output": "Original list:  [1, 2, 3, 4, 5]",
     "tags": [
-        "NamedTuple",
-        "index",
+        "RuntimeError",
+        "remove",
         "Easy"
     ]
 }

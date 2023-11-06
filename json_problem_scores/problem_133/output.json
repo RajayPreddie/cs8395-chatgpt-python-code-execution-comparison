@@ -1,9 +1,9 @@
 {
     "name": "Python Execution Output Comparison: problem_133",
     "tags": [
-        "Bytearray",
-        "Bytearray",
+        "IndexError",
+        "endswith",
         "Easy"
     ],
-    "output": 0.0
+    "output": 0.08163265306122448
 }

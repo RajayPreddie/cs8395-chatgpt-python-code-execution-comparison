@@ -1,4 +1,1 @@
-  File "<string>", line 8
-    #converting both
-                    ^
-IndentationError: expected an indented block after function definition on line 7
+[]

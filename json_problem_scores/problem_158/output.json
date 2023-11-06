@@ -1,9 +1,9 @@
 {
     "name": "Python Execution Output Comparison: problem_158",
     "tags": [
-        "pop",
-        "scipy",
+        "ModuleNotFoundError",
+        "upper",
         "Medium"
     ],
-    "output": 0.0
+    "output": 0.96
 }

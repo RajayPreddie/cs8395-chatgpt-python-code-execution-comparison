@@ -1,9 +1,9 @@
 {
     "name": "Python Execution Output Comparison: problem_98",
     "tags": [
-        "Bytearray",
-        "sys",
+        "ModuleNotFoundError",
+        "math",
         "Hard"
     ],
-    "output": 0.7608695652173914
+    "output": 0.9683257918552036
 }

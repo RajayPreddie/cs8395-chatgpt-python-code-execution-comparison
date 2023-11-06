@@ -1,9 +1,9 @@
 {
     "name": "Python Execution Output Comparison: problem_117",
     "tags": [
-        "Frozenset",
+        "NameError",
         "math",
         "Easy"
     ],
-    "output": 0.7
+    "output": 0.046511627906976744
 }

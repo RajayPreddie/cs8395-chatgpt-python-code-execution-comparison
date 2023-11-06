@@ -1,10 +1,10 @@
 {
     "id": "problem_85",
-    "description": "\n\nThe problem is a django compile/runtime error when attempting to use a socket to send data. The error occurs when attempting to send data with a socket connection using django, resulting in a connection reset by the server.",
-    "output": "Starting up on localhost port 10000\nTraceback (most recent call last):\n  File \"<stdin>\", line 10, in <module>\nOSError: [Errno 98] Address already in use",
+    "description": "\n\nWhen attempting to create a new dictionary, a TypeError is raised stating that the input is not a valid type for a dictionary. Specifically, the error states that the input is a dict type, when it should be a string, list, tuple, or set.",
+    "output": "",
     "tags": [
-        "django",
-        "socket",
+        "TypeError",
+        "dict",
         "Hard"
     ]
 }

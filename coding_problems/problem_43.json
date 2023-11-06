@@ -1,10 +1,10 @@
 {
     "id": "problem_43",
-    "description": "\n\nThe problem is a pytorch runtime error that occurs when attempting to reverse a sequence of tensors. When running the code, the program fails to reverse the sequence of tensors, resulting in a runtime error.",
-    "code": "# Program to reverse a string\n\n# Define a function to reverse a string\ndef reverse_string(string): \n  \n  # Empty string to store reversed string \n  reversed_string = \"\" \n  \n  # Iterate over the string in reverse",
+    "description": "\n\nProblem Description: When attempting to use a decorator to modify a function, a TypeError is thrown stating that the decorator is not a valid type and cannot be used to modify the function.",
+    "code": "def my_decorator(func):\n    return func\n\n@my_decorator\ndef my_function():\n    print(\"Hello World!\")\n\nmy_function()\n\nTypeError: my_decorator is not a valid type and cannot",
     "tags": [
-        "pytorch",
-        "reverse",
+        "TypeError",
+        "Decorator",
         "Easy"
     ]
 }

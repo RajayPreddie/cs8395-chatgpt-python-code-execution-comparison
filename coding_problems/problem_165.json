@@ -1,10 +1,10 @@
 {
     "id": "problem_165",
-    "description": "\n\nSyntax Error: Global state variables are being referenced within a function but not declared as global within the function, resulting in a syntax error when the program is compiled.",
-    "code": "# Program to demonstrate global state\n\n# Define a global state variable\nglobal_state = 0\n\n# Define a function to increment the global state\ndef increment_global_state():\n    global global_state\n    global_state += 1\n\n# Def",
+    "description": " \n\nWhen running a Python program, an OSError is raised with the message \"FileNotFoundError: [Errno 2] No such file or directory: 'data.csv'\". This error occurs when the program attempts to open a file whose name does not start with",
+    "code": "# Program\n\ntry:\n    with open('data.csv', 'r') as f:\n        data = f.read()\nexcept OSError as err:\n    print(f\"FileNotFoundError: {err}\")",
     "tags": [
-        "random",
-        "Global state",
+        "OSError",
+        "startswith",
         "Medium"
     ]
 }

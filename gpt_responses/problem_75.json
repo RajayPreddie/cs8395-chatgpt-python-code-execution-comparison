@@ -1,10 +1,10 @@
 {
     "id": "problem_75",
-    "description": "\n\nThe problem is that when attempting to use the union argument in a function call, a compile/runtime error is thrown due to the argument being set to a non-default value. This is because the union argument is not set to the default value of None, and the function does not accept",
-    "output": "",
+    "description": "\n\nWhen attempting to execute a program, a SyntaxError is thrown indicating that the collections keyword is not properly formatted. The program is unable to continue running due to the incorrect syntax of the collections keyword, causing the program to crash.",
+    "output": "[1, 2, 3]",
     "tags": [
-        "Non-default argument",
-        "union",
+        "SyntaxError",
+        "collections",
         "Medium"
     ]
 }

@@ -1,9 +1,9 @@
 {
     "name": "Python Execution Output Comparison: problem_87",
     "tags": [
-        "requests",
-        "format",
+        "RuntimeError",
+        "set",
         "Hard"
     ],
-    "output": 1.0
+    "output": 0.7384615384615385
 }

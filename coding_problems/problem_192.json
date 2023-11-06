@@ -1,10 +1,10 @@
 {
     "id": "problem_192",
-    "description": "\n\nWhen running a script written in IdiomaticPython, the sys module throws a compile/runtime error indicating that the code is attempting to access an undefined system path.",
-    "code": "import sys\n\ndef main():\n    # define a list of system paths\n    system_paths = ['C:/', 'D:/', 'E:/', 'F:/']\n    \n    # loop through the system paths\n    for path in system_paths",
+    "description": "\n\nWhen attempting to check if a string ends with a certain character, an AttributeError is raised due to the lack of a 'endswith' attribute on the string object.",
+    "code": "my_list = [\"Hello\", \"World\", \"Python\"]\n\nfor item in my_list:\n  if item.endswith(\"n\"):\n    print(item)",
     "tags": [
-        "sys",
-        "IdiomaticPython",
+        "AttributeError",
+        "endswith",
         "Hard"
     ]
 }

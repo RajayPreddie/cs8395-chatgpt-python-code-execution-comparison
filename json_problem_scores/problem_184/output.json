@@ -1,9 +1,9 @@
 {
     "name": "Python Execution Output Comparison: problem_184",
     "tags": [
-        "items",
-        "random",
+        "SyntaxError",
+        "Reflection",
         "Hard"
     ],
-    "output": 0.9822485207100592
+    "output": 0.6666666666666666
 }

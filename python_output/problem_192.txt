@@ -1,4 +1,3 @@
-  File "<string>", line 8
-    for path in system_paths
-                            ^
-SyntaxError: expected ':'
+  File "<string>", line 5
+    my_list = ["Hello", "World", "Python"]
+IndentationError: unexpected indent

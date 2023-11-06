@@ -1,9 +1,9 @@
 {
     "name": "Python Execution Output Comparison: problem_123",
     "tags": [
-        "symmetric_difference",
-        "clear",
+        "ZeroDivisionError",
+        "remove",
         "Easy"
     ],
-    "output": 0.935251798561151
+    "output": 0.9035532994923858
 }

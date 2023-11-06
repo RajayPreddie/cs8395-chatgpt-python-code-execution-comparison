@@ -1,10 +1,10 @@
 {
     "id": "problem_100",
-    "description": "\n\nError: Lambda SyntaxError: invalid syntax for string argument.\nProblem Description: When attempting to use a Lambda expression to return a string, a SyntaxError is thrown due to an invalid syntax being used for the string argument.",
-    "code": "def my_function(string_arg):\n    return lambda string_arg: \"This is an invalid string argument\"\n\ndef main():\n    my_string = \"Hello World!\"\n    result = my_function(my_string)\n    print(result)",
+    "description": "\n\nWhen trying to create a pandas dataframe from a large dataset, an OverflowError is thrown due to the size of the data exceeding the maximum capacity of the dataframe.",
+    "code": "import pandas as pd \n\n# Create a dataframe \ndf = pd.DataFrame({'Name': ['John', 'Paul', 'George', 'Ringo'], \n                   'Age': [25, 33, 25, 39],",
     "tags": [
-        "Lambda",
-        "String",
+        "OverflowError",
+        "pandas",
         "Hard"
     ]
 }

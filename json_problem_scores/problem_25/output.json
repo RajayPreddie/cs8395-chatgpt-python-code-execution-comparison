@@ -1,9 +1,9 @@
 {
     "name": "Python Execution Output Comparison: problem_25",
     "tags": [
-        "sys",
-        "Decorator",
+        "IndexError",
+        "multiprocessing",
         "Easy"
     ],
-    "output": 0.8346456692913385
+    "output": 0.0
 }

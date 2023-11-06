@@ -1,10 +1,10 @@
 {
     "id": "problem_132",
-    "description": "\n\nThe problem is that a Coroutine is not properly memoizing its results, resulting in a runtime error. When the Coroutine is called multiple times, the same value is not being returned, resulting in an inconsistent output.",
-    "output": "Traceback (most recent call last):\n  File \"<stdin>\", line 1, in <module>\nRuntimeError: This event loop is already running",
+    "description": "\n\nWhen attempting to divide a list of items by zero, a ZeroDivisionError is thrown, resulting in the program crashing.",
+    "output": "1\n2\n3\n4\n5",
     "tags": [
-        "Memoization",
-        "Coroutine",
+        "ZeroDivisionError",
+        "items",
         "Easy"
     ]
 }

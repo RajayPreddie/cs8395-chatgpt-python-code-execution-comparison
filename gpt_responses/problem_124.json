@@ -1,10 +1,10 @@
 {
     "id": "problem_124",
-    "description": "\n\nWhen attempting to generate a plot with matplotlib, the plot fails to display due to a \"clear\" error. The error occurs when the code attempts to clear the figure before generating the plot, but the figure has not been initialized properly. This results in a runtime error that prevents the",
-    "output": "",
+    "description": "\n\nThe problem description is: The program is unable to complete the reflection process due to an OSError. The program is unable to access the necessary files or directories required for the reflection process.",
+    "output": "Traceback (most recent call last):\n  File \"<stdin>\", line 1, in <module>\nIndentationError: expected an indented block",
     "tags": [
-        "matplotlib",
-        "clear",
+        "OSError",
+        "Reflection",
         "Easy"
     ]
 }

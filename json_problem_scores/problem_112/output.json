@@ -1,9 +1,9 @@
 {
     "name": "Python Execution Output Comparison: problem_112",
     "tags": [
-        "pandas",
-        "ChainMap",
+        "NotImplementedError",
+        "set",
         "Easy"
     ],
-    "output": 1.0
+    "output": 0.967741935483871
 }

@@ -1,10 +1,10 @@
 {
     "id": "problem_194",
-    "description": "\n\nThe problem is a ContextManager runtime error. When trying to use the ContextManager to pop an item from a list, the program throws an error saying that the item is not found in the list.",
-    "code": "# Pop Program \n# Program to illustrate the use of the 'pop' keyword in Python \n\n# importing the necessary libraries \nimport random \n\n# creating a function to generate a random list \ndef generate_list(size): \n\t# creating an",
+    "description": "\n\nWhen attempting to use a ContextManager within a function, an AssertionError is raised indicating that the ContextManager is not properly closing the context.",
+    "code": "# Using the Context Manager to open a file\n\nwith open('example.txt', 'r') as f:\n    content = f.read()\n    print(content)",
     "tags": [
+        "AssertionError",
         "ContextManager",
-        "pop",
         "Hard"
     ]
 }

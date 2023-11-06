@@ -1,10 +1,10 @@
 {
     "id": "problem_76",
-    "description": "\n\nError: SyntaxError: invalid syntax\nProblem Description: When attempting to use the 'union' keyword in a program, the program fails to compile due to an invalid syntax error. The issue is caused by an incorrect use of the 'union' keyword in the code, causing the compiler",
-    "code": "def union_function(list1, list2): \n    return list1 + list2\n\ndef main():\n    list1 = [1, 2, 3]\n    list2 = [4, 5, 6]\n    union_list = union_function",
+    "description": "\n\nWhen attempting to create a bytearray of size greater than the maximum size supported by the Python interpreter, an OverflowError is raised. The error is caused by the Python interpreter not being able to allocate the requested memory for the bytearray.",
+    "code": "# Create a bytearray object \ndata = bytearray([10,20,30,40,50,60]) \n  \n# Print the bytearray \nprint(data) \n  \n# Accessing individual bytes from byt",
     "tags": [
-        "find",
-        "union",
+        "OverflowError",
+        "bytearray",
         "Medium"
     ]
 }

@@ -1,9 +1,9 @@
 {
     "name": "Python Execution Output Comparison: problem_27",
     "tags": [
-        "os",
-        "format",
+        "IndexError",
+        "numpy",
         "Easy"
     ],
-    "output": 0.8110599078341014
+    "output": 0.7798165137614679
 }

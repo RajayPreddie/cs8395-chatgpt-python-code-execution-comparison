@@ -1,10 +1,10 @@
 {
     "id": "problem_28",
-    "description": "\n\nWhen attempting to discard an item from a list, a runtime error occurs. The program is attempting to discard an item from the list that does not exist, causing the program to crash.",
-    "code": "# Program to discard elements from a list\n\n# Initializing the list\nlist_of_nums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]\n\n# Discarding elements from the list\ndef discard_e",
+    "description": "\n\nThe problem is a StopIteration error due to a difference in the number of elements in two iterators. The code is attempting to iterate through two iterators at the same time, but one of the iterators has fewer elements than the other. As a result, when the code",
+    "code": "# Calculate the difference between two numbers \ndef difference(num1, num2): \n    return num1 - num2 \n  \n# Driver program \nnum1 = 10\nnum2 = 5\nprint(\"Difference is:\", difference(num1",
     "tags": [
-        "list",
-        "discard",
+        "StopIteration",
+        "difference",
         "Easy"
     ]
 }

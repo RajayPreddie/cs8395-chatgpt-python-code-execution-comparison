@@ -1,10 +1,10 @@
 {
     "id": "problem_122",
-    "description": "\n\nWhen attempting to concatenate a string and a dictionary, a compile/runtime error is thrown, stating \"unsupported operand type(s) for +: 'str' and 'dict'\".",
-    "code": "# Program that throws an error when attempting to concatenate a string and a dictionary\n\n# Create a string\nstring = \"Hello World!\"\n\n# Create a dictionary\ndictionary = {\n  \"name\": \"John Doe\",\n  \"age\": 25\n}",
+    "description": "\n\nWhen attempting to insert a large amount of data into a list, a MemoryError is thrown. The program is unable to allocate enough memory to store the data and is unable to complete the insert operation.",
+    "code": "# Insert a list of numbers \nnumbers = [1, 2, 3, 4, 5] \n\n# Insert a for loop to iterate through the list \nfor num in numbers: \n    # Insert a print statement to print each number in the list",
     "tags": [
-        "String",
-        "Dict",
+        "MemoryError",
+        "insert",
         "Easy"
     ]
 }

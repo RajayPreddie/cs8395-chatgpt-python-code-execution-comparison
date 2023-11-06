@@ -1,10 +1,10 @@
 {
     "id": "problem_35",
-    "description": "\n\nError: UnionError: The operating system has encountered an unexpected error while attempting to join two sets of data together using the union function.",
-    "output": "Traceback (most recent call last):\n  File \"<stdin>\", line 1, in <module>\nNameError: name 'UnionError' is not defined",
+    "description": "\n\nWhen attempting to connect to a remote socket, a RuntimeError is raised indicating that the connection could not be established due to an invalid authentication token.",
+    "output": "RuntimeError: name 'socket' is not defined",
     "tags": [
-        "os",
-        "union",
+        "RuntimeError",
+        "socket",
         "Easy"
     ]
 }

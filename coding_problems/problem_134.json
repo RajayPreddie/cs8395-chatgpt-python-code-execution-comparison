@@ -1,10 +1,10 @@
 {
     "id": "problem_134",
-    "description": "\n\nWhen attempting to use MonkeyPatching to modify the Heapq module, a compile/runtime error is encountered. The error occurs when the program attempts to replace the Heapq module's internal functions with user-defined functions. This results in the program crashing when attempting to perform operations on",
-    "code": "import heapq\n\n# Create a list of numbers\nnums = [2, 5, 8, 3, 1, 9, 4, 7]\n\n# Create an empty heap\nheap = []\n\n# Push each number into the heap\nfor num in num",
+    "description": "\n\nThe problem is a ModuleNotFoundError that occurs when attempting to count the number of items in a list. The program is unable to locate the module that contains the list, resulting in the ModuleNotFoundError being thrown.",
+    "code": "# Program to count the number of elements in a list \n\n# Define a list \nlist1 = [1,2,3,4,5] \n  \n# Initialize count to 0 \ncount = 0\n  \n# Iterate over the",
     "tags": [
-        "MonkeyPatching",
-        "Heapq",
+        "ModuleNotFoundError",
+        "count",
         "Easy"
     ]
 }

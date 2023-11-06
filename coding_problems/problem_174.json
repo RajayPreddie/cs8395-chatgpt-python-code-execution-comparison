@@ -1,10 +1,10 @@
 {
     "id": "problem_174",
-    "description": "\n\nThe problem is that when attempting to use MonkeyPatching to add TypeHinting to an existing codebase, the code throws a runtime error indicating that the TypeHinting is incompatible with the existing code.",
-    "code": "\"\"\"\nMonkeyPatching Program\n\nThis program uses the concept of monkeypatching to change the behaviour of a function at runtime.\n\"\"\"\n\nimport types\n\n# Define the function to be modified\ndef add_two_numbers(a, b):",
+    "description": "\n\nThe problem is an AssertionError that occurs when a set of elements in a program is not equal to the expected set of elements. This occurs when the program tries to compare two sets of elements and the sets do not have the same number of elements or the same type of elements.",
+    "code": "# Create a set in Python \n\nmy_set = set() \n\n# Add elements to the set \nmy_set.add(1) \nmy_set.add(2) \nmy_set.add(3) \nmy_",
     "tags": [
-        "TypeHinting",
-        "MonkeyPatching",
+        "AssertionError",
+        "set",
         "Medium"
     ]
 }

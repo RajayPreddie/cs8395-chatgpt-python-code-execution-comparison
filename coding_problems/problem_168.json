@@ -1,10 +1,10 @@
 {
     "id": "problem_168",
-    "description": "\n\nWhen attempting to create a metaclass using a bytearray, an error is raised stating \"TypeError: metaclasses must be derived from type\". This occurs because a bytearray is not a valid type for a metaclass.",
-    "code": "class MyMetaClass(bytearray):\n    pass\n\nclass MyClass(metaclass=MyMetaClass):\n    pass\n\nprint(MyClass)\n\n# TypeError: metaclasses must be derived from type",
+    "description": "\n\nProblem Description: A MonkeyPatching attempt has caused an AttributeError when trying to access an attribute of a class. The attribute was added to the class during the MonkeyPatching process, but the system is not recognizing it as a valid attribute.",
+    "code": "\"\"\"This is an example of MonkeyPatching in Python\"\"\"\n\nclass MyClass:\n    def __init__(self):\n        self.a = 10\n        self.b = 20\n\ndef add_two_numbers(self):\n    return self.",
     "tags": [
-        "Bytearray",
-        "Metaclass",
+        "AttributeError",
+        "MonkeyPatching",
         "Medium"
     ]
 }

@@ -1,10 +1,10 @@
 {
     "id": "problem_60",
-    "description": "\n\nWhen attempting to get the current date and time using the datetime module, the code produces an error that says \"TypeError: 'get' is an invalid keyword argument for this function\".",
-    "code": "import datetime\n\n# Get the current date and time\ncurrent_date_time = datetime.datetime.now()\n\n# Print the current date and time\nprint(current_date_time)\n\n# Attempt to get the current date and time using the",
+    "description": "\n\nWhen running a program, a ValueError is raised when attempting to evaluate the expression 'Keyword expression'. The error indicates that the expression is invalid and cannot be evaluated.",
+    "code": "def expression(x): \n    return x + 2\n\nprint(expression(3)) # Outputs 5",
     "tags": [
-        "datetime",
-        "get",
+        "ValueError",
+        "Keyword expression",
         "Medium"
     ]
 }

@@ -1,10 +1,10 @@
 {
     "id": "problem_162",
-    "description": "\n\nThe problem is that when attempting to use memoization with the issubset function, an error is thrown. The error states that the issubset function is not supported when memoization is attempted.",
-    "output": "SyntaxError: unexpected EOF while parsing",
+    "description": "\n\nWhen attempting to read a file, a FileNotFoundError is raised due to a lack of comprehension of the file's location. The program is unable to locate the file, as it does not understand the path or directory the file is located in.",
+    "output": "[1, 4, 9, 16, 25, 36, 49, 64, 81, 100]",
     "tags": [
-        "issubset",
-        "Memoization",
+        "FileNotFoundError",
+        "Comprehension",
         "Medium"
     ]
 }

@@ -1,10 +1,10 @@
 {
     "id": "problem_142",
-    "description": "\n\nWhen trying to get a byte array from a file, a 'TypeError' is thrown that states \"Object of type 'bytes' is not subscriptable\".",
-    "output": "Traceback (most recent call last):\n  File \"<stdin>\", line 1, in <module>\n  File \"<stdin>\", line 5, in get_byte_array\nIndentationError: expected an indented block",
+    "description": "\n\nWhen attempting to access a DefaultDict stored in a file, a FileNotFoundError is raised indicating the file is missing or inaccessible.",
+    "output": "Traceback (most recent call last):\n  File \"<stdin>\", line 1, in <module>\nNameError: name 'b' is not defined",
     "tags": [
-        "Bytes",
-        "get",
+        "FileNotFoundError",
+        "DefaultDict",
         "Easy"
     ]
 }

@@ -1,10 +1,10 @@
 {
     "id": "problem_47",
-    "description": "\n\nThe problem is that when attempting to run a matplotlib script in a VirtualEnvironment, it produces a compile/runtime error stating that matplotlib is not installed in the VirtualEnvironment. This is preventing the script from running and producing the desired output.",
-    "code": "# Import packages\nimport matplotlib as mpl\nimport matplotlib.pyplot as plt\n\n# Create data\nx = [1,2,3,4,5]\ny = [2,4,6,8,10]\n\n#",
+    "description": "\n\nWhen attempting to import scipy, the program throws an OSError stating that the scipy library is not found in the system path.",
+    "code": "import scipy\n\ntry:\n    import scipy\nexcept OSError:\n    print(\"Error: scipy library not found in system path.\")",
     "tags": [
-        "matplotlib",
-        "VirtualEnvironment",
+        "OSError",
+        "scipy",
         "Easy"
     ]
 }

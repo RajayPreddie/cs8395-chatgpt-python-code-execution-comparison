@@ -1,10 +1,10 @@
 {
     "id": "problem_120",
-    "description": "\n\nWhen attempting to use the OrderedDict data structure to store and manipulate a String, a SyntaxError is thrown that states \"TypeError: 'str' object does not support item assignment\". This indicates that the String cannot be modified using the OrderedDict data structure.",
-    "code": "from collections import OrderedDict \n\n# Create a string\nmy_string = \"Hello World!\"\n\n# Create an OrderedDict\nmy_dict = OrderedDict()\n\n# Attempt to assign a value to the string using the OrderedD",
+    "description": "\n\nWhen attempting to use MonkeyPatching to dynamically alter the values of a specific object, a ValueError is raised due to the object not being able to be modified. This occurs when the object is of an immutable type, such as a string or a number, and the MonkeyPatching operation",
+    "code": "# MonkeyPatching is a technique used to modify or extend the behavior of a class or module at runtime without changing its original source code.\n\nclass MyClass:\n    def __init__(self, x):\n        self.x = x\n\n    def do_something",
     "tags": [
-        "String",
-        "OrderedDict",
+        "ValueError",
+        "MonkeyPatching",
         "Easy"
     ]
 }

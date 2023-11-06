@@ -1,8 +1,8 @@
 {
     "name": "Python Execution Output Comparison: problem_26",
     "tags": [
-        "List",
-        "Lambda",
+        "FileNotFoundError",
+        "dict",
         "Easy"
     ],
     "output": 1.0

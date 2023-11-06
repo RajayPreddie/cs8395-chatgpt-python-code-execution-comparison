@@ -1,9 +1,9 @@
 {
     "name": "Python Execution Output Comparison: problem_2",
     "tags": [
-        "Keyword expression",
-        "Concurrency",
+        "OSError",
+        "TypeHinting",
         "Easy"
     ],
-    "output": 0.8737864077669902
+    "output": 0.8
 }

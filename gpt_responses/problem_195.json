@@ -1,10 +1,10 @@
 {
     "id": "problem_195",
-    "description": "\n\nError: issubset\nProblem: When attempting to reverse an issubset of two sets, the program is returning an error that the two sets are not compatible.",
-    "output": "Traceback (most recent call last):\n  File \"<stdin>\", line 6, in <module>\nIndentationError: expected an indented block",
+    "description": "\n\nThe problem is a RuntimeError that occurs when attempting to access a DefaultDict with an invalid key. The error occurs because the DefaultDict does not contain the specified key and thus cannot return its associated value.",
+    "output": "Traceback (most recent call last):\n  File \"<stdin>\", line 1, in <module>\nTypeError: 'dict' object is not callable",
     "tags": [
-        "issubset",
-        "reverse",
+        "RuntimeError",
+        "DefaultDict",
         "Hard"
     ]
 }

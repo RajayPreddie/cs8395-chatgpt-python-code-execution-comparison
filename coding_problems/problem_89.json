@@ -1,10 +1,10 @@
 {
     "id": "problem_89",
-    "description": "\n\nThe problem is that when trying to add a new item to a Frozenset using a Dict as the key, a runtime error is thrown. The error states that the Dict key is not a valid argument for the Frozenset.",
-    "code": "```\n# Create a dictionary \nmy_dict = {'name': 'John', 'age': 28}\n\n# Create a frozenset\nmy_frozenset = frozenset([1, 2, 3])\n\n# Try to add a",
+    "description": "\n\nWhen attempting to create a NamedTuple with an excessive number of fields, an OverflowError is raised. This occurs due to the fact that the number of fields exceeds the maximum allowed, causing the system to be unable to allocate enough memory to store the NamedTuple.",
+    "code": "from collections import namedtuple\n\n# Create a NamedTuple with too many fields\nMyTuple = namedtuple('MyTuple', 'field1 field2 field3 field4 field5 field6 field7 field8 field9 field10 field11 field12 field13",
     "tags": [
-        "Frozenset",
-        "Dict",
+        "OverflowError",
+        "NamedTuple",
         "Hard"
     ]
 }

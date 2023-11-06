@@ -1,9 +1,9 @@
 {
     "name": "Python Execution Output Comparison: problem_179",
     "tags": [
-        "django",
-        "Metaclass",
+        "MemoryError",
+        "items",
         "Medium"
     ],
-    "output": 0.847457627118644
+    "output": 0.2184873949579832
 }

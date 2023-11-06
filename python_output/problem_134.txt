@@ -1,4 +1,0 @@
-  File "<string>", line 10
-    for num in num
-                  ^
-SyntaxError: expected ':'

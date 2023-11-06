@@ -1,9 +1,9 @@
 {
     "name": "Python Execution Output Comparison: problem_95",
     "tags": [
-        "ContextManager",
-        "replace",
+        "AssertionError",
+        "Metaclass",
         "Hard"
     ],
-    "output": 0.0
+    "output": 0.7844827586206896
 }

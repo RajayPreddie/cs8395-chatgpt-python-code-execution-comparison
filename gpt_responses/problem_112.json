@@ -1,10 +1,10 @@
 {
     "id": "problem_112",
-    "description": "\n\nWhen using the pandas library to create a ChainMap, a runtime error is raised indicating that the data type of the ChainMap is not compatible with the data type of the pandas object.",
-    "output": "",
+    "description": "\n\nWhen attempting to use the 'set' function, a NotImplementedError is raised indicating that the function has not been implemented yet. This error occurs when the code attempts to call the 'set' function without having defined it.",
+    "output": "{1, 2, 3, 4, 5}",
     "tags": [
-        "pandas",
-        "ChainMap",
+        "NotImplementedError",
+        "set",
         "Easy"
     ]
 }

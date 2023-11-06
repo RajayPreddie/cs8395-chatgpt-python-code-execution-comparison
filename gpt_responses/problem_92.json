@@ -1,10 +1,10 @@
 {
     "id": "problem_92",
-    "description": "\n\nWhen attempting to access a specific item in a List, a runtime error occurs stating \"TypeError: 'list' object does not support indexing of type 'get'\".",
-    "output": "Traceback (most recent call last):\n  File \"<stdin>\", line 8, in <module>\nNameError: name 'my_' is not defined",
+    "description": "\n\nWhen attempting to create a union of two files, the program throws an OSError, indicating that the files are not supported for union operations.",
+    "output": "",
     "tags": [
-        "List",
-        "get",
+        "OSError",
+        "union",
         "Hard"
     ]
 }

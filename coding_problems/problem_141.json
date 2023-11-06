@@ -1,10 +1,10 @@
 {
     "id": "problem_141",
-    "description": "\n\nThe Protocol compile/runtime error is caused by a Coroutine that is not correctly defined. The Coroutine is not properly initialized, resulting in a Protocol compile/runtime error.",
-    "code": "import asyncio\n\nasync def coroutine():\n    # Coroutine not properly initialized\n    print(\"Coroutine is not properly initialized\")\n\nasync def main():\n    await coroutine()\n\ntry:\n    asyncio.run(main())\nexcept",
+    "description": "\n\nWhen a program attempts to extend a list beyond the maximum size of the list, an OverflowError is raised. This error occurs when the program attempts to extend the list beyond the maximum size of the list, such as when the program attempts to add more elements to the list than the list",
+    "code": "my_list = [1,2,3]\nmy_list.append(4)\nmy_list.append(5)\nmy_list.append(6)\nmy_list.append(7)\nmy_list.append(8)\nmy",
     "tags": [
-        "Protocol",
-        "Coroutine",
+        "OverflowError",
+        "extend",
         "Easy"
     ]
 }

@@ -1,10 +1,10 @@
 {
     "id": "problem_9",
-    "description": "\n\nProblem Description: When using the endswith method for introspection, the program throws an error indicating that the endswith argument is not valid.",
-    "output": "Traceback (most recent call last):\n  File \"<stdin>\", line 5, in <module>\nTypeError: endswith first arg must be str or a tuple of str, not NoneType",
+    "description": "\n\nWhen attempting to import the bytearray module, the program throws an ImportError stating that the module cannot be found. This is likely due to the fact that the bytearray module is not installed on the system.",
+    "output": "",
     "tags": [
-        "endswith",
-        "Introspection",
+        "ImportError",
+        "bytearray",
         "Easy"
     ]
 }

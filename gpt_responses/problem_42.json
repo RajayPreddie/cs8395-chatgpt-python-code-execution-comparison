@@ -1,10 +1,10 @@
 {
     "id": "problem_42",
-    "description": "\n\nWhen attempting to run a program using datetime values, a runtime error occurs when the program attempts to compare two datetime objects. The error states that the objects are not comparable, even though they are both datetime objects.",
-    "output": "Traceback (most recent call last):\n  File \"<stdin>\", line 13, in <module>\nNameError: name 'year' is not defined",
+    "description": "\n\nA NotImplementedError is raised when attempting to use a concurrency feature that has not been implemented yet. The code attempts to use a feature which is not supported and therefore raises the NotImplementedError.",
+    "output": "Traceback (most recent call last):\n  File \"<stdin>\", line 4, in <module>\nTypeError: __init__() missing 1 required positional argument: 'number'",
     "tags": [
-        "values",
-        "datetime",
+        "NotImplementedError",
+        "Concurrency",
         "Easy"
     ]
 }

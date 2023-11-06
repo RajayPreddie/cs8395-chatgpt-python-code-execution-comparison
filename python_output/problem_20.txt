@@ -1,4 +1,1 @@
-  File "<string>", line 9
-    as
-    ^^
-SyntaxError: invalid syntax
+15

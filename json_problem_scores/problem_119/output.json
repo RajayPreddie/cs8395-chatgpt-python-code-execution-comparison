@@ -1,9 +1,9 @@
 {
     "name": "Python Execution Output Comparison: problem_119",
     "tags": [
-        "Generator",
-        "json",
+        "NameError",
+        "NamedTuple",
         "Easy"
     ],
-    "output": 1.0
+    "output": 0.8706896551724138
 }

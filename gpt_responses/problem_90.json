@@ -1,10 +1,10 @@
 {
     "id": "problem_90",
-    "description": "\n\nWhen trying to pop an item from a deque, a compile/runtime error is raised due to the deque not being empty. This error occurs when the deque is empty and the pop operation is attempted, resulting in an attempt to pop from an empty deque.",
-    "output": "Traceback (most recent call last):\n  File \"<stdin>\", line 10, in <module>\nIndentationError: expected an indented block",
+    "description": "\n\nWhen attempting to execute a Lambda expression, a RuntimeError is thrown indicating that the Lambda expression is invalid due to a missing or incorrect argument.",
+    "output": "15",
     "tags": [
-        "pop",
-        "Deque",
+        "RuntimeError",
+        "Lambda",
         "Hard"
     ]
 }

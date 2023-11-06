@@ -1,10 +1,10 @@
 {
     "id": "problem_87",
-    "description": "\n\nWhen making a request to an API, a syntax error occurs when attempting to format the request body with an incorrect data type. The code attempts to format the request body as an integer, but the API requires a string. As a result, the request fails and a compile/runtime error is",
-    "code": "#import necessary libraries\nimport requests\nimport json\n\n#set up request body\ndata = {\n    'name': 'John Doe',\n    'age': 25\n}\n\n#encode request body as json\ndata = json.dumps(data)",
+    "description": "\n\nThe problem is a RuntimeError caused by the set function. When the program attempts to set a variable to a given value, the set function fails to execute correctly and instead throws a RuntimeError. This RuntimeError prevents the program from setting the variable to the intended value, resulting in unexpected behavior",
+    "code": "x = 5\nset(x, 10)\nprint(x)",
     "tags": [
-        "requests",
-        "format",
+        "RuntimeError",
+        "set",
         "Hard"
     ]
 }

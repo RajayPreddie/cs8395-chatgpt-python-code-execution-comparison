@@ -1,10 +1,10 @@
 {
     "id": "problem_151",
-    "description": "\n\nWhen attempting to use the re.replace() function to replace a certain string in a text file, a \"TypeError\" is thrown. The error message states that the function is expecting a string or a compiled regular expression, but a list was provided instead.",
-    "output": "Traceback (most recent call last):\n  File \"<stdin>\", line 10, in <module>\nAttributeError: module 're' has no attribute 'replace'",
+    "description": "\n\nWhen using MonkeyPatching to modify the behavior of a function, a RuntimeError occurs when the patch is applied to an object that is not expected to be modified. This can result in unexpected behavior and errors in the program.",
+    "output": "This is the patched function",
     "tags": [
-        "re",
-        "replace",
+        "RuntimeError",
+        "MonkeyPatching",
         "Medium"
     ]
 }

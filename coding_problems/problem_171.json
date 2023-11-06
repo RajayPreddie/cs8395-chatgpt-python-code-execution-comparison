@@ -1,10 +1,10 @@
 {
     "id": "problem_171",
-    "description": "\n\nThe problem is a runtime error that occurs when attempting to discard a value from a Tuple. The error occurs because Tuples are immutable and cannot be modified, so attempting to discard a value from a Tuple will result in an error.",
-    "code": "# Discard Program \n\n# Import modules\nimport random\n\n# Define discard function\ndef discard(list_input):\n    # Create empty list\n    discard_list = []\n    # Loop through list_input\n    for item in list_input:",
+    "description": "\n\nThe problem is a KeyError when attempting to index a numpy array. When trying to access an element in the array, the program throws a KeyError indicating that the specified key does not exist in the array.",
+    "code": "import numpy as np \n\narr = np.array([1, 2, 3, 4, 5])\n\narr[6]",
     "tags": [
-        "Tuple",
-        "discard",
+        "KeyError",
+        "numpy",
         "Medium"
     ]
 }

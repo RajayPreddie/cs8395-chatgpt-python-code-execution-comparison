@@ -1,10 +1,10 @@
 {
     "id": "problem_83",
-    "description": "\n\nError: SyntaxError\nProblem Description: Reflection is causing a SyntaxError when attempting to split a string. The code is attempting to use the split method to separate a string into two parts, but the Reflection keyword is causing an unexpected syntax error.",
-    "output": "Traceback (most recent call last):\n  File \"<stdin>\", line 10\n    def __init__(self, name, age):\n                                 ^\nSyntaxError: unexpected EOF while parsing",
+    "description": "\n\nThe problem is a ZeroDivisionError that occurs when a ContextManager is used to divide a value by zero. The code attempts to divide a value by zero when the ContextManager is used, resulting in a ZeroDivisionError.",
+    "output": "Traceback (most recent call last):\n  File \"<stdin>\", line 4, in <module>\nZeroDivisionError: division by zero",
     "tags": [
-        "split",
-        "Reflection",
+        "ZeroDivisionError",
+        "ContextManager",
         "Hard"
     ]
 }

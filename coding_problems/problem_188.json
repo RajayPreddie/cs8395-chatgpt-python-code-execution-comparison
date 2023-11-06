@@ -1,10 +1,10 @@
 {
     "id": "problem_188",
-    "description": "\n\nThe problem is that the program is trying to access a dictionary key with an uppercase value, but the dictionary only accepts lowercase keys. This causes a compile/runtime error, as the program is unable to access the dictionary with the uppercase key.",
-    "code": "# Program to convert a string to upper case\n\n# Define a function to convert a string to upper case\ndef to_upper(string):\n  # Create an empty string\n  upper_string = \"\"\n  # Iterate through each character in the string",
+    "description": "\n\nThe problem is that a KeyError is being raised when attempting to access an item in a set. The set is composed of unique elements, so the element being accessed should exist in the set. However, the program is unable to find the element in the set, resulting in a KeyError",
+    "code": "# Set Program \n\n# Create a set with a list of numbers\nnumbers = [1, 2, 3, 4, 5]\nnumbers_set = set(numbers)\n\n# Create a set with a list of strings\nwords = [\"red\",",
     "tags": [
-        "keys",
-        "upper",
+        "KeyError",
+        "set",
         "Hard"
     ]
 }

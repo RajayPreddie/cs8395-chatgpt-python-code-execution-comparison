@@ -1,9 +1,9 @@
 {
     "name": "Python Execution Output Comparison: problem_43",
     "tags": [
-        "pytorch",
-        "reverse",
+        "TypeError",
+        "Decorator",
         "Easy"
     ],
-    "output": 0.0
+    "output": 0.8535031847133758
 }

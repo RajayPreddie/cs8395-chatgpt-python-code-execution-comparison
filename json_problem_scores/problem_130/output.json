@@ -1,9 +1,9 @@
 {
     "name": "Python Execution Output Comparison: problem_130",
     "tags": [
-        "MonkeyPatching",
-        "difference",
+        "ImportError",
+        "setdefault",
         "Easy"
     ],
-    "output": 0.0
+    "output": 0.9655172413793104
 }

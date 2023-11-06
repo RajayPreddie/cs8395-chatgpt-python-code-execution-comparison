@@ -1,10 +1,10 @@
 {
     "id": "problem_107",
-    "description": "\n\nThe error occurs when a program attempts to use memoization to copy a reference to a variable, but the reference is not valid. This results in a runtime error, as the program is unable to access the data stored in the reference.",
-    "code": "def memoize(func):\n    memo = {}\n    def wrapper(*args):\n        if args in memo:\n            return memo[args]\n        else:\n            rv = func(*args)\n            memo[args] = rv\n            return r",
+    "description": "\n\nThe problem is that when trying to use the heapq module to sort a large list of data, an OverflowError is raised due to the exceeding of the maximum size of the heap. This causes the list to not be sorted correctly and results in an unexpected output.",
+    "code": "import heapq\n\nmy_list = [5, 8, 1, 3, 6, 9, 4]\n\nheapq.heapify(my_list)\n\n# OverflowError is raised due to exceeding of the maximum size of the heap\nhe",
     "tags": [
-        "copy",
-        "Memoization",
+        "OverflowError",
+        "heapq",
         "Easy"
     ]
 }

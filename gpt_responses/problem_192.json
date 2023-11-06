@@ -1,10 +1,10 @@
 {
     "id": "problem_192",
-    "description": "\n\nWhen running a script written in IdiomaticPython, the sys module throws a compile/runtime error indicating that the code is attempting to access an undefined system path.",
-    "output": "SyntaxError: unexpected EOF while parsing",
+    "description": "\n\nWhen attempting to check if a string ends with a certain character, an AttributeError is raised due to the lack of a 'endswith' attribute on the string object.",
+    "output": "Python",
     "tags": [
-        "sys",
-        "IdiomaticPython",
+        "AttributeError",
+        "endswith",
         "Hard"
     ]
 }

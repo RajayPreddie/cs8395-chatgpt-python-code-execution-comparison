@@ -1,9 +1,9 @@
 {
     "name": "Python Execution Output Comparison: problem_54",
     "tags": [
-        "socket",
-        "MonkeyPatching",
+        "SyntaxError",
+        "Metaclass",
         "Medium"
     ],
-    "output": 0.4632768361581921
+    "output": 0.5125
 }

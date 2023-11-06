@@ -1,10 +1,10 @@
 {
     "id": "problem_58",
-    "description": "\n\nWhen attempting to convert a bytearray object into an integer, a ValueError is raised stating that the object is not suitable for such a conversion.",
-    "output": "Traceback (most recent call last):\n  File \"<stdin>\", line 5\n    return int(\n               ^\nSyntaxError: unexpected EOF while parsing",
+    "description": "\n\nThe problem is an IndexError when trying to access the index of a pandas DataFrame. When attempting to access a specific row in the DataFrame, an IndexError is thrown, indicating that the index is out of bounds.",
+    "output": "Traceback (most recent call last):\n  File \"<stdin>\", line 7\n    'Occupation\n               ^\nSyntaxError: EOL while scanning string literal",
     "tags": [
-        "values",
-        "Bytearray",
+        "IndexError",
+        "pandas",
         "Medium"
     ]
 }

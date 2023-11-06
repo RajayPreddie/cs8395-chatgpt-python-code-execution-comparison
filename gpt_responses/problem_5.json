@@ -1,10 +1,10 @@
 {
     "id": "problem_5",
-    "description": "\n\nWhen attempting to connect to a remote server using a socket, a random 'Connection Refused' error is thrown, even though the server is online and accepting connections.",
-    "output": "Traceback (most recent call last):\n  File \"<stdin>\", line 8, in <module>\nConnectionRefusedError: [Errno 111] Connection refused",
+    "description": "\n\nThe problem is an OverflowError when trying to use the re.findall() function to parse a large string. The string is too large for the re.findall() function to handle, resulting in an OverflowError.",
+    "output": "['This', 'is', 'a', 'very', 'long', 'string', 'with', 'many', 'characters', 'that', 'is', 'too', 'long', 'for', 'the', 're', 'findall', 'function', 'to', 'handle",
     "tags": [
-        "socket",
-        "random",
+        "OverflowError",
+        "re",
         "Easy"
     ]
 }

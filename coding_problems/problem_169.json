@@ -1,10 +1,10 @@
 {
     "id": "problem_169",
-    "description": "\n\nWhen trying to compare two sets using the issubset command, a TypeError is raised indicating that the issubset argument is not a set. This occurs when the argument passed to the issubset command is not a set, but another data type such as a list, tuple,",
-    "code": "# import the issubset function from the itertools library\nfrom itertools import issubset \n\n# create two sets to test the issubset function\nset_one = {1, 2, 3, 4, 5}\nset_two = {",
+    "description": "\n\nWhen attempting to discard an item from a list, a NotImplementedError is raised, indicating that the functionality to discard an item has not been implemented.",
+    "code": "list_items = [1,2,3,4]\n\nlist_items.discard(2)\n\nNotImplementedError(\"Discarding items from the list is not yet implemented\")",
     "tags": [
-        "issubset",
-        "issubset",
+        "NotImplementedError",
+        "discard",
         "Medium"
     ]
 }

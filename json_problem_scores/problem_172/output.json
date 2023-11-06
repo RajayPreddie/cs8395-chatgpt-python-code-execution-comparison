@@ -1,9 +1,9 @@
 {
     "name": "Python Execution Output Comparison: problem_172",
     "tags": [
-        "AsyncIO",
-        "numpy",
+        "ZeroDivisionError",
+        "Memoization",
         "Medium"
     ],
-    "output": 0.0
+    "output": 0.8923076923076924
 }

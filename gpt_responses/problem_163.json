@@ -1,10 +1,10 @@
 {
     "id": "problem_163",
-    "description": "\n\nWhen trying to convert a Bytearray to a lower case string, an error is raised indicating that the Bytearray is not in a valid encoding format.",
-    "output": "SyntaxError: unexpected EOF while parsing",
+    "description": "\n\nWhen attempting to use a Generator object to generate a list of random numbers, a TypeError is raised, indicating that the Generator object is not compatible with the list.",
+    "output": "NameError: name 'Generator' is not defined",
     "tags": [
-        "Bytearray",
-        "lower",
+        "TypeError",
+        "Generator",
         "Medium"
     ]
 }

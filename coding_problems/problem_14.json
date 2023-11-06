@@ -1,10 +1,10 @@
 {
     "id": "problem_14",
-    "description": "\n\nError: The program is attempting to access a dictionary without using the correct key. \nProblem Description: The program is attempting to access a dictionary using a key that is not present in the dictionary, and instead of raising a KeyError, the program is incorrectly returning the value associated with the",
-    "code": "# Program to demonstrate the use of keys in Python \n\n# Define a dictionary with some values\nd = {'a': 1, 'b': 2, 'c': 3}\n\n# Print the dictionary\nprint('The dictionary is: ', d)",
+    "description": "\n\nThe problem is a RecursionError caused by a setdefault function. When a program attempts to set the default value of a dictionary using the setdefault() function, the program enters an infinite loop and causes a RecursionError. The setdefault() function is not able to set the default",
+    "code": "# Create a dictionary with some initial values \nmy_dict = {'a':1, 'b':2, 'c':3}\n\n# Use setdefault to add a new key-value pair\nmy_dict.setdefault('d', 4)",
     "tags": [
-        "reverse",
-        "keys",
+        "RecursionError",
+        "setdefault",
         "Easy"
     ]
 }

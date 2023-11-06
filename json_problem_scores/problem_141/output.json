@@ -1,9 +1,9 @@
 {
     "name": "Python Execution Output Comparison: problem_141",
     "tags": [
-        "Protocol",
-        "Coroutine",
+        "OverflowError",
+        "extend",
         "Easy"
     ],
-    "output": 0.7741935483870968
+    "output": 0.4444444444444444
 }

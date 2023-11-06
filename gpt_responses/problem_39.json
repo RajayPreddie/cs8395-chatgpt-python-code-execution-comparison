@@ -1,10 +1,10 @@
 {
     "id": "problem_39",
-    "description": "\n\nWhen attempting to use a comprehension to create a dictionary from a list of tuples, a compile/runtime error is encountered. The error states that the comprehension is attempting to create a dictionary with duplicate keys, which is not allowed.",
-    "output": "Traceback (most recent call last):\n  File \"<stdin>\", line 5, in <module>\nNameError: name 'dict_from' is not defined",
+    "description": "\n\nThe problem is that a program is attempting to assert that the length of a collection of objects is equal to the number of objects in the collection, but an AssertionError is thrown indicating that the length of the collection is not equal to the number of objects in the collection.",
+    "output": "",
     "tags": [
+        "AssertionError",
         "collections",
-        "Comprehension",
         "Easy"
     ]
 }

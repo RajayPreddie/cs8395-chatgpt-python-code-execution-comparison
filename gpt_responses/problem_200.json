@@ -1,10 +1,10 @@
 {
     "id": "problem_200",
-    "description": "\n\nWhen attempting to remove an item from a list, a runtime error occurs due to the difference in the type of data being removed. The item being removed is of type string, while the list contains only integers.",
-    "output": "",
+    "description": "\n\nWhen attempting to introspect a set of variables, a ZeroDivisionError is raised when attempting to divide a number by zero. This can occur when attempting to calculate the average of a set of numbers that includes a zero.",
+    "output": "def my_function():\n    print(\"This is my function\")\n",
     "tags": [
-        "remove",
-        "difference",
+        "ZeroDivisionError",
+        "Introspection",
         "Hard"
     ]
 }

@@ -1,9 +1,9 @@
 {
     "name": "Python Execution Output Comparison: problem_189",
     "tags": [
-        "startswith",
-        "find",
+        "NameError",
+        "Concurrency",
         "Hard"
     ],
-    "output": 0.9243697478991597
+    "output": 0.05333333333333334
 }

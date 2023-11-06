@@ -1,10 +1,10 @@
 {
     "id": "problem_9",
-    "description": "\n\nProblem Description: When using the endswith method for introspection, the program throws an error indicating that the endswith argument is not valid.",
-    "code": "# Program to demonstrate the error when using the endswith method for introspection\n\n# Create a string\nmy_string = \"Hello World\"\n\n# Try to use the endswith method\nif my_string.endswith():\n    print(\"The string",
+    "description": "\n\nWhen attempting to import the bytearray module, the program throws an ImportError stating that the module cannot be found. This is likely due to the fact that the bytearray module is not installed on the system.",
+    "code": "import bytearray\n\nTraceback (most recent call last):\n  File \"<stdin>\", line 1, in <module>\nImportError: No module named bytearray",
     "tags": [
-        "endswith",
-        "Introspection",
+        "ImportError",
+        "bytearray",
         "Easy"
     ]
 }

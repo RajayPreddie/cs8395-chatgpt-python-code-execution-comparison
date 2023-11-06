@@ -1,4 +1,1 @@
-  File "<string>", line 5
-    datetimes = [datetime(2020, 5, 7, 9, 0, 0),
-                ^
-SyntaxError: '[' was never closed
+[1, 2, 3, 4, 5]

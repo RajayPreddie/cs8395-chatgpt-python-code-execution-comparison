@@ -1,10 +1,10 @@
 {
     "id": "problem_44",
-    "description": "\n\nError: Runtime join error. \nProblem Description: When trying to join two sets, an unexpected runtime error occurs when attempting to join a set of integers with a set of strings. The program fails to join the two sets together and terminates unexpectedly.",
-    "code": "# Program to demonstrate the use of Sets in Python\n\n# Create an empty set\nmy_set = set()\n\n# Add elements to the set\nmy_set.add(1)\nmy_set.add(2)\nmy_set.add(3",
+    "description": "\n\nWhen attempting to discard a certain object, the program throws a NotImplementedError, indicating that the discard functionality has not been implemented yet.",
+    "code": "# Create a list of numbers\nnumbers = [1, 2, 3, 4, 5]\n\n# Create a new list with the numbers discarded\ndiscarded_numbers = []\n\n# Iterate through the numbers list\nfor number in numbers:\n    #",
     "tags": [
-        "join",
-        "Set",
+        "NotImplementedError",
+        "discard",
         "Easy"
     ]
 }

@@ -1,9 +1,9 @@
 {
     "name": "Python Execution Output Comparison: problem_22",
     "tags": [
-        "Concurrency",
-        "get",
+        "ZeroDivisionError",
+        "threading",
         "Easy"
     ],
-    "output": 0.9503105590062112
+    "output": 0.28865979381443296
 }

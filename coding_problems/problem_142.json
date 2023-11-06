@@ -1,10 +1,10 @@
 {
     "id": "problem_142",
-    "description": "\n\nWhen trying to get a byte array from a file, a 'TypeError' is thrown that states \"Object of type 'bytes' is not subscriptable\".",
-    "code": "```\n#Define function to get byte array from file\ndef get_byte_array(file):\n  #Open the file\n  f = open(file, 'rb')\n  \n  #Read the file\n  byte_arr = f.read()",
+    "description": "\n\nWhen attempting to access a DefaultDict stored in a file, a FileNotFoundError is raised indicating the file is missing or inaccessible.",
+    "code": "from collections import defaultdict \n\n#create a defaultdict \ndata = defaultdict(list) \n\n#add some values \ndata['a'].append(1) \ndata['a'].append(2) \ndata['b'].",
     "tags": [
-        "Bytes",
-        "get",
+        "FileNotFoundError",
+        "DefaultDict",
         "Easy"
     ]
 }

@@ -1,10 +1,10 @@
 {
     "id": "problem_144",
-    "description": "\n\nSyntaxError: 'capitalize' is not a valid keyword argument for the 'pop' function.",
-    "code": "# Program to capitalize the first letter of a given string\n\n# Define a function to capitalize the first letter\ndef capitalize_first_letter(string):\n    # Split the string into a list of words\n    words = string.split()\n    # Create an empty",
+    "description": "\n\nWhen attempting to read a file containing a DefaultDict, a FileNotFoundError is raised due to the file not existing in the current directory. This indicates that the DefaultDict is not able to be read and the program will not be able to access the data stored in the Default",
+    "code": "from collections import defaultdict \n\nd = defaultdict(list) \nd['a'].append(1) \nd['a'].append(2) \nd['b'].append(4) \n\nfor key, value in d.",
     "tags": [
-        "pop",
-        "capitalize",
+        "FileNotFoundError",
+        "DefaultDict",
         "Easy"
     ]
 }

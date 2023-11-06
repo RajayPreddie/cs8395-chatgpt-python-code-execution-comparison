@@ -1,10 +1,10 @@
 {
     "id": "problem_78",
-    "description": "\n\nWhen attempting to capitalize the first character of each word in a Deque, a runtime error is encountered. The error occurs when the Deque contains a blank space between two words, and the program attempts to capitalize the character after the blank space.",
-    "code": "# Create a deque\ndeque = [\"this\",\"is\",\"a\",\"deque\"]\n\n# Function to capitalize the first character of each word\ndef capitalize_words(deque):\n    # Create a new empty deque\n    new_deque = []",
+    "description": "\n\nWhen attempting to run a program, an AttributeError is thrown indicating that the GarbageCollection class does not have an attribute called 'collect_all_garbage' which is necessary for the program to run properly.",
+    "code": "import gc\n\n# Garbage Collection Program\n\n# Create a list of objects \nobject_list = [1, 2, 3, 4, 5, 6, 7, 8, 9]\n\n# Collect the garbage\ngc.collect()\n\n# Print",
     "tags": [
-        "Deque",
-        "capitalize",
+        "AttributeError",
+        "GarbageCollection",
         "Medium"
     ]
 }

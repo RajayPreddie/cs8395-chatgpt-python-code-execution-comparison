@@ -1,10 +1,10 @@
 {
     "id": "problem_39",
-    "description": "\n\nWhen attempting to use a comprehension to create a dictionary from a list of tuples, a compile/runtime error is encountered. The error states that the comprehension is attempting to create a dictionary with duplicate keys, which is not allowed.",
-    "code": "# Create a list of tuples \nlist_of_tuples = [('a', 1), ('a', 2), ('b', 3), ('c', 4)]\n\n# Attempt to create a dictionary from the list of tuples using a comprehension\ndict_from",
+    "description": "\n\nThe problem is that a program is attempting to assert that the length of a collection of objects is equal to the number of objects in the collection, but an AssertionError is thrown indicating that the length of the collection is not equal to the number of objects in the collection.",
+    "code": "my_list = [1, 2, 3]\nassert len(my_list) == len(set(my_list))\n\nAssertionError:",
     "tags": [
+        "AssertionError",
         "collections",
-        "Comprehension",
         "Easy"
     ]
 }

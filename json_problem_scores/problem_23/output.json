@@ -1,9 +1,9 @@
 {
     "name": "Python Execution Output Comparison: problem_23",
     "tags": [
-        "strip",
-        "math",
+        "MemoryError",
+        "Reflection",
         "Easy"
     ],
-    "output": 0.0
+    "output": 0.9940828402366864
 }

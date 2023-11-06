@@ -1,9 +1,9 @@
 {
     "name": "Python Execution Output Comparison: problem_44",
     "tags": [
-        "join",
-        "Set",
+        "NotImplementedError",
+        "discard",
         "Easy"
     ],
-    "output": 0.0
+    "output": 0.5222929936305732
 }

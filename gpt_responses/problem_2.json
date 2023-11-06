@@ -1,10 +1,10 @@
 {
     "id": "problem_2",
-    "description": "\n\nThe program is experiencing a compile/runtime error due to a keyword expression issue with Concurrency. The error occurs when the program attempts to concurrently execute two different code blocks that have conflicting syntax.",
-    "output": "Traceback (most recent call last):\n  File \"<stdin>\", line 6, in <module>\nNameError: name 'concurrent' is not defined",
+    "description": "\n\nWhen trying to use TypeHinting in a Python application, an OSError is raised with the message \"TypeError: 'TypeHinting' is not supported by this platform.\" This indicates that the platform does not have the necessary libraries installed to support TypeHinting",
+    "output": "Traceback (most recent call last):\n  File \"<stdin>\", line 1, in <module>\n    def add_two_numbers(a: int, b: int) -> int:\nIndentationError: expected an indented block",
     "tags": [
-        "Keyword expression",
-        "Concurrency",
+        "OSError",
+        "TypeHinting",
         "Easy"
     ]
 }

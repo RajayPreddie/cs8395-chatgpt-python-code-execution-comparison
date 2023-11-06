@@ -1,10 +1,10 @@
 {
     "id": "problem_1",
-    "description": "\n\nWhen attempting to use a Pandas Generator to create a dataframe, an unexpected runtime error is encountered. The error states that the Generator is not returning the expected values, and is instead returning an empty dataframe.",
-    "output": "SyntaxError: unexpected EOF while parsing",
+    "description": "\n\nWhen attempting to discard an item from a list, the NotImplementedError is triggered, indicating that the discard function has not been implemented yet.",
+    "output": "Traceback (most recent call last):\n  File \"<stdin>\", line 2, in <module>\nAttributeError: 'list' object has no attribute 'discard'",
     "tags": [
-        "pandas",
-        "Generator",
+        "NotImplementedError",
+        "discard",
         "Easy"
     ]
 }

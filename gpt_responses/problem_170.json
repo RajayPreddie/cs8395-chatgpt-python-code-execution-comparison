@@ -1,10 +1,10 @@
 {
     "id": "problem_170",
-    "description": "\n\nWhen attempting to use the setdefault function in a Pytorch program, the program crashes with a runtime error. The error message indicates that the setdefault function is not supported by Pytorch, and the program is unable to proceed.",
-    "output": "Traceback (most recent call last):\n  File \"<stdin>\", line 8\n    def __init__(self):\n                     ^\nIndentationError: expected an indented block",
+    "description": "\n\nWhen attempting to loop through a list of strings to check if they end with a specific character, a StopIteration error is thrown when the list is empty. This is due to the code attempting to use the endswith keyword to check if the string elements in the list end with the",
+    "output": "Traceback (most recent call last):\n  File \"<stdin>\", line 1, in <module>\nIndentationError: expected an indented block",
     "tags": [
-        "setdefault",
-        "pytorch",
+        "StopIteration",
+        "endswith",
         "Medium"
     ]
 }

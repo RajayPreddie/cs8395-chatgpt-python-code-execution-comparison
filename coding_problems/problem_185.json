@@ -1,10 +1,10 @@
 {
     "id": "problem_185",
-    "description": "\n\nSyntax Error: When attempting to use a Generator to create a dictionary of keys, an unexpected syntax error is thrown, stating that the generator is not valid for the type of object.",
-    "code": "# Create a Generator to generate keys\ndef generate_keys():\n    key_list = []\n    for i in range(10):\n        key_list.append(i)\n    yield key_list\n\n# Create a Dictionary with the Generator\ndict_keys",
+    "description": "\n\nWhen attempting to use the matplotlib library to generate a graph, an IndentationError is raised. The error occurs when the code attempts to generate a subplot within the graph, due to an incorrect indentation of the code.",
+    "code": "import matplotlib.pyplot as plt\n\nplt.figure()\nplt.subplot(2,1,1)\n  plt.plot([1,2,3])\nplt.show()",
     "tags": [
-        "keys",
-        "Generator",
+        "IndentationError",
+        "matplotlib",
         "Hard"
     ]
 }

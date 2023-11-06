@@ -1,10 +1,10 @@
 {
     "id": "problem_63",
-    "description": "\n\nWhen attempting to serialize data in a VirtualEnvironment, an error is thrown indicating that the serialization process is not supported. This error is caused by the VirtualEnvironment not supporting serialization, which is required for the process to complete successfully.",
-    "code": "# Error Program\n\nimport pickle\n\nclass VirtualEnvironment:\n    def __init__(self, data):\n        self.data = data\n\n# Create a new VirtualEnvironment instance\nve = VirtualEnvironment(data=\"serialize me\")\n\n# Attempt to",
+    "description": "\n\nA ModuleNotFoundError was encountered when attempting to use the multiprocessing module in a Python script. The script attempted to import the module, but the interpreter could not find the module in the system path.",
+    "code": "import multiprocessing\n\nTraceback (most recent call last):\n  File \"<stdin>\", line 1, in <module>\nModuleNotFoundError: No module named 'multiprocessing'",
     "tags": [
-        "VirtualEnvironment",
-        "Serialization",
+        "ModuleNotFoundError",
+        "multiprocessing",
         "Medium"
     ]
 }

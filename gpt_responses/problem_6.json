@@ -1,10 +1,10 @@
 {
     "id": "problem_6",
-    "description": "\n\nWhen attempting to use the sys.socket() function, a runtime error is thrown stating that the socket cannot be created because the system does not have permission to access the network.",
-    "output": "Traceback (most recent call last):\n  File \"<stdin>\", line 12, in <module>\n    sock.bind((host, port))\nOSError: [Errno 99] Cannot assign requested address",
+    "description": "\n\nThe problem is an IndentationError caused by an incorrect indentation when attempting to use the keyword endswith. The code in question is trying to use the endswith keyword to compare two strings, but due to an incorrect indentation, the code is not running as expected and",
+    "output": "Traceback (most recent call last):\n  File \"<stdin>\", line 3, in <module>\nTypeError: check_string() missing 1 required positional argument: 'suffix'",
     "tags": [
-        "sys",
-        "socket",
+        "IndentationError",
+        "endswith",
         "Easy"
     ]
 }

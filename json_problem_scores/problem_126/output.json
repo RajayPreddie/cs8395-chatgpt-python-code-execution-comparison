@@ -1,9 +1,9 @@
 {
     "name": "Python Execution Output Comparison: problem_126",
     "tags": [
-        "OrderedDict",
-        "discard",
+        "RuntimeError",
+        "sys",
         "Easy"
     ],
-    "output": 0.8471615720524017
+    "output": 0.25
 }

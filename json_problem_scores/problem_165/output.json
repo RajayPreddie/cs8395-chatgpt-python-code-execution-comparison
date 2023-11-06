@@ -1,9 +1,9 @@
 {
     "name": "Python Execution Output Comparison: problem_165",
     "tags": [
-        "random",
-        "Global state",
+        "OSError",
+        "startswith",
         "Medium"
     ],
-    "output": 0.0
+    "output": 0.9924812030075187
 }

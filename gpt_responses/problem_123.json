@@ -1,10 +1,10 @@
 {
     "id": "problem_123",
-    "description": "\n\nThe error occurs when attempting to use the symmetric_difference function to clear a set of data. The function returns an empty set, indicating that the data has not been cleared as expected.",
-    "output": "Traceback (most recent call last):\n  File \"<stdin>\", line 14\n    file_names = [\"\n                   ^\nSyntaxError: EOL while scanning string literal",
+    "description": "\n\nThe program is attempting to divide a number by zero, resulting in a ZeroDivisionError when attempting to remove a certain item from a list.",
+    "output": "Traceback (most recent call last):\n  File \"<stdin>\", line 2, in <module>\nZeroDivisionError: division by zero",
     "tags": [
-        "symmetric_difference",
-        "clear",
+        "ZeroDivisionError",
+        "remove",
         "Easy"
     ]
 }

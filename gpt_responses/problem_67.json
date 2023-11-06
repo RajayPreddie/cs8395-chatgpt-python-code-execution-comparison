@@ -1,10 +1,10 @@
 {
     "id": "problem_67",
-    "description": "\n\nWhen attempting to run a scipy script, a \"clear\" error is thrown, indicating that the scipy library is unable to access the data it needs to properly execute the script.",
-    "output": "Original list:  [1, 2, 3, 4, 5]",
+    "description": "\n\nWhen running the code, a NameError is encountered with the message \"NameError: name 'issuperset' is not defined\". The issue is caused by trying to use the method issuperset on a data structure that does not have this method defined. This could be because",
+    "output": "Traceback (most recent call last):\n  File \"<stdin>\", line 4, in <module>\nNameError: name 'issuperset' is not defined",
     "tags": [
-        "scipy",
-        "clear",
+        "NameError",
+        "issuperset",
         "Medium"
     ]
 }

@@ -1,10 +1,10 @@
 {
     "id": "problem_27",
-    "description": "\n\nWhen attempting to format a hard drive using the os module, a runtime error is thrown indicating that the file system is not supported by the os module.",
-    "code": "import os\n\n# Create a new hard drive\ndrive = os.makedrive('test_drive')\n\n# Attempt to format the drive\ntry:\n    os.format(drive)\nexcept OSError as err:\n    if err.errno",
+    "description": "\n\nWhen attempting to access a numpy array, a IndexError is thrown due to the index being out of range. The index is too large and is beyond the size of the numpy array.",
+    "code": "import numpy as np\n\narr = np.array([1,2,3,4,5])\n\nprint(arr[10])",
     "tags": [
-        "os",
-        "format",
+        "IndexError",
+        "numpy",
         "Easy"
     ]
 }

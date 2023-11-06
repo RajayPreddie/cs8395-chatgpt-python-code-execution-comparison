@@ -1,10 +1,10 @@
 {
     "id": "problem_41",
-    "description": "\n\nThe problem is that when trying to use the Heapq module to sort a list of data recursively, the program is not exiting properly and is stuck in an infinite loop.",
-    "output": "",
+    "description": "\n\nThe problem is an IndentationError that occurs when the code attempts to pop an item from a list, but the indentation of the code is incorrect and causes the pop operation to fail.",
+    "output": "  File \"<stdin>\", line 4\n    list.pop()\n    ^\nIndentationError: expected an indented block",
     "tags": [
-        "Recursion",
-        "Heapq",
+        "IndentationError",
+        "pop",
         "Easy"
     ]
 }

@@ -1,10 +1,10 @@
 {
     "id": "problem_102",
-    "description": "\n\nThe program is attempting to extend a list by a count of 3, but a syntax error is causing the program to crash. The error is a TypeError: 'int' object is not iterable, indicating that the count being used is not an iterable object.",
-    "output": "Traceback (most recent call last):\n  File \"<stdin>\", line 4, in <module>\nTypeError: 'int' object is not iterable",
+    "description": "\n\nThe problem is a MemoryError caused by a fromkeys operation in which the number of keys being created is too large to fit into available memory. The fromkeys operation is attempting to create a dictionary with a large number of keys, resulting in a MemoryError.",
+    "output": "{'a': 0, 'b': 0, 'c': 0}",
     "tags": [
-        "count",
-        "extend",
+        "MemoryError",
+        "fromkeys",
         "Easy"
     ]
 }

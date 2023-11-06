@@ -1,10 +1,10 @@
 {
     "id": "problem_195",
-    "description": "\n\nError: issubset\nProblem: When attempting to reverse an issubset of two sets, the program is returning an error that the two sets are not compatible.",
-    "code": "# Create two sets \nset1 = {1, 2, 3, 4, 5}\nset2 = {4, 5, 6, 7, 8}\n\n# Attempt to reverse issubset\nif set1.issubset(set2):",
+    "description": "\n\nThe problem is a RuntimeError that occurs when attempting to access a DefaultDict with an invalid key. The error occurs because the DefaultDict does not contain the specified key and thus cannot return its associated value.",
+    "code": "from collections import defaultdict \n  \n# Initializing the defaultdict \nd = defaultdict(lambda: 0) \n  \n# Initializing the dictionary  \nd['a'] = 1\nd['b'] = 2\n  \n# Accessing the element",
     "tags": [
-        "issubset",
-        "reverse",
+        "RuntimeError",
+        "DefaultDict",
         "Hard"
     ]
 }

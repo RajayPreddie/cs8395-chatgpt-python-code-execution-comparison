@@ -1,10 +1,10 @@
 {
     "id": "problem_113",
-    "description": "\n\nProblem Description: When running a TensorFlow program to count the number of elements in an array, a compile/runtime error is encountered. The error states that the number of elements in the array is not equal to the number of elements being counted.",
-    "output": "Enter a string:",
+    "description": "\n\nWhen attempting to inject a dependency into a program, a ZeroDivisionError is thrown, indicating that the dependency is attempting to divide by zero, which is not allowed.",
+    "output": "Traceback (most recent call last):\n  File \"<stdin>\", line 6, in <module>\nZeroDivisionError: division by zero",
     "tags": [
-        "tensorflow",
-        "count",
+        "ZeroDivisionError",
+        "DependencyInjection",
         "Easy"
     ]
 }

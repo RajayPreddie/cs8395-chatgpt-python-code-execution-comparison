@@ -1,9 +1,9 @@
 {
     "name": "Python Execution Output Comparison: problem_134",
     "tags": [
-        "MonkeyPatching",
-        "Heapq",
+        "ModuleNotFoundError",
+        "count",
         "Easy"
     ],
-    "output": 0.9108910891089109
+    "output": 0.0
 }

@@ -1,10 +1,10 @@
 {
     "id": "problem_19",
-    "description": "\n\nWhen attempting to pop an item from a collections object, a runtime error is encountered. The error states that the item cannot be popped as the collections object is empty.",
-    "code": "import collections\n\n# Create a dictionary\ndata = {\n    'name': 'John',\n    'age': 25,\n    'location': 'New York',\n    'hobbies': ['music', 'sports']\n}\n\n# Create an ordered dictionary",
+    "description": "\n\nWhen attempting to use the scipy library to calculate the area of a polygon, an AssertionError is raised indicating the points of the polygon are not in a clockwise order.",
+    "code": "import scipy.spatial\n\npoints = [(0, 0), (1, 0), (1, 1), (0, 1)]\n\narea = scipy.spatial.ConvexHull(points).area\nassert points == sorted(points",
     "tags": [
-        "pop",
-        "collections",
+        "AssertionError",
+        "scipy",
         "Easy"
     ]
 }

@@ -1,10 +1,10 @@
 {
     "id": "problem_56",
-    "description": "\n\nWhen attempting to access a random element from a List, a compile/runtime error is thrown indicating that the List index is out of range.",
-    "code": "import random\n\n# Generate a random number between 1 and 100\nnumber = random.randint(1, 100)\n\n# Create a variable to store the user's guess\nguess = 0\n\n# Define a function to check the user's guess\ndef",
+    "description": "\n\nWhen running a Python program that makes HTTP requests, a SyntaxError is thrown indicating that the requests module is not properly imported. The program is unable to make the necessary requests to complete the task.",
+    "code": "import requests\n\nurl = 'https://www.example.com'\n\nr = requests.get(url)\n\nif r.status_code == 200:\n    print('Success!')\nelse:\n    print('An error has occurred.')",
     "tags": [
-        "List",
-        "random",
+        "SyntaxError",
+        "requests",
         "Medium"
     ]
 }

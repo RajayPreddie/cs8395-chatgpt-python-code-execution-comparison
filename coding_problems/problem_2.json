@@ -1,10 +1,10 @@
 {
     "id": "problem_2",
-    "description": "\n\nThe program is experiencing a compile/runtime error due to a keyword expression issue with Concurrency. The error occurs when the program attempts to concurrently execute two different code blocks that have conflicting syntax.",
-    "code": "def example():\n    try:\n        with concurrent.futures.ThreadPoolExecutor() as executor:\n            future1 = executor.submit(function1)\n            future2 = executor.submit(function2)\n            print(future1.",
+    "description": "\n\nWhen trying to use TypeHinting in a Python application, an OSError is raised with the message \"TypeError: 'TypeHinting' is not supported by this platform.\" This indicates that the platform does not have the necessary libraries installed to support TypeHinting",
+    "code": "def add_two_numbers(a: int, b: int) -> int:\n    \"\"\"This function adds two numbers and returns the result.\n    \n    Parameters\n    ----------\n    a : int\n        The first number to add\n    b : int",
     "tags": [
-        "Keyword expression",
-        "Concurrency",
+        "OSError",
+        "TypeHinting",
         "Easy"
     ]
 }

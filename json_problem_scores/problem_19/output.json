@@ -1,9 +1,9 @@
 {
     "name": "Python Execution Output Comparison: problem_19",
     "tags": [
-        "pop",
-        "collections",
+        "AssertionError",
+        "scipy",
         "Easy"
     ],
-    "output": 0.0
+    "output": 1.0
 }

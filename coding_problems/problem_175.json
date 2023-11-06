@@ -1,10 +1,10 @@
 {
     "id": "problem_175",
-    "description": "\n\nWhen running a scipy program, a compile-time error occurs stating that the scipy module does not contain a function called 'insert'.",
-    "code": "#importing necessary packages\nimport numpy as np\nimport scipy\nfrom scipy import stats\n\n#creating a function to generate random numbers from a normal distribution\ndef random_normal_numbers(mean, sd, size):\n    return np.",
+    "description": "\n\nProblem Description: When attempting to create a dict object, a MemoryError is raised due to insufficient memory resources. The program is unable to allocate the necessary memory resources to create the dict object, resulting in a MemoryError.",
+    "code": "dict_obj = {}\nfor i in range(100000000):\n    dict_obj[i] = i\n    \n# MemoryError: Insufficient memory resources",
     "tags": [
-        "insert",
-        "scipy",
+        "MemoryError",
+        "dict",
         "Medium"
     ]
 }

@@ -1,9 +1,9 @@
 {
     "name": "Python Execution Output Comparison: problem_191",
     "tags": [
-        "issubset",
-        "get",
+        "OverflowError",
+        "IdiomaticPython",
         "Hard"
     ],
-    "output": 0.9920634920634921
+    "output": 0.06976744186046512
 }

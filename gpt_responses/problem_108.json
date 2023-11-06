@@ -1,10 +1,10 @@
 {
     "id": "problem_108",
-    "description": "\n\nWhen attempting to create a list of items, a syntax error occurs stating that 'list' is not defined.",
-    "output": "1\n2\n3\n4\n5\nTraceback (most recent call last):\n  File \"<stdin>\", line 9\n    # Create a function to add a number\n                                       ^\nSyntaxError: unexpected EOF while parsing",
+    "description": "\n\nThe problem is an ImportError which occurs when trying to import a module containing a function called 'str_function()'. The code runs without any issue until the import statement is reached, at which point the ImportError is raised due to the missing module containing the 'str_function()'",
+    "output": "Hello World!\n13",
     "tags": [
-        "clear",
-        "list",
+        "ImportError",
+        "str",
         "Easy"
     ]
 }

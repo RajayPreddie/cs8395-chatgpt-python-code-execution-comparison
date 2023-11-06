@@ -1,10 +1,10 @@
 {
     "id": "problem_64",
-    "description": "\n\nThe problem is a runtime error that occurs when attempting to update a Bytearray. When the update is attempted, the Bytearray raises an error saying that it cannot be updated because it is not a mutable object.",
-    "output": "Traceback (most recent call last):\n  File \"<stdin>\", line 9, in <module>\nTypeError: append() takes exactly one argument (0 given)",
+    "description": "\n\nA Metaclass AssertionError is thrown when an attempt is made to create an instance of a metaclass that does not exist in the current scope. This error is raised when the code is attempting to instantiate a metaclass that is not defined in the current scope.",
+    "output": "<__main__.MyClass object at 0x7f8b2c3b3a90>",
     "tags": [
-        "update",
-        "Bytearray",
+        "AssertionError",
+        "Metaclass",
         "Medium"
     ]
 }

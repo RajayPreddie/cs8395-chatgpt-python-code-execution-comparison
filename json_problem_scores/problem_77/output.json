@@ -1,9 +1,9 @@
 {
     "name": "Python Execution Output Comparison: problem_77",
     "tags": [
-        "Lambda",
-        "Reflection",
+        "NotImplementedError",
+        "datetime",
         "Medium"
     ],
-    "output": 0.0
+    "output": 0.7627906976744186
 }

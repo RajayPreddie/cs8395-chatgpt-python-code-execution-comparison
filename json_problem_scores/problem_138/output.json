@@ -1,9 +1,9 @@
 {
     "name": "Python Execution Output Comparison: problem_138",
     "tags": [
-        "Protocol",
-        "Global state",
+        "FileNotFoundError",
+        "scipy",
         "Easy"
     ],
-    "output": 0.7951807228915663
+    "output": 0.5370370370370371
 }

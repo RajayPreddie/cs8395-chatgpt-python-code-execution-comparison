@@ -1,10 +1,10 @@
 {
     "id": "problem_197",
-    "description": "\n\nWhen using flask to create a web application, a list-based error may occur when attempting to render a template. This occurs when the list of items passed to the template is not properly formatted according to the flask template engine. This will result in a compile/runtime error, which will prevent",
-    "code": "# Program to create a list of numbers\n\n# Create an empty list\nmy_list = []\n\n# Function to add a number to the list\ndef add_number(num):\n    my_list.append(num)\n\n# Function to remove a number",
+    "description": "\n\nProblem Description: A MemoryError occurs when attempting to process a regular expression (re) with a large amount of data, resulting in the program exceeding the available memory resources.",
+    "code": "import re \n\npattern = re.compile(r'\\d+')\n\ndata = '1' * 10**9\n\nmatch = pattern.findall(data)\n\n#This will result in a MemoryError due to the large amount of data being",
     "tags": [
-        "flask",
-        "list",
+        "MemoryError",
+        "re",
         "Hard"
     ]
 }

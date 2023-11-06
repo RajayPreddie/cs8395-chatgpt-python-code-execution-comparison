@@ -1,9 +1,9 @@
 {
     "id": "problem_8",
-    "description": "\n\nThe problem is that when trying to create a random Frozenset, the program throws an error indicating that the Frozenset is not iterable. This prevents the program from randomly generating a set of elements and thus the program crashes.",
+    "description": "\n\nProblem Description: When attempting to generate a random number using the random module, a ValueError is thrown, indicating the random module is unable to generate a random number due to a lack of sufficient entropy.",
     "output": "",
     "tags": [
-        "Frozenset",
+        "ValueError",
         "random",
         "Easy"
     ]

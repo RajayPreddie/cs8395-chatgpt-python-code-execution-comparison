@@ -1,0 +1,4 @@
+  File "<string>", line 12
+    print(sample_list
+         ^
+SyntaxError: '(' was never closed

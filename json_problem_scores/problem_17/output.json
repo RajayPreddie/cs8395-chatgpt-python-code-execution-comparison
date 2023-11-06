@@ -1,9 +1,9 @@
 {
     "name": "Python Execution Output Comparison: problem_17",
     "tags": [
-        "sys",
-        "Reflection",
+        "NameError",
+        "django",
         "Easy"
     ],
-    "output": 0.8698884758364313
+    "output": 0.8421052631578947
 }

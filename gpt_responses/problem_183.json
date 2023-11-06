@@ -1,10 +1,10 @@
 {
     "id": "problem_183",
-    "description": "\n\nError: \"TypeError: tensorflow object of type 'float' has no len()\"\n\nProblem Description: When attempting to use tensorflow to train a model, a TypeError is raised stating that a tensorflow object of type 'float' does not have a",
-    "output": "Traceback (most recent call last):\n  File \"<stdin>\", line 10, in <module>\nIndentationError: expected an indented block",
+    "description": "\n\nWhen attempting to iterate through a dictionary, a KeyError is raised when the program attempts to access a key that does not exist. The program is trying to access a certain key in the dictionary, but the key is not present in the dictionary, resulting in a KeyError. This can",
+    "output": "Traceback (most recent call last):\n  File \"<stdin>\", line 3, in <module>\nKeyError: 'banana'",
     "tags": [
-        "lower",
-        "tensorflow",
+        "KeyError",
+        "keys",
         "Hard"
     ]
 }

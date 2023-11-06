@@ -1,9 +1,9 @@
 {
     "name": "Python Execution Output Comparison: problem_21",
     "tags": [
-        "django",
-        "Counter",
+        "FileNotFoundError",
+        "Introspection",
         "Easy"
     ],
-    "output": 1.0
+    "output": 0.38636363636363635
 }

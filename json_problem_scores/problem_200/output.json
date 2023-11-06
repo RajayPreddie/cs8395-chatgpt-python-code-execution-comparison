@@ -1,9 +1,9 @@
 {
     "name": "Python Execution Output Comparison: problem_200",
     "tags": [
-        "remove",
-        "difference",
+        "ZeroDivisionError",
+        "Introspection",
         "Hard"
     ],
-    "output": 1.0
+    "output": 0.13048933500627352
 }

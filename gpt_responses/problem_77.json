@@ -1,10 +1,10 @@
 {
     "id": "problem_77",
-    "description": "\n\nWhen attempting to use the Lambda function to reflect a given value, a compile/runtime error is raised indicating that the function is unable to recognize the reflection keyword.",
-    "output": "",
+    "description": "\n\nThe program is attempting to use the datetime module to get the current date and time, but the NotImplementedError is thrown when the code is executed. The error states that the requested functionality is not implemented.",
+    "output": "Traceback (most recent call last):\n  File \"<stdin>\", line 4, in <module>\nNotImplementedError: Requested functionality not implemented",
     "tags": [
-        "Lambda",
-        "Reflection",
+        "NotImplementedError",
+        "datetime",
         "Medium"
     ]
 }

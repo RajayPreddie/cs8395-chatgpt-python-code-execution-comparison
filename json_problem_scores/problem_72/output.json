@@ -1,9 +1,9 @@
 {
     "name": "Python Execution Output Comparison: problem_72",
     "tags": [
-        "re",
-        "OrderedDict",
+        "ZeroDivisionError",
+        "Non-default argument",
         "Medium"
     ],
-    "output": 0.9880478087649402
+    "output": 0.6074074074074074
 }

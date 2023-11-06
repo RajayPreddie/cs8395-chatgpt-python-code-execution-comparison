@@ -1,10 +1,10 @@
 {
     "id": "problem_32",
-    "description": "\n\nThe error occurs when a threading Protocol is used in a program that is not designed to handle multiple threads. The program will throw a Protocol error, indicating that it cannot process multiple threads simultaneously.",
-    "output": "",
+    "description": "\n\nThe problem is a KeyError that occurs when trying to access a socket. The program attempts to access a socket using a specific key, but the key does not exist in the socket dictionary, resulting in a KeyError.",
+    "output": "socket.error: [Errno 111] Connection refused",
     "tags": [
-        "Protocol",
-        "threading",
+        "KeyError",
+        "socket",
         "Easy"
     ]
 }

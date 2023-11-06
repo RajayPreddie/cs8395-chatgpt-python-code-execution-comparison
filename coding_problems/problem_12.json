@@ -1,10 +1,10 @@
 {
     "id": "problem_12",
-    "description": "\n\nWhen attempting to use DuckTyping with a socket, an error is thrown due to a type mismatch. The code is attempting to assign a socket object to a variable that is expecting a type of object that is not a socket. This type mismatch causes the code to fail to compile and throws",
-    "code": "# Define a class\nclass MyClass:\n    def __init__(self, value):\n        self.value = value\n\n# Create an instance of MyClass\nmy_instance = MyClass(5)\n\n# Create a socket object\nimport socket",
+    "description": "\n\nWhen attempting to render a template with a django view, a ValueError is raised stating that the template does not have the correct format for the django view to process it.",
+    "code": "import django\n\ndjango.setup()\n\ndef main():\n    print(\"Django is running!\")\n\nif __name__ == \"__main__\":\n    main()",
     "tags": [
-        "DuckTyping",
-        "socket",
+        "ValueError",
+        "django",
         "Easy"
     ]
 }

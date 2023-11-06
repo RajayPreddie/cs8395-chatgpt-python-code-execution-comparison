@@ -1,9 +1,9 @@
 {
     "name": "Python Execution Output Comparison: problem_40",
     "tags": [
-        "discard",
-        "List",
+        "NotImplementedError",
+        "Non-default argument",
         "Easy"
     ],
-    "output": 0.8865248226950354
+    "output": 0.0
 }

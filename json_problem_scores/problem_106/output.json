@@ -1,9 +1,9 @@
 {
     "name": "Python Execution Output Comparison: problem_106",
     "tags": [
-        "symmetric_difference",
-        "clear",
+        "RuntimeError",
+        "tuple",
         "Easy"
     ],
-    "output": 1.0
+    "output": 0.9090909090909091
 }

@@ -1,10 +1,10 @@
 {
     "id": "problem_91",
-    "description": "\n\nWhen attempting to replace a datetime object with a string, a compile error is thrown indicating that a datetime object cannot be replaced with a string.",
-    "code": "import datetime\n\n# Define today's date\ntoday = datetime.date.today()\n\n# Define the date of one week ago\nweek_ago = today - datetime.timedelta(weeks=1)\n\n# Define the date",
+    "description": "\n\nThe problem is a RecursionError caused by the threading module. When attempting to execute a multi-threaded program, the threading module causes the program to get stuck in a recursive loop, resulting in a RecursionError.",
+    "code": "import threading\n\ndef run():\n    threading.Thread(target=run).start()\n\nrun()",
     "tags": [
-        "replace",
-        "datetime",
+        "RecursionError",
+        "threading",
         "Hard"
     ]
 }

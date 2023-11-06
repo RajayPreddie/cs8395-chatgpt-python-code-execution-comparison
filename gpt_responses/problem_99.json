@@ -1,10 +1,10 @@
 {
     "id": "problem_99",
-    "description": "\n\nWhen attempting to join two lists of requests together, a syntax error is thrown stating that the 'requests' keyword cannot be used in the join statement.",
-    "output": "The code runs successfully and does not produce any output.",
+    "description": "\n\nWhen attempting to access a metaclass for a given program, a FileNotFoundError is raised, indicating that the file containing the metaclass could not be found.",
+    "output": "FileNotFoundError: [Errno 2] No such file or directory: 'metaclass.py'",
     "tags": [
-        "join",
-        "requests",
+        "FileNotFoundError",
+        "Metaclass",
         "Hard"
     ]
 }

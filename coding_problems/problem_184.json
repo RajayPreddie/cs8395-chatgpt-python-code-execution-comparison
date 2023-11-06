@@ -1,10 +1,10 @@
 {
     "id": "problem_184",
-    "description": "\n\nError: SyntaxError\nProblem Description: The code is trying to generate a random list of items, but the syntax is incorrect. The code is missing a closing parenthesis after the keyword 'random' which is causing the SyntaxError.",
-    "code": "import random\n\n#Define a function to generate a random number between 0 and 1\ndef random_num():\n    return random.random()\n\n#Define a function to generate a random integer between two numbers\ndef random_int(start, end):",
+    "description": "\n\nThe problem is a SyntaxError that occurs when a program attempts to use the Python keyword 'Reflection' to define a variable. The error occurs because the keyword 'Reflection' is not a valid variable name in Python and thus causes a SyntaxError.",
+    "code": "# Reflection Program\n\ndef reflect(x):\n    return x\n\ndef main():\n    result = reflect(5)\n    print(result)\n\nif __name__ == \"__main__\":\n    main()",
     "tags": [
-        "items",
-        "random",
+        "SyntaxError",
+        "Reflection",
         "Hard"
     ]
 }

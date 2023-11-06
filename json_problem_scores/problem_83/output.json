@@ -1,9 +1,9 @@
 {
     "name": "Python Execution Output Comparison: problem_83",
     "tags": [
-        "split",
-        "Reflection",
+        "ZeroDivisionError",
+        "ContextManager",
         "Hard"
     ],
-    "output": 0.9772727272727273
+    "output": 0.8
 }

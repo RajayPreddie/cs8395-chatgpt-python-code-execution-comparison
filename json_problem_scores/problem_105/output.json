@@ -1,9 +1,9 @@
 {
     "name": "Python Execution Output Comparison: problem_105",
     "tags": [
-        "UnitTesting",
-        "Keyword expression",
+        "OverflowError",
+        "heapq",
         "Easy"
     ],
-    "output": 0.8253968253968254
+    "output": 0.8359788359788359
 }

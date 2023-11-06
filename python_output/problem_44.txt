@@ -1,4 +1,4 @@
-  File "<string>", line 9
-    my_set.add(3
-              ^
-SyntaxError: '(' was never closed
+  File "<string>", line 14
+    
+    ^
+IndentationError: expected an indented block after 'for' statement on line 12

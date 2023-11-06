@@ -1,9 +1,9 @@
 {
     "name": "Python Execution Output Comparison: problem_129",
     "tags": [
-        "MemoryView",
-        "Bytearray",
+        "NameError",
+        "Recursion",
         "Easy"
     ],
-    "output": 1.0
+    "output": 0.6857142857142857
 }

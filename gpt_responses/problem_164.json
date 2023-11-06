@@ -1,10 +1,10 @@
 {
     "id": "problem_164",
-    "description": "\n\nWhen attempting to copy a polymorphic object, a runtime error occurs due to the object's ability to take on multiple forms. The copy function is unable to accurately replicate the object's polymorphic nature, resulting in an error.",
-    "output": "",
+    "description": "\n\nWhen attempting to call the 'clear' method on an object, an AttributeError is raised indicating that the object does not have a 'clear' attribute.",
+    "output": "Traceback (most recent call last):\n  File \"<stdin>\", line 3, in <module>\nTypeError: 'NoneType' object cannot be interpreted as an integer",
     "tags": [
-        "copy",
-        "Polymorphism",
+        "AttributeError",
+        "clear",
         "Medium"
     ]
 }

@@ -1,10 +1,10 @@
 {
     "id": "problem_34",
-    "description": "\n\nWhen attempting to extend a multiprocessing task, the code throws a runtime error that the task cannot be extended beyond the number of cores available in the system.",
-    "output": "Traceback (most recent call last):\n  File \"<stdin>\", line 11\n    if __name__ == \n                   ^\nSyntaxError: invalid syntax",
+    "description": "\n\nWhen attempting to access a value from a dictionary, an AssertionError is raised indicating that the key does not exist in the dict.",
+    "output": "Apple\nCar\nComputer",
     "tags": [
-        "multiprocessing",
-        "extend",
+        "AssertionError",
+        "dict",
         "Easy"
     ]
 }

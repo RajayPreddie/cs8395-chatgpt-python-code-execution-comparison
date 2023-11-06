@@ -1,10 +1,10 @@
 {
     "id": "problem_167",
-    "description": "\n\nWhen running a program written in IdiomaticPython, a Generator runtime error occurs, resulting in an unexpected StopIteration exception being raised.",
-    "code": "# IdiomaticPython\n\n# imports\nimport random\nimport string\n\n# constants\nUPPER_LETTERS = string.ascii_uppercase\nLOWER_LETTERS = string.ascii_lowercase\nNUMBERS = string",
+    "description": "\n\nProblem Description: When attempting to access a key in a VirtualEnvironment, a KeyError is thrown, indicating that the key does not exist.",
+    "code": "my_dict = {'a':1, 'b':2, 'c':3}\n\nkey = 'd'\n\nprint(my_dict[key])",
     "tags": [
-        "Generator",
-        "IdiomaticPython",
+        "KeyError",
+        "VirtualEnvironment",
         "Medium"
     ]
 }

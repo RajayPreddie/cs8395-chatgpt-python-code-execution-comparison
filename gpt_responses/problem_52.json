@@ -1,10 +1,10 @@
 {
     "id": "problem_52",
-    "description": "\n\nWhen attempting to use the endswith function in a pytorch script, a compile/runtime error is thrown stating that the endswith function is not defined for the pytorch class.",
-    "output": "Traceback (most recent call last):\n  File \"<stdin>\", line 9, in <module>\nTypeError: module() takes at most 2 arguments (3 given)",
+    "description": "\n\nWhen attempting to join two objects together, a NotImplementedError is raised indicating that the method of joining them is not yet implemented.",
+    "output": "[1, 2, 3, 4, 5, 6]",
     "tags": [
-        "endswith",
-        "pytorch",
+        "NotImplementedError",
+        "join",
         "Medium"
     ]
 }

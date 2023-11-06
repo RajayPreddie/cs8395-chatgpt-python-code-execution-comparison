@@ -1,10 +1,10 @@
 {
     "id": "problem_161",
-    "description": "\n\nThe program is throwing a compile/runtime error when attempting to split a comprehension list. The error states that the comprehension list cannot be split, as it is not a valid sequence.",
-    "code": "# Program to demonstrate list comprehension in python \n\n# empty list \nlist1 = [] \n  \n# list of numbers \nlist2 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]",
+    "description": "\n\nThe problem is a ValueError that occurs when trying to convert a string to lowercase. The error occurs when the string contains a character that is not a valid ASCII character, and the conversion fails. The program then throws a ValueError exception, indicating that the conversion was unsuccessful.",
+    "code": "string = '\u00d8\u00f8'\nstring.lower() # ValueError: 'str' object has no attribute 'lower'",
     "tags": [
-        "split",
-        "Comprehension",
+        "ValueError",
+        "lower",
         "Medium"
     ]
 }

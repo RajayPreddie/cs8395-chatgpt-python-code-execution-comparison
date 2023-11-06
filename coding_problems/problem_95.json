@@ -1,10 +1,10 @@
 {
     "id": "problem_95",
-    "description": "\n\nWhen attempting to use the with statement in a Python program, a ContextManager error is thrown indicating that the object being used to replace the ContextManager is not valid.",
-    "code": "# Program to demonstrate ContextManager error\n\n# Importing necessary libraries\nimport contextlib\n\n# Defining a class to be used as a ContextManager\nclass MyContextManager:\n    def __enter__(self):\n        print(\"Entering context manager\")",
+    "description": "\n\nWhen running a program that uses a Metaclass, an AssertionError is thrown, indicating that the Metaclass is not configured correctly. The program fails to execute as the Metaclass is not properly configured to handle the data type that is being processed.",
+    "code": "class MyMetaClass(type):\n    def __init__(self, *args, **kwargs):\n        pass\n\nclass MyClass(metaclass=MyMetaClass):\n    def __init__(self, data):\n        assert isinstance(data",
     "tags": [
-        "ContextManager",
-        "replace",
+        "AssertionError",
+        "Metaclass",
         "Hard"
     ]
 }

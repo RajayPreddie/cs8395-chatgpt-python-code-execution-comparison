@@ -1,10 +1,10 @@
 {
     "id": "problem_46",
-    "description": "\n\nWhen attempting to use scipy to strip a list of data, an error occurs stating that the list is not of the correct type. The error message reads \"TypeError: object of type 'list' has no len()\".",
-    "code": "# Create a list with data\ndata_list = [1, 2, 3, 4, 5]\n\n# Create an empty list\nstripped_list = []\n\n# Iterate through the list and strip the data\nfor item in data_list:",
+    "description": "\n\nWhen attempting to run a unit test, an ImportError is raised indicating that the module containing the unit tests cannot be found. This error is preventing the unit tests from running and verifying the code.",
+    "code": "import unittest \n\ndef add_two_numbers(a, b): \n    return a + b \n\nclass TestAddTwoNumbers(unittest.TestCase): \n    def test_add_two_numbers(self):",
     "tags": [
-        "scipy",
-        "strip",
+        "ImportError",
+        "UnitTesting",
         "Easy"
     ]
 }

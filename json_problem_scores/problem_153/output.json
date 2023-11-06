@@ -1,9 +1,9 @@
 {
     "name": "Python Execution Output Comparison: problem_153",
     "tags": [
-        "sort",
-        "List",
+        "IndentationError",
+        "reverse",
         "Medium"
     ],
-    "output": 0.9928057553956835
+    "output": 0.9555555555555556
 }

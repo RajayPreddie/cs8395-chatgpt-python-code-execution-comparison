@@ -1,10 +1,10 @@
 {
     "id": "problem_96",
-    "description": "\n\nThe problem is that a user is trying to use Comprehension to create a list of unique values from a given list, but they are getting an error. The error is caused by a missing \". \" in the Comprehension syntax, which is preventing the list from being generated correctly.",
-    "output": "Traceback (most recent call last):\n  File \"<stdin>\", line 1, in <module>\nIndentationError: expected an indented block",
+    "description": "\n\nWhen running a program, a RuntimeError is thrown indicating that the program is unable to generate a random number in the expected range.",
+    "output": "7",
     "tags": [
-        "Comprehension",
-        "",
+        "RuntimeError",
+        "random",
         "Hard"
     ]
 }

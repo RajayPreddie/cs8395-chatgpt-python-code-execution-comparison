@@ -1,10 +1,10 @@
 {
     "id": "problem_23",
-    "description": "\n\nWhen attempting to strip a number from a string, a compile/runtime error is encountered when the program attempts to use a math operator on the stripped number. This error occurs when the program attempts to use a math operator on a string, as the string does not have the necessary data type to",
-    "output": "number: '10'",
+    "description": "\n\nThe problem is a MemoryError that occurs when attempting to reflect a large amount of data into memory. The program attempts to store a large amount of data in memory, but it exceeds the memory limit and causes a MemoryError. The program is unable to continue execution due to the MemoryError,",
+    "output": "Traceback (most recent call last):\n  File \"<stdin>\", line 3, in <module>\nMemoryError",
     "tags": [
-        "strip",
-        "math",
+        "MemoryError",
+        "Reflection",
         "Easy"
     ]
 }

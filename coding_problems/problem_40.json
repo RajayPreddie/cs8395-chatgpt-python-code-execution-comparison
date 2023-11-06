@@ -1,10 +1,10 @@
 {
     "id": "problem_40",
-    "description": "\n\nWhen attempting to discard an item from a List, a compile/runtime error occurs due to a mismatch between the item's type and the List's expected type. This causes the program to terminate unexpectedly.",
-    "code": "# Python Program to check if a list is empty\n\n# Declaring a list\nmy_list = []\n\n# Function to check if list is empty\ndef check_list(list):\n    if len(list) == 0:\n        print(\"List is empty",
+    "description": "\n\nWhen attempting to call a function with a Non-default argument, the program throws a NotImplementedError. This indicates that the function has not been implemented in the code to handle the Non-default argument.",
+    "code": "def add_numbers(num1, num2, non_default_arg = 0):\n  \"\"\"\n  This function adds two numbers and returns the sum.\n  It also takes a non-default argument which is added to the sum.\n  \"\"\"\n  return",
     "tags": [
-        "discard",
-        "List",
+        "NotImplementedError",
+        "Non-default argument",
         "Easy"
     ]
 }

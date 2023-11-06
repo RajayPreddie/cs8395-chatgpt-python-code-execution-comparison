@@ -1,9 +1,9 @@
 {
     "name": "Python Execution Output Comparison: problem_52",
     "tags": [
-        "endswith",
-        "pytorch",
+        "NotImplementedError",
+        "join",
         "Medium"
     ],
-    "output": 0.9014084507042254
+    "output": 0.972972972972973
 }

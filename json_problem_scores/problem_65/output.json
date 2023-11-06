@@ -1,9 +1,9 @@
 {
     "name": "Python Execution Output Comparison: problem_65",
     "tags": [
-        "keys",
-        "ChainMap",
+        "StopIteration",
+        "DefaultDict",
         "Medium"
     ],
-    "output": 0.43386243386243384
+    "output": 0.0
 }

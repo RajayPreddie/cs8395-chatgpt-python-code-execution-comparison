@@ -1,10 +1,10 @@
 {
     "id": "problem_57",
-    "description": "\n\nWhen using multiprocessing, an error occurs when attempting to lower the number of processes running simultaneously. The error states that the number of processes cannot be lowered any further, despite the number of available cores being higher than the number of processes running.",
-    "code": "# Program to convert a string to all lowercase\n\n#import string library\nimport string\n\n# get input from user\nuser_string = input(\"Please enter a string: \")\n\n# convert string to lowercase\nlower_string = user_string.lower",
+    "description": "\n\nWhen running UnitTesting, a FileNotFoundError is raised due to the program not being able to locate a necessary file needed for the testing process. This error is preventing the UnitTesting from being completed.",
+    "code": "file_name = 'test.txt'\n\ntry:\n    with open(file_name) as f_obj:\n        contents = f_obj.read()\nexcept FileNotFoundError:\n    print(\"File not found.\")",
     "tags": [
-        "multiprocessing",
-        "lower",
+        "FileNotFoundError",
+        "UnitTesting",
         "Medium"
     ]
 }

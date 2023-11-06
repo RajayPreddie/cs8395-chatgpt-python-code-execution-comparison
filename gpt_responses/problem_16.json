@@ -1,10 +1,10 @@
 {
     "id": "problem_16",
-    "description": "\n\nWhen attempting to reverse a list of strings, a runtime error occurs stating that the 'remove' function is not defined.",
-    "output": "SyntaxError: unexpected EOF while parsing",
+    "description": "\n\nWhen attempting to call the method 'get' on an object, an AttributeError is thrown stating that the object has no attribute 'get'.",
+    "output": "Traceback (most recent call last):\n  File \"<stdin>\", line 8, in <module>\nNameError: name 'Print' is not defined",
     "tags": [
-        "remove",
-        "reverse",
+        "AttributeError",
+        "get",
         "Easy"
     ]
 }

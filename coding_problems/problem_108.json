@@ -1,10 +1,10 @@
 {
     "id": "problem_108",
-    "description": "\n\nWhen attempting to create a list of items, a syntax error occurs stating that 'list' is not defined.",
-    "code": "# Create a list of items \nlist = [1, 2, 3, 4, 5]\n\n# Create a for loop to print each item in the list \nfor item in list:\n    print(item)\n\n# Create a function to add a number",
+    "description": "\n\nThe problem is an ImportError which occurs when trying to import a module containing a function called 'str_function()'. The code runs without any issue until the import statement is reached, at which point the ImportError is raised due to the missing module containing the 'str_function()'",
+    "code": "# Program to demonstrate the usage of str\n\n# Declare a string\nstring = \"Hello World!\"\n\n# Print the string\nprint(string)\n\n# Get the length of the string\nlength = len(string)\n\n# Print the length of the string",
     "tags": [
-        "clear",
-        "list",
+        "ImportError",
+        "str",
         "Easy"
     ]
 }

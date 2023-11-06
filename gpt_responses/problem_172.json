@@ -1,10 +1,10 @@
 {
     "id": "problem_172",
-    "description": "\n\nThe problem is an AsyncIO runtime error when attempting to use numpy in an asynchronous environment. The error occurs when the numpy library is used within an asynchronous function, resulting in an unexpected behavior when the code is executed. The error is caused by the asynchronous function attempting to access the",
-    "output": "Traceback (most recent call last):\n  File \"<stdin>\", line 10, in <module>\nTypeError: full() missing 2 required positional arguments: 'shape' and 'fill_value'",
+    "description": "\n\nThe problem is that when attempting to use memoization to optimize a program, a ZeroDivisionError occurs when attempting to divide by zero. This is preventing the program from properly memoizing the function and optimizing the program.",
+    "output": "Traceback (most recent call last):\n  File \"<stdin>\", line 1, in <module>\nIndexError: list index out of range",
     "tags": [
-        "AsyncIO",
-        "numpy",
+        "ZeroDivisionError",
+        "Memoization",
         "Medium"
     ]
 }

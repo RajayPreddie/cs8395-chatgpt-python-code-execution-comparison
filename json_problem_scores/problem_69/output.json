@@ -1,9 +1,9 @@
 {
     "name": "Python Execution Output Comparison: problem_69",
     "tags": [
-        "sklearn",
-        "split",
+        "NotImplementedError",
+        "startswith",
         "Medium"
     ],
-    "output": 0.9282700421940928
+    "output": 0.8054298642533937
 }

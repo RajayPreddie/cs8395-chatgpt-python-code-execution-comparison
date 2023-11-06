@@ -1,9 +1,9 @@
 {
     "name": "Python Execution Output Comparison: problem_107",
     "tags": [
-        "copy",
-        "Memoization",
+        "OverflowError",
+        "heapq",
         "Easy"
     ],
-    "output": 0.0
+    "output": 0.8449197860962567
 }

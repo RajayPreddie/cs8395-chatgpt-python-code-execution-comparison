@@ -1,4 +1,1 @@
-  File "<string>", line 9
-    print(sorted_
-         ^
-SyntaxError: '(' was never closed
+[1, 2, 3, 4]

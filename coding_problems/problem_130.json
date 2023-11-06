@@ -1,10 +1,10 @@
 {
     "id": "problem_130",
-    "description": "\n\nThe problem is that when attempting to use MonkeyPatching to make a difference in the runtime behavior of a program, the program throws an error due to an unexpected difference between the original code and the patched code. This difference causes the program to crash at runtime.",
-    "code": "def original_function(): \n    return \"original\"\n\ndef patched_function(): \n    return \"patched\"\n\ndef main(): \n    print(original_function()) # prints \"original\"\n\n    original_function = patched_function\n    print",
+    "description": "\n\nThe problem is an ImportError caused by the setdefault function not being able to find the desired module. When the program tries to import a module by using the setdefault function, the function returns an empty string instead of the module name, resulting in an ImportError.",
+    "code": "#Create an empty dictionary\ndictionary = {}\n\n#Set a default value for the dictionary\ndictionary.setdefault('default', 0)\n\n#Print the dictionary\nprint(dictionary)",
     "tags": [
-        "MonkeyPatching",
-        "difference",
+        "ImportError",
+        "setdefault",
         "Easy"
     ]
 }

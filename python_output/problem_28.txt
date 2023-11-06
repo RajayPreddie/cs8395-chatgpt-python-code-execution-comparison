@@ -1,4 +1,4 @@
-  File "<string>", line 7
-    def discard_e
-                 ^
-SyntaxError: expected '('
+  File "<string>", line 12
+    print("Difference is:", difference(num1
+                                      ^
+SyntaxError: '(' was never closed

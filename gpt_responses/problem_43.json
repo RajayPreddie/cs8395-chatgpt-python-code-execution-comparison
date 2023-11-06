@@ -1,10 +1,10 @@
 {
     "id": "problem_43",
-    "description": "\n\nThe problem is a pytorch runtime error that occurs when attempting to reverse a sequence of tensors. When running the code, the program fails to reverse the sequence of tensors, resulting in a runtime error.",
-    "output": "Traceback (most recent call last):\n  File \"<stdin>\", line 1, in <module>\nIndentationError: expected an indented block",
+    "description": "\n\nProblem Description: When attempting to use a decorator to modify a function, a TypeError is thrown stating that the decorator is not a valid type and cannot be used to modify the function.",
+    "output": "Hello World!\nTypeError: my_decorator is not a valid type and cannot",
     "tags": [
-        "pytorch",
-        "reverse",
+        "TypeError",
+        "Decorator",
         "Easy"
     ]
 }

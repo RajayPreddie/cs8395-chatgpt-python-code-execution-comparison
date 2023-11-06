@@ -1,10 +1,10 @@
 {
     "id": "problem_49",
-    "description": "\n\nSyntaxError: 'with' statement requires a ContextManager object as first argument when used with 'upper' keyword.",
-    "output": "Traceback (most recent call last):\n  File \"<stdin>\", line 9\n    def __exit__(self, exc_type,\n                              ^\nSyntaxError: unexpected EOF while parsing",
+    "description": "\n\nThe problem is a ModuleNotFoundError when attempting to import the pandas library. The program is unable to locate the pandas module, even though it is installed on the system. The ModuleNotFoundError is preventing the program from running, as it is unable to import the necessary pand",
+    "output": "This program should run without any errors",
     "tags": [
-        "upper",
-        "ContextManager",
+        "ModuleNotFoundError",
+        "pandas",
         "Easy"
     ]
 }

@@ -1,4 +1,4 @@
-  File "<string>", line 10
-    self.assert
-         ^^^^^^
-SyntaxError: invalid syntax
+  File "<string>", line 9
+    x = super().__new__(
+                       ^
+SyntaxError: '(' was never closed

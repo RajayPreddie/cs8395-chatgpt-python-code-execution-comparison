@@ -1,10 +1,10 @@
 {
     "id": "problem_160",
-    "description": "\n\nWhen attempting to use MonkeyPatching to change the formatting of an existing object, the program throws a compile/runtime error stating that the formatting is not supported. The error occurs when the format keyword is used to try to change the formatting of the object, even though the object does not support",
-    "output": "Traceback (most recent call last):\n  File \"<stdin>\", line 1, in <module>\nTypeError: 'module' object is not callable",
+    "description": "\n\nProblem Description: When attempting to calculate the sum of two numbers, a TypeError is thrown indicating that an unsupported type of math is being used.",
+    "output": "Traceback (most recent call last):\n  File \"<stdin>\", line 9, in <module>\nIndentationError: expected an indented block",
     "tags": [
-        "MonkeyPatching",
-        "format",
+        "TypeError",
+        "math",
         "Medium"
     ]
 }

@@ -1,4 +1,4 @@
-  File "<string>", line 8
-    def __init__(self):
-                       ^
+  File "<string>", line 10
+    
+    ^
 IndentationError: expected an indented block after function definition on line 8

@@ -1,10 +1,10 @@
 {
     "id": "problem_144",
-    "description": "\n\nSyntaxError: 'capitalize' is not a valid keyword argument for the 'pop' function.",
-    "output": "Traceback (most recent call last):\n  File \"<stdin>\", line 7\n    # Create an empty\n                      ^\nSyntaxError: unexpected EOF while parsing",
+    "description": "\n\nWhen attempting to read a file containing a DefaultDict, a FileNotFoundError is raised due to the file not existing in the current directory. This indicates that the DefaultDict is not able to be read and the program will not be able to access the data stored in the Default",
+    "output": "Traceback (most recent call last):\n  File \"<stdin>\", line 1, in <module>\nAttributeError: 'collections.defaultdict' object has no attribute 'd'",
     "tags": [
-        "pop",
-        "capitalize",
+        "FileNotFoundError",
+        "DefaultDict",
         "Easy"
     ]
 }

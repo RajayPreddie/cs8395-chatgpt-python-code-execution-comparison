@@ -1,10 +1,10 @@
 {
     "id": "problem_112",
-    "description": "\n\nWhen using the pandas library to create a ChainMap, a runtime error is raised indicating that the data type of the ChainMap is not compatible with the data type of the pandas object.",
-    "code": "import collections\n\n# Create a ChainMap of three dictionaries\ndict1 = {'a':1, 'b':2}\ndict2 = {'c':3, 'd':4}\ndict3 = {'e':5, 'f':6}",
+    "description": "\n\nWhen attempting to use the 'set' function, a NotImplementedError is raised indicating that the function has not been implemented yet. This error occurs when the code attempts to call the 'set' function without having defined it.",
+    "code": "# Create a set of numbers\nnumbers = {1, 2, 3, 4, 5}\n\n# Print the set\nprint(numbers)",
     "tags": [
-        "pandas",
-        "ChainMap",
+        "NotImplementedError",
+        "set",
         "Easy"
     ]
 }

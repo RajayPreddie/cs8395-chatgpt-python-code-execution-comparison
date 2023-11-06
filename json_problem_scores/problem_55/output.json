@@ -1,9 +1,9 @@
 {
     "name": "Python Execution Output Comparison: problem_55",
     "tags": [
-        "index",
-        "List",
+        "ZeroDivisionError",
+        "setdefault",
         "Medium"
     ],
-    "output": 0.0
+    "output": 0.8449197860962567
 }

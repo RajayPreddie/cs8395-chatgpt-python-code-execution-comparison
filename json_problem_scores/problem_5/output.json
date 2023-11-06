@@ -1,9 +1,9 @@
 {
     "name": "Python Execution Output Comparison: problem_5",
     "tags": [
-        "socket",
-        "random",
+        "OverflowError",
+        "re",
         "Easy"
     ],
-    "output": 0.9758064516129032
+    "output": 0.6413502109704642
 }

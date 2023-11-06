@@ -1,10 +1,10 @@
 {
     "id": "problem_76",
-    "description": "\n\nError: SyntaxError: invalid syntax\nProblem Description: When attempting to use the 'union' keyword in a program, the program fails to compile due to an invalid syntax error. The issue is caused by an incorrect use of the 'union' keyword in the code, causing the compiler",
-    "output": "Traceback (most recent call last):\n  File \"<stdin>\", line 6, in <module>\nTypeError: 'function' object is not iterable",
+    "description": "\n\nWhen attempting to create a bytearray of size greater than the maximum size supported by the Python interpreter, an OverflowError is raised. The error is caused by the Python interpreter not being able to allocate the requested memory for the bytearray.",
+    "output": "bytearray(b'\\n\\x14\\x1e(2<')\nTraceback (most recent call last):\n  File \"<stdin>\", line 11, in <module>\nNameError: name 'byt' is not defined",
     "tags": [
-        "find",
-        "union",
+        "OverflowError",
+        "bytearray",
         "Medium"
     ]
 }

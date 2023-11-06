@@ -1,10 +1,10 @@
 {
     "id": "problem_154",
-    "description": "\n\nWhen attempting to find a specific route in a Flask application, the compile/runtime error is raised: 'AttributeError: 'Flask' object has no attribute 'find''",
-    "code": "```\nfrom flask import Flask\n\napp = Flask(__name__)\n\n@app.route('/')\ndef index():\n    return 'Welcome to the home page!'\n\n@app.route('/about')\ndef about():\n    return '",
+    "description": "\n\nWhen attempting to sort a list of objects, an AttributeError is raised due to an object in the list not having the required attribute for sorting.",
+    "code": "# This code sorts a list of numbers \n\nnumbers = [1, 3, 5, 2, 4]\n\n# sort the list\nnumbers.sort()\n\n# print the sorted list\nprint(numbers)",
     "tags": [
-        "flask",
-        "find",
+        "AttributeError",
+        "sort",
         "Medium"
     ]
 }

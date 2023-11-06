@@ -1,4 +1,4 @@
-  File "<string>", line 9
-    if __name__ ==
-                  ^
-SyntaxError: invalid syntax
+  File "<string>", line 14
+    
+    ^
+IndentationError: expected an indented block after 'for' statement on line 13

@@ -1,10 +1,10 @@
 {
     "id": "problem_118",
-    "description": "\n\nThe problem is a TypeHinting error that occurs when a function parameter is defined with the startswith keyword, but the argument passed to the function does not start with the expected value. This causes a runtime error when the function is called, as the argument does not match the expected",
-    "output": "Traceback (most recent call last):\n  File \"<stdin>\", line 8\n    #converting both\n                    ^\nSyntaxError: unexpected EOF while parsing",
+    "description": "\n\nWhen attempting to clear the contents of a list, a TypeError is raised stating that the 'clear' method is not supported for the specified object type.",
+    "output": "[]",
     "tags": [
-        "TypeHinting",
-        "startswith",
+        "TypeError",
+        "clear",
         "Easy"
     ]
 }

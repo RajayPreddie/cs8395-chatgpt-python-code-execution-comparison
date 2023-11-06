@@ -1,10 +1,10 @@
 {
     "id": "problem_145",
-    "description": "\n\nWhen attempting to create a VirtualEnvironment, a ValueError is raised indicating that the values provided are incompatible with the VirtualEnvironment.",
-    "code": "#import the necessary libraries\nimport os\nimport virtualenv\n\n#create the virtual environment\nvirtualenv_name = \"my_virtual_environment\"\nvirtualenv.create_environment(virtualenv_name)\n\n#activate the virtual environment\nactivate_env = virtual",
+    "description": "\n\nThe problem is a ModuleNotFoundError when attempting to import the numpy module. The error occurs when the program is trying to access the numpy module, but the module is not installed or cannot be found in the system's path.",
+    "code": "import numpy\n\nprint(numpy.array([1,2,3]))",
     "tags": [
-        "values",
-        "VirtualEnvironment",
+        "ModuleNotFoundError",
+        "numpy",
         "Easy"
     ]
 }

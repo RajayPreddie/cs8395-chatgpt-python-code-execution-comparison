@@ -1,10 +1,10 @@
 {
     "id": "problem_10",
-    "description": "\n\nWhen using a NamedTuple, an index error occurs when attempting to access an item in the tuple that is out of range. This error occurs when the index used to access the item is either negative or greater than the length of the tuple.",
-    "code": "from collections import namedtuple\n\n# Create a named tuple\nMyTuple = namedtuple('MyTuple', ['index_1', 'index_2', 'index_3'])\n\n# Create an instance of MyTuple\ntup = MyT",
+    "description": "\n\nA RuntimeError is raised when a program attempts to remove an item from a list that does not exist.",
+    "code": "# Program to remove a specified element from a list \n\nlist = [1, 2, 3, 4, 5] \n\n# Element to be removed \nele = 4\n\n# printing original list \nprint (\"Original list: \", list)",
     "tags": [
-        "NamedTuple",
-        "index",
+        "RuntimeError",
+        "remove",
         "Easy"
     ]
 }

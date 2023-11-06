@@ -1,9 +1,9 @@
 {
     "name": "Python Execution Output Comparison: problem_82",
     "tags": [
-        "Recursion",
-        "fromkeys",
+        "FileNotFoundError",
+        "reverse",
         "Hard"
     ],
-    "output": 0.4605263157894737
+    "output": 1.0
 }

@@ -1,9 +1,9 @@
 {
     "name": "Python Execution Output Comparison: problem_20",
     "tags": [
-        "AsyncIO",
-        "issuperset",
+        "RecursionError",
+        "Global state",
         "Easy"
     ],
-    "output": 0.7522935779816514
+    "output": 0.8
 }

@@ -1,9 +1,9 @@
 {
     "name": "Python Execution Output Comparison: problem_6",
     "tags": [
-        "sys",
-        "socket",
+        "IndentationError",
+        "endswith",
         "Easy"
     ],
-    "output": 0.0
+    "output": 0.898876404494382
 }

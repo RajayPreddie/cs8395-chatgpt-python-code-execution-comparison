@@ -1,10 +1,10 @@
 {
     "id": "problem_15",
-    "description": "\n\nWhen running unit tests for a socket connection, the program throws a runtime error indicating that the socket is not properly configured for unit testing.",
-    "code": "# Python program for UnitTesting \n\nimport unittest\n\n# Define a class that will be used for the unit test\nclass TestUnitTesting(unittest.TestCase):\n \n    # A method that tests the functionality of the program\n    def",
+    "description": "\n\nThe problem is a MemoryError that occurs when attempting to instantiate a Metaclass object. The MemoryError is caused by the Metaclass object being too large for the computer's memory to handle, resulting in an out of memory error.",
+    "code": "class Metaclass:\n    def __init__(self):\n        self.data = [1] * (2**30)\n\ntry:\n    obj = Metaclass()\nexcept MemoryError:\n    print(\"MemoryError: Metaclass object is",
     "tags": [
-        "socket",
-        "UnitTesting",
+        "MemoryError",
+        "Metaclass",
         "Easy"
     ]
 }

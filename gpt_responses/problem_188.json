@@ -1,10 +1,10 @@
 {
     "id": "problem_188",
-    "description": "\n\nThe problem is that the program is trying to access a dictionary key with an uppercase value, but the dictionary only accepts lowercase keys. This causes a compile/runtime error, as the program is unable to access the dictionary with the uppercase key.",
-    "output": "Traceback (most recent call last):\n  File \"<stdin>\", line 1, in <module>\nIndentationError: expected an indented block",
+    "description": "\n\nThe problem is that a KeyError is being raised when attempting to access an item in a set. The set is composed of unique elements, so the element being accessed should exist in the set. However, the program is unable to find the element in the set, resulting in a KeyError",
+    "output": "Traceback (most recent call last):\n  File \"<stdin>\", line 8\n    words = [\"red\",\n                     ^\nSyntaxError: unexpected EOF while parsing",
     "tags": [
-        "keys",
-        "upper",
+        "KeyError",
+        "set",
         "Hard"
     ]
 }

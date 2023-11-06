@@ -1,10 +1,10 @@
 {
     "id": "problem_48",
-    "description": "\n\nWhen attempting to sort a list of numbers, a runtime error occurs when the program attempts to divide by zero.",
-    "code": "# Program to sort a list of numbers \n\n# create an empty list \nnumbers = [] \n\n# get input from user \nprint(\"Enter numbers to sort (enter 'done' when finished):\") \n\n# loop until user enters 'done'",
+    "description": "\n\nWhen attempting to activate a VirtualEnvironment in a Python script, an AttributeError is thrown, indicating that the attribute 'activate' is not found in the VirtualEnvironment object.",
+    "code": "# Create a virtual environment \nimport os\nimport venv\n\n# Create the virtual environment \nvirtualenv_name = \"my_virtual_environment\"\nvirtualenv_path = os.path.join(os.getcwd(), virtualenv_name)",
     "tags": [
-        "math",
-        "sort",
+        "AttributeError",
+        "VirtualEnvironment",
         "Easy"
     ]
 }

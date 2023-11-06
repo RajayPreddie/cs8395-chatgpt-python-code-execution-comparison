@@ -1,9 +1,9 @@
 {
     "name": "Python Execution Output Comparison: problem_195",
     "tags": [
-        "issubset",
-        "reverse",
+        "RuntimeError",
+        "DefaultDict",
         "Hard"
     ],
-    "output": 0.8478260869565217
+    "output": 0.9537037037037037
 }

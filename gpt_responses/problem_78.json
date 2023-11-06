@@ -1,10 +1,10 @@
 {
     "id": "problem_78",
-    "description": "\n\nWhen attempting to capitalize the first character of each word in a Deque, a runtime error is encountered. The error occurs when the Deque contains a blank space between two words, and the program attempts to capitalize the character after the blank space.",
-    "output": "",
+    "description": "\n\nWhen attempting to run a program, an AttributeError is thrown indicating that the GarbageCollection class does not have an attribute called 'collect_all_garbage' which is necessary for the program to run properly.",
+    "output": "0",
     "tags": [
-        "Deque",
-        "capitalize",
+        "AttributeError",
+        "GarbageCollection",
         "Medium"
     ]
 }

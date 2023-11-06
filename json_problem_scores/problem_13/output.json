@@ -1,9 +1,9 @@
 {
     "name": "Python Execution Output Comparison: problem_13",
     "tags": [
-        "ChainMap",
-        "reverse",
+        "TypeError",
+        "copy",
         "Easy"
     ],
-    "output": 0.9553571428571429
+    "output": 0.9727272727272728
 }

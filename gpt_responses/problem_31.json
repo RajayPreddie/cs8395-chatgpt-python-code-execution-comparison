@@ -1,10 +1,10 @@
 {
     "id": "problem_31",
-    "description": "\n\nWhen running a program, a \"Reverse Capitalize Error\" is thrown indicating that the code is attempting to reverse the capitalization of a string, but the string is not in the correct format.",
-    "output": "Traceback (most recent call last):\n  File \"<stdin>\", line 2, in <module>\n    def reverse_capitalize(string): \n  File \"<stdin>\", line 7\n    # Loop over characters in\n                            ^\nSyntaxError: unexpected EOF while parsing",
+    "description": "\n\nThe problem is a TypeError that occurs when attempting to serialize a complex data type. The program attempts to serialize a complex data type, such as a list or dictionary, but the serialization process fails due to the data type being incompatible with the serialization process. This results in",
+    "output": "[\"1\", \"2\", \"3\", {\"a\": \"b\"}]",
     "tags": [
-        "capitalize",
-        "reverse",
+        "TypeError",
+        "Serialization",
         "Easy"
     ]
 }

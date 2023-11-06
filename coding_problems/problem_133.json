@@ -1,10 +1,10 @@
 {
     "id": "problem_133",
-    "description": "\n\nError encountered when attempting to decode a Bytearray into a string: 'TypeError: decoding a Bytearray object with a non-string type is not supported'.",
-    "code": "# Program to demonstrate use of Bytearray \n\n# Importing the required libraries \nimport array \n\n# Creating a bytearray object \nbyte_arr = bytearray('Python', 'utf-8') \n\n# Printing the",
+    "description": "\n\nThe problem is an IndexError that occurs when a string is attempted to be sliced using the endswith method. When the endswith method is used to slice the string, an IndexError is thrown because the end index is out of range. The string being sliced is longer than the",
+    "code": "string = \"This is a string\"\n\nstring[0:len(string)+1].endswith(\"g\")\n\nIndexError: string index out of range",
     "tags": [
-        "Bytearray",
-        "Bytearray",
+        "IndexError",
+        "endswith",
         "Easy"
     ]
 }

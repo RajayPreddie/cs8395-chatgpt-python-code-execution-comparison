@@ -1,10 +1,10 @@
 {
     "id": "problem_97",
-    "description": "\n\nThe error is a compile/runtime error of DependencyInjection. The problem is that when attempting to inject a union type into a method, an error is thrown. The union type is not supported and the injection fails.",
-    "output": "",
+    "description": "\n\nWhen attempting to insert elements into a list, a MemoryError is raised due to the lack of available memory. This occurs when the list is too large to store in memory, resulting in an inability to add any more elements to the list.",
+    "output": "MemoryError",
     "tags": [
-        "DependencyInjection",
-        "union",
+        "MemoryError",
+        "insert",
         "Hard"
     ]
 }

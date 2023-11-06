@@ -1,10 +1,10 @@
 {
     "id": "problem_26",
-    "description": "\n\nWhen attempting to use a Lambda function to filter a List, a compile/runtime error is thrown due to a mismatch between the List item type and the Lambda function's expected argument type.",
+    "description": "\n\nWhen attempting to load a dictionary from a file, the program throws a FileNotFoundError, indicating that the file containing the dict is not found.",
     "output": "",
     "tags": [
-        "List",
-        "Lambda",
+        "FileNotFoundError",
+        "dict",
         "Easy"
     ]
 }

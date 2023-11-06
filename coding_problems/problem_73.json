@@ -1,10 +1,10 @@
 {
     "id": "problem_73",
-    "description": "\n\nThe error occurs when attempting to join two lists on a specified index. The lists are of different lengths and the join operation results in an 'IndexError' due to the index being out of range for one of the lists.",
-    "code": "# Create two lists \nlist_1 = [1, 2, 3, 4, 5]\nlist_2 = [6, 7, 8]\n\n# Define index to join lists\nindex = 5\n\n# Join the two lists\njoined_list =",
+    "description": "\n\nProblem Description: When attempting to create a set of data with a large amount of items, a MemoryError is thrown, indicating that the system does not have enough memory to store the set.",
+    "code": "my_set = set()\nfor i in range(100000000):\n    my_set.add(i)\n\n# MemoryError will be thrown",
     "tags": [
-        "join",
-        "index",
+        "MemoryError",
+        "set",
         "Medium"
     ]
 }

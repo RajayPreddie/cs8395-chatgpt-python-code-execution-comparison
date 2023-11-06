@@ -1,4 +1,4 @@
-  File "<string>", line 9
-    list.append(3
-               ^
-SyntaxError: '(' was never closed
+  File "<string>", line 16
+    
+    ^
+IndentationError: expected an indented block after 'except' statement on line 15

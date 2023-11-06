@@ -1,10 +1,10 @@
 {
     "id": "problem_54",
-    "description": "\n\nWhen attempting to use the socket to send data, a runtime error occurs due to a problem with MonkeyPatching. The error states that the socket is unable to send the data because it is unable to apply the MonkeyPatching correctly.",
+    "description": "\n\nThe problem is a SyntaxError caused by an incorrect use of the Metaclass keyword. The code attempts to create a new class using the Metaclass keyword, but the syntax is incorrect and results in a SyntaxError.",
     "output": "SyntaxError: unexpected EOF while parsing",
     "tags": [
-        "socket",
-        "MonkeyPatching",
+        "SyntaxError",
+        "Metaclass",
         "Medium"
     ]
 }

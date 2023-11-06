@@ -1,10 +1,10 @@
 {
     "id": "problem_160",
-    "description": "\n\nWhen attempting to use MonkeyPatching to change the formatting of an existing object, the program throws a compile/runtime error stating that the formatting is not supported. The error occurs when the format keyword is used to try to change the formatting of the object, even though the object does not support",
-    "code": "#Python Program\n\n#Importing modules\nimport string\n\n#Function to format a given string\ndef format_string(string):\n  #Converting the string to lowercase\n  string = string.lower()\n  \n  #Removing punctuation",
+    "description": "\n\nProblem Description: When attempting to calculate the sum of two numbers, a TypeError is thrown indicating that an unsupported type of math is being used.",
+    "code": "# Program to calculate the average of a list of numbers \n\n# Define a list of numbers\nnumbers = [1, 2, 3, 4, 5]\n\n# Calculate the sum of the list\ntotal = 0\nfor num in numbers:",
     "tags": [
-        "MonkeyPatching",
-        "format",
+        "TypeError",
+        "math",
         "Medium"
     ]
 }

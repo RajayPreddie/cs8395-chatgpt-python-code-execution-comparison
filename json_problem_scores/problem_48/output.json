@@ -1,9 +1,9 @@
 {
     "name": "Python Execution Output Comparison: problem_48",
     "tags": [
-        "math",
-        "sort",
+        "AttributeError",
+        "VirtualEnvironment",
         "Easy"
     ],
-    "output": 0.9902912621359223
+    "output": 0.0
 }

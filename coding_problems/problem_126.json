@@ -1,10 +1,10 @@
 {
     "id": "problem_126",
-    "description": "\n\nWhen attempting to discard an item from an OrderedDict, a runtime error occurs, indicating that the item cannot be found in the dictionary. This occurs because the item has already been discarded from the OrderedDict earlier in the program, but the program is attempting to discard it again",
-    "code": "# Program to discard unwanted elements from a list\n\n# Define a list\nlist_items = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]\n\n# Define a function to discard unwanted elements\ndef discard_items",
+    "description": "\n\nProblem Description: A RuntimeError occurs when a user attempts to access a system resource using the sys module, but the resource is unavailable or has insufficient permissions.",
+    "code": "import sys\n\ndef main():\n    print(\"Hello World\")\n    sys.exit()\n\nif __name__ == \"__main__\":\n    main()",
     "tags": [
-        "OrderedDict",
-        "discard",
+        "RuntimeError",
+        "sys",
         "Easy"
     ]
 }

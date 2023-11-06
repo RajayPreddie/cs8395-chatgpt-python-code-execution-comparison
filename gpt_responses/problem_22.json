@@ -1,10 +1,10 @@
 {
     "id": "problem_22",
-    "description": "\n\nWhen attempting to get a value from a concurrent thread, an error is thrown due to a race condition. The thread attempts to get the value before the value is ready, resulting in an invalid value.",
-    "output": "Traceback (most recent call last):\n  File \"<stdin>\", line 5, in <module>\n    r = requests.get('https://api.example\n      ^\nSyntaxError: EOL while scanning string literal",
+    "description": "\n\nWhen attempting to use threading for a calculation, a ZeroDivisionError occurs when attempting to divide a number by zero. This indicates that the threading process is attempting to divide a number by zero, which is an invalid operation and causes the program to crash.",
+    "output": "Thread running",
     "tags": [
-        "Concurrency",
-        "get",
+        "ZeroDivisionError",
+        "threading",
         "Easy"
     ]
 }

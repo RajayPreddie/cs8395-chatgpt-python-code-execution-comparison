@@ -1,10 +1,10 @@
 {
     "id": "problem_53",
-    "description": "\n\nWhen attempting to strip an element from a list using the pop function, a compile/runtime error is encountered. The error occurs when the pop function is used to remove an element from an empty list, resulting in an \"IndexError: pop from empty list\" message.",
-    "code": "# Code\n\nmy_list = []\n\n# Pop the first element from the list\nfirst_element = my_list.pop(0)\n\nprint(first_element)",
+    "description": "\n\nWhen attempting to run a Python program that imports the flask module, a ModuleNotFoundError is raised, indicating that the flask module could not be found.",
+    "code": "import flask\n\nprint(flask)\n\nModuleNotFoundError: No module named 'flask'",
     "tags": [
-        "strip",
-        "pop",
+        "ModuleNotFoundError",
+        "flask",
         "Medium"
     ]
 }

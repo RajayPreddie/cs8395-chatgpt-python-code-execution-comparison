@@ -1,9 +1,9 @@
 {
     "name": "Python Execution Output Comparison: problem_104",
     "tags": [
-        "setdefault",
-        "UnitTesting",
+        "NameError",
+        "Metaclass",
         "Easy"
     ],
-    "output": 0.5321100917431193
+    "output": 0.8396946564885496
 }

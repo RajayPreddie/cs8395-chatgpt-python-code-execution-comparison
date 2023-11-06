@@ -1,10 +1,10 @@
 {
     "id": "problem_175",
-    "description": "\n\nWhen running a scipy program, a compile-time error occurs stating that the scipy module does not contain a function called 'insert'.",
-    "output": "Traceback (most recent call last):\n  File \"<stdin>\", line 8\n    return np.\n             ^\nSyntaxError: invalid syntax",
+    "description": "\n\nProblem Description: When attempting to create a dict object, a MemoryError is raised due to insufficient memory resources. The program is unable to allocate the necessary memory resources to create the dict object, resulting in a MemoryError.",
+    "output": "Traceback (most recent call last):\n  File \"<stdin>\", line 2, in <module>\nMemoryError: Insufficient memory resources",
     "tags": [
-        "insert",
-        "scipy",
+        "MemoryError",
+        "dict",
         "Medium"
     ]
 }

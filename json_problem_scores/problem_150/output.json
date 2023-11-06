@@ -1,9 +1,9 @@
 {
     "name": "Python Execution Output Comparison: problem_150",
     "tags": [
-        "fromkeys",
-        "upper",
+        "RecursionError",
+        "matplotlib",
         "Easy"
     ],
-    "output": 0.5152838427947598
+    "output": 0.8461538461538461
 }

@@ -1,10 +1,10 @@
 {
     "id": "problem_52",
-    "description": "\n\nWhen attempting to use the endswith function in a pytorch script, a compile/runtime error is thrown stating that the endswith function is not defined for the pytorch class.",
-    "code": "# Importing necessary libraries \nimport torch\nimport torch.nn as nn\nimport torch.nn.functional as F\nimport torch.optim as optim\n\n# Declaring the model class\nclass Model(nn.Module):\n    def __init__(self):",
+    "description": "\n\nWhen attempting to join two objects together, a NotImplementedError is raised indicating that the method of joining them is not yet implemented.",
+    "code": "# Join two lists using the '+' operator\nlist1 = [1,2,3]\nlist2 = [4,5,6]\n\nlist3 = list1 + list2\n\nprint(list3) # Outputs [1,2,3",
     "tags": [
-        "endswith",
-        "pytorch",
+        "NotImplementedError",
+        "join",
         "Medium"
     ]
 }

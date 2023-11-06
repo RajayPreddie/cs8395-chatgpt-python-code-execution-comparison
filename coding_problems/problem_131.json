@@ -1,10 +1,10 @@
 {
     "id": "problem_131",
-    "description": "\n\nWhen attempting to run a TensorFlow program, a run-time error is encountered when attempting to add an element to a Set that has already been initialized with a tensorflow object.",
-    "code": "```python\nimport tensorflow as tf\n\n# Create a set of tensors\ntensor_set = set()\ntensor_set.add(tf.constant(1))\ntensor_set.add(tf.constant(2))",
+    "description": "\n\nThe problem is an IndentationError caused by an incorrect formatting of a loop. The loop was intended to iterate over a list of items, but the indentation of the code within the loop was incorrect, causing the loop to be skipped. This resulted in the code not being executed",
+    "code": "my_list = [1,2,3,4,5]\n\nfor item in my_list:\nprint(item)",
     "tags": [
-        "Set",
-        "tensorflow",
+        "IndentationError",
+        "format",
         "Easy"
     ]
 }

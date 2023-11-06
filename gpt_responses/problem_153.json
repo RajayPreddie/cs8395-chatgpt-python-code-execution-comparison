@@ -1,10 +1,10 @@
 {
     "id": "problem_153",
-    "description": "\n\nWhen attempting to sort a List of strings, an error is thrown stating that the List elements must all be of the same type in order to be sorted.",
-    "output": "Traceback (most recent call last):\n  File \"<stdin>\", line 2, in <module>\nTypeError: '<' not supported between instances of 'int' and 'str'",
+    "description": "\n\nThe problem is an IndentationError caused by attempting to reverse the indentation of a loop. When attempting to reverse the indentation of a loop, the code fails to compile and throws an IndentationError.",
+    "output": "  File \"<stdin>\", line 3\nIndentationError: unindent does not match any outer indentation level",
     "tags": [
-        "sort",
-        "List",
+        "IndentationError",
+        "reverse",
         "Medium"
     ]
 }

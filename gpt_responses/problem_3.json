@@ -1,10 +1,10 @@
 {
     "id": "problem_3",
-    "description": "\n\nA concurrency error occurs when a popitem is attempted on a dictionary while another thread is attempting to modify the same dictionary. This results in an error as the data structure is not in a consistent state.",
-    "output": "Traceback (most recent call last):\n  File \"<stdin>\", line 1, in <module>\nSyntaxError: unexpected EOF while parsing",
+    "description": "\n\nThe program is throwing an OSError when attempting to capitalize a string. The OSError states that the file or directory specified does not exist or is inaccessible. The program is unable to capitalize the string as the file or directory needed to complete the task is missing or inaccessible.",
+    "output": "hello world",
     "tags": [
-        "popitem",
-        "Concurrency",
+        "OSError",
+        "capitalize",
         "Easy"
     ]
 }

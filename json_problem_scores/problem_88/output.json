@@ -1,9 +1,9 @@
 {
     "name": "Python Execution Output Comparison: problem_88",
     "tags": [
-        "IdiomaticPython",
-        "Generator",
+        "OSError",
+        "clear",
         "Hard"
     ],
-    "output": 0.5189873417721519
+    "output": 0.04081632653061224
 }

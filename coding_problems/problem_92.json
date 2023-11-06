@@ -1,10 +1,10 @@
 {
     "id": "problem_92",
-    "description": "\n\nWhen attempting to access a specific item in a List, a runtime error occurs stating \"TypeError: 'list' object does not support indexing of type 'get'\".",
-    "code": "# This is a program that contains the error described in the description\n\n# Create a list of elements\nmy_list = [1, 2, 3, 4, 5]\n\n# Try to access a specific item in the list\ntry:\n    print(my_",
+    "description": "\n\nWhen attempting to create a union of two files, the program throws an OSError, indicating that the files are not supported for union operations.",
+    "code": "# Create two sets \nset1 = {1, 2, 3, 4, 5} \nset2 = {4, 5, 6, 7, 8} \n  \n# Union of two sets \nunion = set1.union(set2)",
     "tags": [
-        "List",
-        "get",
+        "OSError",
+        "union",
         "Hard"
     ]
 }

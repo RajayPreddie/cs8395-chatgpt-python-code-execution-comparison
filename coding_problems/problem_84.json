@@ -1,10 +1,10 @@
 {
     "id": "problem_84",
-    "description": "\n\nThe problem is a MemoryView compile/runtime error that occurs when attempting to use the Reflection method to access the data stored in the MemoryView. The error indicates that the Reflection method is not supported, and the data cannot be accessed.",
-    "code": "# Reflection Program\n\n# Import necessary modules\nimport sys\nimport types\n\n# Create a function that will take a variable and print out its type\ndef print_type(variable):\n    print(type(variable))\n\n# Create a function that will take a",
+    "description": "\n\nProblem Description:\nAn IndentationError is thrown when a programmer attempts to append a line of code to the end of a function without properly indenting it. This causes the Python interpreter to not recognize the code as part of the function and thus throws the IndentationError.",
+    "code": "# Define a sample list \nsample_list = [1, 2, 3] \n  \n# Appending the element 4 to the list \nsample_list.append(4) \n  \n# Printing the updated list \nprint(sample_list",
     "tags": [
-        "MemoryView",
-        "Reflection",
+        "IndentationError",
+        "append",
         "Hard"
     ]
 }

@@ -1,10 +1,10 @@
 {
     "id": "problem_11",
-    "description": "\n\nError: SyntaxError: invalid syntax\nProblem Description: The Generator is attempting to generate items from an invalid syntax, resulting in a SyntaxError.",
-    "code": "def generate_items():\n    for i in range(10):\n        try:\n            item = yield i\n        except SyntaxError:\n            print(\"Invalid Syntax - Please enter valid syntax\")\n\ngenerate_items()",
+    "description": "\n\nThe problem is a RecursionError caused by a lack of comprehension of the recursive nature of the code. The code fails to properly break out of the recursive loop, resulting in an infinite number of calls to the same function and a RecursionError.",
+    "code": "def recursion_error():\n    recursion_error()\n\nrecursion_error()",
     "tags": [
-        "items",
-        "Generator",
+        "RecursionError",
+        "Comprehension",
         "Easy"
     ]
 }

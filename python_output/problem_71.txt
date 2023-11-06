@@ -1,4 +1,3 @@
-  File "<string>", line 11
-    for obj in
-              ^
-SyntaxError: invalid syntax
+  File "<string>", line 5
+    def my_function(arg1):
+IndentationError: unexpected indent

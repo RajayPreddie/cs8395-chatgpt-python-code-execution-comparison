@@ -1,9 +1,9 @@
 {
     "name": "Python Execution Output Comparison: problem_108",
     "tags": [
-        "clear",
-        "list",
+        "ImportError",
+        "str",
         "Easy"
     ],
-    "output": 0.09900990099009901
+    "output": 0.9285714285714286
 }

@@ -1,10 +1,10 @@
 {
     "id": "problem_91",
-    "description": "\n\nWhen attempting to replace a datetime object with a string, a compile error is thrown indicating that a datetime object cannot be replaced with a string.",
-    "output": "Traceback (most recent call last):\n  File \"<stdin>\", line 9\n    # Define the date\n                     ^\nSyntaxError: unexpected EOF while parsing",
+    "description": "\n\nThe problem is a RecursionError caused by the threading module. When attempting to execute a multi-threaded program, the threading module causes the program to get stuck in a recursive loop, resulting in a RecursionError.",
+    "output": "RuntimeError: maximum recursion depth exceeded while calling a Python object",
     "tags": [
-        "replace",
-        "datetime",
+        "RecursionError",
+        "threading",
         "Hard"
     ]
 }

@@ -1,9 +1,9 @@
 {
     "name": "Python Execution Output Comparison: problem_188",
     "tags": [
-        "keys",
-        "upper",
+        "KeyError",
+        "set",
         "Hard"
     ],
-    "output": 0.0
+    "output": 0.7949790794979079
 }

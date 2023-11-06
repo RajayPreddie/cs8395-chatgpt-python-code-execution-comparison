@@ -1,10 +1,10 @@
 {
     "id": "problem_36",
-    "description": "\n\nWhen attempting to append a new figure to an existing matplotlib plot, a runtime error is thrown that reads \"ValueError: Expected x and y to have same first dimension, but have shapes (2, 3) and (3, 2) instead\". This suggests that the x",
-    "code": "import matplotlib.pyplot as plt\n\n# Create two arrays of different shapes\nx = [[1,2,3], [4,5,6]]\ny = [[7,8], [9,10], [11,12]]\n\n# Create",
+    "description": "\n\nProblem Description:\nWhen trying to create a new instance of a NamedTuple, a ValueError is raised indicating that the given values are not valid for the NamedTuple. This error occurs when the given values do not match the expected number of fields for the NamedTuple.",
+    "code": "from collections import namedtuple\n\n# create a namedtuple\nBook = namedtuple('Book', ['title', 'author', 'year'])\n\n# create a list of books\nbooks = [\n    Book('To Kill a Mockingbird', 'Har",
     "tags": [
-        "matplotlib",
-        "append",
+        "ValueError",
+        "NamedTuple",
         "Easy"
     ]
 }

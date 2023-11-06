@@ -1,9 +1,9 @@
 {
     "name": "Python Execution Output Comparison: problem_167",
     "tags": [
-        "Generator",
-        "IdiomaticPython",
+        "KeyError",
+        "VirtualEnvironment",
         "Medium"
     ],
-    "output": 1.0
+    "output": 0.9347826086956522
 }

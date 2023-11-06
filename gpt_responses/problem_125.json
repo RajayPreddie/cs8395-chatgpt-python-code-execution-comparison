@@ -1,10 +1,10 @@
 {
     "id": "problem_125",
-    "description": "\n\nWhen attempting to send a bytearray over a Protocol, a runtime error is generated indicating that the Protocol does not support the sending of bytearrays.",
-    "output": "Traceback (most recent call last):\n  File \"<stdin>\", line 9, in <module>\nSyntaxError: unexpected EOF while parsing",
+    "description": "\n\nThe problem is that when attempting to pop an item from a dictionary, a MemoryError is raised. The dictionary contains a large number of items, and the popitem() function is unable to allocate enough memory to complete the operation.",
+    "output": "(999999, 999999)",
     "tags": [
-        "Protocol",
-        "Bytearray",
+        "MemoryError",
+        "popitem",
         "Easy"
     ]
 }

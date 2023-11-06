@@ -1,4 +1,4 @@
-  File "<string>", line 9
-    '''
-    ^
-SyntaxError: unterminated triple-quoted string literal (detected at line 12)
+  File "<string>", line 14
+    print(list_of_items
+         ^
+SyntaxError: '(' was never closed

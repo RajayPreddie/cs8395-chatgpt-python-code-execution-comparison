@@ -1,9 +1,9 @@
 {
     "name": "Python Execution Output Comparison: problem_15",
     "tags": [
-        "socket",
-        "UnitTesting",
+        "MemoryError",
+        "Metaclass",
         "Easy"
     ],
-    "output": 0.8160919540229885
+    "output": 0.5565217391304348
 }

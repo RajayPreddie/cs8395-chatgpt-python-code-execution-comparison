@@ -1,10 +1,10 @@
 {
     "id": "problem_122",
-    "description": "\n\nWhen attempting to concatenate a string and a dictionary, a compile/runtime error is thrown, stating \"unsupported operand type(s) for +: 'str' and 'dict'\".",
-    "output": "",
+    "description": "\n\nWhen attempting to insert a large amount of data into a list, a MemoryError is thrown. The program is unable to allocate enough memory to store the data and is unable to complete the insert operation.",
+    "output": "1\n2\n3\n4\n5",
     "tags": [
-        "String",
-        "Dict",
+        "MemoryError",
+        "insert",
         "Easy"
     ]
 }

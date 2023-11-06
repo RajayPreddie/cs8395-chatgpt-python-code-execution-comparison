@@ -1,10 +1,10 @@
 {
     "id": "problem_111",
-    "description": "\n\nSyntaxError: JSON file is not properly formatted and cannot be parsed. The find command is unable to locate the correct syntax for the json file, resulting in an error.",
-    "output": "FileNotFoundError: [Errno 2] No such file or directory: 'data.json'",
+    "description": "\n\nWhen attempting to import the GarbageCollection module, an ImportError is raised stating that no module with the name 'GarbageCollection' can be found. This error is likely caused by an incorrect name for the module or a missing file that the GarbageCollection module is dependent on.",
+    "output": "Traceback (most recent call last):\n  File \"<stdin>\", line 1, in <module>\nImportError: No module named 'GarbageCollection'",
     "tags": [
-        "find",
-        "json",
+        "ImportError",
+        "GarbageCollection",
         "Easy"
     ]
 }

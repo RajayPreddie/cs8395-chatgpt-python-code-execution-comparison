@@ -1,9 +1,9 @@
 {
     "name": "Python Execution Output Comparison: problem_11",
     "tags": [
-        "items",
-        "Generator",
+        "RecursionError",
+        "Comprehension",
         "Easy"
     ],
-    "output": 0.0
+    "output": 0.7007299270072993
 }

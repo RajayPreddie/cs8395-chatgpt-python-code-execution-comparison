@@ -1,10 +1,10 @@
 {
     "id": "problem_17",
-    "description": "\n\nWhen attempting to import the sys module, the program is unable to complete the reflection of the sys module, resulting in a runtime error.",
-    "output": "Traceback (most recent call last):\n  File \"<stdin>\", line 1, in <module>\nIndentationError: expected an indented block",
+    "description": "\n\nWhen running a Django web application, a NameError is thrown stating that the variable 'django_app_name' is not defined. This error occurs when the web application is trying to use the variable to access a particular application, but the variable has not been declared or assigned a value",
+    "output": "Traceback (most recent call last):\n  File \"<stdin>\", line 1, in <module>\nNameError: name 'django_app_name' is not defined",
     "tags": [
-        "sys",
-        "Reflection",
+        "NameError",
+        "django",
         "Easy"
     ]
 }

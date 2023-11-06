@@ -1,10 +1,10 @@
 {
     "id": "problem_196",
-    "description": "\n\nProblem Description: Tensorflow is throwing a compile/runtime error when attempting to reverse the order of a tensor array. The error is indicating that the tensor array is not compatible with the reverse function.",
-    "code": "# Program to reverse a string\n\n# Function to reverse a string \ndef reverse(s): \n  \n    # Initializing a string variable \n    str = \"\" \n  \n    # Reversing the string \n    for i in s:",
+    "description": "\n\nThe problem is an OverflowError when attempting to use the sklearn library to fit a large dataset. The dataset is too large for the sklearn library to handle, resulting in an OverflowError.",
+    "code": "# Import necessary modules\nimport numpy as np\nfrom sklearn.linear_model import LinearRegression\n\n# Create the data\nx = np.array([[1,1],[1,2],[2,2],[2,3]])\ny = np.",
     "tags": [
-        "tensorflow",
-        "reverse",
+        "OverflowError",
+        "sklearn",
         "Hard"
     ]
 }

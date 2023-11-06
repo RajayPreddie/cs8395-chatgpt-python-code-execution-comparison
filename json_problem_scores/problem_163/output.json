@@ -1,9 +1,9 @@
 {
     "name": "Python Execution Output Comparison: problem_163",
     "tags": [
-        "Bytearray",
-        "lower",
+        "TypeError",
+        "Generator",
         "Medium"
     ],
-    "output": 0.7321428571428571
+    "output": 0.711864406779661
 }

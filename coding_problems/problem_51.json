@@ -1,10 +1,10 @@
 {
     "id": "problem_51",
-    "description": "\n\nThe problem is a runtime error that occurs when using the Python package pandas. When attempting to use the re module to search a dataframe for certain patterns, the program throws an error indicating that the re module is not supported by pandas.",
-    "code": "import pandas as pd\n\n# Create a sample dataframe\ndata = [['John', 'Smith', '25'], \n        ['Jane', 'Doe', '30'], \n        ['Adam', 'Johnson', '28']] \ndf",
+    "description": "\n\nThe problem is an OSError when trying to use the sklearn library. When attempting to import the sklearn library, there is an OSError that states the library cannot be found. This is likely due to a missing or invalid file path to the sklearn library.",
+    "code": "import sklearn\n\ntry:\n    sklearn.import_library()\nexcept OSError:\n    print(\"The sklearn library cannot be found. Check the file path and try again.\")",
     "tags": [
-        "re",
-        "pandas",
+        "OSError",
+        "sklearn",
         "Medium"
     ]
 }

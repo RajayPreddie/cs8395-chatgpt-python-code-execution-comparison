@@ -1,9 +1,9 @@
 {
     "name": "Python Execution Output Comparison: problem_49",
     "tags": [
-        "upper",
-        "ContextManager",
+        "ModuleNotFoundError",
+        "pandas",
         "Easy"
     ],
-    "output": 0.8014440433212996
+    "output": 0.6885245901639344
 }

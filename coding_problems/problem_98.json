@@ -1,10 +1,10 @@
 {
     "id": "problem_98",
-    "description": "\n\nWhen attempting to convert a Bytearray to a string using the sys module, the program throws an error indicating that the Bytearray is not compatible with the sys module.",
-    "code": "import sys\n\n# Program to take input from the user and print it\n\n# importing the sys module \n\n# taking input from user \nname = input(\"Enter your name: \") \n  \n# printing the input \nprint(\"Hello\", name)",
+    "description": "\n\nWhen attempting to import a math module, the program is producing a ModuleNotFoundError, indicating that the math module cannot be found. This is preventing the program from performing calculations using the math module, which is necessary for the program to function correctly.",
+    "code": "#This program demonstrates the use of the math module\n\nimport math\n\n#Calculate the square root of 81\nsqrt_81 = math.sqrt(81)\n\n#Calculate the sine of pi\nsin_pi = math.sin(",
     "tags": [
-        "Bytearray",
-        "sys",
+        "ModuleNotFoundError",
+        "math",
         "Hard"
     ]
 }

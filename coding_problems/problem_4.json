@@ -1,10 +1,10 @@
 {
     "id": "problem_4",
-    "description": "\n\nWhen attempting to use the scipy Metaclass to create a class, the compiler throws an error indicating that the Metaclass is not compatible with the scipy library. This indicates that the scipy Metaclass is not able to handle the complexity of the scip",
-    "code": "# Importing scipy library\nimport scipy\n\n# Defining a function to calculate the mean of a list\ndef mean_list(list):\n    return sum(list)/len(list)\n\n# Defining a function to calculate the standard deviation of",
+    "description": "\n\nWhen attempting to create a VirtualEnvironment, a ValueError is raised indicating that the environment name is not valid.",
+    "code": "# Create a Virtual Environment \nimport os\nimport virtualenv\n\n# Create a directory for the virtual environment\nvirtualenv_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'venv')",
     "tags": [
-        "Metaclass",
-        "scipy",
+        "ValueError",
+        "VirtualEnvironment",
         "Easy"
     ]
 }

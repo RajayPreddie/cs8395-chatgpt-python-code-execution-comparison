@@ -1,10 +1,10 @@
 {
     "id": "problem_131",
-    "description": "\n\nWhen attempting to run a TensorFlow program, a run-time error is encountered when attempting to add an element to a Set that has already been initialized with a tensorflow object.",
-    "output": "TypeError: unhashable type: 'tensorflow.python.framework.ops.EagerTensor'",
+    "description": "\n\nThe problem is an IndentationError caused by an incorrect formatting of a loop. The loop was intended to iterate over a list of items, but the indentation of the code within the loop was incorrect, causing the loop to be skipped. This resulted in the code not being executed",
+    "output": "  File \"<stdin>\", line 4\n    print(item)\n        ^\nIndentationError: expected an indented block",
     "tags": [
-        "Set",
-        "tensorflow",
+        "IndentationError",
+        "format",
         "Easy"
     ]
 }

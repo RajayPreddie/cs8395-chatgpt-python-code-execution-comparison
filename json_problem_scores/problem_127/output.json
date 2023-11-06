@@ -1,9 +1,9 @@
 {
     "name": "Python Execution Output Comparison: problem_127",
     "tags": [
-        "intersection",
-        "pop",
+        "ValueError",
+        "startswith",
         "Easy"
     ],
-    "output": 0.6736842105263158
+    "output": 0.5984251968503937
 }

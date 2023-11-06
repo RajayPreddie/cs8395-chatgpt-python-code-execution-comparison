@@ -1,10 +1,10 @@
 {
     "id": "problem_15",
-    "description": "\n\nWhen running unit tests for a socket connection, the program throws a runtime error indicating that the socket is not properly configured for unit testing.",
-    "output": "Traceback (most recent call last):\n  File \"<stdin>\", line 9\n    def\n      ^\nSyntaxError: invalid syntax",
+    "description": "\n\nThe problem is a MemoryError that occurs when attempting to instantiate a Metaclass object. The MemoryError is caused by the Metaclass object being too large for the computer's memory to handle, resulting in an out of memory error.",
+    "output": "MemoryError: Metaclass object is",
     "tags": [
-        "socket",
-        "UnitTesting",
+        "MemoryError",
+        "Metaclass",
         "Easy"
     ]
 }

@@ -1,10 +1,10 @@
 {
     "id": "problem_111",
-    "description": "\n\nSyntaxError: JSON file is not properly formatted and cannot be parsed. The find command is unable to locate the correct syntax for the json file, resulting in an error.",
-    "code": "# Code\nimport json\n\ntry:\n    with open('data.json') as json_file:\n        data = json.load(json_file)\nexcept SyntaxError:\n    print('JSON file is not properly formatted and cannot be parsed.')",
+    "description": "\n\nWhen attempting to import the GarbageCollection module, an ImportError is raised stating that no module with the name 'GarbageCollection' can be found. This error is likely caused by an incorrect name for the module or a missing file that the GarbageCollection module is dependent on.",
+    "code": "import GarbageCollection\n\n#This code will raise an ImportError since there is no module named GarbageCollection",
     "tags": [
-        "find",
-        "json",
+        "ImportError",
+        "GarbageCollection",
         "Easy"
     ]
 }

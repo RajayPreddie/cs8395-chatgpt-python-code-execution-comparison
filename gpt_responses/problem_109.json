@@ -1,10 +1,10 @@
 {
     "id": "problem_109",
-    "description": "\n\nWhen running a subprocess, the program throws a List index out of range error. This occurs when attempting to access an element in a list that does not exist. The program is not properly handling the size of the list and is attempting to access an element that does not exist.",
-    "output": "subprocess.run() missing 1 required positional argument: 'args'",
+    "description": "\n\nProblem Description:\nThe program is attempting to use the GarbageCollection module in order to delete objects that are no longer in use, but it is failing to do so due to a NameError. The NameError is being caused by the program not recognizing the GarbageCollection module as a",
+    "output": "Traceback (most recent call last):\n  File \"<stdin>\", line 1, in <module>\nModuleNotFoundError: No module named 'GarbageCollection'",
     "tags": [
-        "List",
-        "subprocess",
+        "NameError",
+        "GarbageCollection",
         "Easy"
     ]
 }

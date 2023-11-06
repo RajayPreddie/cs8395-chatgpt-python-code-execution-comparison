@@ -1,9 +1,9 @@
 {
     "name": "Python Execution Output Comparison: problem_34",
     "tags": [
-        "multiprocessing",
-        "extend",
+        "AssertionError",
+        "dict",
         "Easy"
     ],
-    "output": 0.8378378378378378
+    "output": 0.26865671641791045
 }

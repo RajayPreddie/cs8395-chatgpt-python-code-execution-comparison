@@ -1,10 +1,10 @@
 {
     "id": "problem_16",
-    "description": "\n\nWhen attempting to reverse a list of strings, a runtime error occurs stating that the 'remove' function is not defined.",
-    "code": "# This program will take a string as user input and reverse it\n\n# Define function to reverse the string\ndef reverse(string):\n    # Create empty string to store reversed string\n    reversed_string = \"\"\n    # Traverse through each letter in string",
+    "description": "\n\nWhen attempting to call the method 'get' on an object, an AttributeError is thrown stating that the object has no attribute 'get'.",
+    "code": "# Program to get the length of a list \n\nlist_data = [1, 2, 3, 4, 5, 6, 7] \n\n# Get the length of the list \nlist_length = len(list_data) \n\n# Print",
     "tags": [
-        "remove",
-        "reverse",
+        "AttributeError",
+        "get",
         "Easy"
     ]
 }

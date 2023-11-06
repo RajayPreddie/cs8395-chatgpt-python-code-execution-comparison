@@ -1,10 +1,10 @@
 {
     "id": "problem_75",
-    "description": "\n\nThe problem is that when attempting to use the union argument in a function call, a compile/runtime error is thrown due to the argument being set to a non-default value. This is because the union argument is not set to the default value of None, and the function does not accept",
-    "code": "# Program to demonstrate the use of union in Python \n\n# Define a set \nset1 = {1, 2, 3, 4, 5} \n\n# Define another set \nset2 = {4, 5, 6, 7, 8}",
+    "description": "\n\nWhen attempting to execute a program, a SyntaxError is thrown indicating that the collections keyword is not properly formatted. The program is unable to continue running due to the incorrect syntax of the collections keyword, causing the program to crash.",
+    "code": "collections = [1, 2, 3]\nprint(collections)",
     "tags": [
-        "Non-default argument",
-        "union",
+        "SyntaxError",
+        "collections",
         "Medium"
     ]
 }

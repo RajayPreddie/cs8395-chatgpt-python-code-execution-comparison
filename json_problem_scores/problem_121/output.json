@@ -1,9 +1,9 @@
 {
     "name": "Python Execution Output Comparison: problem_121",
     "tags": [
-        "List",
-        "upper",
+        "StopIteration",
+        "set",
         "Easy"
     ],
-    "output": 0.0
+    "output": 0.9696969696969697
 }

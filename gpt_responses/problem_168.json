@@ -1,10 +1,10 @@
 {
     "id": "problem_168",
-    "description": "\n\nWhen attempting to create a metaclass using a bytearray, an error is raised stating \"TypeError: metaclasses must be derived from type\". This occurs because a bytearray is not a valid type for a metaclass.",
-    "output": "Traceback (most recent call last):\n  File \"<stdin>\", line 4, in <module>\nTypeError: metaclass conflict: the metaclass of a derived class must be a (non-strict) subclass of the metaclasses of all its bases",
+    "description": "\n\nProblem Description: A MonkeyPatching attempt has caused an AttributeError when trying to access an attribute of a class. The attribute was added to the class during the MonkeyPatching process, but the system is not recognizing it as a valid attribute.",
+    "output": "Traceback (most recent call last):\n  File \"<stdin>\", line 9, in <module>\n    return self.\n               ^\nSyntaxError: invalid syntax",
     "tags": [
-        "Bytearray",
-        "Metaclass",
+        "AttributeError",
+        "MonkeyPatching",
         "Medium"
     ]
 }

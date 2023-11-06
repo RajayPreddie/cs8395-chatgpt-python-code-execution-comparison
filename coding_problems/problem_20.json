@@ -1,10 +1,10 @@
 {
     "id": "problem_20",
-    "description": "\n\nWhen attempting to use AsyncIO to build a web application, an error occurs stating \"TypeError: object of type 'coroutine' has no issuperset attribute\". This occurs when attempting to check if a set is a superset of another set, using the issupers",
-    "code": "import asyncio\n\nasync def main():\n    set1 = {1,2,3,4}\n    set2 = {2,3}\n    result = set1.issuperset(set2)\n    print(result)\n\nas",
+    "description": " \n\nThe problem is a RecursionError caused by a Global state issue. A function is attempting to modify a global state variable, but the function is also calling itself, causing an infinite loop and resulting in a RecursionError. The function is not able to modify the global state variable because",
+    "code": "# Global state\n\nx = 10\n\ndef my_function():\n    global x\n    x += 5\n    return x\n\nprint(my_function())",
     "tags": [
-        "AsyncIO",
-        "issuperset",
+        "RecursionError",
+        "Global state",
         "Easy"
     ]
 }

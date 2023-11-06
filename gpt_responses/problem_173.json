@@ -1,10 +1,10 @@
 {
     "id": "problem_173",
-    "description": "\n\nSyntaxError: GarbageCollection not defined in line 10. The code attempted to reference a GarbageCollection object that is not defined in the current scope, causing a syntax error.",
-    "output": "Traceback (most recent call last):\n  File \"<stdin>\", line 1, in <module>\nIndentationError: expected an indented block",
+    "description": "\n\nWhen running a program written in IdiomaticPython, an OSError is raised with the message \"Permission denied: cannot access directory\". This error occurs when the program attempts to access a directory that it does not have permission to access.",
+    "output": "[Errno 13] Permission denied: '/directory/that/I/do/not/have/permission/to/access'",
     "tags": [
-        "clear",
-        "GarbageCollection",
+        "OSError",
+        "IdiomaticPython",
         "Medium"
     ]
 }

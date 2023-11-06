@@ -1,9 +1,9 @@
 {
     "name": "Python Execution Output Comparison: problem_102",
     "tags": [
-        "count",
-        "extend",
+        "MemoryError",
+        "fromkeys",
         "Easy"
     ],
-    "output": 0.9911504424778761
+    "output": 0.3582089552238806
 }

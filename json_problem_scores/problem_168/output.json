@@ -1,9 +1,9 @@
 {
     "name": "Python Execution Output Comparison: problem_168",
     "tags": [
-        "Bytearray",
-        "Metaclass",
+        "AttributeError",
+        "MonkeyPatching",
         "Medium"
     ],
-    "output": 0.813953488372093
+    "output": 0.9407114624505929
 }

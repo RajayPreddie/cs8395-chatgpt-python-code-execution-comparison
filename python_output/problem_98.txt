@@ -1,1 +1,4 @@
-Enter your name: Hello Hello World
+  File "<string>", line 13
+    sin_pi = math.sin(
+                     ^
+SyntaxError: '(' was never closed

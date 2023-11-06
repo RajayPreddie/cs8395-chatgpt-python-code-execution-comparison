@@ -1,10 +1,10 @@
 {
     "id": "problem_155",
-    "description": "\n\nWhen running UnitTesting on a NamedTuple, a compile/runtime error occurs. The error states that the NamedTuple does not have the expected attributes, and the UnitTesting process cannot be completed.",
-    "code": "# Unit Testing with Python\n\n# Importing modules\nimport unittest\n\n# Creating a test suite\nclass UnitTestSuite(unittest.TestCase):\n    \n    # Setting up the test suite\n    def setUp(self):\n        self",
+    "description": "\n\nWhen running the code, a NameError is raised indicating that the variable 'os' is not defined. This is because the code is trying to access the 'os' variable, which has not been declared or initialized. This NameError is preventing the code from executing correctly.",
+    "code": "os = 0\nprint(os)",
     "tags": [
-        "NamedTuple",
-        "UnitTesting",
+        "NameError",
+        "os",
         "Medium"
     ]
 }

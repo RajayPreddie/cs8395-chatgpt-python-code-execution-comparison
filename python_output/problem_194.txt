@@ -1,4 +1,3 @@
-  File "<string>", line 9
-    # creating an
-                 ^
-IndentationError: expected an indented block after function definition on line 8
+Traceback (most recent call last):
+  File "<string>", line 7, in <module>
+FileNotFoundError: [Errno 2] No such file or directory: 'example.txt'

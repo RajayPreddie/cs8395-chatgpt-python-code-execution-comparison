@@ -1,10 +1,10 @@
 {
     "id": "problem_34",
-    "description": "\n\nWhen attempting to extend a multiprocessing task, the code throws a runtime error that the task cannot be extended beyond the number of cores available in the system.",
-    "code": "import multiprocessing\nimport time\n\ndef worker_function(num):\n    print(\"Worker {} starting\".format(num))\n    time.sleep(2)\n    print(\"Worker {} done\".format(num))\n\nif __name__ ==",
+    "description": "\n\nWhen attempting to access a value from a dictionary, an AssertionError is raised indicating that the key does not exist in the dict.",
+    "code": "# Create a dictionary \ndictionary = {\n    \"Apple\" : \"A fruit\",\n    \"Car\" : \"A vehicle\",\n    \"Computer\" : \"An electronic device\"\n}\n\n# Access the items in the dictionary\nfor item in dictionary:",
     "tags": [
-        "multiprocessing",
-        "extend",
+        "AssertionError",
+        "dict",
         "Easy"
     ]
 }

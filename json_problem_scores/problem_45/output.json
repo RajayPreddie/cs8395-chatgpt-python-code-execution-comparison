@@ -1,9 +1,9 @@
 {
     "name": "Python Execution Output Comparison: problem_45",
     "tags": [
-        "keys",
-        "remove",
+        "ValueError",
+        "Polymorphism",
         "Easy"
     ],
-    "output": 0.728
+    "output": 0.8695652173913043
 }

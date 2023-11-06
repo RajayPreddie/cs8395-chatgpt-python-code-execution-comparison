@@ -1,10 +1,10 @@
 {
     "id": "problem_186",
-    "description": "\n\nSyntaxError: 'items' is not a valid keyword argument for the 'upper' function.",
-    "output": "Traceback (most recent call last):\n  File \"<stdin>\", line 2, in <module>\nNameError: name 'Error' is not defined",
+    "description": "\n\nThe problem is a MemoryError caused by a Reflection. When attempting to access a deeply nested object, the program runs out of memory and throws an error. The program is attempting to access the object's attributes through a process of 'reflection', which is a process of introspection that",
+    "output": "Traceback (most recent call last):\n  File \"<stdin>\", line 1, in <module>\nIndentationError: expected an indented block",
     "tags": [
-        "upper",
-        "items",
+        "MemoryError",
+        "Reflection",
         "Hard"
     ]
 }

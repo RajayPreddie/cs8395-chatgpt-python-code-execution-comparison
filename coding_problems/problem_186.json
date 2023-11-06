@@ -1,10 +1,10 @@
 {
     "id": "problem_186",
-    "description": "\n\nSyntaxError: 'items' is not a valid keyword argument for the 'upper' function.",
-    "code": "def upper(string): \n    result = \"\" \n    for letter in string: \n        if letter.isupper(): \n            result += letter \n    return result \n\nmy_string = \"This is a Test\" \n\n# Error:",
+    "description": "\n\nThe problem is a MemoryError caused by a Reflection. When attempting to access a deeply nested object, the program runs out of memory and throws an error. The program is attempting to access the object's attributes through a process of 'reflection', which is a process of introspection that",
+    "code": "# A Python program to demonstrate the concept of Reflection \n\nclass Rectangle: \n    def __init__(self, length, width): \n        self.length = length \n        self.width = width \n\n    def area(self):",
     "tags": [
-        "upper",
-        "items",
+        "MemoryError",
+        "Reflection",
         "Hard"
     ]
 }

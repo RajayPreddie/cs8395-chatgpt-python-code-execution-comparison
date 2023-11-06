@@ -1,9 +1,9 @@
 {
     "name": "Python Execution Output Comparison: problem_96",
     "tags": [
-        "Comprehension",
-        "",
+        "RuntimeError",
+        "random",
         "Hard"
     ],
-    "output": 0.7381703470031545
+    "output": 0.024691358024691357
 }

@@ -1,10 +1,10 @@
 {
     "id": "problem_33",
-    "description": "\n\nThe problem is that when attempting to append an item to a List, a runtime error occurs. This is because the item being appended is not of the same type as the elements already in the List.",
-    "code": "# Program to demonstrate basic operations on a list in Python\n\n# Create a list with 5 elements\nmy_list = [1, 2, 3, 4, 5]\n\n# Print the list\nprint(my_list)\n\n# Access the 3rd element of",
+    "description": "\n\nWhen attempting to import the heapq module, an OSError is thrown stating that the module is not found. This indicates that the heapq module is not properly installed on the system, and must be installed before it can be used.",
+    "code": "import heapq\n\ntry:\n    import heapq\nexcept OSError:\n    print(\"The heapq module is not properly installed on the system, and must be installed before it can be used.\")",
     "tags": [
-        "append",
-        "List",
+        "OSError",
+        "heapq",
         "Easy"
     ]
 }

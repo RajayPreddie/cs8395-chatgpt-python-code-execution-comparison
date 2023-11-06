@@ -1,10 +1,10 @@
 {
     "id": "problem_46",
-    "description": "\n\nWhen attempting to use scipy to strip a list of data, an error occurs stating that the list is not of the correct type. The error message reads \"TypeError: object of type 'list' has no len()\".",
-    "output": "Traceback (most recent call last):\n  File \"<stdin>\", line 3, in <module>\nIndentationError: expected an indented block",
+    "description": "\n\nWhen attempting to run a unit test, an ImportError is raised indicating that the module containing the unit tests cannot be found. This error is preventing the unit tests from running and verifying the code.",
+    "output": "Traceback (most recent call last):\n  File \"<stdin>\", line 1, in <module>\nTypeError: test_add_two_numbers() missing 1 required positional argument: 'self'",
     "tags": [
-        "scipy",
-        "strip",
+        "ImportError",
+        "UnitTesting",
         "Easy"
     ]
 }

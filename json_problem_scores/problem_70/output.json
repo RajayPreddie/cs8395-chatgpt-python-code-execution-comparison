@@ -1,9 +1,9 @@
 {
     "name": "Python Execution Output Comparison: problem_70",
     "tags": [
-        "VirtualEnvironment",
-        "add",
+        "StopIteration",
+        "DefaultDict",
         "Medium"
     ],
-    "output": 0.9966329966329966
+    "output": 0.8442622950819673
 }

@@ -1,10 +1,10 @@
 {
     "id": "problem_65",
-    "description": "\n\nError: RuntimeError: ChainMap object has no key 'key1'\n\nProblem Description: When attempting to access the key 'key1' in a ChainMap object, a RuntimeError is thrown indicating the ChainMap object does not have the specified key.",
-    "code": "# Python Program Using ChainMap\n\nimport collections\n\n# Create a list of dictionaries\ndict_list = [{'a': 1, 'b': 2}, {'c': 3, 'd': 4}, {'e': 5, 'f': 6}",
+    "description": "\n\nThe problem is that when attempting to iterate through a DefaultDict, a StopIteration error is raised. This occurs because the DefaultDict is empty and there is no more data to iterate through.",
+    "code": "from collections import defaultdict \n\nmy_dict = defaultdict(list) \n\nfor key in my_dict: \n    print(key) \n\n# raises StopIteration error",
     "tags": [
-        "keys",
-        "ChainMap",
+        "StopIteration",
+        "DefaultDict",
         "Medium"
     ]
 }

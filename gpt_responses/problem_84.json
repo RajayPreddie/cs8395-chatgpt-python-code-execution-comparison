@@ -1,10 +1,10 @@
 {
     "id": "problem_84",
-    "description": "\n\nThe problem is a MemoryView compile/runtime error that occurs when attempting to use the Reflection method to access the data stored in the MemoryView. The error indicates that the Reflection method is not supported, and the data cannot be accessed.",
-    "output": "Traceback (most recent call last):\n  File \"<stdin>\", line 10\n    def print_type(variable):\n                            ^\nSyntaxError: unexpected EOF while parsing",
+    "description": "\n\nProblem Description:\nAn IndentationError is thrown when a programmer attempts to append a line of code to the end of a function without properly indenting it. This causes the Python interpreter to not recognize the code as part of the function and thus throws the IndentationError.",
+    "output": "[1, 2, 3, 4]",
     "tags": [
-        "MemoryView",
-        "Reflection",
+        "IndentationError",
+        "append",
         "Hard"
     ]
 }

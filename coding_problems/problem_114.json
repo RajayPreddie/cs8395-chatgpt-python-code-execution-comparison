@@ -1,10 +1,10 @@
 {
     "id": "problem_114",
-    "description": "\n\nWhen attempting to use the heapq module to sort a list of datetime objects, an error occurs stating that the comparison between datetime objects is not supported.",
-    "code": "import heapq\nfrom datetime import datetime\n\n# Create a list of datetime objects\ndatetimes = [datetime(2020, 5, 7, 9, 0, 0),\n             datetime(2020, 5, 7, 8, 0, 0),",
+    "description": "\n\nThe problem is an IndexError caused by attempting to copy an item from a list using an index that is out of range. The code tries to copy the item at index 5 in a list of length 4, resulting in an IndexError.",
+    "code": "# Copy a list of numbers\n\nnumbers = [1, 2, 3, 4, 5]\n\n# Create a new list and copy the numbers\nnew_numbers = numbers.copy()\n\n# Print the new list\nprint(new_numbers)",
     "tags": [
-        "Heapq",
-        "datetime",
+        "IndexError",
+        "copy",
         "Easy"
     ]
 }

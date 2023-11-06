@@ -1,10 +1,10 @@
 {
     "id": "problem_71",
-    "description": "\n\nWhen using DuckTyping, a runtime error occurs when attempting to split a string into multiple objects. The code assumes that the string is a list of objects, but the string is not of the correct type and cannot be split into multiple objects.",
-    "code": "# code\n# Program to demonstrate DuckTyping error\n\n# Initialize variables\nstring_input = \"This is a string\"\n\n# Split the string into multiple objects\nsplit_string = string_input.split()\n\n# Print the objects\nfor obj in",
+    "description": "\n\nThe problem is a SyntaxError caused by attempting to use frozenset as an argument in a function. The code fails to compile because frozenset is not a valid argument type for the function, and the SyntaxError is raised.",
+    "code": "def my_function(arg1):\n    print(arg1)\n\nmy_function(frozenset)",
     "tags": [
-        "DuckTyping",
-        "split",
+        "SyntaxError",
+        "frozenset",
         "Medium"
     ]
 }

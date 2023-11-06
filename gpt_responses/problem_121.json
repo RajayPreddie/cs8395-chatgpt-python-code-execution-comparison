@@ -1,10 +1,10 @@
 {
     "id": "problem_121",
-    "description": "\n\nWhen trying to access the upper elements of a List, a runtime error is thrown indicating that the index of the List is out of bounds. This occurs when the index used to access the upper elements of the List is greater than the length of the List.",
-    "output": "",
+    "description": "\n\nProblem Description: When attempting to iterate through a set of items, a StopIteration error is thrown. This error occurs when the iteration process reaches the end of the set and there are no more items to iterate through.",
+    "output": "Traceback (most recent call last):\n  File \"<stdin>\", line 9, in <module>\n    item = next(iterator)\nStopIteration",
     "tags": [
-        "List",
-        "upper",
+        "StopIteration",
+        "set",
         "Easy"
     ]
 }

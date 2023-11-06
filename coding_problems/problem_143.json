@@ -1,10 +1,10 @@
 {
     "id": "problem_143",
-    "description": "\n\nWhen attempting to run a program, a compile/runtime error is encountered with the endswith function that states \"TypeError: endswith() takes at least 2 arguments (1 given)\". The problem is that the program is attempting to use the endswith function to check if",
-    "code": "# Program to demonstrate compile/runtime error\n\n# Define a list of strings\nstrings = [\"Hello\", \"World\", \"Goodbye\", \"Earth\"]\n\n# Attempt to use the endswith function\nfor s in strings:\n  if s.endswith",
+    "description": "\n\nThe problem description is: \"A SyntaxError is thrown when trying to access an index of a list that is out of bounds. This occurs when the index provided is higher than the length of the list, or when the index is a negative number.\"",
+    "code": "list = [1, 2, 3]\n\nprint(list[3])",
     "tags": [
-        "endswith",
-        "keys",
+        "SyntaxError",
+        "index",
         "Easy"
     ]
 }

@@ -1,10 +1,10 @@
 {
     "id": "problem_115",
-    "description": "\n\nError: Runtime Error\nProblem Description: When attempting to add a Tuple to a Set, a Runtime Error occurs. This is due to the fact that Sets are not able to accept Tuples as elements, as Tuples are not hashable and Sets require elements to be hashable.",
-    "output": "{(1, 2, 3)}",
+    "description": "\n\nWhen attempting to run a program, a ModuleNotFoundError is raised due to a Non-default argument being used to import a module. The Non-default argument is not valid for the module being imported and the program fails to run.",
+    "output": "Traceback (most recent call last):\n  File \"<stdin>\", line 1, in <module>\nModuleNotFoundError: No module named 'my_module'",
     "tags": [
-        "Set",
-        "Tuple",
+        "ModuleNotFoundError",
+        "Non-default argument",
         "Easy"
     ]
 }

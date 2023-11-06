@@ -1,10 +1,10 @@
 {
     "id": "problem_98",
-    "description": "\n\nWhen attempting to convert a Bytearray to a string using the sys module, the program throws an error indicating that the Bytearray is not compatible with the sys module.",
-    "output": "The Command-Line Interface cannot interact with the user.",
+    "description": "\n\nWhen attempting to import a math module, the program is producing a ModuleNotFoundError, indicating that the math module cannot be found. This is preventing the program from performing calculations using the math module, which is necessary for the program to function correctly.",
+    "output": "Traceback (most recent call last):\n  File \"<stdin>\", line 9, in <module>\nSyntaxError: unexpected EOF while parsing",
     "tags": [
-        "Bytearray",
-        "sys",
+        "ModuleNotFoundError",
+        "math",
         "Hard"
     ]
 }

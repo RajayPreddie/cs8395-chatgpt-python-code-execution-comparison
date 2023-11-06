@@ -1,10 +1,10 @@
 {
     "id": "problem_156",
-    "description": "\n\nWhen attempting to use TypeHinting with a Frozenset, a compile/runtime error may occur due to the fact that the Frozenset is immutable and cannot be changed. As a result, the TypeHinting will not be applied and the program will not be able to",
-    "output": "Traceback (most recent call last):\n  File \"<stdin>\", line 1, in <module>\n    def main():\n  File \"<stdin>\", line 7, in main\n    # Attempt to use TypeH\nIndentationError: expected an indented block",
+    "description": "\n\nWhen running UnitTesting on a program, an OverflowError is thrown due to the amount of data being processed exceeding the maximum capacity of the program's memory.",
+    "output": "Traceback (most recent call last):\n  File \"<stdin>\", line 10, in <module>\n    def test_example(self):\nIndentationError: expected an indented block",
     "tags": [
-        "Frozenset",
-        "TypeHinting",
+        "OverflowError",
+        "UnitTesting",
         "Medium"
     ]
 }

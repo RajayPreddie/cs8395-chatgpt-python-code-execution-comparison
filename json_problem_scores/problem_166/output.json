@@ -1,9 +1,9 @@
 {
     "name": "Python Execution Output Comparison: problem_166",
     "tags": [
-        "multiprocessing",
-        "sys",
+        "ZeroDivisionError",
+        "pytorch",
         "Medium"
     ],
-    "output": 0.6642857142857143
+    "output": 0.8186528497409327
 }

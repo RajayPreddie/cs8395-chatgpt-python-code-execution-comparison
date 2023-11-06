@@ -1,9 +1,9 @@
 {
     "name": "Python Execution Output Comparison: problem_92",
     "tags": [
-        "List",
-        "get",
+        "OSError",
+        "union",
         "Hard"
     ],
-    "output": 0.8762886597938144
+    "output": 1.0
 }

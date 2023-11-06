@@ -1,10 +1,10 @@
 {
     "id": "problem_136",
-    "description": "\n\nA SyntaxError is thrown when attempting to compile a regular expression containing the keyword 'upper' with the flag 're.IGNORECASE'. This occurs when the regex engine does not recognize the 'upper' keyword as a valid regular expression pattern and therefore cannot compile it.",
-    "output": "Traceback (most recent call last):\n  File \"<stdin>\", line 1, in <module>\nIndentationError: expected an indented block",
+    "description": "\n\nThe problem is a RuntimeError that occurs when trying to use pytorch to create a deep learning model. The error occurs when the model is trained and the pytorch library is unable to process the data correctly, resulting in an error in the training process.",
+    "output": "tensor([[ 1.0000, -0.0000,  0.0000],\n        [ 0.0000,  1.0000,  0.0000],\n        [ 0.0000,  0.0000,  ",
     "tags": [
-        "re",
-        "upper",
+        "RuntimeError",
+        "pytorch",
         "Easy"
     ]
 }

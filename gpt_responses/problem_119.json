@@ -1,10 +1,10 @@
 {
     "id": "problem_119",
-    "description": "\n\nWhen attempting to generate a json file using a Python generator, an error is thrown stating that the generator is unable to create a valid json object due to a missing required parameter.",
-    "output": "",
+    "description": "\n\nThe problem is a NameError that occurs when trying to access an attribute of a NamedTuple object that does not exist. This NameError occurs when the code is trying to access an attribute of the NamedTuple that has not been defined.",
+    "output": "Traceback (most recent call last):\n  File \"<stdin>\", line 1, in <module>\nAttributeError: 'MyTuple' object has no attribute 'height'",
     "tags": [
-        "Generator",
-        "json",
+        "NameError",
+        "NamedTuple",
         "Easy"
     ]
 }

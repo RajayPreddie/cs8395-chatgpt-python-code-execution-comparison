@@ -1,1 +1,3 @@
-Error: '5' is not a valid set
+  File "<string>", line 5
+    my_dict = {'a': 1, 'b': 2, 'c': 3}
+IndentationError: unexpected indent

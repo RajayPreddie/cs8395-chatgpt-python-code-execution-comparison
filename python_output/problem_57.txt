@@ -1,1 +1,3 @@
-Please enter a string: 
+  File "<string>", line 5
+    file_name = 'test.txt'
+IndentationError: unexpected indent

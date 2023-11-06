@@ -1,9 +1,9 @@
 {
     "name": "Python Execution Output Comparison: problem_135",
     "tags": [
-        "Tuple",
-        "socket",
+        "MemoryError",
+        "NamedTuple",
         "Easy"
     ],
-    "output": 1.0
+    "output": 0.9395348837209302
 }

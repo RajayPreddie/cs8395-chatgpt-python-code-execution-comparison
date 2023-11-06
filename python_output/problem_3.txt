@@ -1,4 +1,1 @@
-  File "<string>", line 11
-    # Create
-            ^
-IndentationError: expected an indented block after 'if' statement on line 10
+Hello world

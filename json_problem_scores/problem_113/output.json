@@ -1,9 +1,9 @@
 {
     "name": "Python Execution Output Comparison: problem_113",
     "tags": [
-        "tensorflow",
-        "count",
+        "ZeroDivisionError",
+        "DependencyInjection",
         "Easy"
     ],
-    "output": 0.967741935483871
+    "output": 0.9863013698630136
 }

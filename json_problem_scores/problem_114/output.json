@@ -1,9 +1,9 @@
 {
     "name": "Python Execution Output Comparison: problem_114",
     "tags": [
-        "Heapq",
-        "datetime",
+        "IndexError",
+        "copy",
         "Easy"
     ],
-    "output": 0.49101796407185627
+    "output": 0.967741935483871
 }

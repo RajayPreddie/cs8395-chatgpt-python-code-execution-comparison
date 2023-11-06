@@ -1,10 +1,10 @@
 {
     "id": "problem_45",
-    "description": "\n\nError: RuntimeError\nProblem Description: Trying to remove a key from a dictionary results in a RuntimeError. The code attempts to remove a key from a dictionary, but the key does not exist in the dictionary, resulting in the error.",
-    "output": "Traceback (most recent call last):\n  File \"<stdin>\", line 5, in <module>\nKeyError: 'height'",
+    "description": "\n\nProblem Description: A ValueError is thrown when attempting to use polymorphism on a data type that is not supported by the polymorphic function. The function is attempting to use polymorphism to process the data, but the data type is not compatible with the polymorphic function.",
+    "output": "Traceback (most recent call last):\n  File \"<stdin>\", line 3, in polymorphic_function\nAttributeError: 'int' object has no attribute 'process'",
     "tags": [
-        "keys",
-        "remove",
+        "ValueError",
+        "Polymorphism",
         "Easy"
     ]
 }

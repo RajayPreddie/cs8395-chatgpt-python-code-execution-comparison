@@ -1,10 +1,10 @@
 {
     "id": "problem_135",
-    "description": "\n\nWhen using a socket to send a Tuple of data, a runtime error occurs due to the mismatch in data types. The socket is expecting a string of data, but the Tuple contains items of different data types, which causes the runtime error.",
-    "code": "import socket\n\n# Create a socket object\ns = socket.socket(socket.AF_INET, socket.SOCK_STREAM) \n\n# Get local machine name\nhost = socket.gethostname()                           \n\nport = 9999",
+    "description": "\n\nWhen attempting to create a NamedTuple with a large amount of data, a MemoryError is raised due to insufficient memory. This occurs because the Python interpreter is unable to allocate enough memory for the NamedTuple to store all the data.",
+    "code": "from collections import namedtuple\n\ndata = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]\n\nMyTuple = namedtuple('MyTuple', 'data')\n\ntry:\n    my_tuple",
     "tags": [
-        "Tuple",
-        "socket",
+        "MemoryError",
+        "NamedTuple",
         "Easy"
     ]
 }

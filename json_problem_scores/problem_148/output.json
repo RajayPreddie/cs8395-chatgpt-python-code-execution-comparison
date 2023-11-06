@@ -1,9 +1,9 @@
 {
     "name": "Python Execution Output Comparison: problem_148",
     "tags": [
-        "items",
-        "keys",
+        "IndexError",
+        "threading",
         "Easy"
     ],
-    "output": 0.7758620689655172
+    "output": 0.28865979381443296
 }

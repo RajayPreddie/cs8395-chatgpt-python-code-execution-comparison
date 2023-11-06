@@ -1,10 +1,10 @@
 {
     "id": "problem_180",
-    "description": "\n\nWhen attempting to execute a script, there is a compile/runtime error due to an incorrect format for the os.path.join command. The script is unable to process the command correctly, resulting in an error.",
-    "output": "Traceback (most recent call last):\n  File \"<stdin>\", line 9, in <module>\nNameError: name 'os' is not defined",
+    "description": "\n\nWhen attempting to calculate the sum of a list of numbers, a ZeroDivisionError is raised indicating that the index of the list was divided by zero.",
+    "output": "Traceback (most recent call last):\n  File \"<stdin>\", line 9, in <module>\nNameError: name 'index' is not defined",
     "tags": [
-        "format",
-        "os",
+        "ZeroDivisionError",
+        "index",
         "Medium"
     ]
 }

@@ -1,10 +1,10 @@
 {
     "id": "problem_157",
-    "description": "\n\nWhen attempting to remove a flask from a list of items, a compile/runtime error is thrown indicating that the flask object is not iterable.",
-    "output": "Error: Flask app is running without any return statement in the 'home' function.",
+    "description": "\n\nWhen attempting to import a module to assist with comprehension tasks, a ModuleNotFoundError is thrown, indicating that the module is not available for import.",
+    "output": "Traceback (most recent call last):\n  File \"<stdin>\", line 1, in <module>\nModuleNotFoundError: No module named 'my_module'",
     "tags": [
-        "remove",
-        "flask",
+        "ModuleNotFoundError",
+        "Comprehension",
         "Medium"
     ]
 }

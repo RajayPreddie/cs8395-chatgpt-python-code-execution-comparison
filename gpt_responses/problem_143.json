@@ -1,10 +1,10 @@
 {
     "id": "problem_143",
-    "description": "\n\nWhen attempting to run a program, a compile/runtime error is encountered with the endswith function that states \"TypeError: endswith() takes at least 2 arguments (1 given)\". The problem is that the program is attempting to use the endswith function to check if",
-    "output": "Traceback (most recent call last):\n  File \"<stdin>\", line 8, in <module>\nTypeError: endswith first arg must be str or a tuple of str, not None",
+    "description": "\n\nThe problem description is: \"A SyntaxError is thrown when trying to access an index of a list that is out of bounds. This occurs when the index provided is higher than the length of the list, or when the index is a negative number.\"",
+    "output": "Traceback (most recent call last):\n  File \"<stdin>\", line 2, in <module>\nIndexError: list index out of range",
     "tags": [
-        "endswith",
-        "keys",
+        "SyntaxError",
+        "index",
         "Easy"
     ]
 }

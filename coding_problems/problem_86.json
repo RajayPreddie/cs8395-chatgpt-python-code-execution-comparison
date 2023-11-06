@@ -1,10 +1,10 @@
 {
     "id": "problem_86",
-    "description": "\n\nProblem Description: When using the subprocess module, a Non-default argument error occurs when trying to pass a list of arguments to a subprocess call. This error is caused by passing the wrong type of argument to the subprocess call. The argument must be a string, not a list",
-    "code": "import subprocess\n\ndef main():\n    args = [\"-v\", \"-f\", \"--name\", \"John\"]\n    subprocess.call(args)\n\nif __name__ == \"__main__\":\n    main()",
+    "description": "\n\nThe problem is a RecursionError caused by a frozenset. When a program attempts to iterate through a frozenset, the program runs into a recursive loop and results in a RecursionError. The program is unable to break out of the recursive loop and therefore crashes.",
+    "code": "# Create a frozenset \nfrozen_set = frozenset([1, 2, 3, 4, 5]) \n  \n# Print the frozenset \nprint(frozen_set) \n  \n# Check if 4 is present in fro",
     "tags": [
-        "Non-default argument",
-        "subprocess",
+        "RecursionError",
+        "frozenset",
         "Hard"
     ]
 }

@@ -1,10 +1,10 @@
 {
     "id": "problem_123",
-    "description": "\n\nThe error occurs when attempting to use the symmetric_difference function to clear a set of data. The function returns an empty set, indicating that the data has not been cleared as expected.",
-    "code": "# Clear program\n\n# import modules\nimport os\nimport shutil\n\n# define variables\ndir_name = \"clear_files\"\n\n# create directory for files\nos.mkdir(dir_name)\n\n# create files\nfile_names = [\"",
+    "description": "\n\nThe program is attempting to divide a number by zero, resulting in a ZeroDivisionError when attempting to remove a certain item from a list.",
+    "code": "list = [1, 2, 3, 4, 5]\n\nresult = list[4] / 0",
     "tags": [
-        "symmetric_difference",
-        "clear",
+        "ZeroDivisionError",
+        "remove",
         "Easy"
     ]
 }

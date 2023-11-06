@@ -1,10 +1,10 @@
 {
     "id": "problem_161",
-    "description": "\n\nThe program is throwing a compile/runtime error when attempting to split a comprehension list. The error states that the comprehension list cannot be split, as it is not a valid sequence.",
-    "output": "",
+    "description": "\n\nThe problem is a ValueError that occurs when trying to convert a string to lowercase. The error occurs when the string contains a character that is not a valid ASCII character, and the conversion fails. The program then throws a ValueError exception, indicating that the conversion was unsuccessful.",
+    "output": "Traceback (most recent call last):\n  File \"<stdin>\", line 2, in <module>\nAttributeError: 'str' object has no attribute 'lower'",
     "tags": [
-        "split",
-        "Comprehension",
+        "ValueError",
+        "lower",
         "Medium"
     ]
 }

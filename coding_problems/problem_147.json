@@ -1,10 +1,10 @@
 {
     "id": "problem_147",
-    "description": "\n\nWhen trying to execute code that uses Global state, a compile/runtime error is thrown due to a problem with the DefaultDict. The DefaultDict is not properly defined in the Global state, causing the code to fail when trying to access it.",
-    "code": "from collections import defaultdict\n\n# Create an empty defaultdict\nd = defaultdict(list)\n\n# Add some values to the defaultdict\nd['a'].append(1)\nd['b'].append(2)\nd['b'].append",
+    "description": "\n\nA SyntaxError is thrown when attempting to MonkeyPatching a function due to an invalid syntax. The code is attempting to add a new attribute to the function, but the syntax used is incorrect and thus the code is unable to be compiled.",
+    "code": "def my_function():\n    pass\n\nmy_function.new_attribute = 'value'  # SyntaxError: can't assign to function call",
     "tags": [
-        "Global state",
-        "DefaultDict",
+        "SyntaxError",
+        "MonkeyPatching",
         "Easy"
     ]
 }

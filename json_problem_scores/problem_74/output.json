@@ -1,9 +1,9 @@
 {
     "name": "Python Execution Output Comparison: problem_74",
     "tags": [
-        "Concurrency",
-        "GarbageCollection",
+        "TypeError",
+        "json",
         "Medium"
     ],
-    "output": 0.9172932330827067
+    "output": 0.8082901554404145
 }

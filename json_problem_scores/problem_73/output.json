@@ -1,9 +1,9 @@
 {
     "name": "Python Execution Output Comparison: problem_73",
     "tags": [
-        "join",
-        "index",
+        "MemoryError",
+        "set",
         "Medium"
     ],
-    "output": 0.875
+    "output": 0.2765957446808511
 }

@@ -1,10 +1,10 @@
 {
     "id": "problem_12",
-    "description": "\n\nWhen attempting to use DuckTyping with a socket, an error is thrown due to a type mismatch. The code is attempting to assign a socket object to a variable that is expecting a type of object that is not a socket. This type mismatch causes the code to fail to compile and throws",
-    "output": "",
+    "description": "\n\nWhen attempting to render a template with a django view, a ValueError is raised stating that the template does not have the correct format for the django view to process it.",
+    "output": "Traceback (most recent call last):\n  File \"<stdin>\", line 2, in <module>\n    django.setup()\n  File \"/usr/local/lib/python3.7/site-packages/django/__init__.py\", line 24, in setup\n    apps.populate(settings.INSTALLED_APPS)\n",
     "tags": [
-        "DuckTyping",
-        "socket",
+        "ValueError",
+        "django",
         "Easy"
     ]
 }

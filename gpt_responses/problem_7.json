@@ -1,10 +1,10 @@
 {
     "id": "problem_7",
-    "description": "\n\nWhen attempting to sort a list of strings, a runtime error is encountered. The error occurs when the sorting algorithm attempts to compare two strings of different lengths, resulting in an \"Index out of bounds\" error.",
-    "output": "Traceback (most recent call last):\n  File \"<stdin>\", line 8\n    def sort_strings(list_str\n                             ^\nSyntaxError: unexpected EOF while parsing",
+    "description": "\n\nThe problem is that a RuntimeError is being thrown when attempting to serialize a data structure. The data structure contains a large amount of data and the serialization process is taking too long, resulting in a timeout error that is causing the RuntimeError to be thrown.",
+    "output": "",
     "tags": [
-        "sort",
-        "String",
+        "RuntimeError",
+        "Serialization",
         "Easy"
     ]
 }

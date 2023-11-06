@@ -1,9 +1,9 @@
 {
     "name": "Python Execution Output Comparison: problem_94",
     "tags": [
-        "pytorch",
-        "Introspection",
+        "StopIteration",
+        "Counter",
         "Hard"
     ],
-    "output": 0.7946127946127947
+    "output": 0.0
 }

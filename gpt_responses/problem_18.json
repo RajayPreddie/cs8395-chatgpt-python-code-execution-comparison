@@ -1,10 +1,10 @@
 {
     "id": "problem_18",
-    "description": "\n\nThe UnitTesting is failing due to a split error. The test is unable to accurately split the data into the correct categories, resulting in incorrect results.",
-    "output": "----------------------------------------------------------------------\nERROR: test_split_data (__main__.TestUnitTesting)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"<ipython-input-1-6c3f8f2a7d6c>\", line 7, in test_split_data\n    split\nNameError: name",
+    "description": "\n\nWhen attempting to import the GarbageCollection module, a ImportError is raised due to a missing dependency. This is caused by a missing library file that is needed to correctly run GarbageCollection.",
+    "output": "Traceback (most recent call last):\n  File \"<stdin>\", line 10, in <module>\nNameError: name 'Print' is not defined",
     "tags": [
-        "UnitTesting",
-        "split",
+        "ImportError",
+        "GarbageCollection",
         "Easy"
     ]
 }

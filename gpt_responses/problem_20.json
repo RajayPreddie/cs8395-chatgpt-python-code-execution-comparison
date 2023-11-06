@@ -1,10 +1,10 @@
 {
     "id": "problem_20",
-    "description": "\n\nWhen attempting to use AsyncIO to build a web application, an error occurs stating \"TypeError: object of type 'coroutine' has no issuperset attribute\". This occurs when attempting to check if a set is a superset of another set, using the issupers",
-    "output": "SyntaxError: unexpected EOF while parsing",
+    "description": " \n\nThe problem is a RecursionError caused by a Global state issue. A function is attempting to modify a global state variable, but the function is also calling itself, causing an infinite loop and resulting in a RecursionError. The function is not able to modify the global state variable because",
+    "output": "15",
     "tags": [
-        "AsyncIO",
-        "issuperset",
+        "RecursionError",
+        "Global state",
         "Easy"
     ]
 }

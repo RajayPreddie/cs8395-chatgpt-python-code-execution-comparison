@@ -1,10 +1,10 @@
 {
     "id": "problem_19",
-    "description": "\n\nWhen attempting to pop an item from a collections object, a runtime error is encountered. The error states that the item cannot be popped as the collections object is empty.",
-    "output": "OrderedDict([('name', 'John'), ('age', 25), ('location', 'New York'), ('hobbies', ['music', 'sports'])])",
+    "description": "\n\nWhen attempting to use the scipy library to calculate the area of a polygon, an AssertionError is raised indicating the points of the polygon are not in a clockwise order.",
+    "output": "Traceback (most recent call last):\n  File \"<stdin>\", line 6, in <module>\nAssertionError",
     "tags": [
-        "pop",
-        "collections",
+        "AssertionError",
+        "scipy",
         "Easy"
     ]
 }

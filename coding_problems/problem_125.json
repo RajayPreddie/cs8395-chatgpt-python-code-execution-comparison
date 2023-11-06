@@ -1,10 +1,10 @@
 {
     "id": "problem_125",
-    "description": "\n\nWhen attempting to send a bytearray over a Protocol, a runtime error is generated indicating that the Protocol does not support the sending of bytearrays.",
-    "code": "# Program to demonstrate the usage of Bytearray\n\n# Importing the necessary modules\nimport array\n\n# Initializing a byte array\nbyteArr = bytearray()\n\n# Appending some elements to the byte array\nbyteArr.append(",
+    "description": "\n\nThe problem is that when attempting to pop an item from a dictionary, a MemoryError is raised. The dictionary contains a large number of items, and the popitem() function is unable to allocate enough memory to complete the operation.",
+    "code": "dictionary = {}\n\nfor i in range(1000000):\n    dictionary[i] = i\n\ndictionary.popitem()",
     "tags": [
-        "Protocol",
-        "Bytearray",
+        "MemoryError",
+        "popitem",
         "Easy"
     ]
 }

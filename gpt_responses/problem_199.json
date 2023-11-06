@@ -1,10 +1,10 @@
 {
     "id": "problem_199",
-    "description": "\n\nThe problem is that when attempting to find the difference between two sets using the issubset method, a compile/runtime error is thrown. The error occurs when trying to use the issubset method to find the difference between two sets of different lengths, resulting in an 'invalid syntax",
-    "output": "The code does not produce any output as it is incomplete. There is no function defined nor is there a call to a function.",
+    "description": "\n\nWhen attempting to calculate the mathematical expression of 'x + y', a NotImplementedError is raised stating that the math module does not support the calculation of this expression.",
+    "output": "Traceback (most recent call last):\n  File \"<stdin>\", line 1, in <module>\nNotImplementedError: The math module does not support the calculation of this expression.",
     "tags": [
-        "issubset",
-        "find",
+        "NotImplementedError",
+        "math",
         "Hard"
     ]
 }

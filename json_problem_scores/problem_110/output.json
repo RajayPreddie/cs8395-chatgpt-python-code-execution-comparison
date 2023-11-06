@@ -1,9 +1,9 @@
 {
     "name": "Python Execution Output Comparison: problem_110",
     "tags": [
-        "setdefault",
-        "ContextManager",
+        "RecursionError",
+        "popitem",
         "Easy"
     ],
-    "output": 0.6091370558375635
+    "output": 0.5027932960893855
 }

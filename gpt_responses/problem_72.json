@@ -1,10 +1,10 @@
 {
     "id": "problem_72",
-    "description": "\n\nWhen attempting to create an OrderedDict from a regular dictionary, an re error is raised stating that the regular dictionary is not in the correct format for the OrderedDict. This error is caused by the fact that the regular dictionary does not contain the necessary key-value pairs in",
-    "output": "Traceback (most recent call last):\n  File \"<stdin>\", line 11, in <module>\n    try:\nIndentationError: expected an indented block",
+    "description": "\n\nWhen attempting to execute a function with a Non-default argument, a ZeroDivisionError is raised due to the argument being a zero value. This prevents the function from completing and results in a runtime error.",
+    "output": "SyntaxError: unexpected EOF while parsing",
     "tags": [
-        "re",
-        "OrderedDict",
+        "ZeroDivisionError",
+        "Non-default argument",
         "Medium"
     ]
 }

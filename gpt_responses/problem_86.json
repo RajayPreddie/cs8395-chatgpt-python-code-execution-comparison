@@ -1,10 +1,10 @@
 {
     "id": "problem_86",
-    "description": "\n\nProblem Description: When using the subprocess module, a Non-default argument error occurs when trying to pass a list of arguments to a subprocess call. This error is caused by passing the wrong type of argument to the subprocess call. The argument must be a string, not a list",
-    "output": "subprocess.py: error: the following arguments are required: -c/--command",
+    "description": "\n\nThe problem is a RecursionError caused by a frozenset. When a program attempts to iterate through a frozenset, the program runs into a recursive loop and results in a RecursionError. The program is unable to break out of the recursive loop and therefore crashes.",
+    "output": "{1, 2, 3, 4, 5}\nTraceback (most recent call last):\n  File \"<stdin>\", line 8, in <module>\nNameError: name 'fro' is not defined",
     "tags": [
-        "Non-default argument",
-        "subprocess",
+        "RecursionError",
+        "frozenset",
         "Hard"
     ]
 }

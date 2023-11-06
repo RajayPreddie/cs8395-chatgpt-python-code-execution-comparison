@@ -1,9 +1,9 @@
 {
     "name": "Python Execution Output Comparison: problem_193",
     "tags": [
-        "issubset",
-        "Counter",
+        "AttributeError",
+        "Serialization",
         "Hard"
     ],
-    "output": 0.9515151515151515
+    "output": 0.8648648648648649
 }

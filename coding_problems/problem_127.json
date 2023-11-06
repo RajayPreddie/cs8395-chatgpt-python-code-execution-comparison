@@ -1,10 +1,10 @@
 {
     "id": "problem_127",
-    "description": "\n\nWhen attempting to pop an item from a list that is the intersection of two other lists, a runtime error occurs. The program attempts to pop the item, but the item is not found in either of the two lists, resulting in an index out of range exception.",
-    "code": "# Program to remove an item from a list using the pop method\n\n# Create a list of items\nitems = [\"pen\", \"pencil\", \"eraser\", \"ruler\", \"sharpener\"]\n\n# Print the list of items\nprint(\"List of items:",
+    "description": "\n\nThe problem is a ValueError that is caused when a string variable does not start with the expected string. This error occurs when a program attempts to call the startswith() method on a string variable that does not start with the expected string, resulting in a ValueError.",
+    "code": "string = \"Hello World\"\n\nif string.startswith(\"Goodbye\"):\n    print(\"The string starts with Goodbye\")\nelse:\n    print(\"The string does not start with Goodbye\")",
     "tags": [
-        "intersection",
-        "pop",
+        "ValueError",
+        "startswith",
         "Easy"
     ]
 }

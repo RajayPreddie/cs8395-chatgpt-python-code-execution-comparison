@@ -1,8 +1,8 @@
 {
     "name": "Python Execution Output Comparison: problem_18",
     "tags": [
-        "UnitTesting",
-        "split",
+        "ImportError",
+        "GarbageCollection",
         "Easy"
     ],
     "output": 0.0

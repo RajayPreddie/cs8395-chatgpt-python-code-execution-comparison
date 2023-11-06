@@ -1,9 +1,9 @@
 {
     "name": "Python Execution Output Comparison: problem_60",
     "tags": [
-        "datetime",
-        "get",
+        "ValueError",
+        "Keyword expression",
         "Medium"
     ],
-    "output": 0.32926829268292684
+    "output": 0.022988505747126436
 }

@@ -1,9 +1,9 @@
 {
     "id": "problem_8",
-    "description": "\n\nThe problem is that when trying to create a random Frozenset, the program throws an error indicating that the Frozenset is not iterable. This prevents the program from randomly generating a set of elements and thus the program crashes.",
-    "code": "import random\n\n# Create a list of random numbers\nrandom_numbers = []\n\n# Create a loop to generate 10 random numbers\nfor i in range (10):\n    random_numbers.append(random.randint(1,100))\n\n#",
+    "description": "\n\nProblem Description: When attempting to generate a random number using the random module, a ValueError is thrown, indicating the random module is unable to generate a random number due to a lack of sufficient entropy.",
+    "code": "import random\n\n# create a list of numbers\nnumbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]\n\n# randomly select an element from the list\nrandom_number = random.choice(numbers)",
     "tags": [
-        "Frozenset",
+        "ValueError",
         "random",
         "Easy"
     ]

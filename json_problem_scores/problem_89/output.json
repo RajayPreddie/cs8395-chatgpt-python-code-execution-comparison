@@ -1,9 +1,9 @@
 {
     "name": "Python Execution Output Comparison: problem_89",
     "tags": [
-        "Frozenset",
-        "Dict",
+        "OverflowError",
+        "NamedTuple",
         "Hard"
     ],
-    "output": 0.6538461538461539
+    "output": 0.8782608695652174
 }
