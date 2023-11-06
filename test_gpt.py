@@ -159,7 +159,7 @@ total_score = 0
 
 for id, score in comparison_scores.items():
     directory = f"{id}"
-    abs_directory_path = os.path.join(os.getcwd(), "")
+    abs_directory_path = os.path.join(json_probs_directory_path, directory)
     if not os.path.exists(abs_directory_path):
       os.makedirs(abs_directory_path)
     # Write the code to the file
