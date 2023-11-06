@@ -1,0 +1,8 @@
+{
+  "name": "Python Code Execution Comparison",
+  "model": "openai-latest",
+  "run_test": "python test_gpt.py",
+  "run_score": "",
+  "tags": []
+  
+}
