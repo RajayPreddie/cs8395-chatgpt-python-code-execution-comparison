@@ -1,3 +1,4 @@
+from collections import defaultdict
 import openai
 import json
 import os
@@ -5,7 +6,9 @@ import subprocess
 import difflib
 import sys
 
-
+# TODO: Include this in the grader for the other project
+# TODO: Convert the problems into the JSON format
+# TODO: 
 #1: Extract the code from each python file
 def extract_json_from_directory(abs_directory_path):
   
@@ -96,7 +99,7 @@ def execute_python_code_from_directory(problem_descriptions, prompt_solutions):
                        
                   text=True)
     output = result.stdout if result.stdout else result.stderr
-    print("RESULT", output)
+    
     # Use SequenceMatcher to compare the two lists of lines
     comparison = difflib.SequenceMatcher(None, output, prompt_solutions[problem_id]["output"])
     ratio = comparison.real_quick_ratio()  
@@ -156,7 +159,8 @@ if not os.path.exists(json_probs_directory_path):
   
 total_score = 0
 
-
+tag_scores = defaultdict(int)
+tag_num_problems = defaultdict(int)
 for id, score in comparison_scores.items():
     directory = f"{id}"
     abs_directory_path = os.path.join(json_probs_directory_path, directory)
@@ -165,11 +169,30 @@ for id, score in comparison_scores.items():
     # Write the code to the file
     filename = "output.json"
     output_json = {"name": f"Python Execution Output Comparison: {id}", "tags": prompt_solutions[id]["tags"], "output": score}
+    for tag in prompt_solutions[id]["tags"]:
+        tag_scores[tag] += score
+        tag_num_problems[tag] += 1
+    
     total_score += score
     full_path = os.path.join(abs_directory_path, filename)
     with open(full_path, 'w') as file:
         file.write(json.dumps(output_json, indent=4))
         file.write("\n")
         file.close()  # Close the file
-
+print("TAG SCORES:")
+print("-----------")
+for tag, score in tag_scores.items():
+    average_score = (score / tag_num_problems[tag]) * 100
+    print(f"Tag: {tag}, score: {average_score: .2f}%")
+print("-----------")
+average_total_score = (total_score / len(problem_descriptions)) * 100
+print(f"TOTAL SCORE, {average_total_score: .2f}%")
+total_score_path = os.path.join(os.getcwd(), "")
+filename = "output.json"
+output_json = {"name": "Python Execution Output Comparison: Total Score", "tags": [], "output": average_total_score}
+full_path = os.path.join(total_score_path, filename)
+with open(full_path, 'w') as file:
+    file.write(json.dumps(output_json, indent=4))
+    file.write("\n")
+    file.close()  # Close the file
 
