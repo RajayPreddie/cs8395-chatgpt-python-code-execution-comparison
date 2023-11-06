@@ -1,7 +1,7 @@
 {
   "name": "Python Code Execution Comparison",
-  "model": "gpt-4",
-  "run_test": "python3 test_gpt.py",
+  "model": "openai-latest",
+  "run_test": "python test_gpt.py",
   "run_score": "",
   "tags": [ "list", "AsyncIO", "Bytearray", "Bytes", "ChainMap", "Comprehension", "Concurrency", 
   "ContextManager", "Coroutine", "Counter", "Decorator", "DefaultDict", "DependencyInjection", 
