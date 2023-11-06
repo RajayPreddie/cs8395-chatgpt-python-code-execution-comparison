@@ -159,7 +159,7 @@ total_score = 0
 
 for id, score in comparison_scores.items():
     directory = f"{id}"
-    abs_directory_path = os.path.join(json_probs_directory_path, directory)
+    abs_directory_path = os.path.join(os.getcwd(), "")
     if not os.path.exists(abs_directory_path):
       os.makedirs(abs_directory_path)
     # Write the code to the file
@@ -171,13 +171,5 @@ for id, score in comparison_scores.items():
         file.write(json.dumps(output_json, indent=4))
         file.write("\n")
         file.close()  # Close the file
-total_score_json = {"total_score": (total_score / len(comparison_scores)) * 100}
-if not os.path.exists(abs_directory_path):
-  os.makedirs(abs_directory_path)
-  
-full_path = os.path.join(abs_directory_path, "output.json")
-with open(full_path, "w") as file:
-  file.write(json.dumps(total_score_json, indent=4))
-  file.close()
 
 
