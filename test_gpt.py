@@ -4,14 +4,11 @@ import json
 import os
 import subprocess
 import difflib
-import sys
 import argparse
-import os
 
-# TODO: Include this in the grader for the other project
-# TODO: Convert the problems into the JSON format
-# TODO: 
-#1: Extract the code from each python file
+
+
+# Extract JSON from a directory
 def extract_json_from_directory(abs_directory_path):
   
   # Create a list to store the JSON objects
@@ -163,6 +160,7 @@ comparison_scores = execute_python_code_from_directory(problem_descriptions, pro
 directory = 'json_problem_scores'  # Replace with your desired path
  # Get the absolute path of the directory relative to the current working directory
 json_probs_directory_path = os.path.join(os.getcwd(), directory)
+# 
 if not os.path.exists(json_probs_directory_path):
   os.makedirs(json_probs_directory_path)
   
