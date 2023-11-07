@@ -1,4 +1,4 @@
-  File "<string>", line 11
+  File "<string>", line 10
     
     ^
-IndentationError: expected an indented block after 'for' statement on line 9
+IndentationError: expected an indented block after 'for' statement on line 8

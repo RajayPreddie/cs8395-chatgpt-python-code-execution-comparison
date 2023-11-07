@@ -1,4 +1,4 @@
-  File "<string>", line 12
+  File "<string>", line 11
     print("Difference is:", difference(num1
                                       ^
 SyntaxError: '(' was never closed

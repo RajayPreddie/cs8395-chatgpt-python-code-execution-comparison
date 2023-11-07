@@ -1,4 +1,4 @@
-  File "<string>", line 9
+  File "<string>", line 8
     x = super().__new__(
                        ^
 SyntaxError: '(' was never closed

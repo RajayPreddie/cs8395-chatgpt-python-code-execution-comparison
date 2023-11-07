@@ -5,6 +5,8 @@ import os
 import subprocess
 import difflib
 import sys
+import argparse
+import os
 
 # TODO: Include this in the grader for the other project
 # TODO: Convert the problems into the JSON format
@@ -91,10 +93,12 @@ def execute_python_code_from_directory(problem_descriptions, prompt_solutions):
   comparison_scores = {}
 
   for problem_id, problem_description in problem_descriptions.items():
-    print(f"Executing problem {problem_id}")
-    code_with_recursion_limit = f"""import sys\nsys.setrecursionlimit(1500)\n# Set a new recursion limit\n
-    {problem_description['code']}
-    """
+    
+    code_with_recursion_limit = f"""
+import sys
+sys.setrecursionlimit(100)
+ {problem_description['code']}
+"""
     result = subprocess.run(['python3',"-c", code_with_recursion_limit], 
                             input="Hello World",
                             stdout=subprocess.PIPE,
@@ -106,7 +110,7 @@ def execute_python_code_from_directory(problem_descriptions, prompt_solutions):
   
     # Use SequenceMatcher to compare the two lists of lines
     comparison = difflib.SequenceMatcher(None, output, prompt_solutions[problem_id]["output"])
-    ratio = comparison.real_quick_ratio()  
+    ratio = comparison.ratio()  
     comparison_scores[problem_description["id"]] = ratio
     # Prompt Chat GPT to generate the Python Interpreter output
     abs_directory_path = os.path.join(os.getcwd(), 'python_output')
@@ -122,30 +126,30 @@ def execute_python_code_from_directory(problem_descriptions, prompt_solutions):
  
 # Check if the correct number of arguments are passed (excluding the script name itself)
 
-'''
-if len(sys.argv) != 4:
-    print("Usage: python script.py arg1 arg2 arg3")
-    sys.exit(1)  # Exit the script with an error code
+# Set up argument parsing
+parser = argparse.ArgumentParser(description='Get ChatGPT responses and write to files.')
+parser.add_argument('--regenerate', action='store_true',
+                    help='Force regeneration of ChatGPT responses')
+args = parser.parse_args()
 
-# Assign command line arguments to variables
-script_name = sys.argv[0]
-generate_prompt = sys.argv[1]
-code_execution = sys.argv[2]
-ratio_computation = sys.argv[3]
-'''
+#
 # Extract the python files from the directory
 problem_path = os.path.join(os.getcwd(), 'coding_problems')
 problem_descriptions = extract_json_from_directory(problem_path)
 
 
 ### Prompt Generation Occurs Here ###
+response_folder = 'gpt_responses'
 
+# Check if the folder exists
+folder_exists = os.path.exists(response_folder)
 # Prompt Chat GPT to generate the Python Interpreter output
-abs_directory_path = os.path.join(os.getcwd(), 'gpt_responses')
+abs_directory_path = os.path.join(os.getcwd(), response_folder)
 # If the path already exists, then there is no need to reprompt ChatGPT
 prompt_solutions = {}
-if not os.path.exists(abs_directory_path):
-    os.makedirs(abs_directory_path)
+if not os.path.exists(abs_directory_path) or args.regenerate:
+    if not os.path.exists(abs_directory_path):
+      os.makedirs(abs_directory_path)
     prompt_solutions = prompt_chat_gpt(problem_descriptions)
 else:
     # Extract the prompt solutions from the directory
@@ -193,11 +197,12 @@ output_json = {"name": "Python Execution Output Comparison: Total Score", "tags"
 for tag, score in tag_scores.items():
     average_score = (score / tag_num_problems[tag]) * 100
     output_json["tag_scores"][tag] = average_score
-print("-----------")
+
 for tag, score in tag_scores.items():
     average_score = (score / tag_num_problems[tag]) * 100
     if tag in ["Easy", "Medium", "Hard"]:
       print(f"{tag}: {average_score: .2f}%")
+print("-----------")
 print(f"TOTAL SCORE, {average_total_score: .2f}%")
 total_score_path = os.path.join(os.getcwd(), "")
 filename = "output.json"

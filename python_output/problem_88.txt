@@ -1,4 +1,4 @@
-  File "<string>", line 14
+  File "<string>", line 13
     print(list_of_items
          ^
 SyntaxError: '(' was never closed

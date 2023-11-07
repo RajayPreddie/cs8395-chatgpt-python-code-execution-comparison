@@ -1,5 +1,5 @@
 Traceback (most recent call last):
-  File "<string>", line 12, in <module>
+  File "<string>", line 11, in <module>
   File "/opt/homebrew/Cellar/python@3.11/3.11.6/Frameworks/Python.framework/Versions/3.11/lib/python3.11/inspect.py", line 1262, in getsource
     lines, lnum = getsourcelines(object)
                   ^^^^^^^^^^^^^^^^^^^^^^

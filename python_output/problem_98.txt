@@ -1,4 +1,4 @@
-  File "<string>", line 13
+  File "<string>", line 12
     sin_pi = math.sin(
                      ^
 SyntaxError: '(' was never closed

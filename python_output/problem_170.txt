@@ -1,4 +1,4 @@
-  File "<string>", line 10
+  File "<string>", line 9
     
     ^
-IndentationError: expected an indented block after function definition on line 8
+IndentationError: expected an indented block after function definition on line 7

@@ -1,3 +1,35 @@
 Traceback (most recent call last):
-  File "<string>", line 10, in <module>
-NameError: name '__file__' is not defined. Did you mean: '__name__'?
+  File "<string>", line 6, in <module>
+  File "/opt/homebrew/lib/python3.11/site-packages/virtualenv/__init__.py", line 3, in <module>
+    from .run import cli_run, session_via_cli
+  File "/opt/homebrew/lib/python3.11/site-packages/virtualenv/run/__init__.py", line 11, in <module>
+    from virtualenv.seed.wheels.periodic_update import manual_upgrade
+  File "/opt/homebrew/lib/python3.11/site-packages/virtualenv/seed/wheels/__init__.py", line 3, in <module>
+    from .acquire import get_wheel, pip_wheel_env_run
+  File "/opt/homebrew/lib/python3.11/site-packages/virtualenv/seed/wheels/acquire.py", line 11, in <module>
+    from .bundle import from_bundle
+  File "/opt/homebrew/lib/python3.11/site-packages/virtualenv/seed/wheels/bundle.py", line 5, in <module>
+    from .periodic_update import periodic_update
+  File "/opt/homebrew/lib/python3.11/site-packages/virtualenv/seed/wheels/periodic_update.py", line 19, in <module>
+    from urllib.request import urlopen
+  File "/opt/homebrew/Cellar/python@3.11/3.11.6/Frameworks/Python.framework/Versions/3.11/lib/python3.11/urllib/request.py", line 88, in <module>
+    import http.client
+  File "/opt/homebrew/Cellar/python@3.11/3.11.6/Frameworks/Python.framework/Versions/3.11/lib/python3.11/http/client.py", line 71, in <module>
+    import email.parser
+  File "/opt/homebrew/Cellar/python@3.11/3.11.6/Frameworks/Python.framework/Versions/3.11/lib/python3.11/email/parser.py", line 12, in <module>
+    from email.feedparser import FeedParser, BytesFeedParser
+  File "/opt/homebrew/Cellar/python@3.11/3.11.6/Frameworks/Python.framework/Versions/3.11/lib/python3.11/email/feedparser.py", line 27, in <module>
+    from email._policybase import compat32
+  File "/opt/homebrew/Cellar/python@3.11/3.11.6/Frameworks/Python.framework/Versions/3.11/lib/python3.11/email/_policybase.py", line 7, in <module>
+    from email import header
+  File "/opt/homebrew/Cellar/python@3.11/3.11.6/Frameworks/Python.framework/Versions/3.11/lib/python3.11/email/header.py", line 16, in <module>
+    import email.quoprimime
+  File "<frozen importlib._bootstrap>", line 1176, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1138, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1078, in _find_spec
+  File "<frozen importlib._bootstrap_external>", line 1504, in find_spec
+  File "<frozen importlib._bootstrap_external>", line 1476, in _get_spec
+  File "<frozen importlib._bootstrap_external>", line 1645, in find_spec
+  File "<frozen importlib._bootstrap_external>", line 161, in _path_isfile
+  File "<frozen importlib._bootstrap_external>", line 153, in _path_is_mode_type
+RecursionError: maximum recursion depth exceeded
